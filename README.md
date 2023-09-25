@@ -1,5 +1,5 @@
 # Portafolio personal desarrollado con Next 13, App Router, MDX
 
-## Bubulazi.com
+[Página temporal de desarrollo]("https://portafolio-bubulazi-next-2024.vercel.app")
 
-Stuck Tecnólogico
+Stack Tecnólogico
