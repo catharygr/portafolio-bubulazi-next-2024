@@ -4,13 +4,21 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>Portafolio</h1>
+      <h1 className={styles.title}>Welcome to my Next.js app!</h1>
 
-      <h2> holaaa hola </h2>
+      <Image
+        src="/images/nextjs.png"
+        alt="Next.js Logo"
+        width={200}
+        height={160}
+      />
 
-      <h4> problemas con el deploy </h4>
+      <p className={styles.description}>
+        Get started by editing{" "}
+        <code className={styles.code}>pages/index.js</code>
+      </p>
 
-      <h6> hola </h6>
+      <button className={styles.button}>Click me!</button>
     </main>
   );
 }
