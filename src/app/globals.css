@@ -115,7 +115,7 @@ meter {
 }
 
 /* SMOL Stuff */
-
+/* 
 body > * {
   --layout-spacing: max(8vh, 3rem);
   --max-width: 75rem;
@@ -138,6 +138,14 @@ article * + * {
 
 a {
   text-underline-offset: 0.15em;
-}
+} */
 
 /* Final de smol stuff */
+
+body {
+  /* display: flex;
+  flex-direction: column; */
+  min-height: 100vh;
+  line-height: 1.5;
+  color: #222;
+}
