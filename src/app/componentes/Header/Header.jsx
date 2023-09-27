@@ -29,7 +29,7 @@ export default function Header() {
             </Link>
           </div>
           <nav>
-            <Menu />
+            <Menu className={styles.iconSVG} />
           </nav>
         </div>
       </div>
