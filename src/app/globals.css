@@ -182,6 +182,9 @@ a {
   --margin-texto: 1em;
   --border-radius: 7px;
   --box-shadow: 0 5px 10px 0 hsl(var(--clr-uno) / 0.6);
+  ---container-max: 62rem;
+  --flex-gap: 1rem;
+  --padding-block: 1.5rem;
 
   font-size: 112%;
 }
@@ -315,10 +318,12 @@ body {
   margin-bottom: var(--margin-texto);
 }
 
-.container {
+.wrapper {
   width: min(100% - 3rem, var(--container-max, 62rem));
   margin-inline: auto;
+  padding-block: var(--padding-block);
 }
+
 h1,
 h2,
 h3 {

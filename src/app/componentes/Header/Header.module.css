@@ -1,3 +1,27 @@
 .header {
-  background-color: hsl(var(--clr-uno));
+  background-color: hsl(var(--clr-acento-dos));
+  color: hsl(var(--clr-uno));
+}
+
+.logo {
+  text-shadow: 0 1px 2px hsl(var(--clr-negro));
+  font-size: var(--fs-600);
+  font-weight: var(--f-wei-600);
+  font-stretch: var(--f-str-75);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  gap: var(--flex-gap, 1rem);
 }
