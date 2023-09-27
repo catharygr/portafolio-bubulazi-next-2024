@@ -343,10 +343,11 @@ img {
 
 a {
   text-decoration: underline;
-  text-underline-offset: 6px;
-  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 3px;
 }
 a:where(:hover, :focus) {
   border-bottom-color: hsl(var(--clr-uno));
-  text-decoration-thickness: 4px;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 4px;
 }

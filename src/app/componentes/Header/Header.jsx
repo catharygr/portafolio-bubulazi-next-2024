@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
-im;
+import { Sun, Moon, Menu, Rss } from "react-feather";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -7,13 +8,28 @@ export default function Header() {
       <div className={`wrapper ${styles.container}`}>
         <p className={styles.logo}>{"{this.cataryGarciaRivas}"}</p>
         <div className={styles.navContainer}>
-          <ul className={styles.ul}>
-            <li>Inicio</li>
-            <li>Productos</li>
-            <li>Quienes somos</li>
+          <ul className={styles.escritorioLink}>
+            <li>
+              <Link href={"/"}>Inicio</Link>
+            </li>
+            <li>
+              <Link href={"/"}>Inicio</Link>
+            </li>
+            <li>
+              <Link href={"/"}>Inicio</Link>
+            </li>
           </ul>
+          <div className={styles.icons}>
+            {/* <Sun /> */}
+            <button>
+              <Moon className={styles.iconSVG} />
+            </button>
+            <Link href={"/rss.xml"}>
+              <Rss className={styles.iconSVG} />
+            </Link>
+          </div>
           <nav>
-            <p>Mi Nav</p>
+            <Menu />
           </nav>
         </div>
       </div>

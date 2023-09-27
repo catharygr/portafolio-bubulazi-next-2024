@@ -3,6 +3,12 @@
   color: hsl(var(--clr-uno));
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
   text-shadow: 0 1px 2px hsl(var(--clr-negro));
   font-size: var(--fs-600);
@@ -10,18 +16,24 @@
   font-stretch: var(--f-str-75);
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .navContainer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  gap: var(--flex-gap);
 }
 
-.ul {
+.escritorioLink {
   display: flex;
   gap: var(--flex-gap, 1rem);
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.iconSVG {
+  color: hsl(var(--clr-negro));
+  stroke-width: 3px;
 }
