@@ -5,7 +5,7 @@ import { RemoveScroll } from "react-remove-scroll";
 
 export default function NavMenu({ children, toggleMenuAbierto }) {
   return (
-    <focusLock>
+    <FocusLock>
       <RemoveScroll>
         <div className={styles.navContainer}>
           <div className={styles.navFondo} onClick={toggleMenuAbierto} />
@@ -21,6 +21,6 @@ export default function NavMenu({ children, toggleMenuAbierto }) {
           </div>
         </div>
       </RemoveScroll>
-    </focusLock>
+    </FocusLock>
   );
 }
