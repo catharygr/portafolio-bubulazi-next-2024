@@ -10,7 +10,7 @@
 }
 
 .logo {
-  text-shadow: 1px 1px 2px hsl(var(--clr-negro));
+  text-shadow: 0 0 2px hsl(var(--clr-negro) / 0.5);
   font-size: var(--fs-600);
   font-weight: var(--f-wei-600);
   font-stretch: var(--f-str-75);
@@ -29,6 +29,10 @@
   gap: var(--flex-gap, 1rem);
 }
 
+.escritorioLink a {
+  text-decoration: none;
+}
+
 .icons {
   display: flex;
   gap: 0.5rem;
@@ -43,6 +47,4 @@
 .iconSVG {
   color: hsl(var(--clr-negro));
   stroke-width: 3px;
-  height: 25px;
-  width: 25px;
 }
