@@ -2,16 +2,18 @@
 import styles from "./Header.module.css";
 import { Sun, Moon, Rss, Menu } from "react-feather";
 import Link from "next/link";
-import { useState } from "react";
+import useToggle from "../useToggle";
+import VisuallyHidden from "../VisuallyHidden";
+import NavMenu from "../NavMenu";
 
 export default function Header() {
-  const [estaMenuAbierto, setEstaMenuAbierto] = useState(false);
+  const [estaMenuAbierto, setEstaMenuAbierto] = useToggle(false);
   return (
     <header className={styles.header}>
       <div className={`wrapper ${styles.container}`}>
         <p className={styles.logo}>{"{this.cataryGarciaRivas}"}</p>
         <div className={styles.navContainer}>
-          <ul className={styles.escritorioLink}>
+          <ul aria-hidden="true" className={styles.escritorioLink}>
             <li>
               <Link href={"/"}>Sobre mi</Link>
             </li>
@@ -23,7 +25,6 @@ export default function Header() {
             </li>
           </ul>
           <div className={styles.icons}>
-            {/* <Sun /> */}
             <button>
               <Moon className={styles.iconSVG} />
             </button>
@@ -31,8 +32,35 @@ export default function Header() {
               <Rss className={styles.iconSVG} />
             </Link>
           </div>
-          <nav>
-            <Menu className={styles.iconSVG} />
+          <nav role="navigation" aria-label="Menu principal">
+            <button
+              aria-expanded={estaMenuAbierto}
+              className={styles.botonMenu}
+              onClick={setEstaMenuAbierto}
+            >
+              <Menu
+                aria-hidden="true"
+                focusable="false"
+                className={styles.iconMenu}
+              />
+              <VisuallyHidden>Abrir menú principal</VisuallyHidden>
+            </button>
+
+            {estaMenuAbierto && (
+              <NavMenu>
+                <ul>
+                  <li>
+                    <Link href={"/"}>Sobre mi</Link>
+                  </li>
+                  <li>
+                    <Link href={"/"}>Contactos</Link>
+                  </li>
+                  <li>
+                    <Link href={"/"}>Blog</Link>
+                  </li>
+                </ul>
+              </NavMenu>
+            )}
           </nav>
         </div>
       </div>

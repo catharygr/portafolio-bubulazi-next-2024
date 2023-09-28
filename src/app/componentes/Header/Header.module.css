@@ -17,6 +17,7 @@
 }
 
 .navContainer {
+  --flex-gap: 2rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -26,7 +27,7 @@
 
 .escritorioLink {
   display: flex;
-  gap: var(--flex-gap, 1rem);
+  gap: 0.8rem;
 }
 
 .escritorioLink a {
@@ -47,4 +48,15 @@
 .iconSVG {
   color: hsl(var(--clr-negro));
   stroke-width: 3px;
+}
+
+.botonMenu {
+  display: grid;
+  place-items: center;
+}
+
+.iconMenu {
+  stroke-width: 4px;
+  width: 35px;
+  height: 35px;
 }
