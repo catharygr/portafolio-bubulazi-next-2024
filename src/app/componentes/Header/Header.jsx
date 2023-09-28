@@ -1,9 +1,11 @@
+"use client";
 import styles from "./Header.module.css";
-import { Sun, Moon, Rss } from "react-feather";
+import { Sun, Moon, Rss, Menu } from "react-feather";
 import Link from "next/link";
-import NavMenu from "../NavMenu";
+import { useState } from "react";
 
 export default function Header() {
+  const [estaMenuAbierto, setEstaMenuAbierto] = useState(false);
   return (
     <header className={styles.header}>
       <div className={`wrapper ${styles.container}`}>
@@ -29,7 +31,9 @@ export default function Header() {
               <Rss className={styles.iconSVG} />
             </Link>
           </div>
-          <NavMenu />
+          <nav>
+            <Menu className={styles.iconSVG} />
+          </nav>
         </div>
       </div>
     </header>
