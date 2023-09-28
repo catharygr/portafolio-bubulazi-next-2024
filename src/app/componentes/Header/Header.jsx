@@ -7,7 +7,7 @@ import VisuallyHidden from "../VisuallyHidden";
 import NavMenu from "../NavMenu";
 
 export default function Header() {
-  const [estaMenuAbierto, setEstaMenuAbierto] = useToggle(false);
+  const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
   return (
     <header className={styles.header}>
       <div className={`wrapper ${styles.container}`}>
@@ -36,7 +36,7 @@ export default function Header() {
             <button
               aria-expanded={estaMenuAbierto}
               className={styles.botonMenu}
-              onClick={setEstaMenuAbierto}
+              onClick={toggleMenuAbierto}
             >
               <Menu
                 aria-hidden="true"
