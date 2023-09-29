@@ -6,6 +6,13 @@ import { RemoveScroll } from "react-remove-scroll";
 
 export default function NavMenu({ children, toggleMenuAbierto }) {
   useEffect(() => {
+    const elementoEnfocadoAntesDeAbrirlo = document.activeElement;
+    return () => {
+      elementoEnfocadoAntesDeAbrirlo?.focus();
+    };
+  }, []);
+
+  useEffect(() => {
     function handleEscape(e) {
       if (e.key === "Escape") {
         toggleMenuAbierto();

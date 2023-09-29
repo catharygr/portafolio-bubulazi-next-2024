@@ -212,6 +212,11 @@ body {
   min-height: 100vh;
 }
 
+*:focus {
+  outline: 3px solid hsl(var(--clr-negro));
+  outline-offset: 5px;
+}
+
 /* Colores */
 /* De fondo */
 .fondo-oscuro {
