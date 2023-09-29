@@ -17,6 +17,7 @@ export default function NavMenu({ children, toggleMenuAbierto }) {
                 focusable="false"
                 className={styles.iconCerrar}
               />
+              Cerrar menú
             </button>
           </div>
         </div>

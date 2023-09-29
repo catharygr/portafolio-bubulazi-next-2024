@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={`wrapper ${styles.container}`}>
-        <p className={styles.logo}>{"{this.cataryGarciaRivas}"}</p>
+        <p className={styles.logo}>{"{this.garcíaRivas}"}</p>
         <div className={styles.navContainer}>
           <ul aria-hidden="true" className={styles.escritorioLink}>
             <li>
@@ -47,7 +47,7 @@ export default function Header() {
             </button>
 
             {estaMenuAbierto && (
-              <NavMenu>
+              <NavMenu toggleMenuAbierto={toggleMenuAbierto}>
                 <ul>
                   <li>
                     <Link href={"/"}>Sobre mi</Link>
