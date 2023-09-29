@@ -24,8 +24,18 @@
   justify-content: space-between;
   align-items: flex-end;
   padding: 1rem;
-  text-align: right;
   gap: 1rem;
+}
+
+.children ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.children a {
+  text-decoration: none;
 }
 
 .cerrarBtn {
