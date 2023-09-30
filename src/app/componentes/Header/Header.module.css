@@ -12,8 +12,9 @@
 .logo {
   text-shadow: 0 0 2px hsl(var(--clr-negro) / 0.5);
   font-size: var(--fs-600);
-  font-weight: var(--f-wei-600);
+  font-weight: var(--f-wei-900);
   font-stretch: var(--f-str-75);
+  text-decoration: none;
 }
 
 .navContainer {
@@ -34,7 +35,7 @@
   text-decoration: none;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 45rem) {
   .escritorioLink {
     display: flex;
   }

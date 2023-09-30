@@ -12,17 +12,19 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={`wrapper ${styles.container}`}>
-        <p className={styles.logo}>{"{this.garcíaRivas}"}</p>
+        <Link href={"/"} className={styles.logo}>
+          {"{ this.Cathy }"}
+        </Link>
         <div className={styles.navContainer}>
           <ul aria-hidden="true" className={styles.escritorioLink}>
             <li>
-              <Link href={"/"}>Sobre mi</Link>
+              <Link href={"/"}>Inicio</Link>
             </li>
             <li>
-              <Link href={"/"}>Contactos</Link>
+              <Link href={"/"}>CV</Link>
             </li>
             <li>
-              <Link href={"/"}>Blog</Link>
+              <Link href={"/"}>Proyectos</Link>
             </li>
           </ul>
           <div className={styles.icons}>
@@ -46,6 +48,7 @@ export default function Header() {
               />
               <VisuallyHidden>Abrir menú principal</VisuallyHidden>
             </button>
+            {/* Etiqueta para la animación cuando se desmonta el componente */}
             <AnimatePresence>
               {estaMenuAbierto && (
                 <NavMenu toggleMenuAbierto={toggleMenuAbierto}>
