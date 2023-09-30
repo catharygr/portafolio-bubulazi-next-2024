@@ -5,6 +5,7 @@ import Link from "next/link";
 import useToggle from "../useToggle";
 import VisuallyHidden from "../VisuallyHidden";
 import NavMenu from "../NavMenu";
+import { AnimatePresence } from "framer-motion";
 
 export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
@@ -45,22 +46,23 @@ export default function Header() {
               />
               <VisuallyHidden>Abrir menú principal</VisuallyHidden>
             </button>
-
-            {estaMenuAbierto && (
-              <NavMenu toggleMenuAbierto={toggleMenuAbierto}>
-                <ul>
-                  <li>
-                    <Link href={"/"}>Sobre mi</Link>
-                  </li>
-                  <li>
-                    <Link href={"/"}>Contactos</Link>
-                  </li>
-                  <li>
-                    <Link href={"/"}>Blog</Link>
-                  </li>
-                </ul>
-              </NavMenu>
-            )}
+            <AnimatePresence>
+              {estaMenuAbierto && (
+                <NavMenu toggleMenuAbierto={toggleMenuAbierto}>
+                  <ul>
+                    <li>
+                      <Link href={"/"}>Sobre mi</Link>
+                    </li>
+                    <li>
+                      <Link href={"/"}>Contactos</Link>
+                    </li>
+                    <li>
+                      <Link href={"/"}>Blog</Link>
+                    </li>
+                  </ul>
+                </NavMenu>
+              )}
+            </AnimatePresence>
           </nav>
         </div>
       </div>
