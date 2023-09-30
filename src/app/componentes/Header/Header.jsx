@@ -6,9 +6,13 @@ import useToggle from "../useToggle";
 import VisuallyHidden from "../VisuallyHidden";
 import NavMenu from "../NavMenu";
 import { AnimatePresence } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
+  const pathname = usePathname();
+  console.log(pathname);
+
   return (
     <header className={styles.header}>
       <div className={`wrapper ${styles.container}`}>
@@ -16,15 +20,24 @@ export default function Header() {
           {"{ this.Cathy }"}
         </Link>
         <div className={styles.navContainer}>
-          <ul aria-hidden="true" className={styles.escritorioLink}>
+          <ul aria-hidden="true" className={styles.escritorioNav}>
             <li>
-              <Link href={"/"}>Inicio</Link>
+              <Link
+                className={`${styles.escritorioLinkActivo} ${styles.escritorioLink}`}
+                href={"/"}
+              >
+                Inicio
+              </Link>
             </li>
             <li>
-              <Link href={"/"}>CV</Link>
+              <Link className={styles.escritorioLink} href={"/"}>
+                CV
+              </Link>
             </li>
             <li>
-              <Link href={"/"}>Proyectos</Link>
+              <Link className={styles.escritorioLink} href={"/"}>
+                Proyectos
+              </Link>
             </li>
           </ul>
           <div className={styles.icons}>

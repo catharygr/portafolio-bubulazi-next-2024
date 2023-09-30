@@ -26,17 +26,21 @@
   font-weight: var(--f-wei-600);
 }
 
-.escritorioLink {
+.escritorioNav {
   display: none;
   gap: 0.8rem;
 }
 
-.escritorioLink a {
+.escritorioLink {
   text-decoration: none;
 }
 
+.escritorioLinkActivo {
+  text-decoration: underline;
+}
+
 @media (min-width: 45rem) {
-  .escritorioLink {
+  .escritorioNav {
     display: flex;
   }
 }
