@@ -11,7 +11,6 @@ import { usePathname } from "next/navigation";
 export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <header className={styles.header}>
@@ -23,19 +22,31 @@ export default function Header() {
           <ul aria-hidden="true" className={styles.escritorioNav}>
             <li>
               <Link
-                className={`${styles.escritorioLinkActivo} ${styles.escritorioLink}`}
+                className={`${styles.escritorioLink} ${
+                  pathname === "/" ? styles.escritorioLinkActivo : ""
+                }`}
                 href={"/"}
               >
                 Inicio
               </Link>
             </li>
             <li>
-              <Link className={styles.escritorioLink} href={"/"}>
+              <Link
+                className={`${styles.escritorioLink} ${
+                  pathname === "/cv" ? styles.escritorioLinkActivo : ""
+                }`}
+                href={"/cv"}
+              >
                 CV
               </Link>
             </li>
             <li>
-              <Link className={styles.escritorioLink} href={"/"}>
+              <Link
+                className={`${styles.escritorioLink} ${
+                  pathname === "/proyectos" ? styles.escritorioLinkActivo : ""
+                }`}
+                href={"/proyectos"}
+              >
                 Proyectos
               </Link>
             </li>
