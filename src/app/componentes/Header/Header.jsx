@@ -14,7 +14,6 @@ import { motion } from "framer-motion";
 export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
   const [hoverLink, setHoverLink] = useState(null);
-  console.log(hoverLink);
   const pathname = usePathname();
   const id = useId();
 
@@ -31,7 +30,7 @@ export default function Header() {
             onMouseLeave={() => setHoverLink(null)}
           >
             {ESCRITORIO_LINK.map(({ slug, label, href }) => (
-              <li key={slug}>
+              <li key={slug} style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}>
                 {hoverLink === slug && (
                   <motion.div
                     layoutId={id}
