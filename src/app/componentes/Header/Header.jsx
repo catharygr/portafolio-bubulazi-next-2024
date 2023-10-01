@@ -8,7 +8,7 @@ import NavMenu from "../NavMenu";
 import { AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { ESCRITORIO_LINK } from "@/app/utilis/Constante";
-import { useState, useId } from "react";
+import { useState, useId, useEffect } from "react";
 import { motion } from "framer-motion";
 
 export default function Header() {
@@ -18,6 +18,13 @@ export default function Header() {
   console.log(modoClaro);
   const pathname = usePathname();
   const id = useId();
+
+  useEffect(() => {
+    if (modoClaro) {
+      const root = document.querySelector(":root");
+      root.style.setProperty("--fondo-uno", modoClaro ? "#fff" : "#000");
+    }
+  }, [modoClaro]);
 
   return (
     <header className={styles.header}>
