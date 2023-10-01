@@ -7,6 +7,7 @@ import VisuallyHidden from "../VisuallyHidden";
 import NavMenu from "../NavMenu";
 import { AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
+import { ESCRITORIO_LINK } from "@/app/utilis/Constante";
 
 export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
@@ -20,36 +21,18 @@ export default function Header() {
         </Link>
         <div className={styles.navContainer}>
           <ul aria-hidden="true" className={styles.escritorioNav}>
-            <li>
-              <Link
-                className={`${styles.escritorioLink} ${
-                  pathname === "/" ? styles.escritorioLinkActivo : ""
-                }`}
-                href={"/"}
-              >
-                Inicio
-              </Link>
-            </li>
-            <li>
-              <Link
-                className={`${styles.escritorioLink} ${
-                  pathname === "/cv" ? styles.escritorioLinkActivo : ""
-                }`}
-                href={"/cv"}
-              >
-                CV
-              </Link>
-            </li>
-            <li>
-              <Link
-                className={`${styles.escritorioLink} ${
-                  pathname === "/proyectos" ? styles.escritorioLinkActivo : ""
-                }`}
-                href={"/proyectos"}
-              >
-                Proyectos
-              </Link>
-            </li>
+            {ESCRITORIO_LINK.map(({ slug, label, href }) => (
+              <li key={slug}>
+                <Link
+                  className={`${styles.escritorioLink} ${
+                    pathname === href ? styles.escritorioLinkActivo : ""
+                  }`}
+                  href={href}
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
           </ul>
           <div className={styles.icons}>
             <button>
