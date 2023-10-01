@@ -8,10 +8,15 @@ import NavMenu from "../NavMenu";
 import { AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { ESCRITORIO_LINK } from "@/app/utilis/Constante";
+import { useState, useId } from "react";
+import { motion } from "framer-motion";
 
 export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
+  const [hoverLink, setHoverLink] = useState(null);
+  console.log(hoverLink);
   const pathname = usePathname();
+  const id = useId();
 
   return (
     <header className={styles.header}>
@@ -20,10 +25,23 @@ export default function Header() {
           {"{ this.Cathy }"}
         </Link>
         <div className={styles.navContainer}>
-          <ul aria-hidden="true" className={styles.escritorioNav}>
+          <ul
+            aria-hidden="true"
+            className={styles.escritorioNav}
+            onMouseLeave={() => setHoverLink(null)}
+          >
             {ESCRITORIO_LINK.map(({ slug, label, href }) => (
               <li key={slug}>
+                {hoverLink === slug && (
+                  <motion.div
+                    layoutId={id}
+                    className={styles.hoverFondo}
+                    initial={false}
+                    animate={{ borderRadius: "var(--border-radius)" }}
+                  />
+                )}
                 <Link
+                  onMouseEnter={() => setHoverLink(slug)}
                   className={`${styles.escritorioLink} ${
                     pathname === href ? styles.escritorioLinkActivo : ""
                   }`}

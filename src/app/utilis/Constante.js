@@ -15,3 +15,9 @@ export const ESCRITORIO_LINK = [
     href: "/proyectos",
   },
 ];
+
+export const BASE_METADATA = {
+  title: "Portafolio de Cathy",
+  description:
+    " Porrtafolio personal donde muestro mis proyectos y mis habilidades",
+};
