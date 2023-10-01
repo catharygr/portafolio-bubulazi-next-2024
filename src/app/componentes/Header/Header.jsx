@@ -14,6 +14,7 @@ import { motion } from "framer-motion";
 export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
   const [hoverLink, setHoverLink] = useState(null);
+  const [colorModo, setColorModo] = useState("light");
   const pathname = usePathname();
   const id = useId();
 
@@ -53,7 +54,11 @@ export default function Header() {
           </ul>
           <div className={styles.icons}>
             <button>
-              <Moon className={styles.iconSVG} />
+              {colorModo === "light" ? (
+                <Moon className={styles.iconSVG} />
+              ) : (
+                <Sun className={styles.iconSVG} />
+              )}
             </button>
             <Link href={"/rss.xml"}>
               <Rss className={styles.iconSVG} />
