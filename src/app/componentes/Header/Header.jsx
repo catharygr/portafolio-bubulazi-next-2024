@@ -14,7 +14,8 @@ import { motion } from "framer-motion";
 export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
   const [hoverLink, setHoverLink] = useState(null);
-  const [colorModo, setColorModo] = useState("light");
+  const [modoClaro, toggleModoClaro] = useToggle(true);
+  console.log(modoClaro);
   const pathname = usePathname();
   const id = useId();
 
@@ -53,8 +54,8 @@ export default function Header() {
             ))}
           </ul>
           <div className={styles.icons}>
-            <button>
-              {colorModo === "light" ? (
+            <button onClick={toggleModoClaro}>
+              {modoClaro ? (
                 <Moon className={styles.iconSVG} />
               ) : (
                 <Sun className={styles.iconSVG} />
