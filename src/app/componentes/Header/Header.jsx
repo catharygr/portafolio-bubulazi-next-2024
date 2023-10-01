@@ -20,9 +20,11 @@ export default function Header() {
   const id = useId();
 
   useEffect(() => {
+    const root = document.querySelector(":root");
     if (modoClaro) {
-      const root = document.querySelector(":root");
-      root.style.setProperty("--fondo-uno", modoClaro ? "#fff" : "#000");
+      root.style.setProperty("--clr-acento-dos", "174 89% 56%");
+    } else {
+      root.style.setProperty("--clr-acento-dos", "313 35% 80%");
     }
   }, [modoClaro]);
 

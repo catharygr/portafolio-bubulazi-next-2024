@@ -73,7 +73,7 @@
 }
 
 .iconSVG {
-  color: hsl(var(--clr-negro));
+  color: hsl(var(--clr-base-uno));
   stroke-width: 3px;
 }
 

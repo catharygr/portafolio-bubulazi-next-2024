@@ -151,8 +151,8 @@ a {
   --clr-uno: 325 95% 56%; /* rosa */
   --clr-acento-uno: 50 94% 51%; /* amarillo */
   --clr-acento-dos: 174 89% 56%; /* azukito */
-  --clr-negro: 0 0% 15%;
-  --clr-blanco: 0 0% 90%;
+  --clr-base-uno: 0 0% 15%;
+  --clr-base-dos: 0 0% 90%;
 
   /* Formatos de letras */
   --fs-hero: clamp(3.052rem, 6vw, 4.5rem);
@@ -193,8 +193,8 @@ a {
     --clr-uno: 284 81% 14%;
     --clr-acento-uno: 276 73% 38%;
     --clr-acento-dos: 313 35% 80%;
-    --clr-negro: 0 0% 20%;
-    --clr-blanco: 0 0% 100%;
+    --clr-base-uno: 0 0% 20%;
+    --clr-base-dos: 0 0% 100%;
   }
 }
 
@@ -207,12 +207,12 @@ body {
   font-weight: 400;
   line-height: var(--lh-normal);
   font-stretch: var(--f-str-100);
-  background-color: hsl(var(--clr-blanco));
+  background-color: hsl(var(--clr-base-dos));
   min-height: 100vh;
 }
 
 *:focus-visible {
-  outline: 3px solid hsl(var(--clr-negro));
+  outline: 3px solid hsl(var(--clr-base-uno));
   outline-offset: 5px;
 }
 
@@ -228,17 +228,17 @@ body {
   background-color: hsl(var(--clr-acento-dos));
 }
 .fondo-claro {
-  background-color: hsl(var(--clr-blanco));
+  background-color: hsl(var(--clr-base-dos));
 }
 .fondo-negro {
-  background-color: hsl(var(--clr-negro));
+  background-color: hsl(var(--clr-base-uno));
 }
 /* De letras */
 .color-negro {
-  color: hsl(var(--clr-negro));
+  color: hsl(var(--clr-base-uno));
 }
 .color-blanco {
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-base-dos));
 }
 .color-oscuro {
   color: hsl(var(--clr-uno));
