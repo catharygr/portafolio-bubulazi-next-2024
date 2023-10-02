@@ -12,6 +12,14 @@
   backdrop-filter: blur(3px);
 }
 
+.hoverFondo {
+  position: absolute;
+  inset: 0;
+  background: hsla(319, 31%, 70%, 0.4);
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
 .navCajon {
   position: absolute;
   top: 0;
@@ -29,15 +37,21 @@
   translate: 100%;
 }
 
+.children a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+}
+
 .children ul {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  gap: 1rem;
+  text-align: right;
+  gap: 0.2rem;
 }
 
-.children a {
-  text-decoration: none;
+.children li {
+  position: relative;
 }
 
 .cerrarBtn {

@@ -58,17 +58,32 @@ export default function NavMenu({ toggleMenuAbierto }) {
             exit={{ x: "0%" }}
           >
             <div className={styles.children}>
-              <ul onMouseLeave={setHoverHamburguerLink}>
-                <li>
-                  <Link href={"/"}>Sobre mi</Link>
-                </li>
-                <li>
-                  <Link href={"/"}>Contactos</Link>
-                </li>
-                <li>
-                  <Link href={"/"}>Blog</Link>
-                </li>
-              </ul>
+              <ul onMouseLeave={() => setHoverHamburguerLink(null)}>
+                {HAMBURGUER_LINK.map(({ slug, label, href }) => (
+                  <li
+                    key={slug}
+                    style={{ zIndex: hoverHamburguerLink === "slug" ? 1 : 2 }}
+                  >
+                    {hoverHamburguerLink === slug && (
+                      <motion.div
+                        layoutId={id}
+                        className={styles.hoverFondo}
+                        initial={false}
+                        animate={{ borderRadius: "var(--border-radius)" }}
+                      />
+                    )}
+                    <Link
+                      onMouseEnter={() => setHoverHamburguerLink(slug)}
+                      className={`${styles.escritorioLinkssss} ${
+                        pathname === href ? styles.escritorioLinkActivosss : ""
+                      }`}
+                      href={href}
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>{" "}
             </div>
             <button className={styles.cerrarBtn} onClick={toggleMenuAbierto}>
               <Cerrar
@@ -83,32 +98,4 @@ export default function NavMenu({ toggleMenuAbierto }) {
       </RemoveScroll>
     </FocusLock>
   );
-}
-
-{
-  /* <ul
-onMouseLeave={() => setHoverHamburguerLink(null)}
->
-{HAMBURGUER_LINK.map(({ slug, label, href }) => (
-  <li key={slug} style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}>
-    {hoverLink === slug && (
-      <motion.div
-        layoutId={id}
-        className={styles.hoverFondo}
-        initial={false}
-        animate={{ borderRadius: "var(--border-radius)" }}
-      />
-    )}
-    <Link
-      onMouseEnter={() => setHoverHamburguerLink(slug)}
-      className={`${styles.escritorioLink} ${
-        pathname === href ? styles.escritorioLinkActivo : ""
-      }`}
-      href={href}
-    >
-      {label}
-    </Link>
-  </li>
-))}
-</ul> */
 }
