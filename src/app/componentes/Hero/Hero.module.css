@@ -1,4 +1,13 @@
 .heroContainer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(2rem, 7vw, 5rem);
+  padding-block: var(--padding-block);
+  text-align: center;
+}
+
+.heroEmoji {
   flex-basis: clamp(170px, 28vw, 250px);
   height: auto;
   flex-shrink: 0;
@@ -7,9 +16,6 @@
   border: 10px solid hsla(var(--clr-uno));
   border-radius: 50%;
   box-shadow: 0 5px 10px 0 hsl(var(--clr-negro) / 0.6);
-}
-
-.heroEmoji {
   width: 20%;
   object-fit: cover;
 }
@@ -23,5 +29,13 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 43rem) {
+  .heroContainer {
+    flex-direction: row-reverse;
+    text-align: left;
+    padding: 6em 3em;
   }
 }

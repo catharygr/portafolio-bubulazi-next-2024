@@ -5,9 +5,9 @@ import styles from "./Hero.module.css";
 export default function Hero() {
   return (
     <section>
-      <div className="wrapper">
+      <div className={`wrapper  ${styles.heroContainer}`}>
         <div
-          className={`${styles.rotateCenter} ${styles.heroContainer} ${styles.heroEmoji} fondo-acento-claro`}
+          className={`${styles.rotateCenter} ${styles.heroEmoji} fondo-acento-claro`}
         >
           <Image src={Emoji} alt="emoji de mi" />
         </div>
