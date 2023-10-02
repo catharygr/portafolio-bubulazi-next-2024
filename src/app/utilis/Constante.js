@@ -35,7 +35,7 @@ export const HAMBURGUER_LINK = [
   },
   {
     slug: "proyectos",
-    label: "Proyectos",
+    label: "Proyectosssssssss",
     href: "/proyectos",
   },
 ];
