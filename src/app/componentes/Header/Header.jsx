@@ -24,7 +24,8 @@ export default function Header() {
     if (modoClaro) {
       root.style.setProperty("--clr-acento-dos", "174 89% 56%");
     } else {
-      root.style.setProperty("--clr-acento-dos", " 284 81% 14%");
+      root.style.setProperty("--clr-acento-dos", "313 35% 80%");
+      root.style.setProperty("--clr-uno", "325 95% 56%");
     }
   }, [modoClaro]);
 

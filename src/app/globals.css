@@ -190,9 +190,9 @@ a {
 
 /* @media (prefers-color-scheme: light) {
   :root {
-    --clr-uno: 284 81% 14%;
-    --clr-acento-uno: 276 73% 38%;
-    --clr-acento-dos: 313 35% 80%;
+    --clr-uno: 284 81% 14%;  violeta fuerte
+    --clr-acento-uno: 276 73% 38%; violeta
+    --clr-acento-dos: 313 35% 80%; violeta claro
     --clr-negro: 0 0% 20%;
     --clr-blanco: 0 0% 100%;
   }
