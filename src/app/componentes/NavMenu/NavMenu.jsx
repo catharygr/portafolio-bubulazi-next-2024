@@ -57,7 +57,7 @@ export default function NavMenu({ toggleMenuAbierto }) {
             }}
             exit={{ x: "0%" }}
           >
-            <div className={styles.children}>
+            <div className={styles.menuEnlace}>
               <ul onMouseLeave={() => setHoverHamburguerLink(null)}>
                 {HAMBURGUER_LINK.map(({ slug, label, href }) => (
                   <li
@@ -74,9 +74,9 @@ export default function NavMenu({ toggleMenuAbierto }) {
                     )}
                     <Link
                       onMouseEnter={() => setHoverHamburguerLink(slug)}
-                      className={`${styles.escritorioLinkssss} ${
-                        pathname === href ? styles.escritorioLinkActivosss : ""
-                      }`}
+                      className={
+                        pathname === href ? styles.hamburguerLinkActivos : ""
+                      }
                       href={href}
                     >
                       {label}

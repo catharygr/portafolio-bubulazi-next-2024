@@ -37,20 +37,26 @@
   translate: 100%;
 }
 
-.children a {
+.menuEnlace .hamburguerLinkActivos {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
+}
+
+.menuEnlace a {
   text-decoration: none;
   display: inline-block;
   padding: 0.3rem 0.5rem;
 }
 
-.children ul {
+.menuEnlace ul {
   display: flex;
   flex-direction: column;
   text-align: right;
   gap: 0.2rem;
 }
 
-.children li {
+.menuEnlace li {
   position: relative;
 }
 
