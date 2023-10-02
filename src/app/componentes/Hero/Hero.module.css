@@ -1,12 +1,17 @@
-.heroEmoji {
+.heroContainer {
   flex-basis: clamp(170px, 28vw, 250px);
   height: auto;
   flex-shrink: 0;
   aspect-ratio: 1;
   overflow: hidden;
-  border: 10px solid hsla(var(--clr-oscuro));
+  border: 10px solid hsla(var(--clr-uno));
   border-radius: 50%;
-  box-shadow: var(--box-shadow);
+  box-shadow: 0 5px 10px 0 hsl(var(--clr-negro) / 0.6);
+}
+
+.heroEmoji {
+  width: 20%;
+  object-fit: cover;
 }
 
 .rotateCenter {

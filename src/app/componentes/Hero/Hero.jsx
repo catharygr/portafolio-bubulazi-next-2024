@@ -6,8 +6,10 @@ export default function Hero() {
   return (
     <section>
       <div className="wrapper">
-        <div className={styles.rotateCenter}>
-          <Image className={styles.heroEmoji} src={Emoji} alt="emoji" />
+        <div
+          className={`${styles.rotateCenter} ${styles.heroContainer} ${styles.heroEmoji} fondo-acento-claro`}
+        >
+          <Image src={Emoji} alt="emoji de mi" />
         </div>
         <h1 className="fs-hero f-str-75 f-wei-600 lh-small color-oscuro">
           Cathy, desarrolladora FrontEnd y algo más...
