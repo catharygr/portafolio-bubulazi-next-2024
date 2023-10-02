@@ -1,11 +1,18 @@
-import { useEffect } from "react";
+import { useEffect, useState, useId } from "react";
 import styles from "./NavMenu.module.css";
 import { X as Cerrar } from "react-feather";
 import FocusLock from "react-focus-lock";
 import { RemoveScroll } from "react-remove-scroll";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { HAMBURGUER_LINK } from "@/app/utilis/Constante";
+import { usePathname } from "next/navigation";
 
-export default function NavMenu({ children, toggleMenuAbierto }) {
+export default function NavMenu({ toggleMenuAbierto }) {
+  const [hoverHamburguerLink, setHoverHamburguerLink] = useState(null);
+  const pathname = usePathname();
+  const id = useId();
+
   useEffect(() => {
     const elementoEnfocadoAntesDeAbrirlo = document.activeElement;
     return () => {
@@ -50,7 +57,19 @@ export default function NavMenu({ children, toggleMenuAbierto }) {
             }}
             exit={{ x: "0%" }}
           >
-            <div className={styles.children}>{children}</div>
+            <div className={styles.children}>
+              <ul onMouseLeave={setHoverHamburguerLink}>
+                <li>
+                  <Link href={"/"}>Sobre mi</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>Contactos</Link>
+                </li>
+                <li>
+                  <Link href={"/"}>Blog</Link>
+                </li>
+              </ul>
+            </div>
             <button className={styles.cerrarBtn} onClick={toggleMenuAbierto}>
               <Cerrar
                 aria-hidden="true"
@@ -64,4 +83,32 @@ export default function NavMenu({ children, toggleMenuAbierto }) {
       </RemoveScroll>
     </FocusLock>
   );
+}
+
+{
+  /* <ul
+onMouseLeave={() => setHoverHamburguerLink(null)}
+>
+{HAMBURGUER_LINK.map(({ slug, label, href }) => (
+  <li key={slug} style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}>
+    {hoverLink === slug && (
+      <motion.div
+        layoutId={id}
+        className={styles.hoverFondo}
+        initial={false}
+        animate={{ borderRadius: "var(--border-radius)" }}
+      />
+    )}
+    <Link
+      onMouseEnter={() => setHoverHamburguerLink(slug)}
+      className={`${styles.escritorioLink} ${
+        pathname === href ? styles.escritorioLinkActivo : ""
+      }`}
+      href={href}
+    >
+      {label}
+    </Link>
+  </li>
+))}
+</ul> */
 }

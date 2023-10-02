@@ -8,7 +8,6 @@ import NavMenu from "../NavMenu";
 import { AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { ESCRITORIO_LINK } from "@/app/utilis/Constante";
-import { HAMBURGUER_LINK } from "@/app/utilis/Constante";
 import { useState, useId, useEffect } from "react";
 import { motion } from "framer-motion";
 
@@ -16,7 +15,6 @@ export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
   const [hoverLink, setHoverLink] = useState(null);
   const [modoClaro, toggleModoClaro] = useToggle(true);
-  const [hoverHamburguerLink, setHoverHamburguerLink] = useState(null);
   console.log(modoClaro);
   const pathname = usePathname();
   const id = useId();
@@ -92,40 +90,7 @@ export default function Header() {
             {/* Etiqueta para la animación cuando se desmonta el componente */}
             <AnimatePresence>
               {estaMenuAbierto && (
-                <NavMenu toggleMenuAbierto={toggleMenuAbierto}>
-                  <ul
-                    aria-hidden="true"
-                    className={styles.hamburguerNav}
-                    onMouseLeave={() => setHoverHamburguerLink(null)}
-                  >
-                    {HAMBURGUER_LINK.map(({ slug, label, href }) => (
-                      <li
-                        key={slug}
-                        style={{
-                          zIndex: hoverHamburguerLink === "slug" ? 1 : 2,
-                        }}
-                      >
-                        {hoverHamburguerLink === slug && (
-                          <motion.div
-                            layoutId={id}
-                            className={styles.hoverFondo}
-                            initial={false}
-                            animate={{ borderRadius: "var(--border-radius)" }}
-                          />
-                        )}
-                        <Link
-                          onMouseEnter={() => setHoverHamburguerLink(slug)}
-                          className={`${styles.escritorioLink} ${
-                            pathname === href ? styles.escritorioLinkActivo : ""
-                          }`}
-                          href={href}
-                        >
-                          {label}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </NavMenu>
+                <NavMenu toggleMenuAbierto={toggleMenuAbierto} />
               )}
             </AnimatePresence>
           </nav>
