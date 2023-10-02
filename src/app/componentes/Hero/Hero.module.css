@@ -1,0 +1,22 @@
+.heroEmoji {
+  flex-basis: clamp(170px, 28vw, 250px);
+  height: auto;
+  flex-shrink: 0;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 10px solid hsla(var(--clr-oscuro));
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+}
+
+.rotateCenter {
+  animation: rotate-center 0.6s;
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
