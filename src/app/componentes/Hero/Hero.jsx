@@ -25,7 +25,7 @@ export default function Hero({ type, image, alt, title, about }) {
       <section>
         <div className={`wrapper  ${styles.containerTipoSinImagen}`}>
           <h1 className={styles.h1}>
-            <span>{about}</span>
+            <span className={styles.about}>{about}</span>
             {title}
           </h1>
         </div>

@@ -49,6 +49,11 @@
   max-width: 30rem;
 }
 
+.about {
+  display: block;
+  font-size: var(--fs-800);
+}
+
 @media (min-width: 43rem) {
   .containerTipoImagen {
     flex-direction: row-reverse;

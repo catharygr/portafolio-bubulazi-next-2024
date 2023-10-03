@@ -60,7 +60,7 @@
   display: flex;
 }
 
-@media (min-width: 45rem) {
+@media (min-width: 43rem) {
   .escritorioNav {
     display: flex;
   }
