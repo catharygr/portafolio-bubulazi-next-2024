@@ -179,6 +179,8 @@ a {
 
   /* Varios */
   --padding-block: clamp(1rem, 4vw, 1.5rem);
+  --padding-block-grande: clamp(2rem, 10vw, 6rem);
+
   --margin-texto: 1em;
   --border-radius: 7px;
   --box-shadow: 0 5px 10px 0 hsl(var(--clr-negro) / 0.6);
