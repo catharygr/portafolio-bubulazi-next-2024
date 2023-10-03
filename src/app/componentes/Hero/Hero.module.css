@@ -1,7 +1,6 @@
 .containerTipoImagen {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: clamp(2rem, 7vw, 5rem);
   padding-block: var(--padding-block);
@@ -21,7 +20,6 @@
 }
 
 .marcoCircularImagen > img {
-  width: 100%;
   object-fit: cover;
 }
 
