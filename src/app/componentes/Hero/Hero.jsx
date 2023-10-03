@@ -8,11 +8,11 @@ export default function Hero({ type }) {
     <section>
       <div className={`wrapper  ${styles.containerTipoImagen}`}>
         <div
-          className={`${styles.rotateCenter} ${styles.tipoImagen} fondo-acento-claro`}
+          className={`${styles.rotateCenter} ${styles.marcoCircularImagen} fondo-acento-claro`}
         >
-          <Image className={styles.img} src={EmojiCaty} alt="emoji de mi" />
+          <Image src={EmojiCaty} alt="emoji de mi" />
         </div>
-        <h1 className="fs-hero f-str-75 f-wei-600 lh-small color-oscuro">
+        <h1 className={styles.h1}>
           Cathy, desarrolladora FrontEnd y algo más...
         </h1>
       </div>

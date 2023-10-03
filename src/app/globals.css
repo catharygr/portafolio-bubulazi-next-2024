@@ -178,10 +178,10 @@ a {
   --lh-big: 1.8;
 
   /* Varios */
-  --padding-block: clamp(0.8rem, 4vw, 1.5rem);
+  --padding-block: clamp(1rem, 4vw, 1.5rem);
   --margin-texto: 1em;
   --border-radius: 7px;
-  --box-shadow: 0 5px 10px 0 hsl(var(--clr-uno) / 0.6);
+  --box-shadow: 0 5px 10px 0 hsl(var(--clr-negro) / 0.6);
   ---container-max: 62rem;
   --flex-gap: 1rem;
 
@@ -218,7 +218,7 @@ body {
 
 /* Colores */
 /* De fondo */
-.fondo-oscuro {
+/* .fondo-oscuro {
   background-color: hsl(var(--clr-uno));
 }
 .fondo-acento {
@@ -234,7 +234,7 @@ body {
   background-color: hsl(var(--clr-negro));
 }
 /* De letras */
-.color-negro {
+/* .color-negro {
   color: hsl(var(--clr-negro));
 }
 .color-blanco {
@@ -248,11 +248,11 @@ body {
 }
 .color-acento-claro {
   color: hsl(var(--clr-acento-dos));
-}
+}  */
 
 /* Formatos de letras */
 
-.fs-hero {
+/* .fs-hero {
   font-size: var(--fs-hero);
 }
 .fs-900 {
@@ -308,15 +308,15 @@ body {
 }
 .lh-big {
   line-height: var(--lh-big);
-}
+} */
 
-.flex {
+/* .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
-}
+} */
 
 .flow > *:not(:last-child) {
   margin-bottom: var(--margin-texto);
