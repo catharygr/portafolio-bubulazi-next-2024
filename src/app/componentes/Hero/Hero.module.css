@@ -1,4 +1,5 @@
-.heroContainer {
+.containerTipoImagen {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -7,7 +8,7 @@
   text-align: center;
 }
 
-.heroEmoji {
+.tipoImagen {
   flex-basis: clamp(170px, 28vw, 250px);
   height: auto;
   flex-shrink: 0;
@@ -16,7 +17,10 @@
   border: 10px solid hsla(var(--clr-uno));
   border-radius: 50%;
   box-shadow: 0 5px 10px 0 hsl(var(--clr-negro) / 0.6);
-  width: 20%;
+}
+
+.tipoImagen > .img {
+  width: 100%;
   object-fit: cover;
 }
 
@@ -33,7 +37,7 @@
 }
 
 @media (min-width: 43rem) {
-  .heroContainer {
+  .containerTipoImagen {
     flex-direction: row-reverse;
     text-align: left;
     padding: 6em 3em;
