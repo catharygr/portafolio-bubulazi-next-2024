@@ -20,10 +20,6 @@
   background-color: hsla(var(--clr-acento-dos));
 }
 
-.marcoCircularImagen > img {
-  object-fit: cover;
-}
-
 .h1 {
   font-size: var(--fs-hero);
   color: hsla(var(--clr-uno));
