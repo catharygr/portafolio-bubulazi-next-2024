@@ -1,0 +1,11 @@
+.sectionSuperior {
+  background-color: hsl(var(--clr-uno));
+  color: hsl(var(--clr-blanco));
+}
+
+.sectionInferior {
+  background-color: hsl(var(--clr-acento-uno));
+}
+
+.wrapperSuperior {
+}

@@ -15,10 +15,9 @@ export default function Hero({ type, image, alt, title, about }) {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               type: "spring",
-              stiffness: 200,
+              stiffness: 100,
               damping: 8,
               duration: 0.8,
-              delay: 0.5,
             }}
           >
             <Image
