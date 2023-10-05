@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import styles from "./Hero.module.css";
+import { motion } from "framer-motion";
 
 // Tipo con imagen y tipo sin imagen
 export default function Hero({ type, image, alt, title, about }) {
@@ -7,14 +9,23 @@ export default function Hero({ type, image, alt, title, about }) {
     return (
       <section>
         <div className={`wrapper  ${styles.containerTipoImagen}`}>
-          <div
-            className={`${styles.rotateCenter} ${styles.marcoCircularImagen}`}
+          <motion.div
+            className={styles.marcoCircularImagen}
+            initial={{ scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 200,
+              damping: 8,
+              duration: 0.8,
+              delay: 0.5,
+            }}
           >
             <Image
               src={image}
               alt={alt}
             />
-          </div>
+          </motion.div>
           <h1 className={styles.h1}>{title}</h1>
         </div>
       </section>
