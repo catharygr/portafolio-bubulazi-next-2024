@@ -15,7 +15,6 @@ export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
   const [hoverLink, setHoverLink] = useState(null);
   const [modoClaro, toggleModoClaro] = useToggle(true);
-  console.log(modoClaro);
   const pathname = usePathname();
   const id = useId();
 
@@ -32,7 +31,10 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={`wrapper ${styles.container}`}>
-        <Link href={"/"} className={styles.logo}>
+        <Link
+          href={"/"}
+          className={styles.logo}
+        >
           {"{ this.Cathy }"}
         </Link>
         <div className={styles.navContainer}>
@@ -42,7 +44,10 @@ export default function Header() {
             onMouseLeave={() => setHoverLink(null)}
           >
             {ESCRITORIO_LINK.map(({ slug, label, href }) => (
-              <li key={slug} style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}>
+              <li
+                key={slug}
+                style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}
+              >
                 {hoverLink === slug && (
                   <motion.div
                     layoutId={id}
@@ -75,7 +80,10 @@ export default function Header() {
               <Rss className={styles.iconSVG} />
             </Link>
           </div>
-          <nav role="navigation" aria-label="Menu principal">
+          <nav
+            role="navigation"
+            aria-label="Menu principal"
+          >
             <button
               aria-expanded={estaMenuAbierto}
               className={styles.botonMenu}
