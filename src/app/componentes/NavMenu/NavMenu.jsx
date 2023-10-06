@@ -85,7 +85,10 @@ export default function NavMenu({ toggleMenuAbierto }) {
                 ))}
               </ul>{" "}
             </div>
-            <button className={styles.cerrarBtn} onClick={toggleMenuAbierto}>
+            <button
+              className={styles.cerrarBtn}
+              onClick={toggleMenuAbierto}
+            >
               <Cerrar
                 aria-hidden="true"
                 focusable="false"

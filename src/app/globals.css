@@ -214,8 +214,8 @@ body {
 }
 
 *:focus-visible {
-  outline: 3px solid hsl(var(--clr-negro));
-  outline-offset: 5px;
+  outline: 2px solid hsl(var(--clr-negro) / 0.6);
+  outline-offset: 2px;
 }
 
 /* Colores */
