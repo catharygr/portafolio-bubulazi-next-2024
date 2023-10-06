@@ -213,6 +213,10 @@ body {
   min-height: 100vh;
 }
 
+:is(h1, h2, h3) {
+  line-height: var(--lh-small);
+}
+
 *:focus-visible {
   outline: 2px solid hsl(var(--clr-negro) / 0.6);
   outline-offset: 2px;
@@ -328,12 +332,6 @@ body {
   width: min(100% - 6vw, var(--container-max, 62rem));
   margin-inline: auto;
   padding-block: var(--padding-block);
-}
-
-h1,
-h2,
-h3 {
-  line-height: var(--lh-small);
 }
 
 img {

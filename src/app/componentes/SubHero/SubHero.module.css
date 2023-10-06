@@ -12,10 +12,14 @@
   font-weight: var(--f-wei-600);
   font-stretch: var(--f-str-75);
   line-height: var(--lh-small);
+  flex-basis: clamp(20px, 30vw, 400px);
+  flex-shrink: 0;
 }
 
 .wrapperSuperior {
   padding-block: var(--padding-block-grande);
+  display: flex;
+  gap: var(--flex-gap);
 }
 
 .wrapperInferior {
