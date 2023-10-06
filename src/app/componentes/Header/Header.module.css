@@ -28,6 +28,7 @@
 .escritorioNav {
   display: none;
   gap: 0.2rem;
+  padding: auto;
 }
 
 .escritorioNav li {
@@ -35,7 +36,7 @@
 }
 
 .escritorioNav a {
-  padding: auto 0.5rem;
+  padding: 0.2rem 0.5rem;
 }
 
 .escritorioLink {
