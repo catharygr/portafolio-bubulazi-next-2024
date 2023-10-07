@@ -40,6 +40,42 @@ export default function SubHero({ type, color, children }) {
           </div>
         </section>
       )}
+      {/* La siguiente seccion renderizar si el type === doble-tres-listas */}
+      <section className="fondo-asento-claro">
+        <div className="container proyecto-detalles flex color-oscuro">
+          <div className="flow">
+            <h2 className="fs-800 f-str-75 f-wei-600">Tipo:</h2>
+            <ul className="ul-detalles fs-400 f-wei-600">
+              <li>Web App optimizada para móviles</li>
+            </ul>
+          </div>
+          <div className="flow">
+            <h2 className="fs-800 f-str-75 f-wei-600">Herramientas:</h2>
+            <ul className="ul-detalles fs-400 f-wei-600">
+              <li>CSS & HTML</li>
+              <li>Javascript ES6</li>
+              <li>React</li>
+              <li>React Router</li>
+              <li>Firebase</li>
+              <li>Git & GitHub</li>
+              <li>Netlifly</li>
+            </ul>
+          </div>
+          <div className="flow">
+            <h2 className="fs-800 f-str-75 f-wei-600">En vivo:</h2>
+            <ul className="ul-detalles fs-400 f-wei-600">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://recordatorios-react-cathy.netlify.app"
+                >
+                  Visitar
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
