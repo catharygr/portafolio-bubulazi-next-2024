@@ -1,6 +1,7 @@
 .header {
   background-color: hsl(var(--clr-acento-dos));
   color: hsl(var(--clr-uno));
+  border-bottom: 1px solid hsl(var(--clr-uno));
 }
 
 .container {

@@ -13,7 +13,7 @@ export default function SubHero({ type, color, children }) {
               ¡Hola! Iniciada en el mundo de la programación como junior, con
               muchas ganas de llevar a cabo todo lo aprendido en diferentes
               cursos, como en{" "}
-              <Link href="https://freecodecamp.org">FreeCodeCamp</Link>,
+              <Link href="https://freecodecamp.org">FreeCodeCamp</Link>,{" "}
               <Link href="https://platzi.com">Platzi</Link> y{" "}
               <Link href="https://scrimba.com">Scrimba</Link> de CSS, HTML,
               JavaScript, React 18 y React Router 6. Con mucha disposición,
@@ -25,7 +25,7 @@ export default function SubHero({ type, color, children }) {
         </div>
       </section>
       {/* La siguiente seccion renderizar si el type === doble-una-lista */}
-      {type === "doble-tres-lista" && (
+      {type === "doble-una-lista" && (
         <section className={styles.sectionInferior}>
           <div className={`wrapper ${styles.wrapperInferior}`}>
             <h2 className={styles.h2}>Mis habilidades</h2>
