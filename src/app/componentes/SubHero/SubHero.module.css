@@ -69,6 +69,11 @@
     justify-content: space-between;
   }
 
+  .wrapperInferiorTresListas > div {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
   .h2 {
     flex-basis: clamp(20px, 30vw, 400px);
     flex-shrink: 0;
@@ -85,8 +90,6 @@
     gap: var(--flex-gap);
   }
 
-  .tresListasUl {
-  }
   .unaListaUl li:not(:last-child)::after {
     content: "|";
     margin-left: 0.4em;
