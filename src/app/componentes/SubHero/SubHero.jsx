@@ -41,42 +41,44 @@ export default function SubHero({ type, color, children }) {
         </section>
       )}
       {/* La siguiente seccion renderizar si el type === doble-tres-listas */}
-      <section className={styles.sectionInferiorTresListas}>
-        <div className={`wrapper ${styles.wrapperInferiorTresListas}`}>
-          <div>
-            <h2 className={styles.tresListasH2}>Tipo:</h2>
-            <ul className={styles.tresListasUl}>
-              <li>Web App</li>
-              <li>Diseño resposive</li>
-            </ul>
+      {type === "doble-tres-listas" && (
+        <section className={styles.sectionInferiorTresListas}>
+          <div className={`wrapper ${styles.wrapperInferiorTresListas}`}>
+            <div>
+              <h2 className={styles.tresListasH2}>Tipo:</h2>
+              <ul className={styles.tresListasUl}>
+                <li>Web App</li>
+                <li>Diseño resposive</li>
+              </ul>
+            </div>
+            <div>
+              <h2 className={styles.tresListasH2}>Herramientas:</h2>
+              <ul className={styles.tresListasUl}>
+                <li>CSS & HTML</li>
+                <li>Javascript ES6</li>
+                <li>React</li>
+                <li>React Router</li>
+                <li>Firebase</li>
+                <li>Git & GitHub</li>
+                <li>Netlifly</li>
+              </ul>
+            </div>
+            <div>
+              <h2 className={styles.tresListasH2}>En vivo:</h2>
+              <ul className={styles.tresListasUl}>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://recordatorios-react-cathy.netlify.app"
+                  >
+                    Visitar
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <h2 className={styles.tresListasH2}>Herramientas:</h2>
-            <ul className={styles.tresListasUl}>
-              <li>CSS & HTML</li>
-              <li>Javascript ES6</li>
-              <li>React</li>
-              <li>React Router</li>
-              <li>Firebase</li>
-              <li>Git & GitHub</li>
-              <li>Netlifly</li>
-            </ul>
-          </div>
-          <div>
-            <h2 className={styles.tresListasH2}>En vivo:</h2>
-            <ul className={styles.tresListasUl}>
-              <li>
-                <a
-                  target="_blank"
-                  href="https://recordatorios-react-cathy.netlify.app"
-                >
-                  Visitar
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
     </>
   );
 }
