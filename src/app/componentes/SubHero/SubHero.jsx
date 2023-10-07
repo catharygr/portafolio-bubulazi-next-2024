@@ -47,7 +47,7 @@ export default function SubHero({ type, color, children }) {
             <h2 className={styles.tresListasH2}>Tipo:</h2>
             <ul className={styles.tresListasUl}>
               <li>Web App</li>
-              <li>Optimizada para móviles</li>
+              <li>Diseño resposive</li>
             </ul>
           </div>
           <div>
