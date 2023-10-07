@@ -23,14 +23,23 @@
   text-align: center;
 }
 
-.unaListaUl {
+.unaListaUl,
+.tresListasUl {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
 }
 
 .unaListaUl li {
+  font-weight: var(--f-wei-600);
+}
+
+.sectionInferiorTresListas {
+  background-color: hsl(var(--clr-acento-dos));
+  color: hsl(var(--clr-uno));
+}
+
+.tresListasUl li {
   font-weight: var(--f-wei-600);
 }
 
