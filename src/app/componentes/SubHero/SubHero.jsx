@@ -24,19 +24,22 @@ export default function SubHero({ type, color, children }) {
           </div>
         </div>
       </section>
-      <section className={styles.sectionInferior}>
-        <div className={`wrapper ${styles.wrapperInferior}`}>
-          <h2 className={styles.h2}>Mis habilidades</h2>
-          <ul className={styles.ul}>
-            <li>JavaScript ES6</li>
-            <li>React 18</li>
-            <li>React Router 6</li>
-            <li>Git & GitHub</li>
-            <li>CSS & HTML</li>
-            <li>Firebase</li>
-          </ul>
-        </div>
-      </section>
+      {/* La siguiente seccion renderizar si el type === doble-una-lista */}
+      {type === "doble-tres-lista" && (
+        <section className={styles.sectionInferior}>
+          <div className={`wrapper ${styles.wrapperInferior}`}>
+            <h2 className={styles.h2}>Mis habilidades</h2>
+            <ul className={styles.unaListaUl}>
+              <li>JavaScript ES6</li>
+              <li>React 18</li>
+              <li>React Router 6</li>
+              <li>Git & GitHub</li>
+              <li>CSS & HTML</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+        </section>
+      )}
     </>
   );
 }
