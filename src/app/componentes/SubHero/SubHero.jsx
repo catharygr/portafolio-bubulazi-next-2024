@@ -1,14 +1,14 @@
 import Link from "next/link";
 import styles from "./SubHero.module.css";
 
-//Type:  single, single-btn, doble-una-lista, doble-tres-listas
+//Type:  single, single-link, doble-una-lista, doble-tres-listas
 export default function SubHero({ type, color, children }) {
   return (
     <>
       <section className={styles.sectionSuperior}>
         <div className={`wrapper ${styles.wrapperSuperior}`}>
           <h2 className={styles.h2}>Sobre mi</h2>
-          <div>
+          <div className={styles.contenidoSuperior}>
             <p>
               ¡Hola! Iniciada en el mundo de la programación como junior, con
               muchas ganas de llevar a cabo todo lo aprendido en diferentes
@@ -20,7 +20,14 @@ export default function SubHero({ type, color, children }) {
               determinación y voluntad para seguir aprendiendo. Espero a que os
               animéis a contactarme. Gracias de antemano.
             </p>
-            {type === "single-btn" && <button>Boton de prueba</button>}
+            {type === "single-link" && (
+              <Link
+                href={"/"}
+                className={styles.singleLink}
+              >
+                Link de prueba
+              </Link>
+            )}
           </div>
         </div>
       </section>

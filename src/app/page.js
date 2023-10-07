@@ -13,7 +13,7 @@ export default function Home() {
         title="Cathy, desarrolladora FrontEnd y algo más..."
         alt="Mi emoji frente de un ordenador"
       />
-      <SubHero type="doble-tres-listas" />
+      <SubHero type="single-link" />
     </main>
   );
 }

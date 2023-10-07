@@ -18,11 +18,11 @@
 }
 
 .navContainer {
-  --flex-gap: 2rem;
+  --gap-base: 2rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: var(--flex-gap);
+  gap: var(--gap-base);
   font-weight: var(--f-wei-600);
 }
 
