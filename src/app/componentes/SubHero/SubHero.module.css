@@ -39,8 +39,23 @@
   color: hsl(var(--clr-uno));
 }
 
+.wrapperInferiorTresListas {
+  padding-block: var(--padding-block-grande);
+  display: flex;
+  flex-direction: column;
+  gap: var(--flex-gap);
+}
+
 .tresListasUl li {
   font-weight: var(--f-wei-600);
+}
+
+.tresListasH2 {
+  font-size: var(--fs-800);
+  font-weight: var(--f-wei-600);
+  font-stretch: var(--f-str-75);
+  line-height: var(--lh-small);
+  text-align: center;
 }
 
 @media (min-width: 40rem) {
@@ -48,16 +63,29 @@
   .wrapperInferior {
     flex-direction: row;
   }
+
+  .wrapperInferiorTresListas {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .h2 {
     flex-basis: clamp(20px, 30vw, 400px);
     flex-shrink: 0;
     text-align: left;
   }
+  .tresListasH2 {
+    margin-bottom: 1rem;
+  }
+
   .unaListaUl {
     --flex-gap: 0.4em;
     flex-direction: row;
     flex-wrap: wrap;
     gap: var(--flex-gap);
+  }
+
+  .tresListasUl {
   }
   .unaListaUl li:not(:last-child)::after {
     content: "|";

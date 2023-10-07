@@ -42,16 +42,16 @@ export default function SubHero({ type, color, children }) {
       )}
       {/* La siguiente seccion renderizar si el type === doble-tres-listas */}
       <section className={styles.sectionInferiorTresListas}>
-        <div className={`wrapper ${styles.wrapperInferior}`}>
+        <div className={`wrapper ${styles.wrapperInferiorTresListas}`}>
           <div>
-            <h2 className={styles.h2}>Tipo:</h2>
+            <h2 className={styles.tresListasH2}>Tipo:</h2>
             <ul className={styles.tresListasUl}>
               <li>Web App</li>
               <li>Optimizada para móviles</li>
             </ul>
           </div>
           <div>
-            <h2 className={styles.h2}>Herramientas:</h2>
+            <h2 className={styles.tresListasH2}>Herramientas:</h2>
             <ul className={styles.tresListasUl}>
               <li>CSS & HTML</li>
               <li>Javascript ES6</li>
@@ -63,7 +63,7 @@ export default function SubHero({ type, color, children }) {
             </ul>
           </div>
           <div>
-            <h2 className={styles.h2}>En vivo:</h2>
+            <h2 className={styles.tresListasH2}>En vivo:</h2>
             <ul className={styles.tresListasUl}>
               <li>
                 <a
