@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./SubHero.module.css";
 
-//Type:  single, single-link, doble-una-lista, doble-tres-listas
+//Type: single, single-link, doble-una-lista, doble-tres-listas
 export default function SubHero({ type, color, children }) {
   return (
     <>
