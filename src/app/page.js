@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import EmojiCaty from "@/app/assets/imagen/generales/caty-emoji.png";
 import { SOBRE_MI } from "@/app/contenido/home-page/sobreMi";
 import { PROYECTOS } from "@/app/contenido/home-page/proyectos";
+import HomeProyecto from "./componentes/HomeProyecto";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         type="doble-una-lista"
         content={SOBRE_MI}
       />
+      <HomeProyecto content={PROYECTOS} />
     </main>
   );
 }
