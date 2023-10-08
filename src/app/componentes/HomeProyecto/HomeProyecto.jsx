@@ -1,4 +1,4 @@
-import CardConImg from "../CardConImg";
+import Card from "@/app/componentes/Card/Card";
 import styles from "./HomeProyecto.module.css";
 
 export default function HomeProyecto({ content }) {
@@ -8,11 +8,12 @@ export default function HomeProyecto({ content }) {
     <section>
       <div className={`wrapper ${styles.proyectoWrapper}`}>
         <h2 className={styles.h2}>Últimos proyectos</h2>
-        <div className={styles.cardConImg}>
+        <div className={styles.card}>
           {ultimosProyectos.map((proyecto) => (
-            <CardConImg
+            <Card
               key={proyecto.url}
               content={proyecto}
+              type="sinImg"
             />
           ))}
         </div>
