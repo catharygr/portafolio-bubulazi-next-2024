@@ -2,6 +2,8 @@ import styles from "./HomeProyecto.module.css";
 import Image from "next/image";
 
 export default function HomeProyecto({ content }) {
+  const ultimosProyectos = content.slice(0, 3) || [];
+
   return (
     <section>
       <div className="wrapper">
