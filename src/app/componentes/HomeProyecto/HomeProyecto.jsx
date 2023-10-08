@@ -9,14 +9,12 @@ export default function HomeProyecto({ content }) {
       <div className={`wrapper ${styles.proyectoWrapper}`}>
         <h2 className={styles.h2}>Últimos proyectos</h2>
         <div className={styles.cardConImg}>
-          <CardConImg
-            ultimosProyectos={ultimosProyectos.map((proyecto) => (
-              <CardConImg
-                key={proyecto.url}
-                content={proyecto}
-              />
-            ))}
-          />
+          {ultimosProyectos.map((proyecto) => (
+            <CardConImg
+              key={proyecto.url}
+              content={proyecto}
+            />
+          ))}
         </div>
         <h2 className={styles.h2}>Otros proyectos</h2>
         <div className={styles.cardSinImg}></div>
