@@ -1,6 +1,9 @@
-/* .container {
+.container {
   container-type: inline-size;
-} */
+  flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
 
 .card {
 }

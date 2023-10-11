@@ -8,7 +8,7 @@ export default function HomeProyecto({ content }) {
     <section>
       <div className={`wrapper ${styles.proyectoWrapper}`}>
         <h2 className={styles.h2}>Últimos proyectos</h2>
-        <div className={styles.cards}>
+        <div className={styles.cardsContainer}>
           {ultimosProyectos.map((proyecto) => (
             <Card
               key={proyecto.url}

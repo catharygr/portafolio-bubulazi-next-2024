@@ -13,7 +13,8 @@
   align-self: center;
 }
 
-.cards {
+.cardsContainer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
