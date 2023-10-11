@@ -11,6 +11,7 @@ export default function Card({ content, type }) {
           <Image
             src={imageURL}
             alt=""
+            className={styles.cardImg}
           />
           <div>
             <h3>{title}</h3>

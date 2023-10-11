@@ -11,6 +11,10 @@
   gap: var(--gap-base);
 }
 
+.cardImg {
+  max-width: 50%;
+}
+
 @container (min-width: 650px) {
   .card {
     flex-direction: row;
