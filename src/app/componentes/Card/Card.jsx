@@ -12,9 +12,11 @@ export default function Card({ content, type }) {
             src={imageURL}
             alt=""
           />
-          <h3>{title}</h3>
-          <p>{description}</p>
-          <Link href={url}>{linkTexto}</Link>
+          <div>
+            <h3>{title}</h3>
+            <p>{description}</p>
+            <Link href={url}>{linkTexto}</Link>
+          </div>
         </div>
       </div>
     );
