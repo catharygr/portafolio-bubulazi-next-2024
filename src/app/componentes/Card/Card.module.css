@@ -1,8 +1,12 @@
 .container {
+  --border-radius: 0.5rem;
   container-type: inline-size;
   flex-basis: 310px;
   flex-grow: 1;
   flex-shrink: 1;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
 }
 
 .card {
@@ -19,6 +23,13 @@
 
 .cardContent {
   background-color: hsl(var(--clr-acento-dos));
+  padding: var(--padding);
+}
+
+.cardContent h3 {
+  font-size: var(--fs-600);
+  font-weight: var(--f-wei-600);
+  font-stretch: var(--f-str-75);
 }
 
 @container (min-width: 650px) {
@@ -26,6 +37,7 @@
     flex-direction: row;
   }
   .cardImg {
-    max-width: 50%;
+    max-width: 30%;
+    aspect-ratio: 3 / 4;
   }
 }

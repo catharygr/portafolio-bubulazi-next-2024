@@ -13,7 +13,7 @@ export default function Card({ content, type }) {
             alt=""
             className={styles.cardImg}
           />
-          <div className={styles.cardContent}>
+          <div className={`${styles.cardContent} flow`}>
             <h3>{title}</h3>
             <p>{description}</p>
             <Link href={url}>{linkTexto}</Link>
