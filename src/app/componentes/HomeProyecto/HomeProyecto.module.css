@@ -19,3 +19,10 @@
   flex-wrap: wrap;
   gap: var(--gap-base);
 }
+
+.cardSinImg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-base);
+}

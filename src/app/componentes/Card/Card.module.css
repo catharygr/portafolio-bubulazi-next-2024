@@ -32,6 +32,12 @@
   font-stretch: var(--f-str-75);
 }
 
+.containerSinImagen {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 250px;
+}
+
 @container (min-width: 650px) {
   .card {
     flex-direction: row;

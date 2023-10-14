@@ -1,5 +1,6 @@
 import Card from "@/app/componentes/Card/Card";
 import styles from "./HomeProyecto.module.css";
+import Link from "next/link";
 
 export default function HomeProyecto({ content }) {
   const ultimosProyectos = content.slice(0, 3);
@@ -28,6 +29,7 @@ export default function HomeProyecto({ content }) {
             />
           ))}
         </div>
+        <Link href="/proyectos">Ver todos los proyectos</Link>
       </div>
     </section>
   );
