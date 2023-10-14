@@ -8,7 +8,17 @@
 .card {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-base);
+  /* gap: var(--gap-base); */
+}
+
+.cardImg {
+  object-fit: cover;
+  object-position: top left;
+  aspect-ratio: 16 / 9;
+}
+
+.cardContent {
+  background-color: hsl(var(--clr-acento-dos));
 }
 
 @container (min-width: 650px) {

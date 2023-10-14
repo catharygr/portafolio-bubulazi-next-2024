@@ -13,7 +13,7 @@ export default function Card({ content, type }) {
             alt=""
             className={styles.cardImg}
           />
-          <div>
+          <div className={styles.cardContent}>
             <h3>{title}</h3>
             <p>{description}</p>
             <Link href={url}>{linkTexto}</Link>
