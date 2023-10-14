@@ -148,11 +148,11 @@ a {
 
 :root {
   /* Colores */
-  --clr-uno: 325 95% 56%; /* rosa */
+  --clr-uno: 284 81% 14%; /* rosa */
   --clr-acento-uno: 50 94% 51%; /* amarillo */
-  --clr-acento-dos: 174 89% 56%; /* azukito */
+  --clr-acento-dos: 313 35% 80%; /* azukito */
   --clr-negro: 0 0% 15%;
-  --clr-blanco: 0 0% 90%;
+  --clr-blanco: 0 0% 100%;
 
   /* Formatos de letras */
   --fs-hero: clamp(3.052rem, 6vw, 4.5rem);

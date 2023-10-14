@@ -26,7 +26,7 @@ export default function Card({ content, type }) {
   if (type === "sinImg") {
     return (
       <div className={styles.containerSinImagen}>
-        <div className={styles.cardSinImagen}>
+        <div className={`${styles.cardSinImagen} flow`}>
           <h3>{title}</h3>
           <p>{description}</p>
           <Link href={url}>{linkTexto}</Link>
