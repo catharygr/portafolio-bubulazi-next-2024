@@ -1,6 +1,6 @@
 .container {
   container-type: inline-size;
-  flex-basis: 300px;
+  flex-basis: 310px;
   flex-grow: 1;
   flex-shrink: 1;
 }
@@ -11,12 +11,11 @@
   gap: var(--gap-base);
 }
 
-.cardImg {
-  max-width: 50%;
-}
-
 @container (min-width: 650px) {
   .card {
     flex-direction: row;
+  }
+  .cardImg {
+    max-width: 50%;
   }
 }
