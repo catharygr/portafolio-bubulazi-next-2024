@@ -4,7 +4,7 @@ export const PROYECTOS = [
   {
     title: "Formulario Multi-páginas",
     description:
-      "Página web con diseño responsable desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
+      "Página web con diseño resposive desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
     url: "/",
     linkTexto: "Ver proyecto",
     imageURL: formularioMultiPaginas,
@@ -12,7 +12,7 @@ export const PROYECTOS = [
   {
     title: "Formulario Multi-páginas",
     description:
-      "Página web con diseño responsable desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
+      "Página web con diseño resposive desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
     url: "/",
     linkTexto: "Ver proyecto",
     imageURL: formularioMultiPaginas,
@@ -20,7 +20,7 @@ export const PROYECTOS = [
   {
     title: "Formulario Multi-páginas",
     description:
-      "Página web con diseño responsable desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
+      "Página web con diseño resposive desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
     url: "/",
     linkTexto: "Ver proyecto",
     imageURL: formularioMultiPaginas,
@@ -28,7 +28,7 @@ export const PROYECTOS = [
   {
     title: "Formulario Multi-páginas",
     description:
-      "Página web con diseño responsable desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
+      "Página web con diseño resposive desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
     url: "/",
     linkTexto: "Ver proyecto",
     imageURL: formularioMultiPaginas,
@@ -36,7 +36,7 @@ export const PROYECTOS = [
   {
     title: "Formulario Multi-páginas",
     description:
-      "Página web con diseño responsable desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
+      "Página web con diseño resposive desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
     url: "/",
     linkTexto: "Ver proyecto",
     imageURL: formularioMultiPaginas,
@@ -44,7 +44,7 @@ export const PROYECTOS = [
   {
     title: "Formulario Multi-páginas",
     description:
-      "Página web con diseño responsable desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
+      "Página web con diseño resposive desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
     url: "/",
     linkTexto: "Ver proyecto",
     imageURL: formularioMultiPaginas,
