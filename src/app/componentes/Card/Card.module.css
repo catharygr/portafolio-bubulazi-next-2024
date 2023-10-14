@@ -68,7 +68,7 @@
   font-size: var(--fs-300);
 }
 
-@container (min-width: 300px) {
+@container (min-width: 400px) {
   .cardSinImagen {
     text-align: center;
   }
