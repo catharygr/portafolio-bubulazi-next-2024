@@ -184,7 +184,7 @@ a {
   --margin-texto: 1em;
   --border-radius: 7px;
   --box-shadow: 0 5px 10px 0 hsl(var(--clr-negro) / 0.6);
-  ---container-max: 62rem;
+  ---container-max: 65rem;
   --gap-base: 1rem;
 
   font-size: 112%;
@@ -353,9 +353,24 @@ a {
   text-decoration-thickness: 2px;
 }
 a:where(:hover, :focus) {
-  /* border-bottom-color: hsl(var(--clr-uno));
-  text-underline-offset: 4px;
-  text-decoration-thickness: 6px; */
+  opacity: 0.6;
+}
+
+.link-btn {
+  display: inline-block;
+  align-self: center;
+  background-color: hsl(var(--clr-acento-uno));
+  padding: 0.8rem 2rem;
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  margin-top: var(--margin-texto);
+  transition: all 0.2s ease-in-out;
+}
+
+.link-btn:where(:hover) {
+  background-color: hsl(var(--clr-negro) / 0.9);
+  color: hsl(var(--clr-blanco));
+  scale: 1.05;
 }
 
 button {
