@@ -1,7 +1,7 @@
 .container {
   --border-radius: 0.5rem;
   container-type: inline-size;
-  flex-basis: 310px;
+  flex-basis: 19.4rem;
   flex-grow: 1;
   flex-shrink: 1;
   box-shadow: var(--box-shadow);
@@ -31,7 +31,7 @@
   font-stretch: var(--f-str-75);
 }
 
-@container (min-width: 650px) {
+@container (min-width: 40.6rem) {
   .card {
     flex-direction: row;
   }
@@ -45,7 +45,7 @@
   container-type: inline-size;
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 250px;
+  flex-basis: 15.6rem;
 }
 
 .cardSinImagen {
@@ -68,8 +68,9 @@
   font-size: var(--fs-300);
 }
 
-@container (min-width: 400px) {
+@container (min-width: 34rem) {
   .cardSinImagen {
     text-align: center;
+    padding-inline: 10vw;
   }
 }

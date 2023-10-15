@@ -9,12 +9,12 @@
 }
 
 .marcoCircularImagen {
-  flex-basis: clamp(170px, 28vw, 250px);
+  flex-basis: clamp(10.6rem, 28vw, 14rem);
   height: auto;
   flex-shrink: 0;
   aspect-ratio: 1;
   overflow: hidden;
-  border: 10px solid hsla(var(--clr-uno));
+  border: 10px solid hsla(var(--clr-uno) / 0.8);
   border-radius: 50%;
   box-shadow: var(--box-shadow);
   background-color: hsla(var(--clr-acento-dos));
