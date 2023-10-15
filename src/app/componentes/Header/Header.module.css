@@ -1,6 +1,6 @@
 .header {
   background-color: hsl(var(--clr-acento-dos));
-  color: hsl(var(--clr-uno));
+  color: hsl(var(--clr-blanco));
   border-bottom: 1px solid hsl(var(--clr-uno));
 }
 
@@ -79,7 +79,7 @@
 }
 
 .iconSVG {
-  color: hsl(var(--clr-uno));
+  color: hsl(var(--clr-blanco));
   stroke-width: 3px;
 }
 
