@@ -19,28 +19,46 @@ export default function Formulario() {
             <Link href="https://www.linkedin.com/in/hyuik">GitHub</Link>
           </div>
         </div>
-        <form className={styles.containerFormulario}>
-          <label htmlFor="name">Nombre:</label>
+        <form className={styles.form}>
+          <label
+            htmlFor="name"
+            className={styles.label}
+          >
+            Nombre:
+          </label>
           <input
             type="text"
             name="Nombre"
             id="name"
             placeholder="¿Cómo te gustaria que te llamara?"
+            className={styles.input}
           />
-          <label htmlFor="email">Email:</label>
+          <label
+            htmlFor="email"
+            className={styles.label}
+          >
+            Email:
+          </label>
           <input
             type="text"
             id="email"
             name="email"
             placeholder="¿Cuál es tu dirección de correo?"
+            className={styles.input}
           />
-          <label htmlFor="mensaje">Mensaje:</label>
+          <label
+            htmlFor="mensaje"
+            className={styles.label}
+          >
+            Mensaje:
+          </label>
           <textarea
             name="mensaje"
             id="mensaje"
             cols="30"
             rows="6"
             placeholder="Escribe aquí tu mensaje..."
+            className={styles.input}
           />
           <button>Muchas gracias</button>
         </form>
