@@ -32,7 +32,7 @@
 
 .input {
   margin-bottom: var(--gap-base);
-  background-color: hsl(313 35% 80%);
+  background-color: hsl(var(--clr-blanco));
   color: hsl(var(--clr-uno));
   padding: 0.4rem;
   border-radius: 0.3rem;
@@ -49,7 +49,7 @@
 }
 
 .btn {
-  background-color: hsl(var(--clr-blanco));
+  background-color: hsl(313 35% 80%);
   color: hsl(var(--clr-uno));
   padding: 0.4rem;
   border-radius: 0.3rem;
