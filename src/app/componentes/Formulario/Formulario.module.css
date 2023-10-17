@@ -47,3 +47,13 @@
   font-size: var(--fs-300);
   font-weight: var(--f-wei-900);
 }
+
+.btn {
+  background-color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-uno));
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  font-size: var(--fs-300);
+  font-weight: var(--f-wei-900);
+  text-align: center;
+}

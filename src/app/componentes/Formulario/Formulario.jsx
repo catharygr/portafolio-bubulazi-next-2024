@@ -60,7 +60,7 @@ export default function Formulario() {
             placeholder="Escribe aquí tu mensaje..."
             className={styles.input}
           />
-          <button>Muchas gracias</button>
+          <button className={styles.btn}>Muchas gracias</button>
         </form>
       </div>
     </section>
