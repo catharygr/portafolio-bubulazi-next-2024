@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./formulario.module.css";
+import styles from "./Formulario.module.css";
 
 export default function Formulario() {
   return (
@@ -15,11 +15,11 @@ export default function Formulario() {
             pregunta, no dudes en escribirme.
           </p>
           <div className={styles.misEnlaces}>
-            <Link href="https://github.com/catharygr">LinkedIn</Link>{" "}
+            <Link href="https://github.com/catharygr">LinkedIn</Link> | {""}
             <Link href="https://www.linkedin.com/in/hyuik">GitHub</Link>
           </div>
         </div>
-        <form>
+        <form className={styles.containerFormulario}>
           <label htmlFor="name">Nombre:</label>
           <input
             type="text"

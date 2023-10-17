@@ -13,4 +13,10 @@
   font-size: var(--fs-800);
   font-weight: var(--f-wei-600);
   font-stretch: var(--f-str-75);
+  text-align: center;
+}
+
+.misEnlaces {
+  text-align: center;
+  font-weight: var(--f-wei-600);
 }
