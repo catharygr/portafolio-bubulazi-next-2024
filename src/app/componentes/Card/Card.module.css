@@ -23,6 +23,8 @@
 
 .cardContent {
   padding: var(--padding);
+  background-color: hsl(276 73% 38%);
+  color: hsl(var(--clr-blanco));
 }
 
 .cardContent h3 {
@@ -51,7 +53,7 @@
 .cardSinImagen {
   display: flex;
   flex-direction: column;
-  background-color: hsl(var(--clr-acento-dos) / 0.4);
+  background-color: hsl(var(--clr-acento-dos) / 0.8);
   box-shadow: var(--box-shadow);
   padding: var(--padding);
   border-radius: var(--border-radius);

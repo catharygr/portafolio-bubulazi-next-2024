@@ -1,6 +1,6 @@
 .header {
   background-color: hsl(var(--clr-acento-dos));
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-uno));
   border-bottom: 1px solid hsl(var(--clr-uno));
 }
 
@@ -52,7 +52,7 @@
 .hoverFondo {
   position: absolute;
   inset: 0;
-  background: hsla(319, 31%, 70%, 0.4);
+  background: hsla(319, 31%, 70%, 0.9);
   border-radius: var(--border-radius);
   z-index: -1;
 }
@@ -79,7 +79,7 @@
 }
 
 .iconSVG {
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-uno));
   stroke-width: 3px;
 }
 
