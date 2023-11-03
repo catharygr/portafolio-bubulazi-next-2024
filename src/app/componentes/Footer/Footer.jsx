@@ -1,8 +1,8 @@
 import { HAMBURGUER_LINK } from "@/app/Utiles/Constante";
 import styles from "./Footer.module.css";
 import Link from "next/link";
-// import Image from "next/image";
-// import emoji from "@/app/assets/imagen/generales/emoji-2.png";
+import Image from "next/image";
+import emoji from "@/app/assets/imagen/generales/emoji-2.png";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -22,17 +22,16 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.centro}>
-          <div className="flow">
+          <div className={`${styles.centroInterno} flow`}>
+            <Image
+              className={styles.miEmoji}
+              src={emoji}
+              alt="Mi emoji"
+            />
             <p>
               Desarrollado y diseñado por{" "}
-              {/* <span>
-                <Image
-                  src={emoji}
-                  alt="emoji"
-                />
-              </span>{" "} */}
-              utilizando React.js 18 y Next.js Vanilla CSS, frame-motion,
-              next-mdx-remote
+              <span className={styles.oscuro}>Cathy</span> utilizando React.js
+              18 y Next.js Vanilla CSS, frame-motion, next-mdx-remote
             </p>
 
             <ul className="flow">
