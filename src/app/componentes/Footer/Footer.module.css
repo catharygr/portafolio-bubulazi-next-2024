@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-base);
+  color: hsl(var(--clr-uno));
+  font-weight: var(--f-wei-600);
+}
