@@ -40,7 +40,7 @@
 
 .input::placeholder {
   font-size: var(--fs-300);
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .label {
