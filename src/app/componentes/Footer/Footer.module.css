@@ -1,8 +1,19 @@
+.footer {
+  padding: var(--padding-block);
+}
+
 .container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: var(--gap-base);
+  text-align: center;
+  gap: 3rem;
   color: hsl(var(--clr-uno));
+}
+
+.container > * {
+  flex: 1 1 15rem;
+  padding-inline: 2rem;
+  font-size: var(--fs-300);
   font-weight: var(--f-wei-600);
 }
