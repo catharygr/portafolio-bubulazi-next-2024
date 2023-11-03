@@ -5,7 +5,7 @@ import FocusLock from "react-focus-lock";
 import { RemoveScroll } from "react-remove-scroll";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { HAMBURGUER_LINK } from "@/app/utilis/Constante";
+import { HAMBURGUER_LINK } from "@/app/Utiles/Constante";
 import { usePathname } from "next/navigation";
 
 export default function NavMenu({ toggleMenuAbierto }) {

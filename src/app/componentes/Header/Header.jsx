@@ -2,12 +2,12 @@
 import styles from "./Header.module.css";
 import { Sun, Moon, Rss, Menu } from "react-feather";
 import Link from "next/link";
-import useToggle from "../../utilis/useToggle";
-import VisuallyHidden from "../../utilis/VisuallyHidden";
+import useToggle from "../../Utiles/useToggle";
+import VisuallyHidden from "../../Utiles/VisuallyHidden";
 import NavMenu from "../NavMenu";
 import { AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
-import { ESCRITORIO_LINK } from "@/app/utilis/Constante";
+import { ESCRITORIO_LINK } from "@/app/Utiles/Constante";
 import { useState, useId, useEffect } from "react";
 import { motion } from "framer-motion";
 
