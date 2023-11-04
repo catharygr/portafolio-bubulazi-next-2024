@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={`wrapper ${styles.container}`}>
+      <div className={` ${styles.container}`}>
         {/* <Link
           href={"/"}
           className={styles.logo}
@@ -38,7 +38,6 @@ export default function Header() {
         </Link> */}
         <video
           className={styles.video}
-          width="80"
           autoPlay
           loop
           muted
