@@ -31,12 +31,17 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={`wrapper ${styles.container}`}>
-        <Link
+        {/* <Link
           href={"/"}
           className={styles.logo}
         >
-          {"{ this.Cathy }"}
-        </Link>
+        </Link> */}
+        <video width="80">
+          <source
+            srcset="/popo-video.mp4"
+            type="video/mp4"
+          />
+        </video>
         <div className={styles.navContainer}>
           <ul
             aria-hidden="true"
