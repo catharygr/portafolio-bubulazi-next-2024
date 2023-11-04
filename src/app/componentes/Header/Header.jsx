@@ -36,9 +36,15 @@ export default function Header() {
           className={styles.logo}
         >
         </Link> */}
-        <video width="80">
+        <video
+          className={styles.video}
+          width="80"
+          autoPlay
+          loop
+          muted
+        >
           <source
-            srcset="/popo-video.mp4"
+            src="/popo-video.mp4"
             type="video/mp4"
           />
         </video>
