@@ -3,6 +3,9 @@ import styles from "./Footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import emoji from "@/app/assets/imagen/generales/emoji-2.png";
+import { GitHub } from "react-feather";
+import { Linkedin } from "react-feather";
+import { Twitter } from "react-feather";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -39,18 +42,27 @@ export default function Footer() {
         </div>
         <div className={`${styles.derecha} flow`}>
           <h4 className={styles.h4}>Redes</h4>
-          <ul className="flow">
+          <ul className={`${styles.emojiFeather} flow`}>
             <li>
-              <Link href={"https://www.linkedin.com/in/hyuik"}>LinkedIn</Link>
+              <Link href={"https://www.linkedin.com/in/hyuik"}>
+                <Linkedin />
+              </Link>
             </li>
             <li>
-              <Link href={"https://github.com/catharygr"}>GitHub</Link>
+              <Link href={"https://github.com/catharygr"}>
+                {" "}
+                <GitHub />
+              </Link>
             </li>
             <li>
-              <Link href={"https://twitter.com/catharygr"}>X</Link>
+              <Link href={"https://twitter.com/catharygr"}>
+                <Twitter />
+              </Link>
             </li>
           </ul>
-          <p>Desarrollado en Canarias ©2020 - {year}</p>
+          <p>
+            Desarrollado en Canarias <br /> ©2020 - {year}
+          </p>
         </div>
       </div>
     </footer>

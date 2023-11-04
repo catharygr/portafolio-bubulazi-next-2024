@@ -39,3 +39,10 @@
   color: hsl(var(--clr-uno));
   border-bottom: 2px solid hsl(var(--clr-uno));
 }
+
+.emojiFeather {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-base);
+}
