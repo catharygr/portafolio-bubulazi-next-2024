@@ -11,8 +11,8 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={`${styles.container} wrapper`}>
         <div className={styles.izquierda}>
-          <h4>Menú</h4>
-          <div>
+          <div className="flow">
+            <h4 className={styles.h4}>Menú</h4>
             <ul className="flow">
               {HAMBURGUER_LINK.map((link) => (
                 <li key={link.slug}>
@@ -23,8 +23,8 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.centro}>
-          <h4>Desarrollo</h4>
           <div className={`${styles.centroInterno} flow`}>
+            <h4 className={styles.h4}>Desarrollo</h4>
             <Image
               className={styles.miEmoji}
               src={emoji}
@@ -38,16 +38,16 @@ export default function Footer() {
           </div>
         </div>
         <div className={`${styles.derecha} flow`}>
-          <h4>Redes</h4>
+          <h4 className={styles.h4}>Redes</h4>
           <ul className="flow">
             <li>
-              <Link href={"/"}>LinkedIn</Link>
+              <Link href={"https://www.linkedin.com/in/hyuik"}>LinkedIn</Link>
             </li>
             <li>
-              <Link href={"/"}>GitHub</Link>
+              <Link href={"https://github.com/catharygr"}>GitHub</Link>
             </li>
             <li>
-              <Link href={"/"}>X</Link>
+              <Link href={"https://twitter.com/catharygr"}>X</Link>
             </li>
           </ul>
           <p>Desarrollado en Canarias ©2020 - {year}</p>

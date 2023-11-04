@@ -25,10 +25,17 @@
 .centroInterno {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .miEmoji {
   display: block;
   width: 5rem;
+  align-self: center;
+}
+
+.h4 {
+  font-size: var(--fs-400);
+  font-weight: var(--f-wei-900);
+  color: hsl(var(--clr-uno));
+  border-bottom: 2px solid hsl(var(--clr-uno));
 }
