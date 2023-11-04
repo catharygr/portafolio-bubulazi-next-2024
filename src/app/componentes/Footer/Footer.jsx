@@ -11,6 +11,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={`${styles.container} wrapper`}>
         <div className={styles.izquierda}>
+          <h4>Menú</h4>
           <div>
             <ul className="flow">
               {HAMBURGUER_LINK.map((link) => (
@@ -22,6 +23,7 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.centro}>
+          <h4>Desarrollo</h4>
           <div className={`${styles.centroInterno} flow`}>
             <Image
               className={styles.miEmoji}
@@ -33,21 +35,21 @@ export default function Footer() {
               <span className={styles.oscuro}>Cathy</span> utilizando React.js
               18 y Next.js Vanilla CSS, frame-motion, next-mdx-remote
             </p>
-
-            <ul className="flow">
-              <li>
-                <Link href={"/"}>LinkedIn</Link>
-              </li>
-              <li>
-                <Link href={"/"}>GitHub</Link>
-              </li>
-              <li>
-                <Link href={"/"}>X</Link>
-              </li>
-            </ul>
           </div>
         </div>
-        <div className={styles.derecha}>
+        <div className={`${styles.derecha} flow`}>
+          <h4>Redes</h4>
+          <ul className="flow">
+            <li>
+              <Link href={"/"}>LinkedIn</Link>
+            </li>
+            <li>
+              <Link href={"/"}>GitHub</Link>
+            </li>
+            <li>
+              <Link href={"/"}>X</Link>
+            </li>
+          </ul>
           <p>Desarrollado en Canarias ©2020 - {year}</p>
         </div>
       </div>
