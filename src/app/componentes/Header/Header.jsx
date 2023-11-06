@@ -33,6 +33,7 @@ export default function Header() {
       <div className={` ${styles.container}`}>
         <video
           className={styles.video}
+          playsInline
           autoPlay
           loop
           muted
