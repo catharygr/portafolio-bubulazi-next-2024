@@ -47,15 +47,15 @@
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 14rem;
+  background-color: hsl(276 73% 38% / 0.4);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
 }
 
 .cardSinImagen {
   display: flex;
   flex-direction: column;
-  background-color: hsl(276 73% 38% / 0.4);
-  box-shadow: var(--box-shadow);
   padding: var(--padding);
-  border-radius: var(--border-radius);
 }
 
 .cardSinImagen h3 {
