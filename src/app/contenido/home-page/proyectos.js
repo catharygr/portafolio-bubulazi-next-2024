@@ -5,7 +5,7 @@ export const PROYECTOS = [
   {
     title: "Portafolio blog personal",
     description:
-      "Desarrollado y diseñado por mi, utilizando React.js 18, Next.js, Vanilla CSS, frame-motion, next-mdx-remote.",
+      "Desarrollado y diseñado por mi, utilizando React.js 18, Next.js, Vanilla CSS, frame-motion, next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
     url: "/",
     linkTexto: "Ver proyecto",
     imageURL: bubulaziPortafolio,
