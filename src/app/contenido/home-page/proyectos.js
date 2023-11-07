@@ -2,9 +2,9 @@ import formularioMultiPaginas from "@/app/contenido/home-page/imagenes/multipagi
 import bubulaziPortafolio from "@/app/contenido/home-page/imagenes/bubulazi-tarjeta.jpg";
 import recordatorios from "@/app/contenido/home-page/imagenes/recordatorio-tarjeta.jpeg";
 import chatGTP from "@/app/contenido/home-page/imagenes/chat-tarjeta.png";
-import sarajevoTours from "@/app/contenido/home-page/imagenes/sarajevo-tour-tarjeta.png";
+import sarajevoTours from "@/app/contenido/home-page/imagenes/sarajevo-tours-tarjeta.png";
 import blancondet from "@/app/contenido/home-page/imagenes/blancodent-tarjeta.jpg";
-import pacMan from "@/app/contenido/home-page/imagenes/pacman-tarjeta.png";
+import pacMan from "@/app/contenido/home-page/imagenes/pac-man-tarjeta.png";
 
 export const PROYECTOS = [
   {
