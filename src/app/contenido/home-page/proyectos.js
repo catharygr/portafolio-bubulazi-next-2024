@@ -1,13 +1,14 @@
-import formularioMultiPaginas from "@/app/contenido/home-page/imagen/pagina-primera-movil.png";
+import formularioMultiPaginas from "@/app/contenido/home-page/imagen/multipagina-tarjeta.png";
+import bubulaziPortafolio from "@/app/contenido/home-page/imagen/bubulazi-tarjeta.jpg";
 
 export const PROYECTOS = [
   {
-    title: "Formulario Multi-páginas",
+    title: "Portafolio blog personal",
     description:
-      "Página web con diseño resposive desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
+      "Desarrollado y diseñado por mi, utilizando React.js 18, Next.js, Vanilla CSS, frame-motion, next-mdx-remote.",
     url: "/",
     linkTexto: "Ver proyecto",
-    imageURL: formularioMultiPaginas,
+    imageURL: bubulaziPortafolio,
   },
   {
     title: "Formulario Multi-páginas",
