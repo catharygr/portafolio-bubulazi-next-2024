@@ -1,6 +1,10 @@
 import formularioMultiPaginas from "@/app/contenido/home-page/imagenes/multipagina-tarjeta.png";
 import bubulaziPortafolio from "@/app/contenido/home-page/imagenes/bubulazi-tarjeta.jpg";
 import recordatorios from "@/app/contenido/home-page/imagenes/recordatorio-tarjeta.jpeg";
+import chatGTP from "@/app/contenido/home-page/imagenes/chat-tarjeta.png";
+import sarajevoTours from "@/app/contenido/home-page/imagenes/sarajevo-tour-tarjeta.png";
+import blancondet from "@/app/contenido/home-page/imagenes/blancodent-tarjeta.jpg";
+import pacMan from "@/app/contenido/home-page/imagenes/pacman-tarjeta.png";
 
 export const PROYECTOS = [
   {
@@ -33,7 +37,7 @@ export const PROYECTOS = [
       "Conexión con la API de OpenAI para crear un chatbot. Firebase RealTime Database para Back-end y Auth. Netlify env variable para ocultar API key. Netlify función para conectar con OpeAI y obtener las respuestas.",
     url: "/",
     linkTexto: "Ver proyecto",
-    imageURL: formularioMultiPaginas,
+    imageURL: chatGTP,
   },
   {
     title: "Sarajevo Tours",
@@ -41,7 +45,7 @@ export const PROYECTOS = [
       "Mi primer proyecto desarrollado con JavaScript, práctica React-18, React-Router 6, Firebase Auth, irestore como Back-end y los Hook más usados.",
     url: "/",
     linkTexto: "Ver proyecto",
-    imageURL: formularioMultiPaginas,
+    imageURL: sarajevoTours,
   },
   {
     title: "Clínica dental Blancodent",
@@ -49,7 +53,7 @@ export const PROYECTOS = [
       "La página web de una clínica dental (cliente comercial) desarrollada con CSS, HTML y un poco de JS. La web original estaba en Squarespace y la he transferido a Netlify respectando el diseño original.",
     url: "/",
     linkTexto: "Ver proyecto",
-    imageURL: formularioMultiPaginas,
+    imageURL: blancondet,
   },
   {
     title: "Pac-Man",
@@ -57,6 +61,6 @@ export const PROYECTOS = [
       "Mi primer proyecto desarrollado con JavaScript, CSS y HTML. Inspirada en el juego de Pac-Man.Para jugar tiene que ser desde un ordenador porque está hecho para teclado =>",
     url: "/",
     linkTexto: "Ver proyecto",
-    imageURL: formularioMultiPaginas,
+    imageURL: pacMan,
   },
 ];
