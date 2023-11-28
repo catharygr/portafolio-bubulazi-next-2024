@@ -29,12 +29,6 @@ export default function HomeProyecto({ content }) {
             />
           ))}
         </div>
-        <Link
-          className="link-btn"
-          href="/proyectos"
-        >
-          Ver todos los proyectos
-        </Link>
       </div>
     </section>
   );
