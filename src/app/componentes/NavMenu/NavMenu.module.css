@@ -58,3 +58,22 @@
 .menuEnlace li {
   position: relative;
 }
+
+.cerrarBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  padding: 0.5rem;
+  border-radius: 0.2em;
+  background-color: hsl(var(--clr-uno));
+  color: hsl(var(--clr-blanco));
+  gap: 0.5rem;
+}
+
+.iconCerrar {
+  color: hsl(var(--clr-blanco));
+  width: 16px;
+  height: 16px;
+  stroke-width: 3px;
+}
