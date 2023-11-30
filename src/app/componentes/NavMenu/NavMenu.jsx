@@ -65,38 +65,7 @@ export default function NavMenu({ toggleMenuAbierto }) {
                     style={{ zIndex: hoverHamburguerLink === "slug" ? 1 : 2 }}
                   >
                     {hoverHamburguerLink === slug && (
-                      <motion.div
-                        layoutId={id}
-                        className={styles.hoverFondo}
-                        initial={false}
-                        animate={{ borderRadius: "var(--border-radius)" }}
-                      />
-                    )}
-                    <Link
-                      onMouseEnter={() => setHoverHamburguerLink(slug)}
-                      className={
-                        pathname === href ? styles.hamburguerLinkActivos : ""
-                      }
-                      href={href}
-                    >
-                      {label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>{" "}
-            </div>
-            <button
-              className={styles.cerrarBtn}
-              onClick={toggleMenuAbierto}
-            >
-              <Cerrar
-                aria-hidden="true"
-                focusable="false"
-                className={styles.iconCerrar}
-              />
-              Cerrar menú
-            </button>
-          </motion.div>
+                     
         </div>
       </RemoveScroll>
     </FocusLock>
