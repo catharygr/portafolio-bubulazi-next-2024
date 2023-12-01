@@ -58,3 +58,27 @@
   font-weight: var(--f-wei-900);
   text-align: center;
 }
+
+@media (min-width: 50rem) {
+  .formulario {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .formulario > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+  }
+  .formulario h2 {
+    text-align: left;
+  }
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contenido > *:is(:last-child) {
+    margin-top: auto;
+  }
+}
