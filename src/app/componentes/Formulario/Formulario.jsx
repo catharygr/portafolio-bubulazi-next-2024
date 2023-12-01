@@ -14,6 +14,10 @@ export default function Formulario() {
             gustaría trabajar o simplemente deseas conectarte/hacer una
             pregunta, no dudes en escribirme.
           </p>
+          <div className={styles.misEnlaces}>
+            <Link href="https://github.com/catharygr">LinkedIn</Link> | {""}
+            <Link href="https://www.linkedin.com/in/hyuik">GitHub</Link>
+          </div>
         </div>
         <form className={styles.form}>
           <label
