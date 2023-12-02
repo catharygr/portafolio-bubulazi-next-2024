@@ -1,12 +1,3 @@
-.sectionSuperior {
-  background-color: hsl(var(--clr-uno));
-  color: hsl(var(--clr-blanco));
-}
-
-.sectionInferior {
-  background-color: hsl(var(--clr-acento-uno));
-}
-
 .wrapperSuperior,
 .wrapperInferior {
   padding-block: var(--padding-block-grande);
@@ -79,4 +70,45 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (min-width: 40rem) {
+  .wrapperSuperior,
+  .wrapperInferior {
+    flex-direction: row;
+  }
+
+  .wrapperInferiorTresListas {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .wrapperInferiorTresListas > div {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  .h2 {
+    flex-basis: clamp(20px, 30vw, 400px);
+    flex-shrink: 0;
+    text-align: left;
+  }
+  .tresListasH2 {
+    margin-bottom: 1rem;
+  }
+
+  .unaListaUl {
+    --gap-base: 0.4em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+  }
+
+  .unaListaUl li:not(:last-child)::after {
+    content: "|";
+    margin-left: 0.4em;
+  }
+  .contenidoSuperior {
+    align-items: flex-start;
+  }
 }
