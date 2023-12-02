@@ -62,14 +62,7 @@ export default function SubHero({ type, content }) {
             <div>
               <h2 className={styles.tresListasH2}>En vivo:</h2>
               <ul className={styles.tresListasUl}>
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://recordatorios-react-cathy.netlify.app"
-                  >
-                    Visitar
-                  </a>
-                </li>
+                <li></li>
               </ul>
             </div>
           </div>
