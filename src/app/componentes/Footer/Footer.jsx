@@ -43,22 +43,7 @@ export default function Footer() {
         <div className={`${styles.derecha} flow`}>
           <h4 className={styles.h4}>Redes</h4>
           <ul className={`${styles.emojiFeather} flow`}>
-            <li>
-              <Link href={"https://www.linkedin.com/in/hyuik"}>
-                <Linkedin />
-              </Link>
-            </li>
-            <li>
-              <Link href={"https://github.com/catharygr"}>
-                {" "}
-                <GitHub />
-              </Link>
-            </li>
-            <li>
-              <Link href={"https://twitter.com/catharygr"}>
-                <Twitter />
-              </Link>
-            </li>
+            <li></li>
           </ul>
           <p>
             Desarrollado en Canarias <br /> ©2020 - {year}
