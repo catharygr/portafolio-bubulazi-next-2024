@@ -27,6 +27,12 @@
   flex-direction: column;
 }
 
+.miEmoji {
+  display: block;
+  width: 5rem;
+  align-self: center;
+}
+
 .h4 {
   font-size: var(--fs-400);
   font-weight: var(--f-wei-900);
