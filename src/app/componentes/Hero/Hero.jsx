@@ -32,7 +32,14 @@ export default function Hero({ type, image, alt, title, about }) {
   }
   if (type === "sin-imagen") {
     return (
-    
+      <section>
+        <div className={`wrapper  ${styles.containerTipoSinImagen}`}>
+          <h1 className={styles.h1}>
+            <span className={styles.about}>{about}</span>
+            {title}
+          </h1>
+        </div>
+      </section>
     );
   }
 }
