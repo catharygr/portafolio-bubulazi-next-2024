@@ -20,6 +20,12 @@ export default function Formulario() {
           </div>
         </div>
         <form className={styles.form}>
+          <label
+            htmlFor="name"
+            className={styles.label}
+          >
+            Nombre:
+          </label>
           <input
             type="text"
             name="Nombre"
