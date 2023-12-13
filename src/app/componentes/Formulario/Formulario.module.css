@@ -44,6 +44,11 @@
   opacity: 0.5;
 }
 
+.label {
+  font-size: var(--fs-300);
+  font-weight: var(--f-wei-900);
+}
+
 .btn {
   background-color: hsl(313 35% 80%);
   color: hsl(var(--clr-uno));
