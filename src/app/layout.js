@@ -1,6 +1,6 @@
 import "./globals.css";
 import localFont from "next/font/local";
-import { BASE_METADATA } from "@/app/utiles/Constante";
+import { BASE_METADATA } from "@/app/utiles/constante";
 import Header from "@/app/componentes/Header";
 import Footer from "./componentes/Footer";
 

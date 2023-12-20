@@ -7,7 +7,7 @@ import VisuallyHidden from "../../utiles/VisuallyHidden";
 import NavMenu from "../NavMenu";
 import { AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
-import { ESCRITORIO_LINK } from "@/app/utiles/Constante";
+import { ESCRITORIO_LINK } from "@/app/utiles/constante";
 import { useState, useId, useEffect } from "react";
 import { motion } from "framer-motion";
 
