@@ -8,7 +8,7 @@ import pacMan from "@/app/contenido/home-page/imagenes/pac-man-tarjeta.png";
 
 export const PROYECTOS = [
   {
-    title: "Portafolio blog personal",
+    title: "Portafolio Blog Personal",
     description:
       "Desarrollado y diseñado por mi, utilizando React.js 18, Next.js, Vanilla CSS, frame-motion, next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
     url: "/",
@@ -16,10 +16,10 @@ export const PROYECTOS = [
     imageURL: bubulaziPortafolio,
   },
   {
-    title: "Formulario Multi-páginas",
+    title: "Formulario Multi-Páginas",
     description:
       "Página web con diseño resposive desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
-    url: "/",
+    url: "/proyectos/formulario-multi-paginas",
     linkTexto: "Ver proyecto",
     imageURL: formularioMultiPaginas,
   },
@@ -48,7 +48,7 @@ export const PROYECTOS = [
     imageURL: sarajevoTours,
   },
   {
-    title: "Clínica dental Blancodent",
+    title: "Clínica Dental Blancodent",
     description:
       "La página web de una clínica dental (cliente comercial) desarrollada con CSS, HTML y un poco de JS. La web original estaba en Squarespace y la he transferido a Netlify respectando el diseño original.",
     url: "/",
