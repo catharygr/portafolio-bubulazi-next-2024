@@ -3,7 +3,7 @@ import styles from "./HomeProyecto.module.css";
 import Link from "next/link";
 
 export default function HomeProyecto({ content }) {
-  const ultimosProyectos = content.slice(0, 8);
+  const ultimosProyectos = content.slice(0, 3);
   const otrosProyectos = content.slice(3);
 
   return (
