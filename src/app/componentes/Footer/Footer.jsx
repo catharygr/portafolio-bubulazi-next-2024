@@ -1,4 +1,4 @@
-import { HAMBURGUER_LINK } from "@/app/Utiles/Constante";
+import { HAMBURGUER_LINK } from "@/app/utiles/Constante";
 import styles from "./Footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
