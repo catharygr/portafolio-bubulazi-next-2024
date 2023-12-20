@@ -8,11 +8,7 @@ export default function Card({ content, type }) {
     return (
       <div className={styles.container}>
         <div className={styles.card}>
-          <Image
-            src={imageURL}
-            alt=""
-            className={styles.cardImg}
-          />
+          <Image src={imageURL} alt="" className={styles.cardImg} />
           <div className={`${styles.cardContent} flow`}>
             <h3>{title}</h3>
             <p>{description}</p>

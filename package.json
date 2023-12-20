@@ -7,9 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
- 
   },
-  
   "dependencies": {
     "eslint": "latest",
     "eslint-config-next": "latest",

@@ -12,27 +12,16 @@ export default function HomeProyecto({ content }) {
         <h2 className={styles.h2}>Últimos proyectos</h2>
         <div className={styles.cardsContainer}>
           {ultimosProyectos.map((proyecto) => (
-            <Card
-              key={proyecto.url}
-              content={proyecto}
-              type="conImg"
-            />
+            <Card key={proyecto.url} content={proyecto} type="conImg" />
           ))}
         </div>
         <h2 className={styles.h2}>Otros proyectos</h2>
         <div className={styles.cardSinImg}>
           {otrosProyectos.map((proyecto) => (
-            <Card
-              key={proyecto.url}
-              content={proyecto}
-              type="sinImg"
-            />
+            <Card key={proyecto.url} content={proyecto} type="sinImg" />
           ))}
         </div>
-        <Link
-          className="link-btn"
-          href="/proyectos"
-        >
+        <Link className="link-btn" href="/proyectos">
           Ver todos los proyectos
         </Link>
       </div>

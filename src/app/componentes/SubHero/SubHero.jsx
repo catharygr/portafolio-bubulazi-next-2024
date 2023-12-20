@@ -13,10 +13,7 @@ export default function SubHero({ type, content }) {
           <div className={styles.contenidoSuperior}>
             <p>{contentSuperior}</p>
             {type === "single-link" && (
-              <Link
-                href={"/"}
-                className={styles.singleLink}
-              >
+              <Link href={"/"} className={styles.singleLink}>
                 Link de prueba
               </Link>
             )}

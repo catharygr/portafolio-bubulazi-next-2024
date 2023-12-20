@@ -6,15 +6,8 @@ export default function Page() {
   const { hero, subHero } = contenidoDePagina;
   return (
     <>
-      <Hero
-        type="sin-imagen"
-        about={hero.about}
-        title={hero.title}
-      />
-      <SubHero
-        type="doble-tres-listas"
-        content={subHero}
-      />
+      <Hero type="sin-imagen" about={hero.about} title={hero.title} />
+      <SubHero type="doble-tres-listas" content={subHero} />
     </>
   );
 }
