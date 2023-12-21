@@ -13,10 +13,7 @@ export const metadata = BASE_METADATA;
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="es"
-      className={monaSanzFont.className}
-    >
+    <html lang="es" className={monaSanzFont.className}>
       <body>
         <Header />
         {children}
