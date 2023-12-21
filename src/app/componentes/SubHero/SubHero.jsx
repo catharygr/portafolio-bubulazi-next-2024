@@ -38,34 +38,32 @@ export default function SubHero({ type, content }) {
         <section className={styles.sectionInferiorTresListas}>
           <div className={`wrapper ${styles.wrapperInferiorTresListas}`}>
             <div>
-              <h2 className={styles.tresListasH2}>Tipo:</h2>
+              <h2 className={styles.tresListasH2}>{titleInferior[0]}</h2>
               <ul className={styles.tresListasUl}>
-                <li>Web App</li>
-                <li>Diseño resposive</li>
+                {contentInferior.colUno.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
               </ul>
             </div>
             <div>
               <h2 className={styles.tresListasH2}>Herramientas:</h2>
               <ul className={styles.tresListasUl}>
-                <li>CSS & HTML</li>
-                <li>Javascript ES6</li>
-                <li>React</li>
-                <li>React Router</li>
-                <li>Firebase</li>
-                <li>Git & GitHub</li>
-                <li>Netlifly</li>
+                {contentInferior.colDos.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
               </ul>
             </div>
             <div>
               <h2 className={styles.tresListasH2}>En vivo:</h2>
               <ul className={styles.tresListasUl}>
                 <li>
-                  <a
-                    target="_blank"
-                    href="https://recordatorios-react-cathy.netlify.app"
-                  >
-                    Visitar
-                  </a>
+                  {contentInferior.colTres.map((item, index) => (
+                    <li key={index}>
+                      <a target="_blank" href={item}>
+                        Visitar
+                      </a>
+                    </li>
+                  ))}
                 </li>
               </ul>
             </div>
