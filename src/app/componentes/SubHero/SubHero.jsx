@@ -56,15 +56,13 @@ export default function SubHero({ type, content }) {
             <div>
               <h2 className={styles.tresListasH2}>En vivo:</h2>
               <ul className={styles.tresListasUl}>
-                <li>
-                  {contentInferior.colTres.map((item, index) => (
-                    <li key={index}>
-                      <a target="_blank" href={item}>
-                        Visitar
-                      </a>
-                    </li>
-                  ))}
-                </li>
+                {contentInferior.colTres.map((item, index) => (
+                  <li key={index}>
+                    <a target="_blank" href={item}>
+                      Visitar
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
