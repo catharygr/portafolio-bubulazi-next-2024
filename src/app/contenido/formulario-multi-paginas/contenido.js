@@ -41,5 +41,33 @@ export const contenidoDePagina = {
         "Mi contribución incluyó la implementación de componentes de React, la configuración de Firebase, la realización de pruebas y la solución de desafíos técnicos bajo la guía del desarrollador principal.",
       ],
     },
+    bloqueTres: {
+      imgUno: "",
+      imgDos: "",
+    },
+    bloqueCuatro: {
+      title: "Web stack y su explicación",
+      content: [
+        "Vite: Entorno de desarrollo rápido para aplicaciones web.",
+
+        "React: Biblioteca de JavaScript para construir interfaces de usuario.",
+
+        "Firebase Authentication: Ofrece autenticación segura y gestión de usuarios.",
+
+        "Firebase Realtime Database: Almacena datos en tiempo real para el formulario.",
+
+        "Firebase Storage: Permite la carga y descarga de archivos relacionados con ofertas.",
+
+        "React-feather: Una librería que proporciona una colección de iconos SVG. Esta librería se utiliza para mejorar la estética de la aplicación y facilitar la inclusión de iconos en diferentes partes de la interfaz de usuario.",
+
+        "Git y GitHub: Uso continuo de git con varias ramas main/desarrollo y con pull request via GitHub.",
+
+        "Netlify: Conexión y deploy vía GitHub. ",
+      ],
+    },
+    bloqueCinco: {
+      imgUno: "",
+      imgDos: "",
+    },
   },
 };
