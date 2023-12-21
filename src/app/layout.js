@@ -22,3 +22,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+// "eslint-plugin-prettier": "^5.1.0",
+// "prettier": "^3.0.3"
