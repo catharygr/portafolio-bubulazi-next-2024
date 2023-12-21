@@ -1,4 +1,4 @@
-import { HAMBURGUER_LINK } from "@/app/utiles/constante";
+import { HAMBURGUER_LINK } from "@/app/utilidades/constante";
 import styles from "./Footer.module.css";
 import Link from "next/link";
 import Image from "next/image";
@@ -28,7 +28,11 @@ export default function Footer() {
         <div className={styles.centro}>
           <div className={`${styles.centroInterno} flow`}>
             <h4 className={styles.h4}>Desarrollo</h4>
-            <Image className={styles.miEmoji} src={emoji} alt="Mi emoji" />
+            <Image
+              className={styles.miEmoji}
+              src={emoji}
+              alt="Mi emoji"
+            />
             <p>
               Desarrollado y diseñado por{" "}
               <span className={styles.oscuro}>Cathy</span> utilizando React.js

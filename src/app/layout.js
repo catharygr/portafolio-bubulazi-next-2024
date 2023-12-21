@@ -1,6 +1,6 @@
 import "./globals.css";
 import localFont from "next/font/local";
-import { BASE_METADATA } from "@/app/utiles/constante";
+import { BASE_METADATA } from "@/app/utilidades/constante";
 import Header from "@/app/componentes/Header";
 import Footer from "./componentes/Footer";
 
@@ -13,7 +13,10 @@ export const metadata = BASE_METADATA;
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" className={monaSanzFont.className}>
+    <html
+      lang="es"
+      className={monaSanzFont.className}
+    >
       <body>
         <Header />
         {children}

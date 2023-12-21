@@ -2,12 +2,12 @@
 import styles from "./Header.module.css";
 import { Sun, Moon, Rss, Menu } from "react-feather";
 import Link from "next/link";
-import useToggle from "../../utiles/useToggle";
-import VisuallyHidden from "../../utiles/VisuallyHidden";
+import useToggle from "../../utilidades/useToggle";
+import VisuallyHidden from "../../utilidades/VisuallyHidden";
 import NavMenu from "../NavMenu";
 import { AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
-import { ESCRITORIO_LINK } from "@/app/utiles/constante";
+import { ESCRITORIO_LINK } from "@/app/utilidades/constante";
 import { useState, useId, useEffect } from "react";
 import { motion } from "framer-motion";
 
@@ -31,8 +31,17 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={` ${styles.container}`}>
-        <video className={styles.video} playsInline autoPlay loop muted>
-          <source src="/popo-video.mp4" type="video/mp4" />
+        <video
+          className={styles.video}
+          playsInline
+          autoPlay
+          loop
+          muted
+        >
+          <source
+            src="/popo-video.mp4"
+            type="video/mp4"
+          />
         </video>
         <div className={styles.navContainer}>
           <ul
@@ -41,7 +50,10 @@ export default function Header() {
             onMouseLeave={() => setHoverLink(null)}
           >
             {ESCRITORIO_LINK.map(({ slug, label, href }) => (
-              <li key={slug} style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}>
+              <li
+                key={slug}
+                style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}
+              >
                 {hoverLink === slug && (
                   <motion.div
                     layoutId={id}
@@ -74,7 +86,10 @@ export default function Header() {
               <Rss className={styles.iconSVG} />
             </Link>
           </div>
-          <nav role="navigation" aria-label="Menu principal">
+          <nav
+            role="navigation"
+            aria-label="Menu principal"
+          >
             <button
               aria-expanded={estaMenuAbierto}
               className={styles.botonMenu}

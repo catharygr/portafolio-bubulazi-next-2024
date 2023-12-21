@@ -5,7 +5,7 @@ import FocusLock from "react-focus-lock";
 import { RemoveScroll } from "react-remove-scroll";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { HAMBURGUER_LINK } from "@/app/utiles/constante";
+import { HAMBURGUER_LINK } from "@/app/utilidades/constante";
 import { usePathname } from "next/navigation";
 
 export default function NavMenu({ toggleMenuAbierto }) {
@@ -85,7 +85,10 @@ export default function NavMenu({ toggleMenuAbierto }) {
                 ))}
               </ul>{" "}
             </div>
-            <button className={styles.cerrarBtn} onClick={toggleMenuAbierto}>
+            <button
+              className={styles.cerrarBtn}
+              onClick={toggleMenuAbierto}
+            >
               <Cerrar
                 aria-hidden="true"
                 focusable="false"
