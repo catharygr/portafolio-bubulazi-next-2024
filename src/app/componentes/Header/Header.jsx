@@ -20,12 +20,13 @@ export default function Header() {
 
   useEffect(() => {
     const root = document.querySelector(":root");
-    // if (modoClaro) {
-    //   root.style.setProperty("--clr-acento-dos", "174 89% 56%");
-    // } else {
-    //   root.style.setProperty("--clr-acento-dos", "313 35% 80%");
-    //   root.style.setProperty("--clr-uno", "0 0%, 100%");
-    // }
+    if (modoClaro) {
+      root.style.setProperty("--clr-acento-dos", "276 73% 38%");
+      root.style.setProperty("", "0 0%, 100%");
+    } else {
+      root.style.setProperty("--clr-acento-dos", "313 35% 80%");
+      root.style.setProperty("--clr-uno", "0 0%, 100%");
+    }
   }, [modoClaro]);
 
   return (
