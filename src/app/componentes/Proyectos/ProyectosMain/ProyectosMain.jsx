@@ -19,13 +19,13 @@ export default function ProyectosMain({ content }) {
             <p key={index}>{item}</p>
           ))}
         </div>
-        <div>
+        <div className={styles.bloqueTres}>
           <picture>
             <source
-              media="(max-width: 49.999rem)"
-              srcset={bloqueTres.imgUno.src}
+              media="(max-width: 54.999rem)"
+              srcSet={bloqueTres.imgUno.src}
             />
-            <source media="(min-width: 50rem)" srcset={bloqueTres.imgDos.src} />
+            <source media="(min-width: 55rem)" srcSet={bloqueTres.imgDos.src} />
             <Image
               src={bloqueTres.imgUno}
               alt="Imágenes del formulario de múltiples pasos"
@@ -38,7 +38,7 @@ export default function ProyectosMain({ content }) {
             <p key={index}>{item}</p>
           ))}
         </div>
-        <div>
+        <div className={styles.bloqueCinco}>
           <Image
             src={bloqueCinco.imgTres}
             alt="Imágenes del formulario de múltiples pasos"

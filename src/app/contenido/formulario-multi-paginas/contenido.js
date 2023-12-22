@@ -47,7 +47,6 @@ export const contenidoDePagina = {
     },
     bloqueTres: {
       imgUno: paginaCorta,
-
       imgDos: paginaLarga,
     },
     bloqueCuatro: {
