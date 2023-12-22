@@ -57,7 +57,7 @@ export default function Footer() {
             </li>
           </ul>
           <p>
-            Desarrollado en Canarias <br /> ©2020 - {year}
+            Desarrollado en España <br /> ©2020 - {year}
           </p>
         </div>
       </div>
