@@ -13,8 +13,8 @@ export default function ProyectosMain({ content }) {
           <h3 className={styles.h3}>{bloqueUno.title}</h3>
           <p>{bloqueUno.content}</p>
         </div>
-        <div className={styles.bloqueDos}>
-          <h3>{bloqueDos.title}</h3>
+        <div className={`flow ${styles.bloqueDos}`}>
+          <h3 className={styles.h3}>{bloqueDos.title}</h3>
           <p>{bloqueDos.content}</p>
         </div>
         <div>
