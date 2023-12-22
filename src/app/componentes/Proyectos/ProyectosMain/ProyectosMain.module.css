@@ -14,3 +14,10 @@
   font-stretch: var(--f-str-75);
   color: hsla(var(--clr-uno));
 }
+
+.p {
+  font-size: var(--fs-600);
+  font-weight: var(--f-wei-400);
+  font-stretch: var(--f-str-75);
+  color: hsla(var(--clr-uno));
+}

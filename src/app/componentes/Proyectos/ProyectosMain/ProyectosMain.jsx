@@ -27,6 +27,10 @@ export default function ProyectosMain({ content }) {
             />
           </picture>
         </div>
+        <div className={`flow ${styles.bloqueCuatro}`}>
+          <h3 className={styles.h3}>{bloqueDos.title}</h3>
+          <p className={styles.p}>{bloqueCuatro.content}</p>
+        </div>
       </div>
     </main>
   );
