@@ -1,7 +1,13 @@
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  grid-template-columns: 1rf;
   gap: 2rem;
+}
+
+@media (min-width: 50rem) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .proyectosMainWrapper {
@@ -16,8 +22,4 @@
 }
 
 .p {
-  font-size: var(--fs-600);
-  font-weight: var(--f-wei-400);
-  font-stretch: var(--f-str-75);
-  color: hsla(var(--clr-uno));
 }

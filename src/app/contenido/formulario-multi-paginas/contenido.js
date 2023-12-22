@@ -1,3 +1,7 @@
+import paginaCorta from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-corta.png";
+import paginaLarga from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-larga.png";
+import paginaPrimeraMovil from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-primera-movil.png";
+
 export const contenidoDePagina = {
   hero: {
     about: "Proyecto:",
@@ -42,8 +46,9 @@ export const contenidoDePagina = {
       ],
     },
     bloqueTres: {
-      imgUno: "",
-      imgDos: "",
+      imgUno: paginaLarga,
+
+      imgDos: paginaCorta,
     },
     bloqueCuatro: {
       title: "Web stack y su explicación",
@@ -66,8 +71,7 @@ export const contenidoDePagina = {
       ],
     },
     bloqueCinco: {
-      imgUno: "",
-      imgDos: "",
+      imgTres: paginaPrimeraMovil,
     },
   },
 };

@@ -1,7 +1,5 @@
 import styles from "./ProyectosMain.module.css";
 import Image from "next/image";
-import paginaCorta from "../../../contenido/formulario-multi-paginas/imagenes/pagina-corta.png";
-import paginaLarga from "../../../contenido/formulario-multi-paginas/imagenes/pagina-larga.png";
 
 export default function ProyectosMain({ content }) {
   const { bloqueUno, bloqueDos, bloqueTres, bloqueCuatro, bloqueCinco } =
@@ -11,25 +9,40 @@ export default function ProyectosMain({ content }) {
       <div className={styles.gridContainer}>
         <div className={`flow ${styles.bloqueUno}`}>
           <h3 className={styles.h3}>{bloqueUno.title}</h3>
-          <p>{bloqueUno.content}</p>
+          {bloqueUno.content.map((item, index) => (
+            <p key={index}>{item}</p>
+          ))}
         </div>
         <div className={`flow ${styles.bloqueDos}`}>
           <h3 className={styles.h3}>{bloqueDos.title}</h3>
-          <p>{bloqueDos.content}</p>
+          {bloqueDos.content.map((item, index) => (
+            <p key={index}>{item}</p>
+          ))}
         </div>
         <div>
           <picture>
-            <source media="(max-width: 49.999rem)" srcset={paginaCorta.src} />
-            <source media="(min-width: 50rem)" srcset={paginaLarga.src} />
+            <source
+              media="(max-width: 49.999rem)"
+              srcset={bloqueTres.imgUno.src}
+            />
+            <source media="(min-width: 50rem)" srcset={bloqueTres.imgDos.src} />
             <Image
-              src={paginaCorta}
+              src={bloqueTres.imgUno}
               alt="Imágenes del formulario de múltiples pasos"
             />
           </picture>
         </div>
         <div className={`flow ${styles.bloqueCuatro}`}>
-          <h3 className={styles.h3}>{bloqueDos.title}</h3>
-          <p className={styles.p}>{bloqueCuatro.content}</p>
+          <h3 className={styles.h3}>{bloqueCuatro.title}</h3>
+          {bloqueCuatro.content.map((item, index) => (
+            <p key={index}>{item}</p>
+          ))}
+        </div>
+        <div>
+          <Image
+            src={bloqueCinco.imgTres}
+            alt="Imágenes del formulario de múltiples pasos"
+          />
         </div>
       </div>
     </main>
