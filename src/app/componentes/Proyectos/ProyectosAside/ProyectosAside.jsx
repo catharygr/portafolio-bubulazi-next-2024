@@ -1,3 +1,7 @@
 export default function ProyectosAside() {
-  return <h1>Proyectos aside</h1>;
+  return (
+    <aside>
+      <h3>ProyectosAside</h3>
+    </aside>
+  );
 }

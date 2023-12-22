@@ -5,13 +5,13 @@ import ProyectosMain from "@/app/componentes/Proyectos/ProyectosMain";
 import ProyectosAside from "@/app/componentes/Proyectos/ProyectosAside/ProyectosAside";
 
 export default function Page() {
-  const { hero, subHero, main } = contenidoDePagina;
+  const { hero, subHero, main, aside } = contenidoDePagina;
   return (
     <>
       <Hero type="sin-imagen" about={hero.about} title={hero.title} />
       <SubHero type="doble-tres-listas" content={subHero} />
       <ProyectosMain content={main} />
-      <ProyectosAside />
+      <ProyectosAside content={aside} />
     </>
   );
 }
