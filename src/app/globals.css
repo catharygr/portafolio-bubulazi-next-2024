@@ -192,15 +192,15 @@ a {
   font-size: 112%;
 }
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
-    --clr-uno: 284 81% 14%;  violeta fuerte
-    --clr-acento-uno: 276 73% 38%; violeta
-    --clr-acento-dos: 313 35% 80%; violeta claro
+    --clr-uno: 284 81% 14%; /* violeta fuerte */
+    --clr-acento-uno: 276 73% 38%; /*violeta */
+    --clr-acento-dos: 313 35% 80%; /*violeta claro */
     --clr-negro: 0 0% 20%;
     --clr-blanco: 0 0% 100%;
   }
-} */
+}
 
 /* ************************* */
 /*      Clases utiles        */
