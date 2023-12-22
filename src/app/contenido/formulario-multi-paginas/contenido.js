@@ -46,9 +46,9 @@ export const contenidoDePagina = {
       ],
     },
     bloqueTres: {
-      imgUno: paginaLarga,
+      imgUno: paginaCorta,
 
-      imgDos: paginaCorta,
+      imgDos: paginaLarga,
     },
     bloqueCuatro: {
       title: "Web stack y su explicación",
