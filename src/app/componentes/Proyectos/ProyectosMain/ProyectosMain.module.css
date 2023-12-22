@@ -29,12 +29,12 @@
     grid-column: 1 / 2;
     grid-row: 2 / 4;
   }
-  .bloqueTres img {
+  /* .bloqueTres img {
     object-fit: cover;
     object-position: left;
     min-width: 100%;
     min-height: 100%;
-  }
+  } */
   .bloqueCinco {
     align-self: end;
   }
