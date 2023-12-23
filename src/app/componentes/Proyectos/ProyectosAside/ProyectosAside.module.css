@@ -1,11 +1,10 @@
 .asideContainer {
   background-color: hsl(var(--clr-acento-uno));
   color: hsl(var(--clr-uno));
-  width: 100%;
+  padding-block: var(--padding-block-grande);
 }
 
 .flexContainer {
-  padding-block: var(--padding-block-grande);
   display: flex;
   flex-direction: column;
   justify-content: center;
