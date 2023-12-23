@@ -26,6 +26,15 @@ export default function OtrosProyectos({ content, id }) {
 
     console.log(primerProyectoID, segundoProyectoID);
   }
+
+  const primerProyecto = content.find(
+    (proyecto) => proyecto.id === primerProyectoID
+  );
+
+  const segundoProyecto = content.find(
+    (proyecto) => proyecto.id === segundoProyectoID
+  );
+
   return (
     <div>
       <h1>Otros proyectos</h1>

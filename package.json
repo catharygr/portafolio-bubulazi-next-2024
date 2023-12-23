@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "latest",
-    "eslint-config-next": "latest",
     "framer-motion": "^10.16.4",
     "next": "latest",
     "react": "latest",
@@ -20,6 +18,8 @@
     "react-remove-scroll": "^2.5.6"
   },
   "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest",
     "eslint-config-prettier": "^9.0.0"
   }
 }
