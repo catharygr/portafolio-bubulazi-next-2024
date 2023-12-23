@@ -1,10 +1,11 @@
 .wrapperContainer {
-  padding-block: var(--padding-block-grande);
   background-color: hsl(var(--clr-acento-uno));
   color: hsl(var(--clr-uno));
+  width: 100%;
 }
 
 .flexContainer {
+  padding-block: var(--padding-block-grande);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +29,6 @@
 @media (min-width: 55rem) {
   .flexContainer {
     flex-direction: row;
-    justify-content: space-between;
   }
   .bloqueDos {
     width: 100%;
