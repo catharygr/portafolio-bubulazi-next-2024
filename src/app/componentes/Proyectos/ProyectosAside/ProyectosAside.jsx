@@ -13,10 +13,17 @@ export default function ProyectosAside({ content }) {
           ))}
         </div>
         <div className={styles.bloqueDos}>
-          <Image
-            src={bloqueDos.imgUno}
-            alt="Imágenes del formulario de múltiples pasos"
-          />
+          <picture>
+            <source
+              media="(max-width: 54.999rem)"
+              srcSet={bloqueDos.imgDos.src}
+            />
+            <source media="(min-width: 55rem)" srcSet={bloqueDos.imgUno.src} />
+            <Image
+              src={bloqueDos.imgDos}
+              alt="Imágenes del formulario de múltiples pasos"
+            />
+          </picture>
         </div>
         <div className={`flow ${styles.bloqueTres}`}>
           <h3 className={styles.h3}>{bloqueTres.title}</h3>

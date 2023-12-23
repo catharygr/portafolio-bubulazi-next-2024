@@ -86,6 +86,7 @@ export const contenidoDePagina = {
     },
     bloqueDos: {
       imgUno: paginaLargaAbajo,
+      imgDos: paginaMovilAbajo,
     },
     bloqueTres: {
       title: "Lecciones aprendidas",
