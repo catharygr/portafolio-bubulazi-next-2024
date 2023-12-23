@@ -1,5 +1,6 @@
 .footer {
   padding: var(--padding-block);
+  background-color: hsl(var(--clr-acento-dos));
 }
 
 .container {
