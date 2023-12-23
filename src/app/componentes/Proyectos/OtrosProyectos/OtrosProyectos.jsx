@@ -1,3 +1,7 @@
+import Card from "../../Card";
+import Link from "next/link";
+import styles from "./OtrosProyectos.module.css";
+
 export default function OtrosProyectos() {
   return (
     <div>

@@ -3,6 +3,8 @@ import SubHero from "@/app/componentes/SubHero";
 import { contenidoDePagina } from "@/app/contenido/formulario-multi-paginas/contenido";
 import ProyectosMain from "@/app/componentes/Proyectos/ProyectosMain";
 import ProyectosAside from "@/app/componentes/Proyectos/ProyectosAside/ProyectosAside";
+import OtrosProyectos from "@/app/componentes/Proyectos/OtrosProyectos";
+import { PROYECTOS } from "@/app/contenido/home-page/proyectos";
 
 export default function Page() {
   const { hero, subHero, main, aside } = contenidoDePagina;
@@ -12,6 +14,7 @@ export default function Page() {
       <SubHero type="doble-tres-listas" content={subHero} />
       <ProyectosMain content={main} />
       <ProyectosAside content={aside} />
+      <OtrosProyectos content={PROYECTOS} />
     </>
   );
 }
