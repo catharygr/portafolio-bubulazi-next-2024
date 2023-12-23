@@ -1,0 +1,36 @@
+.wrapperContainer {
+  padding-block: var(--padding-block-grande);
+  background-color: hsl(var(--clr-acento-uno));
+  color: hsl(var(--clr-uno));
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.h3 {
+  font-size: var(--fs-700);
+  font-weight: var(--f-wei-600);
+  font-stretch: var(--f-str-75);
+  color: hsla(var(--clr-uno));
+}
+
+.bloqueDos img {
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+@media (min-width: 55rem) {
+  .flexContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .bloqueDos {
+    width: 100%;
+  }
+}

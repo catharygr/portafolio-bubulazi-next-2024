@@ -77,7 +77,7 @@ export const contenidoDePagina = {
   },
   aside: {
     bloqueUno: {
-      title: "Propósito del proyecto",
+      title: "Problemas y soluciones",
       content: [
         "El proyecto Formulario de Ofertas de Trabajo Ficticia para Meteorólogos tiene como objetivo simular un flujo de trabajo realista para la creación de ofertas de trabajo dirigidas a meteorólogos. Esta aplicación se construyó utilizando Vite y React, junto con Firebase Authentication, Realtime Database y Storage, para brindar una experiencia completa y segura.",
         "El formulario se divide en pasos para una entrada de datos estructurada y una mejor experiencia de usuario.Emplea Firebase Authentication para permitir el acceso solo a usuarios autenticados, lo que brinda seguridad y privacidad.",
@@ -86,10 +86,10 @@ export const contenidoDePagina = {
       ],
     },
     bloqueDos: {
-      imaUno: paginaLargaAbajo,
+      imgUno: paginaLargaAbajo,
     },
     bloqueTres: {
-      title: "Mi papel en el proyecto",
+      title: "Lecciones aprendidas",
       content: [
         "En el proyecto trabajamos dos.",
         "Este proyecto me proporcionó una valiosa experiencia en el desarrollo frontend utilizando tecnologías modernas como Vite y React. Además, aprendí a integrar Firebase para autenticación y almacenamiento de datos, lo que mejora la interacción en tiempo real y la seguridad del usuario.",
