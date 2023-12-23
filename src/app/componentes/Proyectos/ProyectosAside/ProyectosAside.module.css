@@ -28,9 +28,14 @@
   }
   .bloqueUno {
     flex-grow: 1;
+    flex-shrink: 1;
   }
   .bloqueDos {
     flex-shrink: 0;
     flex-basis: 20vw;
+  }
+  .bloqueTres {
+    flex-grow: 1;
+    flex-shrink: 1;
   }
 }
