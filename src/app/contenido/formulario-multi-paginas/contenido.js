@@ -5,7 +5,7 @@ import paginaLargaAbajo from "@/app/contenido/formulario-multi-paginas/imagenes/
 import paginaMovilAbajo from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-movil-abajo.png";
 
 export const contenidoDePagina = {
-  id: "15",
+  id: "015",
   hero: {
     about: "Proyecto:",
     title: "Formulario Web de Multi-Páginas",
