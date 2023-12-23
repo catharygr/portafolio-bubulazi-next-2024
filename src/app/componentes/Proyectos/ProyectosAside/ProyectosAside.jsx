@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ProyectosAside({ content }) {
   const { bloqueUno, bloqueDos, bloqueTres } = content;
   return (
-    <aside className={`wrapper ${styles.wrapperContainer}`}>
+    <aside className={`wrapper ${styles.asideContainer}`}>
       <div className={styles.flexContainer}>
         <div className={`flow ${styles.bloqueUno}`}>
           <h3 className={styles.h3}>{bloqueUno.title}</h3>
