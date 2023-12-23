@@ -8,6 +8,7 @@ import pacMan from "@/app/contenido/home-page/imagenes/pac-man-tarjeta.png";
 
 export const PROYECTOS = [
   {
+    id: "16",
     title: "Portafolio Blog Personal",
     description:
       "Desarrollado y diseñado por mi, utilizando React.js 18, Next.js, Vanilla CSS, frame-motion, next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
@@ -16,6 +17,7 @@ export const PROYECTOS = [
     imageURL: bubulaziPortafolio,
   },
   {
+    id: "15",
     title: "Formulario Multi-Páginas",
     description:
       "Página web con diseño resposive desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
@@ -24,6 +26,7 @@ export const PROYECTOS = [
     imageURL: formularioMultiPaginas,
   },
   {
+    id: "14",
     title: "Recordatorio",
     description:
       "Aplicación desarrollada para móviles con tecnologías más modernas como son: React 18, React Router-6, Firebase Auth, Firestore como Back-end",
@@ -32,6 +35,7 @@ export const PROYECTOS = [
     imageURL: recordatorios,
   },
   {
+    id: "13",
     title: "ChatGTP - Chat App",
     description:
       "Conexión con la API de OpenAI para crear un chatbot. Firebase RealTime Database para Back-end y Auth. Netlify env variable para ocultar API key. Netlify función para conectar con OpeAI y obtener las respuestas.",
@@ -40,6 +44,7 @@ export const PROYECTOS = [
     imageURL: chatGTP,
   },
   {
+    id: "12",
     title: "Sarajevo Tours",
     description:
       "Mi primer proyecto desarrollado con JavaScript, práctica React-18, React-Router 6, Firebase Auth, irestore como Back-end y los Hook más usados.",
@@ -48,6 +53,7 @@ export const PROYECTOS = [
     imageURL: sarajevoTours,
   },
   {
+    id: "11",
     title: "Clínica Dental Blancodent",
     description:
       "La página web de una clínica dental (cliente comercial) desarrollada con CSS, HTML y un poco de JS. La web original estaba en Squarespace y la he transferido a Netlify respectando el diseño original.",
@@ -56,6 +62,7 @@ export const PROYECTOS = [
     imageURL: blancondet,
   },
   {
+    id: "010",
     title: "Pac-Man",
     description:
       "Mi primer proyecto desarrollado con JavaScript, CSS y HTML. Inspirada en el juego de Pac-Man.Para jugar tiene que ser desde un ordenador porque está hecho para teclado =>",

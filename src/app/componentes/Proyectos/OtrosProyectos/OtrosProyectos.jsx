@@ -2,7 +2,7 @@ import Card from "../../Card";
 import Link from "next/link";
 import styles from "./OtrosProyectos.module.css";
 
-export default function OtrosProyectos() {
+export default function OtrosProyectos({ content }) {
   return (
     <div>
       <h1>Otros proyectos</h1>
