@@ -99,11 +99,11 @@ export const contenidoDePagina = {
       ],
     },
   },
-  infoLinkContenido: {
-    titulo: "¿Te gustaría ver el código?",
+  infoLink: {
+    titulo: "Vamos a trabajar juntos",
     contenido:
-      "Si te interesa ver el código de este proyecto, puedes visitar el repositorio en GitHub.",
+      "Si estás buscando a un desarrollador junior con quién te gustaría trabajar o simplemente deseas conectarte o hacer una pregunta, no dudes en escribirme.",
     url: "/",
-    linkText: "Contáctame ",
+    linkText: "Contacta ",
   },
 };

@@ -8,8 +8,7 @@ import { PROYECTOS } from "@/app/contenido/home-page/proyectos";
 import InfoLink from "@/app/componentes/InfoLink";
 
 export default function Page() {
-  const { id, hero, subHero, main, aside, infoLinkContenido } =
-    contenidoDePagina;
+  const { id, hero, subHero, main, aside, infoLink } = contenidoDePagina;
 
   return (
     <>
@@ -18,7 +17,7 @@ export default function Page() {
       <ProyectosMain content={main} />
       <ProyectosAside content={aside} />
       <OtrosProyectos proyectos={PROYECTOS} id={id} />
-      <InfoLink type="single-link" content={infoLinkContenido} />
+      <InfoLink type="single-link" content={infoLink} />
     </>
   );
 }
