@@ -1,5 +1,3 @@
-
-
 import styles from "./OtrosProyectos.module.css";
 
 export default function OtrosProyectos({ content, id }) {
@@ -40,16 +38,19 @@ export default function OtrosProyectos({ content, id }) {
   const segundoProyecto = content.find(
     (proyecto) => proyecto.id === segundoProyectoID
   );
-    
-  const proyectosSeleccionados = proyectosID.map(
-    id => content.find(proyecto => proyecto.id === id)
-  );
+
+  const proyectosSeleccionados = [primerProyecto, segundoProyecto];
 
   return (
     <div className="wrapper">
       <h2 className={styles.h2}>Otros proyectos</h2>
       {proyectosSeleccionados.map((proyecto, index) => (
-        <div key={index} className={index === 0 ? styles.primerProyecto : styles.segundoProyecto}>
+        <div
+          key={index}
+          className={
+            index === 0 ? styles.primerProyecto : styles.segundoProyecto
+          }
+        >
           <h3 className={styles.h3}>{proyecto.title}</h3>
           <p>{proyecto.description}</p>
           <a href={proyecto.link}>Ver proyecto</a>
@@ -58,8 +59,3 @@ export default function OtrosProyectos({ content, id }) {
     </div>
   );
 }
-
-
-
-
-
