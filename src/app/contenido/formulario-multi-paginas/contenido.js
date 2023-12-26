@@ -98,5 +98,21 @@ export const contenidoDePagina = {
         "Reforzamiento de conocimientos en el uso de los hooks más comunes de React para gestionar el estado y la lógica de la aplicación",
       ],
     },
+    otrosProtectos: {
+      title: "Otros proyectos",
+      content: [
+        {
+          title: "Recordatorio",
+          description:
+            "Aplicación desarrollada para móviles con tecnologías más modernas como son: React 18, React Router-6, Firebase Auth, Firestore como Back-end",
+          link: "https://bubulazi.com/proyecto-recordatorio",
+        },
+        {
+          title: "ChatGTP - Chat App",
+          description: "Chatea con listillo una de las intelegencia artificales más efectiva hasta el momento.",
+          link: "https://listillo-openai.netlify.app/",
+        },
+      ],
+    },
   },
 };

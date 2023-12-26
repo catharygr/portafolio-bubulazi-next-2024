@@ -35,7 +35,7 @@
 }
 
 .sectionInferiorTresListas {
-  background-color: hsl(var(--clr-acento-dos));
+  background-color: hsl(var(--clr-acento-uno));
   color: hsl(var(--clr-uno));
 }
 
