@@ -5,6 +5,7 @@ import ProyectosMain from "@/app/componentes/Proyectos/ProyectosMain";
 import ProyectosAside from "@/app/componentes/Proyectos/ProyectosAside/ProyectosAside";
 import OtrosProyectos from "@/app/componentes/Proyectos/OtrosProyectos";
 import { PROYECTOS } from "@/app/contenido/home-page/proyectos";
+import InfoLink from "@/app/componentes/InfoLink";
 
 export default function Page() {
   const { id, hero, subHero, main, aside } = contenidoDePagina;
@@ -15,6 +16,7 @@ export default function Page() {
       <ProyectosMain content={main} />
       <ProyectosAside content={aside} />
       <OtrosProyectos proyectos={PROYECTOS} id={id} />
+      <InfoLink type="single-link" content={subHero} />
     </>
   );
 }

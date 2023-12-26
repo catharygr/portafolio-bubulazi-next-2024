@@ -30,7 +30,7 @@ export const PROYECTOS = [
     title: "Recordatorio",
     description:
       "Aplicación desarrollada para móviles con tecnologías más modernas como son: React 18, React Router-6, Firebase Auth, Firestore como Back-end",
-    url: "/proyectos/recordatorio",
+    url: "/",
     linkTexto: "Ver proyecto",
     imageURL: recordatorios,
   },
@@ -48,7 +48,7 @@ export const PROYECTOS = [
     title: "Sarajevo Tours",
     description:
       "Mi primer proyecto desarrollado con JavaScript, práctica React-18, React-Router 6, Firebase Auth, irestore como Back-end y los Hook más usados.",
-    url: "https://bubulazi.com/sarajevo-tours",
+    url: "/",
     linkTexto: "Ver proyecto",
     imageURL: sarajevoTours,
   },
@@ -57,7 +57,7 @@ export const PROYECTOS = [
     title: "Clínica Dental Blancodent",
     description:
       "La página web de una clínica dental (cliente comercial) desarrollada con CSS, HTML y un poco de JS. La web original estaba en Squarespace y la he transferido a Netlify respectando el diseño original.",
-    url: "https://bubulazi.com/proyecto-blancodent",
+    url: "/",
     linkTexto: "Ver proyecto",
     imageURL: blancondet,
   },
