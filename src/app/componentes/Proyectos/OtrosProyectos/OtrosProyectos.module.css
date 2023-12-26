@@ -11,7 +11,11 @@
 }
 
 .otrosAsides {
-  background-color: var(--clr-uno);
+  background-color: hsl(var(--clr-uno));
+  color: hsl(var(--clr-blanco));
+}
+.container {
+  padding-block: var(--padding-block-grande);
 }
 
 .primerProyecto,
