@@ -10,6 +10,10 @@
   font-stretch: var(--f-str-75);
 }
 
+.otrosAsides {
+  background-color: var(--clr-uno);
+}
+
 .primerProyecto,
 .segundoProyecto {
   display: flex;

@@ -12,7 +12,7 @@ export const PROYECTOS = [
     title: "Portafolio Blog Personal",
     description:
       "Desarrollado y diseñado por mi, utilizando React.js 18, Next.js, Vanilla CSS, frame-motion, next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
-    url: "https://bubulazi.com/",
+    url: "/proyectos/portafolio-blog-personal",
     linkTexto: "Ver proyecto",
     imageURL: bubulaziPortafolio,
   },
@@ -30,7 +30,7 @@ export const PROYECTOS = [
     title: "Recordatorio",
     description:
       "Aplicación desarrollada para móviles con tecnologías más modernas como son: React 18, React Router-6, Firebase Auth, Firestore como Back-end",
-    url: "https://bubulazi.com/proyecto-recordatorio",
+    url: "/proyectos/recordatorio",
     linkTexto: "Ver proyecto",
     imageURL: recordatorios,
   },

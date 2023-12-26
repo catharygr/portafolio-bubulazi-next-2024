@@ -1,4 +1,5 @@
 import styles from "./OtrosProyectos.module.css";
+import Link from "next/link";
 
 export default function OtrosProyectos({ proyectos, id }) {
   let primerProyectoID = "";
@@ -47,12 +48,12 @@ export default function OtrosProyectos({ proyectos, id }) {
           <div className={styles.primerProyecto}>
             <h3 className={styles.h3}>{primerProyecto.title}</h3>
             <p>{primerProyecto.description}</p>
-            <a>{primerProyecto.linkTexto}</a>
+            <Link href={primerProyecto.url}>{primerProyecto.linkTexto}</Link>
           </div>
           <div className={styles.segundoProyecto}>
             <h3 className={styles.h3}>{segundoProyecto.title}</h3>
             <p>{segundoProyecto.description}</p>
-            <a>{segundoProyecto.linkTexto}</a>
+            <Link href={segundoProyecto.url}>{segundoProyecto.linkTexto}</Link>
           </div>
         </div>
       </div>
