@@ -7,14 +7,14 @@ import OtrosProyectos from "@/app/componentes/Proyectos/OtrosProyectos";
 import { PROYECTOS } from "@/app/contenido/home-page/proyectos";
 
 export default function Page() {
-  const { id, hero, subHero, main, aside, } = contenidoDePagina;
+  const { id, hero, subHero, main, aside } = contenidoDePagina;
   return (
     <>
       <Hero type="sin-imagen" about={hero.about} title={hero.title} />
       <SubHero type="doble-tres-listas" content={subHero} />
       <ProyectosMain content={main} />
       <ProyectosAside content={aside} />
-      <OtrosProyectos content={PROYECTOS} id={id} />
+      <OtrosProyectos proyectos={PROYECTOS} id={id} />
     </>
   );
 }
