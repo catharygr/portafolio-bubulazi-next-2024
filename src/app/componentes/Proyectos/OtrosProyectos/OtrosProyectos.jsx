@@ -44,13 +44,13 @@ export default function OtrosProyectos({ proyectos, id }) {
     <aside className={styles.otrosAsides}>
       <div className={`wrapper flow ${styles.container}`}>
         <h2 className={styles.h2}>Otros proyectos</h2>
-        <div className={`flow ${styles.flexContainer}`}>
-          <div className={`flow ${styles.primerProyecto}`}>
+        <div className={styles.flexContainer}>
+          <div className="flow">
             <h3 className={styles.h3}>{primerProyecto.title}</h3>
             <p>{primerProyecto.description}</p>
             <Link href={primerProyecto.url}>{primerProyecto.linkTexto}</Link>
           </div>
-          <div className={`flow ${styles.primerProyecto}`}>
+          <div className="flow">
             <h3 className={styles.h3}>{segundoProyecto.title}</h3>
             <p>{segundoProyecto.description}</p>
             <Link href={segundoProyecto.url}>{segundoProyecto.linkTexto}</Link>

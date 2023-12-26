@@ -18,13 +18,9 @@
   padding-block: var(--padding-block-grande);
 }
 
-.primerProyecto,
-.segundoProyecto {
+.flexContainer {
+  --gap-base: 3rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  gap: 1rem;
+  gap: var(--gap-base);
 }

@@ -7,7 +7,7 @@
 .flexContainer {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: var(--gap-grande);
 }
 
 .h3 {
