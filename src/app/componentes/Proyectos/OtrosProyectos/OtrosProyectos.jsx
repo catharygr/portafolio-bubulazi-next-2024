@@ -39,23 +39,15 @@ export default function OtrosProyectos({ content, id }) {
     (proyecto) => proyecto.id === segundoProyectoID
   );
 
-  const proyectosSeleccionados = [primerProyecto, segundoProyecto];
-
   return (
-    <div className="wrapper">
-      <h2 className={styles.h2}>Otros proyectos</h2>
-      {proyectosSeleccionados.map((proyecto, index) => (
-        <div
-          key={index}
-          className={
-            index === 0 ? styles.primerProyecto : styles.segundoProyecto
-          }
-        >
-          <h3 className={styles.h3}>{proyecto.title}</h3>
-          <p>{proyecto.description}</p>
-          <a href={proyecto.link}>Ver proyecto</a>
+    <aside className={`wrapper ${styles.otrosAsides}`}>
+      <div className={styles.container}>
+        <h2 className={styles.h2}>Otros proyectos</h2>
+        <div className={styles.flexContainer}>
+          <div className={styles.primerProyecto}></div>
+          <div className={styles.segundoProyecto}></div>
         </div>
-      ))}
-    </div>
+      </div>
+    </aside>
   );
 }
