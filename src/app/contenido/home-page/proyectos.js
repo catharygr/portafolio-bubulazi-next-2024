@@ -12,7 +12,7 @@ export const PROYECTOS = [
     title: "Portafolio Blog Personal",
     description:
       "Desarrollado y diseñado por mi, utilizando React.js 18, Next.js, Vanilla CSS, frame-motion, next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
-    url: "/",
+    url: "https://bubulazi.com/",
     linkTexto: "Ver proyecto",
     imageURL: bubulaziPortafolio,
   },
@@ -30,7 +30,7 @@ export const PROYECTOS = [
     title: "Recordatorio",
     description:
       "Aplicación desarrollada para móviles con tecnologías más modernas como son: React 18, React Router-6, Firebase Auth, Firestore como Back-end",
-    url: "/",
+    url: "https://bubulazi.com/proyecto-recordatorio",
     linkTexto: "Ver proyecto",
     imageURL: recordatorios,
   },
@@ -39,7 +39,7 @@ export const PROYECTOS = [
     title: "ChatGTP - Chat App",
     description:
       "Conexión con la API de OpenAI para crear un chatbot. Firebase RealTime Database para Back-end y Auth. Netlify env variable para ocultar API key. Netlify función para conectar con OpeAI y obtener las respuestas.",
-    url: "/",
+    url: "https://listillo-openai.netlify.app/",
     linkTexto: "Ver proyecto",
     imageURL: chatGTP,
   },
@@ -48,7 +48,7 @@ export const PROYECTOS = [
     title: "Sarajevo Tours",
     description:
       "Mi primer proyecto desarrollado con JavaScript, práctica React-18, React-Router 6, Firebase Auth, irestore como Back-end y los Hook más usados.",
-    url: "/",
+    url: "https://bubulazi.com/sarajevo-tours",
     linkTexto: "Ver proyecto",
     imageURL: sarajevoTours,
   },
@@ -57,7 +57,7 @@ export const PROYECTOS = [
     title: "Clínica Dental Blancodent",
     description:
       "La página web de una clínica dental (cliente comercial) desarrollada con CSS, HTML y un poco de JS. La web original estaba en Squarespace y la he transferido a Netlify respectando el diseño original.",
-    url: "/",
+    url: "https://bubulazi.com/proyecto-blancodent",
     linkTexto: "Ver proyecto",
     imageURL: blancondet,
   },
@@ -65,8 +65,8 @@ export const PROYECTOS = [
     id: "010",
     title: "Pac-Man",
     description:
-      "Mi primer proyecto desarrollado con JavaScript, CSS y HTML. Inspirada en el juego de Pac-Man.Para jugar tiene que ser desde un ordenador porque está hecho para teclado =>",
-    url: "/",
+      "Mi primer proyecto desarrollado con JavaScript, CSS y HTML. Inspirada en el juego de Pac-Man.Para jugar tiene que ser desde un ordenador porque está desarrolado para usar el teclado =>",
+    url: "https://catharygr.github.io/juego-de-pacman/",
     linkTexto: "Ver proyecto",
     imageURL: pacMan,
   },
