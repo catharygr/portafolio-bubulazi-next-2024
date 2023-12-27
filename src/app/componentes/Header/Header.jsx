@@ -33,18 +33,18 @@ export default function Header() {
       root.style.setProperty("--clr-uno", "284 81% 14%;");
       root.style.setProperty("--clr-acento-uno", "50 100% 50%");
       root.style.setProperty("--clr-acento-dos", "313 35% 80%");
-      root.style.setProperty("--clr-acento-tres", "9 61% 41%");
-      root.style.setProperty("--clr-acento-cuatro", "140 25% 25%");
+      // root.style.setProperty("--clr-acento-tres", "9 61% 41%");
+      // root.style.setProperty("--clr-acento-cuatro", "140 25% 25%");
       root.style.setProperty("--clr-negro", "0 0% 50%");
       root.style.setProperty("--clr-blanco", "0 0% 100%");
     } else {
-      root.style.setProperty("--clr-uno", "0 0% 100%");
-      root.style.setProperty("--clr-acento-uno", "50 100% 50%");
-      root.style.setProperty("--clr-acento-dos", "140 25% 25%");
-      root.style.setProperty("--clr-acento-tres", "9 61% 41%");
-      root.style.setProperty("--clr-acento-cuatro", "140 25% 25%");
+      root.style.setProperty("--clr-uno", "273 36% 21%");
+      root.style.setProperty("--clr-acento-uno", "77 92% 60%");
+      root.style.setProperty("--clr-acento-dos", "273 36% 21%");
+      // root.style.setProperty("--clr-acento-tres", "9 61% 41%");
+      // root.style.setProperty("--clr-acento-cuatro", "140 25% 25%");
       root.style.setProperty("--clr-negro", "0 0% 50%");
-      root.style.setProperty("--clr-blanco", "284 81% 14%");
+      root.style.setProperty("--clr-blanco", "0 0% 100%");
     }
   }, [modoClaro]);
 
