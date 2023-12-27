@@ -20,20 +20,22 @@ export default function Header() {
 
   useEffect(() => {
     const root = document.querySelector(":root");
-    // if (modoClaro) {
-    //   root.style.setProperty("--clr-acento-dos", "174 89% 56%");
-    // } else {
-    //   root.style.setProperty("--clr-acento-dos", "313 35% 80%");
-    //   root.style.setProperty("--clr-uno", "0 0%, 100%");
-    // }
+    if (modoClaro) {
+      root.style.setProperty("--clr-acento-dos", "174 89% 56%");
+    } else {
+      root.style.setProperty("--clr-acento-dos", "313 35% 80%");
+      root.style.setProperty("--clr-uno", "0 0%, 100%");
+    }
   }, [modoClaro]);
 
   return (
     <header className={styles.header}>
       <div className={` ${styles.container}`}>
-        <video className={styles.video} playsInline autoPlay loop muted>
-          <source src="/popo-video.mp4" type="video/mp4" />
-        </video>
+        <Link href="/">
+          <video className={styles.video} playsInline autoPlay loop muted>
+            <source src="/popo-video.mp4" type="video/mp4" />
+          </video>
+        </Link>
         <div className={styles.navContainer}>
           <ul
             aria-hidden="true"
@@ -70,9 +72,9 @@ export default function Header() {
                 <Sun className={styles.iconSVG} />
               )}
             </button>
-            <Link href={"/rss.xml"}>
+            {/* <Link href={"/rss.xml"}>
               <Rss className={styles.iconSVG} />
-            </Link>
+            </Link> */}
           </div>
           <nav role="navigation" aria-label="Menu principal">
             <button
