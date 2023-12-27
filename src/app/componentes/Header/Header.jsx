@@ -18,15 +18,29 @@ export default function Header() {
   const pathname = usePathname();
   const id = useId();
 
-  useEffect(() => {
-    const root = document.querySelector(":root");
-    if (modoClaro) {
-      root.style.setProperty("--clr-acento-dos", "174 89% 56%");
-    } else {
-      root.style.setProperty("--clr-acento-dos", "313 35% 80%");
-      root.style.setProperty("--clr-uno", "0 0%, 100%");
-    }
-  }, [modoClaro]);
+  // --clr-uno: 284 81% 14%; /* violeta fuerte */
+  // --clr-acento-uno: 50 100% 50%; /* amarillo dorado */
+  // --clr-acento-dos: 313 35% 80%; /* lavanda rosa */
+  // --clr-acento-tres: 9 61% 41%; /* Naranja */
+  // --clr-acento-cuatro: 140 25% 25%; /* Verde */
+  // --clr-negro: 0 0% 50%;
+  // --clr-blanco: 0 0% 100%;
+
+  // useEffect(() => {
+  //   const root = document.querySelector(":root");
+  //   if (modoClaro) {
+  //     root.style.setProperty("--clr-uno", "284 89% 56%");
+  //     root.style.setProperty("--clr-acento-uno", "50 100% 50%");
+  //     root.style.setProperty("--clr-acento-dos", "313 35% 80%");
+  //     root.style.setProperty("--clr-acento-tres", "9 61% 41%");
+  //     root.style.setProperty("--clr-acento-cuatro", "140 25% 25%");
+  //     root.style.setProperty("--clr-negro", "0 0% 50%");
+  //     root.style.setProperty("---clr-blanco", "0 0% 100%");
+  //   } else {
+  //     root.style.setProperty("--clr-acento-dos", "313 35% 80%");
+  //     root.style.setProperty("--clr-uno", "0 0%, 100%");
+  //   }
+  // }, [modoClaro]);
 
   return (
     <header className={styles.header}>
