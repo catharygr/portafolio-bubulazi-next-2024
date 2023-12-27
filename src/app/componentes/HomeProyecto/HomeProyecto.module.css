@@ -1,8 +1,16 @@
-.proyectoWrapper {
+.proyectoWrapper,
+.proyectoWrapperFull {
   display: flex;
   flex-direction: column;
   gap: var(--gap-base);
+}
+
+.proyectoWrapper {
   padding-block: var(--padding-block-grande);
+}
+
+.proyectoWrapperFull {
+  padding-block-end: clamp(2rem, 10vw, 6rem);
 }
 
 .h2 {

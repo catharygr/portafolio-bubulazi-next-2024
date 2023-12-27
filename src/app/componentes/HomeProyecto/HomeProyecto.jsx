@@ -37,7 +37,7 @@ export default function HomeProyecto({ content, type }) {
 
     return (
       <section>
-        <div className={`wrapper flow ${styles.proyectoWrapper}`}>
+        <div className={`wrapper flow ${styles.proyectoWrapperFull}`}>
           <Hero
             type="sin-imagen"
             about="Mis proyectos personales"
