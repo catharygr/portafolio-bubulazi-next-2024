@@ -4,9 +4,9 @@
   background-color: hsl(var(--clr-uno));
   color: hsl(var(--clr-blanco));
   padding: 0.5em 2em;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   font-weight: var(--f-wei-600);
-  font-size: var(--fs-500);
+  font-size: var(--fs-400);
   text-decoration: none;
   transition: scale 0.2s ease-in-out;
 }

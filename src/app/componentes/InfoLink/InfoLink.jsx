@@ -9,7 +9,7 @@ export default function InfoLink({ content, type }) {
         <div className={styles.contenido}>
           <p>{contenido}</p>
           {type === "single-link" && (
-            <Link href={"/"} className={styles.singleLink}>
+            <Link href={url} className={styles.singleLink}>
               {linkText}
             </Link>
           )}
