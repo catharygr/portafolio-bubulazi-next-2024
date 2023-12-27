@@ -2,7 +2,8 @@ import Card from "@/app/componentes/Card/Card";
 import styles from "./HomeProyecto.module.css";
 import Link from "next/link";
 
-export default function HomeProyecto({ content }) {
+// Tipo de contenido: "full" o "reduced"
+export default function HomeProyecto({ content, type }) {
   const ultimosProyectos = content.slice(0, 3);
   const otrosProyectos = content.slice(3);
 

@@ -10,7 +10,7 @@ export default function PageProyectos() {
         about="Mis proyectos personales"
         title="Todos los proyectos"
       />
-      <HomeProyecto content={PROYECTOS} />
+      <HomeProyecto content={PROYECTOS} type="full" />
     </>
   );
 }

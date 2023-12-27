@@ -17,7 +17,7 @@ export default function Home() {
         alt="Mi emoji frente de un ordenador"
       />
       <SubHero type="doble-una-lista" content={SOBRE_MI} />
-      <HomeProyecto content={PROYECTOS} />
+      <HomeProyecto content={PROYECTOS} type="reduced" />
       <Formulario />
     </main>
   );
