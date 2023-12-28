@@ -29,7 +29,6 @@
   color: hsl(var(--clr-blanco));
   padding: var(--padding-block);
   border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
 }
 
 .input {
