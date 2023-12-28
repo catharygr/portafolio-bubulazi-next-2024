@@ -18,13 +18,6 @@ export default function Header() {
   const pathname = usePathname();
   const id = useId();
 
-  /* Colores */
-  //  --clr-uno: 284 81% 14%; /* violeta fuerte */
-  //  --clr-acento-uno: 50 100% 50%; /* amarillo dorado */
-  //  --clr-acento-dos: 313 35% 80%; /* lavanda rosa */
-  //  --clr-negro: 0 0% 50%;
-  //  --clr-blanco: 0 0% 100%;
-
   useEffect(() => {
     const root = document.querySelector(":root");
     if (modoClaro) {
