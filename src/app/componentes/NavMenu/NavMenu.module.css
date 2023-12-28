@@ -26,7 +26,8 @@
   right: 0;
   bottom: 0;
   width: 20rem;
-  /* background-color: hsl(var(--clr-blanco) / 0.9); */
+  background-color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-negro));
   width: min(90%, 300px);
   display: flex;
   flex-direction: column;
