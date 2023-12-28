@@ -19,6 +19,7 @@
   font-stretch: var(--f-str-75);
   line-height: var(--lh-small);
   align-self: center;
+  color: hsl(var(--clr-negro));
 }
 
 .cardsContainer {

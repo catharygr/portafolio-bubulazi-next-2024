@@ -40,7 +40,7 @@ export default function Header() {
       root.style.setProperty("--clr-blanco", "0 0% 100%");
     } else {
       // Color morado fuerte
-      root.style.setProperty("--clr-uno", "300 66% 12%");
+      root.style.setProperty("--clr-uno", "274 37% 76%");
       // Color morado claro
       root.style.setProperty("--clr-acento-uno", "296 45% 33%");
       // Color lila
@@ -48,7 +48,7 @@ export default function Header() {
       // Color blanco
       root.style.setProperty("--clr-negro", "0 0% 100%");
       // Color lila claro
-      root.style.setProperty("--clr-blanco", "274, 37%, 76%");
+      root.style.setProperty("--clr-blanco", "300, 66%, 12%");
     }
   }, [modoClaro]);
 

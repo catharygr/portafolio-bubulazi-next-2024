@@ -7,6 +7,7 @@
   padding-block: var(--padding-block-grande);
   text-align: center;
   background-color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-negro));
 }
 
 .marcoCircularImagen {
