@@ -29,7 +29,7 @@ export default function Header() {
     const root = document.querySelector(":root");
     if (modoClaro) {
       // Color morado fuerte
-      root.style.setProperty("--clr-uno", "284 81% 14%;");
+      root.style.setProperty("--clr-uno", "284 81% 14%");
       // Color amarillo
       root.style.setProperty("--clr-acento-uno", "50 100% 50%");
       // Color rosado

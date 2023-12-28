@@ -35,4 +35,5 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: var(--gap-base);
+  color: hsl(var(--clr-negro));
 }
