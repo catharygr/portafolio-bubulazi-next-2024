@@ -183,7 +183,7 @@ a {
   --padding: 1rem;
   --margin-texto: 1em;
   --border-radius: 7px;
-  --box-shadow: 0 5px 10px 0 hsl(var(--clr-negro) / 0.4);
+  --box-shadow: 0 5px 10px 0 hsl(var(--clr-acento-dos) / 0.8);
   --container-max: 65rem;
   --gap-base: 1rem;
   --gap-grande: 4rem;
