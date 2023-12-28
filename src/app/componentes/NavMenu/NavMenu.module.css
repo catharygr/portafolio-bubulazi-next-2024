@@ -15,7 +15,7 @@
 .hoverFondo {
   position: absolute;
   inset: 0;
-  background: hsla(319, 31%, 70%, 0.4);
+  background: hsl(var(--clr-acento-dos));
   border-radius: var(--border-radius);
   z-index: -1;
 }

@@ -22,29 +22,33 @@ export default function Header() {
   //  --clr-uno: 284 81% 14%; /* violeta fuerte */
   //  --clr-acento-uno: 50 100% 50%; /* amarillo dorado */
   //  --clr-acento-dos: 313 35% 80%; /* lavanda rosa */
-  //  --clr-acento-tres: 9 61% 41%; /* Naranja */
-  //  --clr-acento-cuatro: 140 25% 25%; /* Verde */
   //  --clr-negro: 0 0% 50%;
   //  --clr-blanco: 0 0% 100%;
 
   useEffect(() => {
     const root = document.querySelector(":root");
     if (modoClaro) {
+      // Color morado fuerte
       root.style.setProperty("--clr-uno", "284 81% 14%;");
+      // Color amarillo
       root.style.setProperty("--clr-acento-uno", "50 100% 50%");
+      // Color rosado
       root.style.setProperty("--clr-acento-dos", "313 35% 80%");
-      // root.style.setProperty("--clr-acento-tres", "9 61% 41%");
-      // root.style.setProperty("--clr-acento-cuatro", "140 25% 25%");
-      root.style.setProperty("--clr-negro", "0 0% 50%");
+      // // Color Negro
+      root.style.setProperty("--clr-negro", "0 0% 0%");
+      // Color Blanco
       root.style.setProperty("--clr-blanco", "0 0% 100%");
     } else {
-      root.style.setProperty("--clr-uno", "273 36% 21%");
-      root.style.setProperty("--clr-acento-uno", "77 92% 60%");
-      root.style.setProperty("--clr-acento-dos", "273 36% 21%");
-      // root.style.setProperty("--clr-acento-tres", "9 61% 41%");
-      // root.style.setProperty("--clr-acento-cuatro", "140 25% 25%");
-      root.style.setProperty("--clr-negro", "0 0% 50%");
-      root.style.setProperty("--clr-blanco", "0 0% 100%");
+      // Color morado fuerte
+      root.style.setProperty("--clr-uno", "300 66% 12%");
+      // Color morado claro
+      root.style.setProperty("--clr-acento-uno", "296 45% 33%");
+      // Color lila
+      root.style.setProperty("--clr-acento-dos", "263 61% 63%");
+      // Color blanco
+      root.style.setProperty("--clr-negro", "0 0% 100%");
+      // Color lila claro
+      root.style.setProperty("--clr-blanco", "274, 37%, 76%");
     }
   }, [modoClaro]);
 

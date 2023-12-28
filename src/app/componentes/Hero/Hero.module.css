@@ -6,6 +6,7 @@
   gap: clamp(2rem, 7vw, 5rem);
   padding-block: var(--padding-block-grande);
   text-align: center;
+  background-color: hsl(var(--clr-blanco));
 }
 
 .marcoCircularImagen {
@@ -22,7 +23,6 @@
 
 .h1 {
   font-size: var(--fs-hero);
-  color: hsla(var(--clr-uno));
   font-weight: var(--f-wei-600);
   font-stretch: var(--f-str-75);
 }

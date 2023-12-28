@@ -251,7 +251,7 @@ body {
   color: hsl(var(--clr-blanco));
 }
 .color-oscuro {
-  color: hsl(var(--clr-uno));
+ color: hsl(var(--clr-negro));
 }
 .color-acento {
   color: hsl(var(--clr-acento-uno));

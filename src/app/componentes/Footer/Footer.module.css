@@ -9,7 +9,6 @@
   justify-content: space-between;
   text-align: center;
   gap: 3rem;
-  color: hsl(var(--clr-uno));
 }
 
 .container > * {
@@ -37,7 +36,6 @@
 .h4 {
   font-size: var(--fs-400);
   font-weight: var(--f-wei-900);
-  color: hsl(var(--clr-uno));
   border-bottom: 2px solid hsl(var(--clr-uno));
 }
 
