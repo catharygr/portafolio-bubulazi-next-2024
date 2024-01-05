@@ -36,3 +36,18 @@
   line-height: var(--lh-small);
   text-align: center;
 }
+
+@media (min-width: 50rem) {
+  .wrapperInfoLink {
+    flex-direction: row;
+  }
+  .h2 {
+    flex-basis: clamp(20px, 30vw, 400px);
+    flex-shrink: 0;
+    text-align: left;
+  }
+  .contenido {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
