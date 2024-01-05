@@ -8,6 +8,11 @@ export default function InfoLink({ content, type }) {
         <h2 className={styles.h2}>{titulo}</h2>
         <div className={styles.contenido}>
           <p>{contenido}</p>
+          {type === "single-link" && (
+            <Link href={url} className={styles.singleLink}>
+              {linkText}
+            </Link>
+          )}
         </div>
       </div>
     </section>
