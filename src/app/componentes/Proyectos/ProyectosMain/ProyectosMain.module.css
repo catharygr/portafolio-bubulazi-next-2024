@@ -20,3 +20,22 @@
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
+
+@media (min-width: 55rem) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bloqueTres {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+  /* .bloqueTres img {
+    object-fit: cover;
+    object-position: left;
+    min-width: 100%;
+    min-height: 100%;
+  } */
+  .bloqueCinco {
+    align-self: end;
+  }
+}
