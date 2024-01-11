@@ -38,12 +38,7 @@ export default function ProyectosMain({ content }) {
             <p key={index}>{item}</p>
           ))}
         </div>
-        <div className={styles.bloqueCinco}>
-          <Image
-            src={bloqueCinco.imgTres}
-            alt="Imágenes del formulario de múltiples pasos"
-          />
-        </div>
+        <div className={styles.bloqueCinco}></div>
       </div>
     </main>
   );
