@@ -1,6 +1,6 @@
 import Hero from "./componentes/Hero";
 import SubHero from "./componentes/SubHero";
-import EmojiCaty from "@/app/assets/imagen/generales/foto-.png";
+import EmojiCaty from "@/app/assets/imagen/generales/foto-uno.png";
 import { SOBRE_MI } from "@/app/contenido/home-page/sobreMi";
 import { PROYECTOS } from "@/app/contenido/home-page/proyectos";
 import HomeProyecto from "./componentes/HomeProyecto";
