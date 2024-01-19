@@ -28,6 +28,10 @@
   font-stretch: var(--f-str-75);
 }
 
+.img {
+  transform: translateY(25px);
+}
+
 /* Sin imagen */
 
 .containerTipoSinImagen {
