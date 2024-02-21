@@ -2,6 +2,6 @@
 
 [Página temporal de desarrollo]
 
-("https://portafolio-bubulazi-next-2024.vercel.app")
+"https://portafolio-bubulazi-next-2024.vercel.app"
 
 Stack Tecnólogico
