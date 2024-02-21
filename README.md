@@ -2,6 +2,6 @@
 
 [Página temporal de desarrollo]
 
-https://portafolio-bubulazi-next-2024.vercel.app
+[Visitar sitio en desarollo ->](https://portafolio-bubulazi-next-2024.vercel.app)
 
 Stack Tecnólogico
