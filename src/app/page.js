@@ -1,6 +1,6 @@
 import Hero from "./componentes/Hero";
 import SubHero from "./componentes/SubHero";
-import EmojiCaty from "@/app/assets/imagen/generales/foto-uno.png";
+import EmojiCaty from "@/app/assets/imagen/generales/emoji-caty.png";
 import { SOBRE_MI } from "@/app/contenido/home-page/sobreMi";
 import { PROYECTOS } from "@/app/contenido/home-page/proyectos";
 import HomeProyecto from "./componentes/HomeProyecto";
@@ -16,8 +16,14 @@ export default function Home() {
         title="Cathy, desarrolladora FrontEnd y algo más..."
         alt="Mi emoji frente de un ordenador"
       />
-      <SubHero type="doble-una-lista" content={SOBRE_MI} />
-      <HomeProyecto content={PROYECTOS} type="reduced" />
+      <SubHero
+        type="doble-una-lista"
+        content={SOBRE_MI}
+      />
+      <HomeProyecto
+        content={PROYECTOS}
+        type="reduced"
+      />
       <Formulario />
     </main>
   );
