@@ -16,7 +16,10 @@ export default function Home() {
         title="Cathy, desarrolladora FrontEnd y algo más..."
         alt="Mi emoji frente de un ordenador"
       />
-
+      <SubHero
+        type="doble-una-lista"
+        content={SOBRE_MI}
+      />
       <HomeProyecto
         content={PROYECTOS}
         type="reduced"

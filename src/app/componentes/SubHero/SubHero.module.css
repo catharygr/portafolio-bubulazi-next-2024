@@ -81,11 +81,7 @@
   align-items: center;
 }
 
-@media (min-width: 40rem) {
-  .wrapperSuperior,
-  .wrapperInferior {
-    flex-direction: row;
-  }
+
 
   .wrapperInferiorTresListas {
     flex-direction: row;
