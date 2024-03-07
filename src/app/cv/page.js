@@ -29,7 +29,7 @@ export default function CVPage() {
       </section>
       <section className="wrapper">
         <h2 className={styles.h2}>Experiencia Laboral</h2>
-        <div>
+        <div className={styles.jobDetails}>
           <h3>Clinica Dental Blancodent</h3>
           <p>Freelance | 2022 - Actualidad</p>
           <p>Desarrollo página web: blancodent.com.</p>

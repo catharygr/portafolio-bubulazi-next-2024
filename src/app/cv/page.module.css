@@ -1,0 +1,13 @@
+.h2 {
+  font-size: var(--fs-900);
+  font-weight: var(--f-wei-600);
+  line-height: var(--lh-small);
+  font-stretch: var(--f-str-75);
+}
+
+.h3 {
+  font-size: var(--fs-600);
+  font-weight: var(--f-wei-600);
+  line-height: var(--lh-small);
+  font-stretch: var(--f-str-75);
+}
