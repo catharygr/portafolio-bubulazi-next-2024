@@ -1,3 +1,16 @@
+.containerQuery {
+  container-type: inline-size;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+@container (min-width: 30rem) {
+  .containerQuery {
+  }
+}
+
 .h2 {
   font-size: var(--fs-900);
   font-weight: var(--f-wei-600);

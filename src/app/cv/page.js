@@ -27,12 +27,14 @@ export default function CVPage() {
           comparta mis valores y donde pueda seguir aprendiendo y aportando.
         </p>
       </section>
-      <section className="wrapper">
-        <h2 className={styles.h2}>Experiencia Laboral</h2>
-        <div className={styles.jobDetails}>
-          <h3>Clinica Dental Blancodent</h3>
-          <p>Freelance | 2022 - Actualidad</p>
-          <p>Desarrollo página web: blancodent.com.</p>
+      <section className={`wrapper  ${styles.containerQuery}`}>
+        <div className={styles.flexContainer}>
+          <h2 className={styles.h2}>Experiencia Laboral</h2>
+          <div>
+            <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
+            <p>Freelance | 2022 - Actualidad</p>
+            <p>Desarrollo página web: blancodent.com.</p>
+          </div>
         </div>
       </section>
     </main>
