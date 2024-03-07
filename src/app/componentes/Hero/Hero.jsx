@@ -20,7 +20,11 @@ export default function Hero({ type, image, alt, title, about }) {
               duration: 0.8,
             }}
           >
-            <Image className={styles.img} src={image} alt={alt} />
+            <Image
+              // className={styles.img}
+              src={image}
+              alt={alt}
+            />
           </motion.div>
           <h1 className={styles.h1}>{title}</h1>
         </div>
