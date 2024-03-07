@@ -4,10 +4,19 @@
 
 .flexContainer {
   display: flex;
+  flex-direction: column;
+  gap: var(--gap-base);
 }
 
-@container (min-width: 30rem) {
-  .containerQuery {
+.flexContainer > * {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50%;
+}
+
+@container (min-width: 35rem) {
+  .flexContainer {
+    flex-direction: row;
   }
 }
 
@@ -23,4 +32,9 @@
   font-weight: var(--f-wei-600);
   line-height: var(--lh-small);
   font-stretch: var(--f-str-75);
+}
+
+.jobDetails {
+  background-color: hsl(var(--clr-negro) / 0.2);
+  padding: var(--padding);
 }
