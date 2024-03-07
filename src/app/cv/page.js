@@ -1,5 +1,6 @@
 import Hero from "@/app/componentes/Hero";
 import imagenCV from "@/app/assets/imagen/generales/foto-uno.png";
+import styles from "./page.module.css";
 
 export default function CVPage() {
   return (
@@ -12,8 +13,10 @@ export default function CVPage() {
       <section className="wrapper flow">
         <p>
           <span className="bold-text">Desarrolladora Web Front-End</span> junior
-          con conocimientos de React, Nextjs, React Router, JavaScript, CSS,
-          HTML, Firebase y Accesibilidad web.
+          con conocimientos de{" "}
+          <span className="bold-text">React, Nextjs, React Router</span>,
+          JavaScript, CSS, HTML, Firebase y{" "}
+          <span className="bold-text">Accesibilidad</span> web.
         </p>
         <p>
           A lo largo de mi trayectoria personal y profesional, he demostrado una
@@ -24,7 +27,14 @@ export default function CVPage() {
           comparta mis valores y donde pueda seguir aprendiendo y aportando.
         </p>
       </section>
-      <section></section>
+      <section className="wrapper">
+        <h2 className={styles.h2}>Experiencia Laboral</h2>
+        <div>
+          <h3>Clinica Dental Blancodent</h3>
+          <p>Freelance | 2022 - Actualidad</p>
+          <p>Desarrollo página web: blancodent.com.</p>
+        </div>
+      </section>
     </main>
   );
 }
