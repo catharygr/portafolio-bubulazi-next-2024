@@ -174,7 +174,7 @@ a {
   --f-wei-900: 900;
 
   --lh-small: 1;
-  --lh-normal: 1.6;
+  --lh-normal: 1.5;
   --lh-big: 1.8;
 
   /* Varios */
@@ -356,6 +356,10 @@ a {
 
 a:where(:hover, :focus) {
   opacity: 0.6;
+}
+
+.bold-text {
+  font-weight: var(--f-wei-600);
 }
 
 .link-btn {
