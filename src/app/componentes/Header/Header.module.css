@@ -42,6 +42,7 @@
 
 .escritorioLink {
   text-decoration: none;
+  color: hsl(var(--clr-texto-uno));
 }
 
 .escritorioLinkActivo {
@@ -87,6 +88,7 @@
 
 .iconSVG {
   stroke-width: 3px;
+  color: hsl(var(--clr-texto-uno));
 }
 
 .botonMenu {
@@ -98,4 +100,5 @@
   stroke-width: 4px;
   width: 35px;
   height: 35px;
+  color: hsl(var(--clr-texto-uno));
 }
