@@ -27,11 +27,9 @@ export default function CVPage() {
           comparta mis valores y donde pueda seguir aprendiendo y aportando.
         </p>
       </section>
-      <section className={`wrapper  ${styles.containerQuery}`}>
-        <div className={styles.flexContainer}>
-          <h2 className={`${styles.h2} ${styles.right}`}>
-            Experiencia Laboral
-          </h2>
+      <section className={`wrapper  ${styles.containerQuery} `}>
+        <div className={`${styles.flexContainer} ${styles.regularCard}`}>
+          <h2 className={styles.h2}>Experiencia Laboral</h2>
           <div className={styles.jobDetails}>
             <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
             <p>Freelance | 2022 - Actualidad</p>
@@ -39,21 +37,9 @@ export default function CVPage() {
           </div>
         </div>
       </section>
-      <section className={`wrapper  ${styles.containerQuery}`}>
-        <div className={styles.flexContainer}>
-          <h2 className={`${styles.h2} ${styles.left}`}>Experiencia Laboral</h2>
-          <div className={styles.jobDetails}>
-            <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-            <p>Freelance | 2022 - Actualidad</p>
-            <p>Desarrollo página web: blancodent.com.</p>
-          </div>
-        </div>
-      </section>
-      <section className={`wrapper  ${styles.containerQuery}`}>
-        <div className={styles.flexContainer}>
-          <h2 className={`${styles.h2} ${styles.right}`}>
-            Experiencia Laboral
-          </h2>
+      <section className={`wrapper  ${styles.containerQuery} `}>
+        <div className={`${styles.flexContainer} ${styles.invertedCard}`}>
+          <h2 className={styles.h2}>Experiencia Laboral</h2>
           <div className={styles.jobDetails}>
             <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
             <p>Freelance | 2022 - Actualidad</p>
