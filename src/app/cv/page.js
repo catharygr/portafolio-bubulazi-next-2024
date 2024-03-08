@@ -7,7 +7,7 @@ export default function CVPage() {
     <main>
       <Hero
         type="con-imagen"
-        title="Curriculum Vitae: Desarrolladora Front End"
+        title="Curriculum Vitae: Catary García Rivas."
         image={imagenCV}
       />
       <section className="wrapper flow">
@@ -54,6 +54,54 @@ export default function CVPage() {
       <section className={`wrapper  ${styles.containerQuery} `}>
         <div className={`${styles.flexContainer} ${styles.invertedCard}`}>
           <h2 className={styles.h2}>Varios Proyectos</h2>
+          <div className={`flow ${styles.jobDetails}`}>
+            <div>
+              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
+              <p>Freelance | 2022 - Actualidad</p>
+              <p>
+                Desarrollo y mantenimiento de la página web: blancodent.com.
+              </p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
+              <p>Freelance | 2022 - Actualidad</p>
+              <p>Desarrollo página web: blancodent.com.</p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
+              <p>Freelance | 2022 - Actualidad</p>
+              <p>Desarrollo página web: blancodent.com.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={`wrapper  ${styles.containerQuery} `}>
+        <div className={`${styles.flexContainer} ${styles.regularCard}`}>
+          <h2 className={styles.h2}>Formación</h2>
+          <div className={`flow ${styles.jobDetails}`}>
+            <div>
+              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
+              <p>Freelance | 2022 - Actualidad</p>
+              <p>
+                Desarrollo y mantenimiento de la página web: blancodent.com.
+              </p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
+              <p>Freelance | 2022 - Actualidad</p>
+              <p>Desarrollo página web: blancodent.com.</p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
+              <p>Freelance | 2022 - Actualidad</p>
+              <p>Desarrollo página web: blancodent.com.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={`wrapper  ${styles.containerQuery} `}>
+        <div className={`${styles.flexContainer} ${styles.invertedCard}`}>
+          <h2 className={styles.h2}>Datos de interes</h2>
           <div className={`flow ${styles.jobDetails}`}>
             <div>
               <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
