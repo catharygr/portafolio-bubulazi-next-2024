@@ -35,6 +35,7 @@
   font-weight: var(--f-wei-600);
   line-height: var(--lh-small);
   font-stretch: var(--f-str-75);
+  text-transform: capitalize;
 }
 
 .h3 {
