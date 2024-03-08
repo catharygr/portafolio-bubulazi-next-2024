@@ -28,9 +28,9 @@
   font-stretch: var(--f-str-75);
 }
 
-/* .img {
-  transform: translateY(1px);
-} */
+.img {
+  transform: translateY(0px);
+}
 
 /* Sin imagen */
 

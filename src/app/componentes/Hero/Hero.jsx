@@ -21,7 +21,7 @@ export default function Hero({ type, image, alt, title, about }) {
             }}
           >
             <Image
-              // className={styles.img}
+              className={styles.img}
               src={image}
               alt={alt}
             />
