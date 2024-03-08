@@ -37,7 +37,7 @@ export default function Header() {
       // Color verde
       root.style.setProperty("--clr-acento-uno", "159 100%% 16%");
       // Color lila fuerte
-      root.style.setProperty("--clr-acento-dos", "284 81% 15%");
+      root.style.setProperty("--clr-acento-dos", "284 81% 14%");
       // Color blanco
       root.style.setProperty("--clr-texto-uno", "0 0% 100%");
       // Color negro
