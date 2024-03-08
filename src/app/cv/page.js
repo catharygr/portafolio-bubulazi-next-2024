@@ -1,6 +1,26 @@
 import Hero from "@/app/componentes/Hero";
+import SubHero from "@/app/componentes/SubHero";
 import imagenCV from "@/app/assets/imagen/generales/foto-uno.png";
 import styles from "./page.module.css";
+
+export const SOBRE_MI = {
+  titleSuperior: "Sobre mí",
+  contentSuperior: `
+  ¡Hola! Iniciada en el mundo de la programación como junior, con muchas ganas de llevar a cabo todo lo aprendido en diferentes cursos, como en FreeCodeCamp, Platzi y Scrimba de CSS, HTML, JavaScript, React 18 y React Router 6. Con mucha disposición, determinación y voluntad para seguir aprendiendo. Espero a que os animéis a contactarme. Gracias de antemano.`,
+  titleInferior: "Habilidades",
+  contentInferior: [
+    "Next.js",
+    "React",
+    "React Router",
+    "JavaScript",
+    "ES6",
+    "CSS & HTML",
+    "Git",
+    "Firebase",
+    "Netlify",
+    "Vercel",
+  ],
+};
 
 export default function CVPage() {
   return (
@@ -10,6 +30,7 @@ export default function CVPage() {
         title="Curriculum Vitae: Catary García Rivas."
         image={imagenCV}
       />
+
       <section className="wrapper flow">
         <p>
           <span className="bold-text">Desarrolladora Web Front-End</span> junior
