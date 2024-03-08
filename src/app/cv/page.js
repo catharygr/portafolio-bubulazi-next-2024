@@ -168,21 +168,30 @@ export default function CVPage() {
             </div>
             <div>
               <h3 className={styles.h3}>
-                Plataforma web interactiva online “Scrimba”- Noruega 2019-2023.
+                Plataforma web interactiva online “Platzi”- San Francisco, EEUU
+                - 2020-2023.
               </h3>
               <p>Desarrolladora web Front-End React-JavaScript-HTML-CSS</p>
             </div>
             <div>
               <h3 className={styles.h3}>
-                Plataforma web interactiva online “Scrimba”- Noruega 2019-2023.
+                Plataforma web interactiva online “FreeCodeCamp”- San Francisco,
+                EEUU-2023.
               </h3>
               <p>Desarrolladora web Front-End React-JavaScript-HTML-CSS</p>
             </div>
             <div>
               <h3 className={styles.h3}>
-                Plataforma web interactiva online “Scrimba”- Noruega 2019-2023.
+                Academia CIP, Las Palmas de G.C. con prácticas en la Asesoría
+                Plaza La Feria.
               </h3>
-              <p>Desarrolladora web Front-End React-JavaScript-HTML-CSS</p>
+              <p>Experto en Gestión de Salario y Seguridad Social - 2010</p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>
+                Universidad Las Villas, Santa Clara.
+              </h3>
+              <p>Graduada en Economía - 1988-1993</p>
             </div>
           </div>
         </div>
@@ -192,18 +201,15 @@ export default function CVPage() {
           <h2 className={styles.h2}>Datos de interés</h2>
           <div className={`flow ${styles.jobDetails}`}>
             <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p></p>
-            </div>
-            <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
-              <p>Desarrollo página web: blancodent.com.</p>
-            </div>
-            <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
-              <p>Desarrollo página web: blancodent.com.</p>
+              <p>
+                En mis tiempos libres, imparto clases particulares de baile.
+                También practico varios deportes: esquí alpino, ciclismo de
+                touring, senderismo, running, yoga y meditación. Disfruto de la
+                lectura, sobre temas interesantes relacionados con la
+                documentación de todo aquello que estoy aprendiendo. Además, he
+                desarrollado un gusto por la codificación, que se ha convertido
+                en mi hobby favorito.
+              </p>
             </div>
           </div>
         </div>

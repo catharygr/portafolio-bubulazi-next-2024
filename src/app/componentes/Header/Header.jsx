@@ -33,15 +33,19 @@ export default function Header() {
       root.style.setProperty("--clr-blanco", "0 0% 100%");
     } else {
       // Color morado fuerte
-      root.style.setProperty("--clr-uno", "274 37% 76%");
+      // root.style.setProperty("--clr-uno", "274 37% 76%");
+      // Color rosa claro
+      root.style.setProperty("--clr-uno", "313 35% 80%");
       // Color morado claro
-      root.style.setProperty("--clr-acento-uno", "296 45% 33%");
-      // Color lila
-      root.style.setProperty("--clr-acento-dos", "263 61% 63%");
+      // root.style.setProperty("--clr-acento-uno", "296 45% 33%");
+      // color verde
+      root.style.setProperty("--clr-acento-uno", "159 100%% 16%");
+      // Color lila fuerte
+      root.style.setProperty("--clr-acento-dos", "284 81% 15%");
       // Color blanco
-      root.style.setProperty("--clr-negro", "0 0% 100%");
-      // Color lila claro
-      root.style.setProperty("--clr-blanco", "300, 66%, 12%");
+      root.style.setProperty("--clr-negro", "0 0% 0%");
+      // Color negro
+      root.style.setProperty("--clr-blanco", "0, 0%, 100%");
     }
   }, [modoClaro]);
 
@@ -49,8 +53,17 @@ export default function Header() {
     <header className={styles.header}>
       <div className={` ${styles.container}`}>
         <Link href="/">
-          <video className={styles.video} playsInline autoPlay loop muted>
-            <source src="/popo-video.mp4" type="video/mp4" />
+          <video
+            className={styles.video}
+            playsInline
+            autoPlay
+            loop
+            muted
+          >
+            <source
+              src="/popo-video.mp4"
+              type="video/mp4"
+            />
           </video>
         </Link>
         <div className={styles.navContainer}>
@@ -60,7 +73,10 @@ export default function Header() {
             onMouseLeave={() => setHoverLink(null)}
           >
             {ESCRITORIO_LINK.map(({ slug, label, href }) => (
-              <li key={slug} style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}>
+              <li
+                key={slug}
+                style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}
+              >
                 {hoverLink === slug && (
                   <motion.div
                     layoutId={id}
@@ -93,7 +109,10 @@ export default function Header() {
               <Rss className={styles.iconSVG} />
             </Link> */}
           </div>
-          <nav role="navigation" aria-label="Menu principal">
+          <nav
+            role="navigation"
+            aria-label="Menu principal"
+          >
             <button
               aria-expanded={estaMenuAbierto}
               className={styles.botonMenu}
