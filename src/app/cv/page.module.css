@@ -46,6 +46,7 @@
 }
 
 .jobDetails {
-  background-color: hsl(var(--clr-acento-dos) / 0.3);
+  background-color: hsl(var(--clr-uno) / 0.8);
   padding: var(--padding);
+  color: hsl(var(--clr-blanco));
 }
