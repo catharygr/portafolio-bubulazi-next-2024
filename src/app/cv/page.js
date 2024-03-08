@@ -95,14 +95,28 @@ export default function CVPage() {
               </p>
             </div>
             <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
-              <p>Desarrollo página web: blancodent.com.</p>
+              <h3 className={styles.h3}>
+                Empresa de Alimentación Ecológica Finca La Sombra - 2014-2021.
+              </h3>
+              <p>Administración, distribución, venta.</p>
             </div>
             <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
-              <p>Desarrollo página web: blancodent.com.</p>
+              <h3 className={styles.h3}>
+                Clínica Dental Blancodent - 2011-2014
+              </h3>
+              <p>Administrativo, Recepción y Relaciones Públicas.</p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>
+                Empresa Jupama, Las Palmas de G.C. - 2007-2011
+              </h3>
+              <p>Cajera Salón Recreativo.</p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>
+                Empresa Productos Lácteos, Las Palmas de G.C. - 1993-2007
+              </h3>
+              <p>Contabilidad, Finanzas y Salarios.</p>
             </div>
           </div>
         </div>
@@ -112,21 +126,15 @@ export default function CVPage() {
           <h2 className={styles.h2}>Varios Proyectos</h2>
           <div className={`flow ${styles.jobDetails}`}>
             <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
               <p>
-                Desarrollo y mantenimiento de la página web: blancodent.com.
+                En mi portafolio personal varios proyectos propios:{" "}
+                {/* <a
+                  target="_blank"
+                  href={"https://portafolio-bubulazi-next-2024.vercel.app"}
+                >
+                  bubulazi.com
+                </a> */}
               </p>
-            </div>
-            <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
-              <p>Desarrollo página web: blancodent.com.</p>
-            </div>
-            <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
-              <p>Desarrollo página web: blancodent.com.</p>
             </div>
           </div>
         </div>
@@ -136,7 +144,10 @@ export default function CVPage() {
           <h2 className={styles.h2}>Formación</h2>
           <div className={`flow ${styles.jobDetails}`}>
             <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
+              <h3 className={styles.h3}>
+                Universidad Internacional de La Rioja - Qualentum Bootcamp React
+                Front-End
+              </h3>
               <p>Freelance | 2022 - Actualidad</p>
               <p>
                 Desarrollo y mantenimiento de la página web: blancodent.com.
