@@ -48,7 +48,7 @@
 .jobDetails {
   background-color: hsl(var(--clr-uno) / 0.8);
   padding: var(--padding);
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-texto-dos));
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
 }

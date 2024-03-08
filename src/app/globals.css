@@ -151,8 +151,8 @@ a {
   --clr-uno: 284 81% 14%; /* violeta fuerte */
   --clr-acento-uno: 50 100% 50%; /* amarillo dorado */
   --clr-acento-dos: 313 35% 80%; /* lavanda rosa */
-  --clr-negro: 0 0% 0%;
-  --clr-blanco: 0 0% 100%;
+  --clr-texto-uno: 0 0% 0%;
+  --clr-texto-dos: 0 0% 100%;
 
   /* Formatos de letras */
   --fs-hero: clamp(3.052rem, 6vw, 4.5rem);
@@ -191,15 +191,15 @@ a {
   font-size: 112%;
 }
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root {
     --clr-uno: 284 81% 14%;
-    --clr-acento-uno: 276 73% 38%;
+    --clr-acento-uno: 50 100% 50%;
     --clr-acento-dos: 313 35% 80%;
-    --clr-negro: 0 0% 20%;
-    --clr-blanco: 0 0% 100%;
+    --clr-texto-uno: 0 0% 20%;
+    --clr-texto-dos: 0 0% 100%;
   }
-} */
+}
 
 /* ************************* */
 /*      Clases utiles        */
@@ -210,7 +210,7 @@ body {
   font-weight: 400;
   line-height: var(--lh-normal);
   font-stretch: var(--f-str-100);
-  background-color: hsl(var(--clr-blanco));
+  background-color: hsl(var(--clr-texto-dos));
   min-height: 100vh;
 }
 
@@ -219,7 +219,7 @@ body {
 }
 
 *:focus-visible {
-  /* outline: 2px solid hsl(var(--clr-negro) / 0.6);
+  /* outline: 2px solid hsl(var(--clr-texto-uno) / 0.6);
   outline-offset: 2px; */
   outline: revert;
 }
@@ -236,20 +236,20 @@ body {
   background-color: hsl(var(--clr-acento-dos));
 }
 .fondo-claro {
-  background-color: hsl(var(--clr-blanco));
+  background-color: hsl(var(--clr-texto-dos));
 }
 .fondo-negro {
-  background-color: hsl(var(--clr-negro));
+  background-color: hsl(var(--clr-texto-uno));
 }
 /* De letras */
 /* .color-negro {
-  color: hsl(var(--clr-negro));
+  color: hsl(var(--clr-texto-uno));
 }
 .color-blanco {
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-texto-dos));
 }
 .color-oscuro {
- color: hsl(var(--clr-negro));
+ color: hsl(var(--clr-texto-uno));
 }
 .color-acento {
   color: hsl(var(--clr-acento-uno));
@@ -366,7 +366,7 @@ a:where(:hover, :focus) {
   display: inline-block;
   align-self: center;
   background-color: hsl(var(--clr-uno));
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-texto-dos));
   padding: 0.8rem 2rem;
   border-radius: var(--border-radius);
   text-decoration: none;
@@ -375,8 +375,8 @@ a:where(:hover, :focus) {
 }
 
 .link-btn:where(:hover) {
-  background-color: hsl(var(--clr-negro) / 0.9);
-  color: hsl(var(--clr-blanco));
+  background-color: hsl(var(--clr-texto-uno) / 0.9);
+  color: hsl(var(--clr-texto-dos));
   scale: 1.05;
 }
 

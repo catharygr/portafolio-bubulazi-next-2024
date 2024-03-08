@@ -23,7 +23,7 @@
 
 .cardContent {
   padding: var(--padding);
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-texto-dos));
 }
 
 .cardContent h3 {

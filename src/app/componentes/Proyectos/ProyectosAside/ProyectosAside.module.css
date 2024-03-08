@@ -1,6 +1,6 @@
 .asideContainer {
   background-color: hsl(var(--clr-acento-uno));
-  color: hsl(var(--clr-negro));
+  color: hsl(var(--clr-texto-uno));
   padding-block: var(--padding-block-grande);
 }
 

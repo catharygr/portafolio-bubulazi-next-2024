@@ -106,8 +106,8 @@ meter {
   --clr-oscuro: 325 95% 56%;
   --clr-asento: 50 94% 51%;
   --clr-asento-claro: 174 89% 56%;
-  --clr-negro: 0 0% 20%;
-  --clr-blanco: 0 0% 100%;
+  --clr-texto-uno: 0 0% 20%;
+  --clr-texto-dos: 0 0% 100%;
 
   /* Formatos de letras */
   --fs-hero: clamp(3.052rem, 6vw, 4.5rem);
@@ -169,14 +169,14 @@ body {
   background-color: hsl(var(--clr-claro));
 }
 .fondo-negro {
-  background-color: hsl(var(--clr-negro));
+  background-color: hsl(var(--clr-texto-uno));
 }
 /* De letras */
 .color-negro {
-  color: hsl(var(--clr-negro));
+  color: hsl(var(--clr-texto-uno));
 }
 .color-blanco {
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-texto-dos));
 }
 .color-oscuro {
   color: hsl(var(--clr-oscuro));
@@ -377,7 +377,7 @@ nav {
 
 .hero-section {
   background-image: url(/assets/images/fondo-header-desktop.svg);
-  /* background-color: hsl(var(--clr-negro)); */
+  /* background-color: hsl(var(--clr-texto-uno)); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -572,7 +572,7 @@ nav {
 }
 
 .contact-form :where(input, textarea) {
-  background-color: hsl(var(--clr-blanco));
+  background-color: hsl(var(--clr-texto-dos));
   width: 100%;
   padding: 0.5em;
   border-radius: var(--border-radius);
@@ -580,7 +580,7 @@ nav {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: hsl(var(--clr-negro));
+  color: hsl(var(--clr-texto-uno));
   font-size: var(--fs-300);
 }
 

@@ -26,8 +26,8 @@
   right: 0;
   bottom: 0;
   width: 20rem;
-  background-color: hsl(var(--clr-blanco));
-  color: hsl(var(--clr-negro));
+  background-color: hsl(var(--clr-texto-dos));
+  color: hsl(var(--clr-texto-uno));
   width: min(90%, 300px);
   display: flex;
   flex-direction: column;
@@ -68,12 +68,12 @@
   padding: 0.5rem;
   border-radius: 0.2em;
   background-color: hsl(var(--clr-uno));
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-texto-dos));
   gap: 0.5rem;
 }
 
 .iconCerrar {
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-texto-dos));
   width: 16px;
   height: 16px;
   stroke-width: 3px;

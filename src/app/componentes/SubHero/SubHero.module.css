@@ -1,11 +1,11 @@
 .sectionSuperior {
   background-color: hsl(var(--clr-uno));
-  color: hsl(var(--clr-blanco));
+  color: hsl(var(--clr-texto-dos));
 }
 
 .sectionInferior {
   background-color: hsl(var(--clr-acento-uno));
-  color: hsl(var(--clr-negro));
+  color: hsl(var(--clr-texto-uno));
 }
 
 .wrapperSuperior,
@@ -61,8 +61,8 @@
 .singleLink {
   display: inline-block;
   margin-top: var(--gap-base);
-  background-color: hsl(var(--clr-blanco));
-  color: hsl(var(--clr-negro));
+  background-color: hsl(var(--clr-texto-dos));
+  color: hsl(var(--clr-texto-uno));
   padding: 0.5em 2em;
   border-radius: 5px;
   font-weight: var(--f-wei-600);

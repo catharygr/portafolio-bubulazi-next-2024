@@ -6,8 +6,8 @@
   gap: clamp(2rem, 7vw, 5rem);
   padding-block: var(--padding-block-grande);
   text-align: center;
-  background-color: hsl(var(--clr-blanco));
-  color: hsl(var(--clr-negro));
+  background-color: hsl(var(--clr-texto-dos));
+  color: hsl(var(--clr-texto-uno));
 }
 
 .marcoCircularImagen {

@@ -28,20 +28,20 @@ export default function Header() {
       // Color rosado
       root.style.setProperty("--clr-acento-dos", "313 35% 80%");
       // // Color negro
-      root.style.setProperty("--clr-negro", "0 0% 0%");
+      root.style.setProperty("--clr-texto-uno", "0 0% 0%");
       // Color blanco
-      root.style.setProperty("--clr-blanco", "0 0% 100%");
+      root.style.setProperty("--clr-texto-dos", "0 0% 100%");
     } else {
+      // Color rosa claro
+      root.style.setProperty("--clr-uno", "313 35% 80%");
       // Color verde
       root.style.setProperty("--clr-acento-uno", "159 100%% 16%");
       // Color lila fuerte
       root.style.setProperty("--clr-acento-dos", "284 81% 15%");
-      // Color rosa claro
-      root.style.setProperty("--clr-uno", "313 35% 80%");
-      // Color negro
-      root.style.setProperty("--clr-blanco", "0, 0%, 0%");
       // Color blanco
-      root.style.setProperty("--clr-negro", "0 0% 100%");
+      root.style.setProperty("--clr-texto-uno", "0 0% 100%");
+      // Color negro
+      root.style.setProperty("--clr-texto-dos", "0 0% 0%");
     }
   }, [modoClaro]);
 
