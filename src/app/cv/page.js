@@ -65,17 +65,19 @@ export default function CVPage() {
                   GitHub
                 </a>
               </p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>Ubicación:</h3>
+              <p>Las Palmas de Gran Canaria</p>
               <p>Disponibilidad geográfica e inmediata</p>
             </div>
             <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
+              <h3 className={styles.h3}>Conocimientos</h3>
               <p>Freelance | 2022 - Actualidad</p>
-              <p>Desarrollo página web: blancodent.com.</p>
-            </div>
-            <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
-              <p>Desarrollo página web: blancodent.com.</p>
+              <p>
+                React, Nextjs, React Router, JavaScript, CSS, HTML, Firebase,
+                Accesibilidad web, Git & GitHub, Agile, Figma.
+              </p>
             </div>
           </div>
         </div>
@@ -155,7 +157,7 @@ export default function CVPage() {
       </section>
       <section className={`wrapper  ${styles.containerQuery} `}>
         <div className={`${styles.flexContainer} ${styles.invertedCard}`}>
-          <h2 className={styles.h2}>Datos de interes</h2>
+          <h2 className={styles.h2}>Datos de interés</h2>
           <div className={`flow ${styles.jobDetails}`}>
             <div>
               <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
