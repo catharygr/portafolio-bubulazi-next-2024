@@ -146,22 +146,43 @@ export default function CVPage() {
             <div>
               <h3 className={styles.h3}>
                 Universidad Internacional de La Rioja - Qualentum Bootcamp React
-                Front-End
+                Front-End 2023-2024.
               </h3>
-              <p>Freelance | 2022 - Actualidad</p>
+              <p>Desarrolladora web Front-End React-Next-JavaScript-HTML-CSS</p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>
+                Plataforma web interactiva online ”Josh W Comeau's Course
+                Platform - Joy of React”- Cánada. 2022-2023.
+              </h3>
               <p>
-                Desarrollo y mantenimiento de la página web: blancodent.com.
+                Desarrolladora web Front-End React-React
+                router-JavaScript-HTML-CSS
               </p>
             </div>
             <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
-              <p>Desarrollo página web: blancodent.com.</p>
+              <h3 className={styles.h3}>
+                Plataforma web interactiva online “Scrimba”- Noruega 2019-2023.
+              </h3>
+              <p>Desarrolladora web Front-End React-JavaScript-HTML-CSS</p>
             </div>
             <div>
-              <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
-              <p>Desarrollo página web: blancodent.com.</p>
+              <h3 className={styles.h3}>
+                Plataforma web interactiva online “Scrimba”- Noruega 2019-2023.
+              </h3>
+              <p>Desarrolladora web Front-End React-JavaScript-HTML-CSS</p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>
+                Plataforma web interactiva online “Scrimba”- Noruega 2019-2023.
+              </h3>
+              <p>Desarrolladora web Front-End React-JavaScript-HTML-CSS</p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>
+                Plataforma web interactiva online “Scrimba”- Noruega 2019-2023.
+              </h3>
+              <p>Desarrolladora web Front-End React-JavaScript-HTML-CSS</p>
             </div>
           </div>
         </div>
@@ -172,10 +193,7 @@ export default function CVPage() {
           <div className={`flow ${styles.jobDetails}`}>
             <div>
               <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
-              <p>
-                Desarrollo y mantenimiento de la página web: blancodent.com.
-              </p>
+              <p></p>
             </div>
             <div>
               <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
