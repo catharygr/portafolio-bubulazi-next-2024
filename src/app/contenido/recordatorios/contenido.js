@@ -27,7 +27,7 @@ export const contenidoDePagina = {
         "Netlifly",
       ],
 
-      colTres: ["https://recordatorios-react-cathy.netlify.app"],
+      colTres: ["https://recordatorios-react-cathy.netlify.app/loguear"],
     },
   },
   main: {

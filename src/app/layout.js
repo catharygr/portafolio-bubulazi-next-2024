@@ -13,7 +13,10 @@ export const metadata = BASE_METADATA;
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" className={monaSanzFont.className}>
+    <html
+      lang="es"
+      className={monaSanzFont.className}
+    >
       <body>
         <Header />
         {children}
@@ -22,5 +25,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-// "eslint-plugin-prettier": "^5.1.0",
-// "prettier": "^3.0.3"
