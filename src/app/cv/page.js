@@ -55,7 +55,7 @@ export default function CVPage() {
               <p>
                 <a
                   target="_blank"
-                  href={"https://www.linkedin.com/in/hyuik"}
+                  href={"https://www.linkedin.com"}
                 >
                   LinkedIn
                 </a>

@@ -3,7 +3,10 @@ import styles from "./Formulario.module.css";
 
 export default function Formulario() {
   return (
-    <section className={styles.container} id="contacto-form">
+    <section
+      className={styles.container}
+      id="contacto-form"
+    >
       <div className={`${styles.formulario} wrapper`}>
         <div className={`${styles.contenido} flow`}>
           <h2 className={styles.h2}>
@@ -16,11 +19,14 @@ export default function Formulario() {
           </p>
           <div className={styles.misEnlaces}>
             <Link href="https://github.com/catharygr">LinkedIn</Link> | {""}
-            <Link href="https://www.linkedin.com/in/hyuik">GitHub</Link>
+            <Link href="https://www.linkedin.com/">GitHub</Link>
           </div>
         </div>
         <form className={styles.form}>
-          <label htmlFor="name" className={styles.label}>
+          <label
+            htmlFor="name"
+            className={styles.label}
+          >
             Nombre:
           </label>
           <input
@@ -30,7 +36,10 @@ export default function Formulario() {
             placeholder="¿Cómo te gustaria que te llamara?"
             className={styles.input}
           />
-          <label htmlFor="email" className={styles.label}>
+          <label
+            htmlFor="email"
+            className={styles.label}
+          >
             Email:
           </label>
           <input
@@ -40,7 +49,10 @@ export default function Formulario() {
             placeholder="¿Cuál es tu dirección de correo?"
             className={styles.input}
           />
-          <label htmlFor="mensaje" className={styles.label}>
+          <label
+            htmlFor="mensaje"
+            className={styles.label}
+          >
             Mensaje:
           </label>
           <textarea

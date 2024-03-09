@@ -164,7 +164,7 @@ meter {
   --padding: 1rem;
   --margin-texto: 1em;
   --border-radius: 7px;
-  --box-shadow: 0 5px 10px 0 hsl(var(--clr-acentado) / 0.8);
+  --box-shadow: 0 5px 10px 0 hsl(var(--clr-texto) / 0.4);
   --container-max: 65rem;
   --gap-base: 1rem;
   --gap-grande: 4rem;
@@ -253,6 +253,7 @@ a:where(:hover, :focus) {
   text-decoration: none;
   margin-top: var(--margin-texto);
   transition: scale 0.2s ease-in-out;
+  box-shadow: var(--box-shadow);
 }
 
 .link-btn:where(:hover) {
