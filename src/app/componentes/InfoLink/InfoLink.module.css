@@ -1,3 +1,7 @@
+.section {
+  background-color: hsl(var(--clr-terciario));
+}
+
 .singleLink {
   display: inline-block;
   margin-top: var(--gap-base);
@@ -9,6 +13,7 @@
   font-size: var(--fs-400);
   text-decoration: none;
   transition: scale 0.2s ease-in-out;
+  box-shadow: var(--box-shadow);
 }
 
 .singleLink:hover {
