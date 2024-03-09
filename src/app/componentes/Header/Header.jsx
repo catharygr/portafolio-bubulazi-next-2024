@@ -18,32 +18,22 @@ export default function Header() {
   const pathname = usePathname();
   const id = useId();
 
-  // useEffect(() => {
-  //   const root = document.querySelector(":root");
-  //   if (modoClaro) {
-  //     // Color morado fuerte
-  //     root.style.setProperty("--clr-primario", "284 81% 14%");
-  //     // Color amarillo
-  //     root.style.setProperty("--clr-secundario", "50 100% 50%");
-  //     // Color rosado
-  //     root.style.setProperty("--clr-acentado", "313 35% 80%");
-  //     // // Color negro
-  //     root.style.setProperty("--clr-texto", "0 0% 0%");
-  //     // Color blanco
-  //     root.style.setProperty(" --clr-fondo", "0 0% 100%");
-  //   } else {
-  //     // Color rosa claro
-  //     root.style.setProperty("--clr-primario", "313 35% 80%");
-  //     // Color verde
-  //     root.style.setProperty("--clr-secundario", "159 100% 16%");
-  //     // Color lila fuerte
-  //     root.style.setProperty("--clr-acentado", "284 81% 14%");
-  //     // Color blanco
-  //     root.style.setProperty("--clr-texto", "0 0% 100%");
-  //     // Color negro
-  //     root.style.setProperty(" --clr-fondo", "0 0% 0%");
-  //   }
-  // }, [modoClaro]);
+  useEffect(() => {
+    const root = document.querySelector(":root");
+    if (modoClaro) {
+      root.style.setProperty("--clr-primario", "137 82% 83%");
+      root.style.setProperty("--clr-secundario", "37 86% 88%");
+      root.style.setProperty("--clr-acentado", "349 100% 84%");
+      root.style.setProperty("--clr-fondo", "178 59% 76%");
+      root.style.setProperty("--clr-texto", "0 0% 4%");
+    } else {
+      root.style.setProperty("--clr-primario", "67 63% 32%");
+      root.style.setProperty("--clr-secundario", "36 92% 54%");
+      root.style.setProperty("--clr-acentado", "20 84% 48%");
+      root.style.setProperty("--clr-fondo", "120 60% 16%");
+      root.style.setProperty("--clr-texto", "0 0% 96%");
+    }
+  }, [modoClaro]);
 
   return (
     <header className={styles.header}>
