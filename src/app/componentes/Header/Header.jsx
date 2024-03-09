@@ -18,32 +18,32 @@ export default function Header() {
   const pathname = usePathname();
   const id = useId();
 
-  useEffect(() => {
-    const root = document.querySelector(":root");
-    if (modoClaro) {
-      // Color morado fuerte
-      root.style.setProperty("--clr-uno", "284 81% 14%");
-      // Color amarillo
-      root.style.setProperty("--clr-acento-uno", "50 100% 50%");
-      // Color rosado
-      root.style.setProperty("--clr-acento-dos", "313 35% 80%");
-      // // Color negro
-      root.style.setProperty("--clr-texto-uno", "0 0% 0%");
-      // Color blanco
-      root.style.setProperty("--clr-texto-dos", "0 0% 100%");
-    } else {
-      // Color rosa claro
-      root.style.setProperty("--clr-uno", "313 35% 80%");
-      // Color verde
-      root.style.setProperty("--clr-acento-uno", "159 100% 16%");
-      // Color lila fuerte
-      root.style.setProperty("--clr-acento-dos", "284 81% 14%");
-      // Color blanco
-      root.style.setProperty("--clr-texto-uno", "0 0% 100%");
-      // Color negro
-      root.style.setProperty("--clr-texto-dos", "0 0% 0%");
-    }
-  }, [modoClaro]);
+  // useEffect(() => {
+  //   const root = document.querySelector(":root");
+  //   if (modoClaro) {
+  //     // Color morado fuerte
+  //     root.style.setProperty("--clr-uno", "284 81% 14%");
+  //     // Color amarillo
+  //     root.style.setProperty("--clr-acento-uno", "50 100% 50%");
+  //     // Color rosado
+  //     root.style.setProperty("--clr-acento-dos", "313 35% 80%");
+  //     // // Color negro
+  //     root.style.setProperty("--clr-texto-uno", "0 0% 0%");
+  //     // Color blanco
+  //     root.style.setProperty("--clr-texto-dos", "0 0% 100%");
+  //   } else {
+  //     // Color rosa claro
+  //     root.style.setProperty("--clr-uno", "313 35% 80%");
+  //     // Color verde
+  //     root.style.setProperty("--clr-acento-uno", "159 100% 16%");
+  //     // Color lila fuerte
+  //     root.style.setProperty("--clr-acento-dos", "284 81% 14%");
+  //     // Color blanco
+  //     root.style.setProperty("--clr-texto-uno", "0 0% 100%");
+  //     // Color negro
+  //     root.style.setProperty("--clr-texto-dos", "0 0% 0%");
+  //   }
+  // }, [modoClaro]);
 
   return (
     <header className={styles.header}>

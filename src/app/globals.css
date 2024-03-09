@@ -126,6 +126,21 @@ meter {
   --clr-texto-uno: 0 0% 0%;
   --clr-texto-dos: 0 0% 100%;
 
+  --clr-uno: 137 82% 83%; /* violeta fuerte */
+  --clr-acento-uno: 37 86% 88%; /* amarillo dorado */
+  --clr-acento-dos: 349 100% 84%; /* lavanda rosa */
+  --clr-texto-uno: 0 0% 0%;
+  --clr-texto-dos: 0 0% 100%;
+
+  --clr-primario: 137 82% 83%;
+  --clr-secundario: 37 86% 88%;
+  --clr-terciario: 178 59% 76%;
+  --clr-acentado: 349 100% 84%;
+  --clr-texto: 0 0% 0%;
+  --clr-fondo: 0 0% 100%;
+  --clr-negro: 0 0% 0%;
+  --clr-blanco: 0 0% 100%;
+
   /* Formatos de letras */
   --fs-hero: clamp(3.052rem, 6vw, 4.5rem);
   --fs-900: 3.052rem;
