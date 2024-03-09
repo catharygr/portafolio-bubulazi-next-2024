@@ -10,6 +10,7 @@ export default function CVPage() {
         type="con-imagen"
         title="Curriculum Vitae: Catary García Rivas."
         image={imagenCV}
+        alt="Foto Cv"
       />
       <section className={`wrapper  ${styles.containerQuery} `}>
         <div className={`${styles.flexContainer} ${styles.regularCard}`}>
@@ -259,13 +260,12 @@ export default function CVPage() {
                 En mis tiempos libres, imparto clases particulares de baile.
                 También practico varios deportes: esquí alpino, ciclismo de
                 touring, senderismo, running, yoga y meditación.
-                <p>
-                  {" "}
-                  Disfruto de la lectura, sobre temas interesantes relacionados
-                  con la documentación de todo aquello que estoy aprendiendo.
-                  Además, he desarrollado un gusto por la codificación, que se
-                  ha convertido en mi hobby favorito.
-                </p>
+              </p>
+              <p>
+                Disfruto de la lectura, sobre temas interesantes relacionados
+                con la documentación de todo aquello que estoy aprendiendo.
+                Además, he desarrollado un gusto por la codificación, que se ha
+                convertido en mi hobby favorito.
               </p>
             </div>
           </div>

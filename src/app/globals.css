@@ -114,34 +114,6 @@ meter {
   box-sizing: border-box;
 }
 
-/* SMOL Stuff */
-/* 
-body > * {
-  --layout-spacing: max(8vh, 3rem);
-  --max-width: 75rem;
-  width: min(98%, var(--max-width));
-  margin-left: auto;
-  margin-right: auto;
-}
-
-:is(h1, h2, h3) {
-  line-height: 1.2;
-}
-
-:is(h2, h3):not(:first-child) {
-  margin-top: 2em;
-}
-
-article * + * {
-  margin-top: 1em;
-}
-
-a {
-  text-underline-offset: 0.15em;
-} */
-
-/* Final de smol stuff */
-
 /* ************************* */
 /*      Variables            */
 /* ************************* */
@@ -191,7 +163,7 @@ a {
   font-size: 112%;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     --clr-uno: 284 81% 14%;
     --clr-acento-uno: 50 100% 50%;
@@ -199,7 +171,7 @@ a {
     --clr-texto-uno: 0 0% 20%;
     --clr-texto-dos: 0 0% 100%;
   }
-}
+} */
 
 /* ************************* */
 /*      Clases utiles        */
@@ -223,108 +195,6 @@ body {
   outline-offset: 2px; */
   outline: revert;
 }
-
-/* Colores */
-/* De fondo */
-/* .fondo-oscuro {
-  background-color: hsl(var(--clr-uno));
-}
-.fondo-acento {
-  background-color: hsl(var(--clr-acento-uno));
-}
-.fondo-acento-claro {
-  background-color: hsl(var(--clr-acento-dos));
-}
-.fondo-claro {
-  background-color: hsl(var(--clr-texto-dos));
-}
-.fondo-negro {
-  background-color: hsl(var(--clr-texto-uno));
-}
-/* De letras */
-/* .color-negro {
-  color: hsl(var(--clr-texto-uno));
-}
-.color-blanco {
-  color: hsl(var(--clr-texto-dos));
-}
-.color-oscuro {
- color: hsl(var(--clr-texto-uno));
-}
-.color-acento {
-  color: hsl(var(--clr-acento-uno));
-}
-.color-acento-claro {
-  color: hsl(var(--clr-acento-dos));
-}  */
-
-/* Formatos de letras */
-
-/* .fs-hero {
-  font-size: var(--fs-hero);
-}
-.fs-900 {
-  font-size: var(--fs-900);
-}
-.fs-800 {
-  font-size: var(--fs-800);
-}
-.fs-700 {
-  font-size: var(--fs-700);
-}
-.fs-600 {
-  font-size: var(--fs-600);
-}
-.fs-500 {
-  font-size: var(--fs-500);
-}
-.fs-400 {
-  font-size: var(--fs-400);
-}
-.fs-300 {
-  font-size: var(--fs-300);
-}
-.fs-200 {
-  font-size: var(--fs-200);
-}
-
-.f-str-75 {
-  font-stretch: var(--f-str-75);
-}
-.f-str-100 {
-  font-stretch: var(--f-str-100);
-}
-.f-str-125 {
-  font-stretch: var(--f-str-125);
-}
-
-.f-wei-200 {
-  font-weight: var(--f-wei-200);
-}
-.f-wei-600 {
-  font-weight: var(--f-wei-600);
-}
-.f-wei-900 {
-  font-weight: var(--f-wei-900);
-}
-
-.lh-small {
-  line-height: var(--lh-small);
-}
-.lh-normal {
-  line-height: var(--lh-normal);
-}
-.lh-big {
-  line-height: var(--lh-big);
-} */
-
-/* .flex {
-  display: flex;
-}
-
-.grid {
-  display: grid;
-} */
 
 .flow > *:not(:last-child) {
   margin-bottom: var(--margin-texto);
