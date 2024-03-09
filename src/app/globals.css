@@ -131,7 +131,7 @@ meter {
   --clr-terciario: 178 59% 76%;
   --clr-acentado: 349 100% 84%;
   --clr-texto: 0 0% 4%;
-  --clr-fondo: 0 0% 96%;
+  --clr-fondo: 178 59% 76%;
   --clr-negro: 0 0% 4%;
   --clr-blanco: 0 0% 96%;
 
@@ -236,7 +236,7 @@ a {
 
 a:where(:hover, :focus) {
   font-weight: var(--f-wei-600);
-  /text-decoration: none;
+  text-decoration: none;
 }
 
 .bold-text {

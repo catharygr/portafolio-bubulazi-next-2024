@@ -47,8 +47,7 @@
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 14rem;
-  /* background-color: hsl(276 73% 38% / 0.4); */
-  background-color: hsl(var(--clr-terciario));
+  background-color: hsl(var(--clr-secundario));
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
 }
