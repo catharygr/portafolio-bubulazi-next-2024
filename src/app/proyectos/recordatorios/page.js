@@ -1,6 +1,6 @@
 import Hero from "@/app/componentes/Hero";
 import SubHero from "@/app/componentes/SubHero";
-import { contenidoDePagina } from "@/app/contenido/formulario-multi-paginas/contenido";
+import { contenidoDePagina } from "@/app/contenido/recordatorios/contenido";
 import ProyectosMain from "@/app/componentes/Proyectos/ProyectosMain";
 import ProyectosAside from "@/app/componentes/Proyectos/ProyectosAside/ProyectosAside";
 import OtrosProyectos from "@/app/componentes/Proyectos/OtrosProyectos";
