@@ -12,7 +12,7 @@
 
 .otrosAsides {
   background-color: hsl(var(--clr-primario));
-  color: hsl(var(--clr-fondo));
+  color: hsl(var(--clr-texto));
 }
 .container {
   padding-block: var(--padding-block-grande);

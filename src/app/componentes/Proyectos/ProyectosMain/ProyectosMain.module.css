@@ -11,7 +11,7 @@
   font-size: var(--fs-700);
   font-weight: var(--f-wei-600);
   font-stretch: var(--f-str-75);
-  color: hsla(var(--clr-primario));
+  color: hsla(var(--clr-texto));
 }
 
 .bloqueTres img,

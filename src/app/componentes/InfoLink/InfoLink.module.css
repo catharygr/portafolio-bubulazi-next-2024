@@ -2,7 +2,7 @@
   display: inline-block;
   margin-top: var(--gap-base);
   background-color: hsl(var(--clr-primario));
-  color: hsl(var(--clr-fondo));
+  color: hsl(var(--clr-texto));
   padding: 0.5em 2em;
   border-radius: var(--border-radius);
   font-weight: var(--f-wei-600);
