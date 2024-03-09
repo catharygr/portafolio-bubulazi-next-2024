@@ -1,7 +1,7 @@
 .container {
-  background-color: hsl(var(--clr-acento-uno));
+  background-color: hsl(var(--clr-secundario));
   padding-block: var(--padding-block-grande);
-  color: hsl(var(--clr-texto-uno));
+  color: hsl(var(--clr-texto));
 }
 
 .formulario {
@@ -25,8 +25,8 @@
 .form {
   display: flex;
   flex-direction: column;
-  background-color: hsl(var(--clr-uno));
-  color: hsl(var(--clr-texto-dos));
+  background-color: hsl(var(--clr-primario));
+  color: hsl(var(--clr-fondo));
   padding: var(--padding-block);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
@@ -34,8 +34,8 @@
 
 .input {
   margin-bottom: var(--gap-base);
-  background-color: hsl(var(--clr-texto-dos));
-  color: hsl(var(--clr-texto-uno));
+  background-color: hsl(var(--clr-fondo));
+  color: hsl(var(--clr-texto));
   padding: 0.4rem;
   border-radius: 0.3rem;
 }
@@ -51,8 +51,8 @@
 }
 
 .btn {
-  background-color: hsl(var(--clr-acento-dos));
-  color: hsl(var(--clr-texto-uno));
+  background-color: hsl(var(--clr-acentado));
+  color: hsl(var(--clr-texto));
   padding: 0.4rem;
   border-radius: 0.3rem;
   font-size: var(--fs-500);

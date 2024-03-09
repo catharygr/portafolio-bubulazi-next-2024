@@ -6,8 +6,8 @@
   gap: clamp(2rem, 7vw, 5rem);
   padding-block: var(--padding-block-grande);
   text-align: center;
-  background-color: hsl(var(--clr-texto-dos));
-  color: hsl(var(--clr-texto-uno));
+  background-color: hsl(var(--clr-fondo));
+  color: hsl(var(--clr-texto));
 }
 
 .marcoCircularImagen {
@@ -16,10 +16,10 @@
   flex-shrink: 0;
   aspect-ratio: 1;
   overflow: hidden;
-  border: 10px solid hsla(var(--clr-uno) / 0.8);
+  border: 10px solid hsla(var(--clr-primario) / 0.8);
   border-radius: 50%;
   box-shadow: var(--box-shadow);
-  background-color: hsla(var(--clr-acento-dos));
+  background-color: hsla(var(--clr-acentado));
 }
 
 .h1 {

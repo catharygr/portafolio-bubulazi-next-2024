@@ -1,6 +1,6 @@
 .header {
-  background-color: hsl(var(--clr-acento-dos));
-  border-bottom: 1px solid hsl(var(--clr-texto-uno));
+  background-color: hsl(var(--clr-acentado));
+  border-bottom: 1px solid hsl(var(--clr-texto));
 }
 
 .container {
@@ -42,7 +42,7 @@
 
 .escritorioLink {
   text-decoration: none;
-  color: hsl(var(--clr-texto-uno));
+  color: hsl(var(--clr-texto));
 }
 
 .escritorioLinkActivo {
@@ -88,7 +88,7 @@
 
 .iconSVG {
   stroke-width: 3px;
-  color: hsl(var(--clr-texto-uno));
+  color: hsl(var(--clr-texto));
 }
 
 .botonMenu {
@@ -100,5 +100,5 @@
   stroke-width: 4px;
   width: 35px;
   height: 35px;
-  color: hsl(var(--clr-texto-uno));
+  color: hsl(var(--clr-texto));
 }

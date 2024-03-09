@@ -1,7 +1,7 @@
 .footer {
   padding: var(--padding-block);
-  background-color: hsl(var(--clr-acento-dos));
-  color: hsl(var(--clr-texto-uno));
+  background-color: hsl(var(--clr-acentado));
+  color: hsl(var(--clr-texto));
 }
 
 .container {
@@ -35,10 +35,10 @@
 }
 
 .h4 {
-  color: var(--clr-texto-dos);
+  color: var(--clr-fondo);
   font-size: var(--fs-400);
   font-weight: var(--f-wei-900);
-  border-bottom: 2px solid hsl(var(--clr-texto-uno));
+  border-bottom: 2px solid hsl(var(--clr-texto));
 }
 
 .emojiFeather {

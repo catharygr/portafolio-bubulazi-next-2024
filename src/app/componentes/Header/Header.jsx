@@ -22,26 +22,26 @@ export default function Header() {
   //   const root = document.querySelector(":root");
   //   if (modoClaro) {
   //     // Color morado fuerte
-  //     root.style.setProperty("--clr-uno", "284 81% 14%");
+  //     root.style.setProperty("--clr-primario", "284 81% 14%");
   //     // Color amarillo
-  //     root.style.setProperty("--clr-acento-uno", "50 100% 50%");
+  //     root.style.setProperty("--clr-secundario", "50 100% 50%");
   //     // Color rosado
-  //     root.style.setProperty("--clr-acento-dos", "313 35% 80%");
+  //     root.style.setProperty("--clr-acentado", "313 35% 80%");
   //     // // Color negro
-  //     root.style.setProperty("--clr-texto-uno", "0 0% 0%");
+  //     root.style.setProperty("--clr-texto", "0 0% 0%");
   //     // Color blanco
-  //     root.style.setProperty("--clr-texto-dos", "0 0% 100%");
+  //     root.style.setProperty(" --clr-fondo", "0 0% 100%");
   //   } else {
   //     // Color rosa claro
-  //     root.style.setProperty("--clr-uno", "313 35% 80%");
+  //     root.style.setProperty("--clr-primario", "313 35% 80%");
   //     // Color verde
-  //     root.style.setProperty("--clr-acento-uno", "159 100% 16%");
+  //     root.style.setProperty("--clr-secundario", "159 100% 16%");
   //     // Color lila fuerte
-  //     root.style.setProperty("--clr-acento-dos", "284 81% 14%");
+  //     root.style.setProperty("--clr-acentado", "284 81% 14%");
   //     // Color blanco
-  //     root.style.setProperty("--clr-texto-uno", "0 0% 100%");
+  //     root.style.setProperty("--clr-texto", "0 0% 100%");
   //     // Color negro
-  //     root.style.setProperty("--clr-texto-dos", "0 0% 0%");
+  //     root.style.setProperty(" --clr-fondo", "0 0% 0%");
   //   }
   // }, [modoClaro]);
 

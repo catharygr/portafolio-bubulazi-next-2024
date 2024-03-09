@@ -8,14 +8,14 @@
 .navFondo {
   position: absolute;
   inset: 0;
-  background-color: hsl(var(--clr-uno) / 0.2);
+  background-color: hsl(var(--clr-primario) / 0.2);
   backdrop-filter: blur(3px);
 }
 
 .hoverFondo {
   position: absolute;
   inset: 0;
-  background: hsl(var(--clr-acento-dos));
+  background: hsl(var(--clr-acentado));
   border-radius: var(--border-radius);
   z-index: -1;
 }
@@ -26,8 +26,8 @@
   right: 0;
   bottom: 0;
   width: 20rem;
-  background-color: hsl(var(--clr-texto-dos));
-  color: hsl(var(--clr-texto-uno));
+  background-color: hsl(var(--clr-fondo));
+  color: hsl(var(--clr-texto));
   width: min(90%, 300px);
   display: flex;
   flex-direction: column;
@@ -67,13 +67,13 @@
   align-self: stretch;
   padding: 0.5rem;
   border-radius: 0.2em;
-  background-color: hsl(var(--clr-uno));
-  color: hsl(var(--clr-texto-dos));
+  background-color: hsl(var(--clr-primario));
+  color: hsl(var(--clr-fondo));
   gap: 0.5rem;
 }
 
 .iconCerrar {
-  color: hsl(var(--clr-texto-dos));
+  color: hsl(var(--clr-fondo));
   width: 16px;
   height: 16px;
   stroke-width: 3px;
