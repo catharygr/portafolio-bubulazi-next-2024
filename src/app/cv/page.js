@@ -31,6 +31,8 @@ export default function CVPage() {
                 A lo largo de mi trayectoria personal y profesional, he
                 demostrado una firme determinación para alcanzar mis objetivos.
                 Como el de cambiar la profesión de económica a desalladora web.
+              </p>
+              <p>
                 Aprendo rápidamente y estoy comprometida con seguir
                 evolucionando en este campo, buscando oportunidades como
                 desarrolladora Front-End en una empresa que comparta mis valores
@@ -72,11 +74,10 @@ export default function CVPage() {
               <p>Disponibilidad geográfica e inmediata</p>
             </div>
             <div>
-              <h3 className={styles.h3}>Conocimientos</h3>
-              <p>Freelance | 2022 - Actualidad</p>
+              <h3 className={styles.h3}>Conocimientos:</h3>
               <p>
-                React, Nextjs, React Router, JavaScript, CSS, HTML, Firebase,
-                Accesibilidad web, Git & GitHub, Agile, Figma.
+                React | Nextjs | React Router | JavaScript | CSS | HTML |
+                Firebase | Accesibilidad web | Git & GitHub | Agile | Figma.
               </p>
             </div>
           </div>
@@ -126,14 +127,57 @@ export default function CVPage() {
           <h2 className={styles.h2}>Varios Proyectos</h2>
           <div className={`flow ${styles.jobDetails}`}>
             <div>
+              <h3 className={styles.h3}>
+                Enlaces directos a páginas de proyectos:
+              </h3>
               <p>
-                En mi portafolio personal varios proyectos propios:{" "}
-                {/* <a
+                <a
                   target="_blank"
-                  href={"https://portafolio-bubulazi-next-2024.vercel.app"}
+                  href="https://qualentum-ecommerce-catary.netlify.app"
                 >
-                  bubulazi.com
-                </a> */}
+                  E-commerce site
+                </a>
+              </p>
+              <p>
+                <a
+                  target="_blank"
+                  href="https://multipage-form-caty.netlify.app"
+                >
+                  Multipage form
+                </a>
+              </p>
+              <p>
+                <a
+                  target="_blank"
+                  href="https://sarajevo-turismo.netlify.app"
+                >
+                  Sarajevo Tours
+                </a>
+              </p>
+              <p>
+                <a
+                  target="_blank"
+                  href="https://recordatorios-react-cathy.netlify.app"
+                >
+                  Recordatorios
+                </a>
+              </p>
+              <p>
+                <a
+                  target="_blank"
+                  href="https://blancodent.com"
+                >
+                  Clínica Dental Blancodent
+                </a>
+              </p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>En mi portafolio personal:</h3>
+
+              <p>
+                <Link href={"/proyectos"}>
+                  Detalles de todos los proyectos:
+                </Link>
               </p>
             </div>
           </div>
@@ -148,37 +192,47 @@ export default function CVPage() {
                 Universidad Internacional de La Rioja - Qualentum Bootcamp React
                 Front-End 2023-2024.
               </h3>
-              <p>Desarrolladora web Front-End React-Next-JavaScript-HTML-CSS</p>
-            </div>
-            <div>
-              <h3 className={styles.h3}>
-                Plataforma web interactiva online ”Josh W Comeau's Course
-                Platform - Joy of React”- Cánada. 2022-2023.
-              </h3>
               <p>
-                Desarrolladora web Front-End React-React
-                router-JavaScript-HTML-CSS
+                Desarrolladora web Front-End | React | Nextjs | JavaScript |
+                HTML | CSS
               </p>
             </div>
             <div>
               <h3 className={styles.h3}>
-                Plataforma web interactiva online “Scrimba”- Noruega 2019-2023.
+                Plataforma web interactiva online ”Josh W Comeau Course Platform
+                - Joy of React” - Cánada. 2022-2023.
               </h3>
-              <p>Desarrolladora web Front-End React-JavaScript-HTML-CSS</p>
+              <p>
+                Desarrolladora web Front-End | React | Nextjs | JavaScript |
+                HTML | CSS
+              </p>
             </div>
             <div>
               <h3 className={styles.h3}>
-                Plataforma web interactiva online “Platzi”- San Francisco, EEUU
+                Plataforma web interactiva online “Scrimba” - Noruega 2019-2023.
+              </h3>
+              <p>
+                Desarrolladora web Front-End | React | React-router | JavaScript
+                | HTML | CSS
+              </p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>
+                Plataforma web interactiva online “Platzi” - San Francisco, EEUU
                 - 2020-2023.
               </h3>
-              <p>Desarrolladora web Front-End React-JavaScript-HTML-CSS</p>
+              <p>
+                Desarrolladora web Front-End | React | JavaScript | HTML | CSS
+              </p>
             </div>
             <div>
               <h3 className={styles.h3}>
-                Plataforma web interactiva online “FreeCodeCamp”- San Francisco,
-                EEUU-2023.
+                Plataforma web interactiva online “FreeCodeCamp” - San
+                Francisco, EEUU-2023.
               </h3>
-              <p>Desarrolladora web Front-End React-JavaScript-HTML-CSS</p>
+              <p>
+                Desarrolladora web Front-End | React | JavaScript | HTML | CSS
+              </p>
             </div>
             <div>
               <h3 className={styles.h3}>
@@ -204,11 +258,14 @@ export default function CVPage() {
               <p>
                 En mis tiempos libres, imparto clases particulares de baile.
                 También practico varios deportes: esquí alpino, ciclismo de
-                touring, senderismo, running, yoga y meditación. Disfruto de la
-                lectura, sobre temas interesantes relacionados con la
-                documentación de todo aquello que estoy aprendiendo. Además, he
-                desarrollado un gusto por la codificación, que se ha convertido
-                en mi hobby favorito.
+                touring, senderismo, running, yoga y meditación.
+                <p>
+                  {" "}
+                  Disfruto de la lectura, sobre temas interesantes relacionados
+                  con la documentación de todo aquello que estoy aprendiendo.
+                  Además, he desarrollado un gusto por la codificación, que se
+                  ha convertido en mi hobby favorito.
+                </p>
               </p>
             </div>
           </div>

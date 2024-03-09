@@ -28,7 +28,11 @@ export default function Footer() {
         <div className={styles.centro}>
           <div className={`${styles.centroInterno} flow`}>
             <h4 className={styles.h4}>Desarrollo</h4>
-            <Image className={styles.miEmoji} src={emoji} alt="Mi emoji" />
+            <Image
+              className={styles.miEmoji}
+              src={emoji}
+              alt="Mi emoji"
+            />
             <p>
               Desarrollado y diseñado por{" "}
               <span className={styles.oscuro}>Cathy</span> utilizando React.js
@@ -40,18 +44,27 @@ export default function Footer() {
           <h4 className={styles.h4}>Redes</h4>
           <ul className={`${styles.emojiFeather} flow`}>
             <li>
-              <Link href={"https://www.linkedin.com/in/hyuik"}>
+              <Link
+                target="_blank"
+                href={"https://www.linkedin.com/in/hyuik"}
+              >
                 <Linkedin />
               </Link>
             </li>
             <li>
-              <Link href={"https://github.com/catharygr"}>
+              <Link
+                target="_blank"
+                href={"https://github.com/catharygr"}
+              >
                 {" "}
                 <GitHub />
               </Link>
             </li>
             <li>
-              <Link href={"https://twitter.com/catharygr"}>
+              <Link
+                target="_blank"
+                href={"https://twitter.com/catharygr"}
+              >
                 <Twitter />
               </Link>
             </li>
