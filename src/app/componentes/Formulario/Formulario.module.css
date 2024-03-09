@@ -52,7 +52,7 @@
 
 .btn {
   background-color: hsl(var(--clr-acento-dos));
-  color: hsl(var(--clr-texto-dos));
+  color: hsl(var(--clr-texto-uno));
   padding: 0.4rem;
   border-radius: 0.3rem;
   font-size: var(--fs-500);

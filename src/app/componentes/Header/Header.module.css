@@ -12,11 +12,11 @@
   margin-inline: auto;
 }
 
-.logo {
+/* .logo {
   font-size: var(--fs-600);
   font-weight: var(--f-wei-600);
   text-decoration: none;
-}
+} */
 
 .navContainer {
   --gap-base: 2rem;
