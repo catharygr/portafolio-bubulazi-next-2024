@@ -235,8 +235,8 @@ a {
 }
 
 a:where(:hover, :focus) {
-  /* font-weight: var(--f-wei-600); */
-  text-decoration: none;
+  font-weight: var(--f-wei-600);
+  /text-decoration: none;
 }
 
 .bold-text {
@@ -258,7 +258,7 @@ a:where(:hover, :focus) {
 
 .link-btn:where(:hover) {
   background-color: hsl(var(--clr-texto));
-  color: hsl(var(--clr-texto));
+  color: hsl(var(--clr-fondo));
   scale: 1.05;
 }
 

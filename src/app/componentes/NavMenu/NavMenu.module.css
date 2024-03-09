@@ -68,12 +68,12 @@
   padding: 0.5rem;
   border-radius: 0.2em;
   background-color: hsl(var(--clr-primario));
-  color: hsl(var(--clr-fondo));
+  color: hsl(var(--clr-texto));
   gap: 0.5rem;
 }
 
 .iconCerrar {
-  color: hsl(var(--clr-fondo));
+  color: hsl(var(--clr-texto));
   width: 16px;
   height: 16px;
   stroke-width: 3px;

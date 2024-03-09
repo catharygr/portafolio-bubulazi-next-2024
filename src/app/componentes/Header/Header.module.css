@@ -54,7 +54,7 @@
 .hoverFondo {
   position: absolute;
   inset: 0;
-  background: hsla(319, 31%, 70%, 0.9);
+  background: hsla(var(--clr-fondo) / 0.5);
   border-radius: var(--border-radius);
   z-index: -1;
 }
@@ -94,7 +94,6 @@
 .botonMenu {
   display: grid;
   place-items: center;
-  color: hsl(var(--clr-texto));
 }
 
 .iconMenu {
