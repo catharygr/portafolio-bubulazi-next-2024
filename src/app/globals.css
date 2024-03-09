@@ -131,7 +131,7 @@ meter {
   --clr-acentado: 349 100% 84%;
   --clr-texto: 0 0% 4%;
   --clr-fondo: 178 59% 76%;
-  --clr-negro: 0 0% 4%;
+  /* --clr-negro: 0 0% 4%; */
   --clr-blanco: 0 0% 96%;
 
   /* Formatos de letras */
@@ -163,7 +163,7 @@ meter {
   --padding: 1rem;
   --margin-texto: 1em;
   --border-radius: 7px;
-  --box-shadow: 0 5px 10px 0 hsl(var(--clr-texto) / 0.4);
+  --box-shadow: 0 5px 10px 0 rgba(20, 0, 5, 0.4);
   --container-max: 65rem;
   --gap-base: 1rem;
   --gap-grande: 4rem;
