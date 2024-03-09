@@ -258,7 +258,7 @@ a:where(:hover, :focus) {
 
 .link-btn:where(:hover) {
   background-color: hsl(var(--clr-texto));
-  color: hsl(var(--clr-fondo));
+  color: hsl(var(--clr-texto));
   scale: 1.05;
 }
 

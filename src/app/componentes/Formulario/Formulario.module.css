@@ -48,6 +48,7 @@
 .label {
   font-size: var(--fs-300);
   font-weight: var(--f-wei-900);
+  color: hsl(var(--clr-texto));
 }
 
 .btn {
@@ -58,6 +59,7 @@
   font-size: var(--fs-500);
   font-weight: var(--f-wei-900);
   text-align: center;
+  box-shadow: 0px 0px 3px 3px hsl(var(--clr-texto) / 0.2);
 }
 
 @media (min-width: 50rem) {

@@ -94,11 +94,11 @@
 .botonMenu {
   display: grid;
   place-items: center;
+  color: hsl(var(--clr-texto));
 }
 
 .iconMenu {
   stroke-width: 4px;
   width: 35px;
   height: 35px;
-  color: hsl(var(--clr-texto));
 }
