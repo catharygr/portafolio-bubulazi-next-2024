@@ -1,40 +1,41 @@
-import paginaCorta from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-corta.png";
-import paginaLarga from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-larga.png";
-import paginaPrimeraMovil from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-primera-movil.png";
-import paginaLargaAbajo from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-larga-abajo.png";
-import paginaMovilAbajo from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-movil-abajo.png";
+import proyectoRecordatorio from "@/app/contenido/recordatorios/imagenes/proyecto-recordatorio.jpeg";
+import recordatorioAbajo from "@/app/contenido/recordatorios/imagenes/recordatorio-abajo.jpeg";
+import recordatorioGrande from "@/app/contenido/recordatorios/imagenes/recordatorio-grande.jpg";
+import recordatorioMovilAbajo from "@/app/contenido/recordatorios/imagenes/recordatorio-movil-abajo.png";
+import recordatorioPeque from "@/app/contenido/recordatorios/imagenes/recordatorio-peque.jpg";
 
 export const contenidoDePagina = {
   id: "015",
   hero: {
     about: "Proyecto:",
-    title: "Formulario Web de Multi-Páginas",
+    title: "App Recordatorio para móvil",
   },
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "Esta aplicación sirve como un proyecto de ejercicio con el propósito de construir un formulario de varias páginas con autenticación en Firebase, almacenamiento y la integración de una base de datos como infraestructura backend. Básicamente, simula el proceso de solicitud para una oferta de trabajo.",
+      'Esta es una aplicación de recordatorio para móvil construida con React, React Router y Vite. Utiliza Firebase Auth para la autenticación de usuarios y Firebase Realtime Database para almacenar los recordatorios y Storage. Además, se emplean varios hooks populares de React, como useState, useEffect, useId, useRef, useContext y useParams. La librería "react-feather" se usa para integrar iconos en la aplicación. Multiusuario.',
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
-      colUno: ["Web App", "Diseño responsive"],
+      colUno: ["Web App optimizada para móviles"],
       colDos: [
         "CSS & HTML",
         "Javascript ES6",
         "React",
+        "React Router",
         "Firebase",
         "Git & GitHub",
         "Netlifly",
       ],
 
-      colTres: ["https://multipage-form-caty.netlify.app/"],
+      colTres: ["https://recordatorios-react-cathy.netlify.app"],
     },
   },
   main: {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "El proyecto Formulario de Ofertas de Trabajo Ficticia para Meteorólogos tiene como objetivo simular un flujo de trabajo realista para la creación de ofertas de trabajo dirigidas a meteorólogos. Esta aplicación se construyó utilizando Vite y React, junto con Firebase Authentication, Realtime Database y Storage, para brindar una experiencia completa y segura.",
-        "El formulario se divide en pasos para una entrada de datos estructurada y una mejor experiencia de usuario.Emplea Firebase Authentication para permitir el acceso solo a usuarios autenticados, lo que brinda seguridad y privacidad.",
+        "Permitir a los usuarios organizar y administrar sus tareas diarias, eventos y recordatorios en un solo lugar, lo que les ayuda a mejorar su productividad y eficiencia.Proporcionar una forma sencilla de establecer recordatorios con opciones personalizables para fechas, horas y frecuencia de repetición, permitiendo a los usuarios adaptar los recordatorios a sus necesidades específicas.",
+        "Ofrecer una interfaz de usuario amigable e intuitiva que facilite la creación, edición y eliminación de recordatorios sin complicaciones.Ofrecer opciones de personalización para los usuarios, como elegir temas, colores o tipos de recordatorios, para que se sientan cómodos usando la aplicación de acuerdo con sus preferencias.",
         "Los datos del formulario se almacenan en Firebase Realtime Database en tiempo real, facilitando el acceso y la gestión de la información.",
         "Permite a los usuarios cargar archivos relevantes junto con la oferta de trabajo, como detalles adicionales o formularios de solicitud. Utiliza componentes reutilizables de React para mantener un código limpio y organizado.",
       ],
