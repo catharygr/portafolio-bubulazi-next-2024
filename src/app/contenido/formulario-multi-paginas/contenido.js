@@ -33,7 +33,7 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "El proyecto Formulario de Ofertas de Trabajo Ficticia para Meteorólogos tiene como objetivo simular un flujo de trabajo realista para la creación de ofertas de trabajo dirigidas a meteorólogos. Esta aplicación se construyó utilizando Vite y React, junto con Firebase Authentication, Realtime Database y Storage, para brindar una experiencia completa y segura.",
+        "El proyecto formulario de Ofertas de trabajo ficticios para Meteorólogos tiene como objetivo simular un flujo de trabajo realista para la creación de ofertas de trabajo dirigidas a meteorólogos. Esta aplicación se construyó utilizando Vite y React, junto con Firebase Authentication, Realtime Database y Storage, para brindar una experiencia completa y segura.",
         "El formulario se divide en pasos para una entrada de datos estructurada y una mejor experiencia de usuario.Emplea Firebase Authentication para permitir el acceso solo a usuarios autenticados, lo que brinda seguridad y privacidad.",
         "Los datos del formulario se almacenan en Firebase Realtime Database en tiempo real, facilitando el acceso y la gestión de la información.",
         "Permite a los usuarios cargar archivos relevantes junto con la oferta de trabajo, como detalles adicionales o formularios de solicitud. Utiliza componentes reutilizables de React para mantener un código limpio y organizado.",
@@ -42,7 +42,7 @@ export const contenidoDePagina = {
     bloqueDos: {
       title: "Mi papel en el proyecto",
       content: [
-        "En el proyecto trabajamos dos.",
+        "En el proyecto trabajamos dos personas.",
         "Este proyecto me proporcionó una valiosa experiencia en el desarrollo frontend utilizando tecnologías modernas como Vite y React. Además, aprendí a integrar Firebase para autenticación y almacenamiento de datos, lo que mejora la interacción en tiempo real y la seguridad del usuario.",
         "La creación de formularios con pasos progresivos también mejoró mi comprensión de la arquitectura de la interfaz de usuario.Participé activamente en este proyecto como aprendiz y asistente de desarrollo.",
         "Mi contribución incluyó la implementación de componentes de React, la configuración de Firebase, la realización de pruebas y la solución de desafíos técnicos bajo la guía del desarrollador principal.",

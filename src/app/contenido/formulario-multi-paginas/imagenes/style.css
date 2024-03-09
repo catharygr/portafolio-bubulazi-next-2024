@@ -103,11 +103,14 @@ meter {
 
 :root {
   /* Colores */
-  --clr-oscuro: 325 95% 56%;
-  --clr-asento: 50 94% 51%;
-  --clr-asento-claro: 174 89% 56%;
-  --clr-texto: 0 0% 20%;
-  --clr-fondo: 0 0% 100%;
+  --clr-primario: 137 82% 83%;
+  --clr-secundario: 37 86% 88%;
+  --clr-terciario: 178 59% 76%;
+  --clr-acentado: 349 100% 84%;
+  --clr-texto: 0 0% 4%;
+  --clr-fondo: 0 0% 96%;
+  --clr-negro: 0 0% 4%;
+  --clr-blanco: 0 0% 96%;
 
   /* Formatos de letras */
   --fs-hero: clamp(3.052rem, 6vw, 4.5rem);
@@ -156,7 +159,7 @@ body {
 
 /* Colores */
 /* De fondo */
-.fondo-oscuro {
+/* .fondo-oscuro {
   background-color: hsl(var(--clr-oscuro));
 }
 .fondo-asento {
@@ -170,9 +173,9 @@ body {
 }
 .fondo-negro {
   background-color: hsl(var(--clr-texto));
-}
+} */
 /* De letras */
-.color-negro {
+/* .color-negro {
   color: hsl(var(--clr-texto));
 }
 .color-blanco {
@@ -186,7 +189,7 @@ body {
 }
 .color-asento-claro {
   color: hsl(var(--clr-aento-claro));
-}
+} */
 
 /* Formatos de letras */
 
@@ -377,7 +380,7 @@ nav {
 
 .hero-section {
   background-image: url(/assets/images/fondo-header-desktop.svg);
-  /* background-color: hsl(var(--clr-texto)); */
+  color: hsl(var(--clr-texto));
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -742,6 +745,7 @@ footer {
 .descripcion-proyecto h3,
 .problema-soluciones h3 {
   text-align: center;
+  color: hsl(var(--clr-texto));
 }
 
 .grid-elem-3 img,
