@@ -25,13 +25,13 @@ export default function Header() {
       root.style.setProperty("--clr-secundario", "37 86% 88%");
       root.style.setProperty("--clr-acentado", "349 100% 84%");
       root.style.setProperty("--clr-fondo", "178 59% 76%");
-      root.style.setProperty("--clr-texto", "0 0% 4%");
+      root.style.setProperty("--clr-texto", "0 0% 0%");
     } else {
       root.style.setProperty("--clr-primario", "67 63% 32%");
       root.style.setProperty("--clr-secundario", "36 92% 54%");
       root.style.setProperty("--clr-acentado", "20 84% 48%");
       root.style.setProperty("--clr-fondo", "120 60% 16%");
-      root.style.setProperty("--clr-texto", "0 0% 96%");
+      root.style.setProperty("--clr-texto", "0 0% 100%");
     }
   }, [modoClaro]);
 
