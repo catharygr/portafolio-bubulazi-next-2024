@@ -1,8 +1,8 @@
-import mainUltima from "@/app/contenido/recordatorios/imagenes/recordatorio-movil.jpg";
-import mainEscritorio from "@/app/contenido/recordatorios/imagenes/recordatorio-grande.jpg";
-import mainMovil from "@/app/contenido/recordatorios/imagenes/recordatorio-peque.jpg";
-import asideEscritorio from "@/app/contenido/recordatorios/imagenes/recordatorio-abajo.jpeg";
-import asideMovil from "@/app/contenido/recordatorios/imagenes/recordatorio-movil-abajo.png";
+import mainUltima from "@/app/contenido-proyectos/recordatorios/imagenes/recordatorio-movil.jpg";
+import mainEscritorio from "@/app/contenido-proyectos/recordatorios/imagenes/recordatorio-grande.jpg";
+import mainMovil from "@/app/contenido-proyectos/recordatorios/imagenes/recordatorio-peque.jpg";
+import asideEscritorio from "@/app/contenido-proyectos/recordatorios/imagenes/recordatorio-abajo.jpeg";
+import asideMovil from "@/app/contenido-proyectos/recordatorios/imagenes/recordatorio-movil-abajo.png";
 
 export const contenidoDePagina = {
   id: "014",

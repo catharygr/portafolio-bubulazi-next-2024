@@ -1,11 +1,11 @@
-import mainUltima from "@/app/contenido/recordatorios/imagenes/recordatorio-movil.jpg";
-import mainEscritorio from "@/app/contenido/recordatorios/imagenes/recordatorio-grande.jpg";
-import mainMovil from "@/app/contenido/recordatorios/imagenes/recordatorio-peque.jpg";
-import asideEscritorio from "@/app/contenido/recordatorios/imagenes/recordatorio-abajo.jpeg";
-import asideMovil from "@/app/contenido/recordatorios/imagenes/recordatorio-movil-abajo.png";
+import mainUltima from "@/app/contenido-proyectos/sarajevo-tours/imagenes/proyecto-ultima.png";
+import mainEscritorio from "@/app/contenido-proyectos/sarajevo-tours/imagenes/proyecto-primera-grande.png";
+import mainMovil from "@/app/contenido-proyectos/sarajevo-tours/imagenes/proyecto-primera-peque.png";
+import asideEscritorio from "@/app/contenido-proyectos/sarajevo-tours/imagenes/problemas-largo.png";
+import asideMovil from "@/app/contenido-proyectos/sarajevo-tours/imagenes/problemas-corto.png";
 
 export const contenidoDePagina = {
-  id: "014",
+  id: "012",
   hero: {
     about: "Proyecto:",
     title: "Sarajevo Tours App",

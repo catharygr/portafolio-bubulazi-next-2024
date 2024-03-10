@@ -1,8 +1,8 @@
-import mainEscritorio from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-larga.png";
-import mainMovil from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-corta.png";
-import mainUltima from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-primera-movil.png";
-import asideEscritorio from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-larga-abajo.png";
-import asideMovil from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-movil-abajo.png";
+import mainEscritorio from "@/app/contenido-proyectos/formulario-multi-paginas/imagenes/pagina-larga.png";
+import mainMovil from "@/app/contenido-proyectos/formulario-multi-paginas/imagenes/pagina-corta.png";
+import mainUltima from "@/app/contenido-proyectos/formulario-multi-paginas/imagenes/pagina-primera-movil.png";
+import asideEscritorio from "@/app/contenido-proyectos/formulario-multi-paginas/imagenes/pagina-larga-abajo.png";
+import asideMovil from "@/app/contenido-proyectos/formulario-multi-paginas/imagenes/pagina-movil-abajo.png";
 
 export const contenidoDePagina = {
   id: "015",

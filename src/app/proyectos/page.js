@@ -1,5 +1,5 @@
 import HomeProyecto from "@/app/componentes/HomeProyecto";
-import { PROYECTOS } from "@/app/contenido/home-page/proyectos";
+import { PROYECTOS } from "@/app/contenido-proyectos/home-page/proyectos";
 
 export default function PageProyectos() {
   return (

@@ -1,10 +1,10 @@
 import Hero from "@/app/componentes/Hero";
 import SubHero from "@/app/componentes/SubHero";
-import { contenidoDePagina } from "@/app/contenido/formulario-multi-paginas/contenido";
+import { contenidoDePagina } from "@/app/contenido-proyectos/formulario-multi-paginas/contenido";
 import ProyectosMain from "@/app/componentes/Proyectos/ProyectosMain";
 import ProyectosAside from "@/app/componentes/Proyectos/ProyectosAside/ProyectosAside";
 import OtrosProyectos from "@/app/componentes/Proyectos/OtrosProyectos";
-import { PROYECTOS } from "@/app/contenido/home-page/proyectos";
+import { PROYECTOS } from "@/app/contenido-proyectos/home-page/proyectos";
 import InfoLink from "@/app/componentes/InfoLink";
 
 export default function Page() {

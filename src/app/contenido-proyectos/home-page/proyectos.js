@@ -1,10 +1,10 @@
-import formularioMultiPaginas from "@/app/contenido/home-page/imagenes/multipagina-tarjeta.png";
-import bubulaziPortafolio from "@/app/contenido/home-page/imagenes/bubulazi-tarjeta.jpg";
-import recordatorios from "@/app/contenido/home-page/imagenes/recordatorio-tarjeta.jpeg";
-import chatGTP from "@/app/contenido/home-page/imagenes/chat-tarjeta.png";
-import sarajevoTours from "@/app/contenido/home-page/imagenes/sarajevo-tours-tarjeta.png";
-import blancondet from "@/app/contenido/home-page/imagenes/blancodent-tarjeta.jpg";
-import pacMan from "@/app/contenido/home-page/imagenes/pac-man-tarjeta.png";
+import formularioMultiPaginas from "@/app/contenido-proyectos/home-page/imagenes/multipagina-tarjeta.png";
+import bubulaziPortafolio from "@/app/contenido-proyectos/home-page/imagenes/bubulazi-tarjeta.jpg";
+import recordatorios from "@/app/contenido-proyectos/home-page/imagenes/recordatorio-tarjeta.jpeg";
+import chatGTP from "@/app/contenido-proyectos/home-page/imagenes/chat-tarjeta.png";
+import sarajevoTours from "@/app/contenido-proyectos/home-page/imagenes/sarajevo-tours-tarjeta.png";
+import blancondet from "@/app/contenido-proyectos/home-page/imagenes/blancodent-tarjeta.jpg";
+import pacMan from "@/app/contenido-proyectos/home-page/imagenes/pac-man-tarjeta.png";
 
 export const PROYECTOS = [
   {
@@ -48,7 +48,7 @@ export const PROYECTOS = [
     title: "Sarajevo Tours",
     description:
       "Mi primer proyecto desarrollado con JavaScript, práctica React-18, React-Router 6, Firebase Auth, irestore como Back-end y los Hook más usados.",
-    url: "/",
+    url: "/proyectos/sarajevo-tours",
     linkTexto: "Ver proyecto",
     imageURL: sarajevoTours,
   },
