@@ -1,8 +1,8 @@
-import paginaCorta from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-corta.png";
-import paginaLarga from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-larga.png";
-import paginaPrimeraMovil from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-primera-movil.png";
-import paginaLargaAbajo from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-larga-abajo.png";
-import paginaMovilAbajo from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-movil-abajo.png";
+import mainEscritorio from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-larga.png";
+import mainMovil from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-corta.png";
+import mainUltima from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-primera-movil.png";
+import asideEscritorio from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-larga-abajo.png";
+import asideMovil from "@/app/contenido/formulario-multi-paginas/imagenes/pagina-movil-abajo.png";
 
 export const contenidoDePagina = {
   id: "015",
@@ -49,8 +49,8 @@ export const contenidoDePagina = {
       ],
     },
     bloqueTres: {
-      imgUno: paginaCorta,
-      imgDos: paginaLarga,
+      imgUno: mainEscritorio,
+      imgDos: mainMovil,
     },
     bloqueCuatro: {
       title: "Web stack y su explicación",
@@ -73,7 +73,7 @@ export const contenidoDePagina = {
       ],
     },
     bloqueCinco: {
-      imgTres: paginaPrimeraMovil,
+      imgTres: mainUltima,
     },
   },
   aside: {
@@ -86,8 +86,8 @@ export const contenidoDePagina = {
       ],
     },
     bloqueDos: {
-      imgUno: paginaLargaAbajo,
-      imgDos: paginaMovilAbajo,
+      imgUno: asideEscritorio,
+      imgDos: asideMovil,
     },
     bloqueTres: {
       title: "Lecciones aprendidas",
