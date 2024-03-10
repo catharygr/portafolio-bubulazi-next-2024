@@ -120,18 +120,12 @@ meter {
 
 :root {
   /* Colores */
-  /*--clr-primario: 284 81% 14%;  violeta fuerte */
-  /* --clr-secundario: 50 100% 50%; amarillo dorado */
-  /*  --clr-acentado: 313 35% 80%; lavanda rosa */
-  /* --clr-texto: 0 0% 0%;
-  --clr-fondo: 0 0% 100%; */
-
   --clr-primario: 137 82% 83%;
   --clr-secundario: 37 86% 88%;
   --clr-acentado: 349 100% 84%;
   --clr-texto: 0 0% 4%;
   --clr-fondo: 178 59% 76%;
-  /* --clr-negro: 0 0% 4%; */
+  --clr-negro: 0 0% 4%;
   --clr-blanco: 0 0% 96%;
 
   /* Formatos de letras */

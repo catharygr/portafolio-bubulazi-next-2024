@@ -5,7 +5,7 @@ import recordatorioMovilAbajo from "@/app/contenido/recordatorios/imagenes/recor
 import recordatorioPeque from "@/app/contenido/recordatorios/imagenes/recordatorio-peque.jpg";
 
 export const contenidoDePagina = {
-  id: "015",
+  id: "014",
   hero: {
     about: "Proyecto:",
     title: "App Recordatorio para móvil",

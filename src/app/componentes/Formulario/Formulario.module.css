@@ -35,7 +35,7 @@
 .input {
   margin-bottom: var(--gap-base);
   background-color: hsl(var(--clr-blanco));
-  color: hsl(var(--clr-texto));
+  color: hsl(var(--clr-negro));
   padding: 0.4rem;
   border-radius: 0.3rem;
 }

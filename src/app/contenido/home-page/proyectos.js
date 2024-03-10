@@ -30,7 +30,7 @@ export const PROYECTOS = [
     title: "Recordatorio",
     description:
       "Aplicación desarrollada para móviles con tecnologías más modernas como son: React 18, React Router-6, Firebase Auth, Firestore como Back-end",
-    url: "/",
+    url: "/proyectos/recordatorios",
     linkTexto: "Ver proyecto",
     imageURL: recordatorios,
   },
