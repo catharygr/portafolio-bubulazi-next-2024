@@ -33,19 +33,18 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "Primer proyecto propio hecho con React: Cuando hemos terminado el curso de react y react router para repasar lo aprendido nos inspiramos en un viaje que hicimos a Sarajevo, con este proyecto nuestro próposito ha sido usar las rutas nidadas que permitiera una navegación dinámica y aprender en mi caso, algo de backend que con firebase he adquirido conocimientos.",
-        "Preparado en Figma para que todo fuera más fluido por mi compañero que tiene experiencia en esta app y beneficiándonos del trabajo en equipo.",
-        "Como es una página ficticia hemos decidido hacer el carrito sin la pasarela de pago que redirecciona a la página proyecto.",
+        "El propósito de este proyecto ha tenido como objetivo principal crear un espacio en internet que sea completamente propio y controlado por mi.",
+        " Este espacio representa una plataforma donde puedo exhibir mis habilidades y conocimientos en programación, así como expresar mis intereses a través de artículos y escritos.",
+        "Mi intención es presentarme de manera adecuada ante posibles oportunidades de empleo, brindando una visión completa y auténtica de quién soy y de lo que puedo ofrecer. Además de ser un medio para destacar mis capacidades técnicas, también funcionará como un blog personal, permitiéndome compartir mis reflexiones, experiencias y descubrimientos con el mundo.",
       ],
     },
     bloqueDos: {
       title: "Mi papel en el proyecto",
       content: [
-        "En el proyecto trabajamos dos colaboradores.",
-        "Mi papel en este proyecto ha sido entender cada paso que dábamos y aplicando todo los conocimentos aprendido.",
-        "Implementé hooks populares de React, como useState, useEffect y useContext, para gestionar el estado de la aplicación y mantener la coherencia de los datos en diferentes componentes.",
-        "Leyendo la documentación de React y React router he podido ayudar en cada paso que hemos dado, intentando hacer el código sin tener que copiarlo de nadie, entendiendo paso a paso todo lo aprendido. Para mi ha sido una buena experiencia ya que a no tener ningun conociemientos sobre esta materia tuve que esforzarme mucho y quemar muchas horas para que todo me quedara claro y entender cada código y decisión que íbamos tomando.",
-        "He sido de mucha ayuda y estoy contenta con el trabajo que he hecho y con los errores que he cometido como principiante. Una buena experincia en este mundo de la codificación.",
+        "Utilizando Figma app he creado el diseño y UI.",
+        "Con lo aprendido en el Bootcamp en Qualentum y con 'Joy of React' de Joshua Comeau, he podido incorporar algunas ideas clave en la estructura y funcionalidad del sitio.",
+        "Estos curso me han proporcionado una buena base para empezar en NEXT.js y el renderizado del lado del servidor (SSR), lo que resultó fundamental para la arquitectura de mi aplicación web. ",
+        "A excepción del CSS reset, todas las líneas de código han sido escritas por mí. Leer la documentación me ha ayudado a resolver los problemas por mi cuenta. A pesar de algunos errores de principiante, logré que el sitio haya funcionado correctamente y, lo más importante, he adquirido nuevos conocimientos. ",
       ],
     },
     bloqueTres: {
@@ -55,19 +54,21 @@ export const contenidoDePagina = {
     bloqueCuatro: {
       title: "Web stack y su explicación",
       content: [
-        "A base del diseño que he recibido, he decidido usar las siguientes herramientas para los componentes que contienen layout:",
+        "Visual Studio Code: Utilizado como el principal entorno de desarrollo para escribir y organizar el código de la aplicación.",
 
-        "CSS: He ustilizado display grid y flex, para algunos componentes, he usado container-query que permite aplicar estilos a un elemento en función del tamaño del contenedor del elemento. Las fuentes variables la hemos usados para declaraciones de propiedades personalizadas de titulos y párrafos.",
+        "Framework NEXT.js: Empleado como el marco de trabajo principal para el desarrollo de la aplicación web, proporcionando características como el enrutamiento simplificado y el renderizado del lado del servidor (SSR).",
 
-        "React: Componentes, props, formularios con estado, useEffect, useStates, createContext, useRef, createContext. Con el uso de los componentes separamos el interfaz de usuario, reutilizándolos pasandoles props. El formulario como un componente controlado. Usos de los hook ms usados en react para una mejor renderización de la web.",
+        "Figma: diseño de UI y UX.",
 
-        "React router: Usando rutas nidadas, rutas relativas, Outles, Link, NavLink, parámetros de búsquedas, useLocation, redering condicional, useNavigate.",
+        "React: Componentes reutilizables, props. Uso de renderizado condicional. Control de formularios con estado a través de value y onChange. useEffect para algunas otras oportunidades. useState, useRef.",
 
-        "Firebase Iniciación de la app, colección, getFirestore, getDocs. Autentificar, onAuthStateChanged, signInWithEmailAndPassword etc...",
+        "Next-mdx-remote: Pendiente de  implementar para el blog como el siguiente paso, la idea es que lea los archivos markdown desde el mismo servidor.",
 
-        "Git y GitHub: Uso continuo de git con varias ramas main/desarrollo y con pull request via GitHub.",
+        "Vercel: Integrado con GitHub para la implementación continua de la aplicación, permitiendo desplegar cambios de manera rápida y sencilla.",
 
-        "Netlify: Envio de formulario, redirección por el pushstate en react, GitHub desplegado. ",
+        "Recursos Adicionales: Incorporación de Framer Motion para animaciones dinámicas y React-Icons para la integración de iconos, mejorando la experiencia visual del usuario. ",
+
+        "Git & GitHub: Commits, Branches, Merge, Restore, Push.",
       ],
     },
     bloqueCinco: {
@@ -78,9 +79,8 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Problemas y soluciones",
       content: [
-        "Poblemas surgieron muchos y soluciones más, a veces sin tener idea de como resolverlo leyendo la documentacion y mirando en google llegaba a la respuesta, fue un reto muy fuerte que cada dia me sorprendia el avance y los conociemtos que iba alcanzando y los deseo de terminar para ver como quedaba.",
-        "Hemos tenido que volver a regresar mas de una vez al commit anterior y empezar de nuevo porque la solución que habiamos tomado no era la correcta pero siempre llegabámos a una solución con éxito.",
-        "Como el trabajo lo hicimos en pareja fue muy dinámico siempre uno de los dos dábamos una solución y lograbámos el objetivo.",
+        "Configurar rutas anidadas y relativas me ha resultado confuso al principio, y he tenido que revisar la documentación varias veces y realizar pruebas exhaustivas para asegurarme de que la navegación funcionara correctamente.",
+        "Al intentar configurar la integración continua con Vercel a través de GitHub, me he enfrentado a problemas de compatibilidad entre las versiones de las herramientas utilizadas en mi proyecto y las requeridas por Vercel. Esto ha resultado errores durante el despliegue y en la necesidad de ajustar mi configuración para que fuera compatible.",
       ],
     },
     bloqueDos: {

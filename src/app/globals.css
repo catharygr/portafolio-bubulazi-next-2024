@@ -197,8 +197,6 @@ body {
 }
 
 *:focus-visible {
-  /* outline: 2px solid hsl(var(--clr-texto) / 0.6);
-  outline-offset: 2px; */
   outline: revert;
 }
 
@@ -231,8 +229,7 @@ a {
 }
 
 a:where(:hover, :focus) {
-  font-weight: var(--f-wei-600);
-  text-decoration: none;
+  text-decoration-thickness: 4px;
 }
 
 .bold-text {
