@@ -42,7 +42,7 @@ export const contenidoDePagina = {
     bloqueDos: {
       title: "Mi papel en el proyecto",
       content: [
-        "En el proyecto trabajamos dos personas.",
+        "En el proyecto hemos trabajadores dos colobadores.",
         "Este proyecto me proporcionó una valiosa experiencia en el desarrollo frontend utilizando tecnologías modernas como Vite y React. Además, aprendí a integrar Firebase para autenticación y almacenamiento de datos, lo que mejora la interacción en tiempo real y la seguridad del usuario.",
         "La creación de formularios con pasos progresivos también mejoró mi comprensión de la arquitectura de la interfaz de usuario.Participé activamente en este proyecto como aprendiz y asistente de desarrollo.",
         "Mi contribución incluyó la implementación de componentes de React, la configuración de Firebase, la realización de pruebas y la solución de desafíos técnicos bajo la guía del desarrollador principal.",
