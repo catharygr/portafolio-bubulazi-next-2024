@@ -30,14 +30,22 @@ export default function CVPage() {
               <h3 className={styles.h3}>Sobre mi</h3>
               <p>
                 A lo largo de mi trayectoria personal y profesional, he
-                demostrado una firme determinación para alcanzar mis objetivos.
-                Como el de cambiar la profesión de económica a desalladora web.
+                demostrado una{" "}
+                <span className="bold-text">firme determinación</span> para{" "}
+                <span className="bold-text">alcanzar mis objetivos. </span>
+                Como el de cambiar la profesión de económica a{" "}
+                <span className="bold-text">desalladora web.</span>
               </p>
               <p>
-                Aprendo rápidamente y estoy comprometida con seguir
-                evolucionando en este campo, buscando oportunidades como
-                desarrolladora Front-End en una empresa que comparta mis valores
-                y donde pueda seguir aprendiendo y aportando.
+                <span className="bold-text">Aprendo con rapidez</span> y estoy
+                comprometida con seguir evolucionando en este campo, buscando{" "}
+                <span className="bold-text">
+                  oportunidades como desarrolladora
+                </span>{" "}
+                Front-End en una empresa que comparta mis valores y donde pueda{" "}
+                <span className="bold-text">
+                  seguir aprendiendo y aportando.
+                </span>
               </p>
             </div>
           </div>
