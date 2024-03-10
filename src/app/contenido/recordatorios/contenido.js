@@ -1,8 +1,8 @@
-import proyectoRecordatorio from "@/app/contenido/recordatorios/imagenes/proyecto-recordatorio.jpeg";
-import recordatorioAbajo from "@/app/contenido/recordatorios/imagenes/recordatorio-abajo.jpeg";
-import recordatorioGrande from "@/app/contenido/recordatorios/imagenes/recordatorio-grande.jpg";
-import recordatorioMovilAbajo from "@/app/contenido/recordatorios/imagenes/recordatorio-movil-abajo.png";
-import recordatorioPeque from "@/app/contenido/recordatorios/imagenes/recordatorio-peque.jpg";
+import mainUltima from "@/app/contenido/recordatorios/imagenes/recordatorio-movil.jpg";
+import mainEscritorio from "@/app/contenido/recordatorios/imagenes/recordatorio-grande.jpg";
+import mainMovil from "@/app/contenido/recordatorios/imagenes/recordatorio-peque.jpg";
+import asideEscritorio from "@/app/contenido/recordatorios/imagenes/recordatorio-abajo.jpeg";
+import asideMovil from "@/app/contenido/recordatorios/imagenes/recordatorio-movil-abajo.png";
 
 export const contenidoDePagina = {
   id: "014",
@@ -50,8 +50,8 @@ export const contenidoDePagina = {
       ],
     },
     bloqueTres: {
-      imgUno: proyectoRecordatorio,
-      imgDos: recordatorioAbajo,
+      imgUno: mainEscritorio,
+      imgDos: mainMovil,
     },
     bloqueCuatro: {
       title: "Web stack y su explicación",
@@ -74,7 +74,7 @@ export const contenidoDePagina = {
       ],
     },
     bloqueCinco: {
-      imgTres: recordatorioGrande,
+      imgTres: mainUltima,
     },
   },
   aside: {
@@ -87,8 +87,8 @@ export const contenidoDePagina = {
       ],
     },
     bloqueDos: {
-      imgUno: recordatorioMovilAbajo,
-      imgDos: recordatorioPeque,
+      imgUno: asideEscritorio,
+      imgDos: asideMovil,
     },
     bloqueTres: {
       title: "Lecciones aprendidas",

@@ -23,11 +23,14 @@ export default function ProyectosMain({ content }) {
           <picture>
             <source
               media="(max-width: 54.999rem)"
+              srcSet={bloqueTres.imgDos.src}
+            />
+            <source
+              media="(min-width: 55rem)"
               srcSet={bloqueTres.imgUno.src}
             />
-            <source media="(min-width: 55rem)" srcSet={bloqueTres.imgDos.src} />
             <Image
-              src={bloqueTres.imgUno}
+              src={bloqueTres.imgDos}
               alt="Imágenes del formulario de múltiples pasos"
             />
           </picture>
