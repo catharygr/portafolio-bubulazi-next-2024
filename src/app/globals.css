@@ -198,6 +198,8 @@ body {
 
 *:focus-visible {
   outline: revert;
+  outline: 2px dashed;
+  outline-offset: 8px;
 }
 
 .flow > *:not(:last-child) {
