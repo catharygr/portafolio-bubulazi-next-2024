@@ -57,7 +57,7 @@ export const PROYECTOS = [
     title: "Clínica Dental Blancodent",
     description:
       "La página web de una clínica dental (cliente comercial) desarrollada con CSS, HTML y un poco de JS. La web original estaba en Squarespace y la he transferido a Netlify respectando el diseño original.",
-    url: "/",
+    url: "/proyectos/clinica-blancodent",
     linkTexto: "Ver proyecto",
     imageURL: blancondet,
   },
