@@ -13,7 +13,7 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "¡Bienvenido a nuestro E-commerce: Mi tienda. Con formularios controlados, un carrito de compra intuitivo y un amplio listado de productos, esta plataforma ofrece una experiencia de compra ficticia pero satisfactoria. Inspirados y orientado por la experiencia del profesor del curso, hemos diseñado esta página para brindar una simulación de compra en línea sin complicaciones. ¡Puedes explorar de nuestra selección y disfruta de esta experiencia virtual!",
+      "¡Bienvenido a nuestro E-commerce: Mi tienda. Con formularios controlados, un carrito de compra intuitivo y un amplio listado de productos, esta plataforma ofrece una experiencia de compra ficticia pero satisfactoria. Inspirados y orientado por la experiencia del profesor del curso, hemos diseñado esta página para brindar una simulación de compra en línea. ¡Puedes explorar de nuestra selección y disfruta de esta experiencia virtual!",
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
       colUno: ["Proyeto E-commerce Mi Tienda"],

@@ -1,5 +1,6 @@
 import formularioMultiPaginas from "@/app/contenido-proyectos/home-page/imagenes/multipagina-tarjeta.png";
 import bubulaziPortafolio from "@/app/contenido-proyectos/home-page/imagenes/bubulazi-tarjeta.jpg";
+import ecommerceMiTienda from "@/app/contenido-proyectos/home-page/imagenes/problemas-largo.png";
 import recordatorios from "@/app/contenido-proyectos/home-page/imagenes/recordatorio-tarjeta.jpeg";
 import chatGTP from "@/app/contenido-proyectos/home-page/imagenes/chat-tarjeta.png";
 import sarajevoTours from "@/app/contenido-proyectos/home-page/imagenes/sarajevo-tours-tarjeta.png";
@@ -20,10 +21,10 @@ export const PROYECTOS = [
     id: "016",
     title: "E-commerce: Mi Tienda",
     description:
-      'Desarrollado por mi, inspirado y orientado por el profesor "Alejandro Castro" y de todo lo aprendido en el bootcamp Qualentum. Utilizando React, Next.js, Redux, Redux Toolkit, JavaScript, Vanilla CSS, frame-motion, Axios, firebase y Vercel. El objetivo principal de este proyecto ha sido repasar todo lo aprendido, llevarlo a cabo y discutirlo en cada Lab del curso.',
+      'Desarrollado por mi, inspirado y orientado por el profesor "Alejandro Castro" y de todo lo aprendido en el bootcamp Qualentum. Utilizando React, Next.js, Redux, Redux Toolkit. El objetivo principal de este proyecto ha sido repasar todo lo aprendido, llevarlo a cabo y discutirlo en cada Lab del curso.',
     url: "/proyectos/mi-tienda",
     linkTexto: "Ver proyecto",
-    imageURL: bubulaziPortafolio,
+    imageURL: ecommerceMiTienda,
   },
   {
     id: "015",
