@@ -13,7 +13,7 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "Mi Proyecto Portafolio es como mi tarjeta de presentación digital, un rincón donde puedo mostrar al mundo mis creaciones y mi viaje en el universo de la programación. Antes de esta página web, he desarrollado una con HTML, CSS y JavaScript. Al terminar las enseñanzas de este último curso, he decidido construir una nueva plataforma utilizando React y Next.js. Aquí muestro con orgullo cada proyecto que he creado a lo largo de tres años de constante aprendizaje. Aunque no se recomienda incluir el propio portafolio como un proyecto, ¿por qué no desafiar un poco las normas y mostrar lo que he logrado?",
+      "Mi Proyecto Portafolio es como mi tarjeta de presentación digital, un rincón donde puedo mostrar al mundo mis creaciones y mi viaje en el universo de la programación. Antes de esta página web, habia desarrollado otra con HTML, CSS y JavaScript. Al terminar las enseñanzas de este último curso, he decidido construir una nueva plataforma utilizando React y Next.js. Aquí muestro con orgullo cada proyecto que he creado a lo largo de tres años de constante aprendizaje. Aunque no se recomienda incluir el propio portafolio como un proyecto, ¿por qué no desafiar un poco las normas y mostrar lo que he logrado?",
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
       colUno: ["Proyeto Portafolio Blog Personal"],
@@ -43,8 +43,8 @@ export const contenidoDePagina = {
       content: [
         "Utilizando Figma app he creado el diseño y UI.",
         "Con lo aprendido en el Bootcamp en Qualentum y con 'Joy of React' de Joshua Comeau, he podido incorporar algunas ideas clave en la estructura y funcionalidad del sitio.",
-        "Estos curso me han proporcionado una buena base para empezar en Next.js y el renderizado del lado del servidor (SSR), lo que ha resultado fundamental para la arquitectura de mi aplicación web. ",
-        "A excepción del CSS reset, todas las líneas de código han sido escritas por mí. Leer la documentación me ha ayudado a resolver los problemas por mi cuenta. A pesar de algunos errores de principiante, logré que el sitio haya funcionado correctamente y, lo más importante, he adquirido nuevos conocimientos. ",
+        "Estos cursos me han proporcionado una buena base para empezar en Next.js y el renderizado del lado del servidor (SSR), lo que ha resultado fundamental para la arquitectura de mi aplicación web. ",
+        "A excepción del CSS reset, todas las líneas de código han sido escritas por mí. Leer la documentación me ha ayudado a resolver los problemas por mi cuenta. A pesar de algunos errores de principiante, he logrado que el sitio haya funcionado correctamente y, lo más importante, he adquirido nuevos conocimientos. ",
       ],
     },
     bloqueTres: {
@@ -60,7 +60,7 @@ export const contenidoDePagina = {
 
         "Figma: diseño de UI y UX.",
 
-        "React: Componentes reutilizables, props. Uso de renderizado condicional. Control de formularios con estado a través de value y onChange. useEffect para uso secundario como el tema de los colores. useState, useRef.",
+        "React: Componentes reutilizables, props. Uso de renderizado condicional. Control de formularios con estado a través de value y onChange. useEffect para uso secundario como el tema de los colores. El hook useState para el manejo de estado.",
 
         "CSS Modules: Utilizados para el encapsulamiento de estilos CSS dentro de componentes individuales, facilitando el mantenimiento y la reutilización del código",
 
@@ -81,8 +81,10 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Problemas y soluciones",
       content: [
-        "Al intentar configurar la integración continua con Vercel a través de GitHub, me he enfrentado a problemas de compatibilidad entre las versiones de las herramientas utilizadas en mi proyecto y las requeridas por Vercel. Esto ha resultado errores durante el despliegue y en la necesidad de ajustar mi configuración para que fuera compatible.",
-        "Para dar solución a este problema he actualizado las versiones de las herramientas utilizadas en mi proyecto para que fueran compatibles con los requisitos de Vercel. También he ajustado mi configuración de GitHub Actions para garantizar una implementación continua sin problemas.",
+        "Al intentar configurar la integración continua con Vercel a través de GitHub, me he enfrentado a problemas de compatibilidad entre las versiones de las herramientas utilizadas en mi proyecto y las requeridas por Vercel.",
+        "Esto ha resultado errores durante el despliegue y en la necesidad de ajustar mi configuración para que fuera compatible.",
+        "Para dar solución a este problema he actualizado las versiones de las herramientas utilizadas en mi proyecto para que fueran compatibles con los requisitos de Vercel.",
+        "He ajustado la configuración de GitHub Actions para garantizar una implementación continua sin problemas.",
       ],
     },
     bloqueDos: {
