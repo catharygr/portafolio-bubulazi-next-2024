@@ -52,7 +52,10 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={` ${styles.container}`}>
-        <Link href="/">
+        <Link
+          aria-label="El logo es una animación de un emoji de mi"
+          href="/"
+        >
           <video
             className={styles.video}
             playsInline
@@ -98,7 +101,11 @@ export default function Header() {
             ))}
           </ul>
           <div className={styles.icons}>
-            <button onClick={() => setModoClaro((modoClaro) => !modoClaro)}>
+            <button
+              id="toggle-color-modo"
+              aria-label="toggle-color-modo"
+              onClick={() => setModoClaro((modoClaro) => !modoClaro)}
+            >
               {modoClaro ? (
                 <Moon className={styles.iconSVG} />
               ) : (

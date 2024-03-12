@@ -15,7 +15,7 @@ export default function Footer() {
       <div className={`${styles.container} wrapper`}>
         <div className={styles.izquierda}>
           <div className="flow">
-            <h4 className={styles.h4}>Menú</h4>
+            <h3 className={styles.h3}>Menú</h3>
             <ul className="flow">
               {HAMBURGUER_LINK.map((link) => (
                 <li key={link.slug}>
@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
         <div className={styles.centro}>
           <div className={`${styles.centroInterno} flow`}>
-            <h4 className={styles.h4}>Desarrollo</h4>
+            <h3 className={styles.h3}>Desarrollo</h3>
             <Image
               className={styles.miEmoji}
               src={emoji}
@@ -41,10 +41,11 @@ export default function Footer() {
           </div>
         </div>
         <div className={`${styles.derecha} flow`}>
-          <h4 className={styles.h4}>Redes</h4>
+          <h3 className={styles.h3}>Redes</h3>
           <ul className={`${styles.emojiFeather} flow`}>
             <li>
               <Link
+                aria-label="LindekIn"
                 target="_blank"
                 href={"https://www.linkedin.com/in/hyuik"}
               >
@@ -53,6 +54,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
+                aria-label="GitHub"
                 target="_blank"
                 href={"https://github.com/catharygr"}
               >
@@ -62,6 +64,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
+                aria-label="Twitter"
                 target="_blank"
                 href={"https://twitter.com/catharygr"}
               >
