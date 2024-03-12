@@ -5,7 +5,7 @@ import asideEscritorio from "@/app/contenido-proyectos/portafolio/imagenes/probl
 import asideMovil from "@/app/contenido-proyectos/portafolio/imagenes/problemas-corto.png";
 
 export const contenidoDePagina = {
-  id: "016",
+  id: "017",
   hero: {
     about: "Proyecto:",
     title: "Portafolio Blog Personal",

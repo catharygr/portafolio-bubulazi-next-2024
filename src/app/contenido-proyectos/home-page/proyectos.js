@@ -8,11 +8,20 @@ import pacMan from "@/app/contenido-proyectos/home-page/imagenes/pac-man-tarjeta
 
 export const PROYECTOS = [
   {
-    id: "016",
+    id: "017",
     title: "Portafolio Blog Personal",
     description:
-      "Desarrollado y diseñado por mi, utilizando React.js 18, Next.js, Vanilla CSS, frame-motion, next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
+      "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
     url: "/proyectos/portafolio",
+    linkTexto: "Ver proyecto",
+    imageURL: bubulaziPortafolio,
+  },
+  {
+    id: "016",
+    title: "E-commerce: Mi Tienda",
+    description:
+      'Desarrollado por mi, inspirado y orientado por el profesor "Alejandro Castro" y de todo lo aprendido en el bootcamp Qualentum. Utilizando React, Next.js, Redux, Redux Toolkit, JavaScript, Vanilla CSS, frame-motion, Axios, firebase y Vercel. El objetivo principal de este proyecto ha sido repasar todo lo aprendido, llevarlo a cabo y discutirlo en cada Lab del curso.',
+    url: "/proyectos/mi-tienda",
     linkTexto: "Ver proyecto",
     imageURL: bubulaziPortafolio,
   },
