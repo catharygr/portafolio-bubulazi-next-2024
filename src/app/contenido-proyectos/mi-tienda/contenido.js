@@ -36,8 +36,8 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor del curso con mi habilidad para implementar sus enseñanzas en un entorno práctico. Desde la concepción hasta la realización, he trabajado orientada por el profesor para incorporar los elementos esenciales de la app, como formularios controlados, un carrito de compra, enrutados con un listado de productos detallado.",
-        " Este proyecto no solo buscaba cumplir con los requisitos del curso, sino también fomentar la participación activa de todos los alumnos. Después de seguir las directrices del profesor, mediantes las tutoria impartida se hablaba y discutia todo lo desarrollado.  Permitiendo que cada estudiante aportara sus ideas y perspectivas únicas.",
+        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor del curso con mi habilidad para implementar sus enseñanzas en un entorno práctico. Desde la concepción hasta la realización, he trabajado orientada por el profesor para incorporar los elementos esenciales de la app, como formularios controlados, enrutados, un carrito de compra con un listado de productos detallado.",
+        " Este proyecto no solo buscaba cumplir con los requisitos del curso, sino también fomentar la participación activa de todos los alumnos. Después de seguir las directrices del profesor, mediantes las tutoria impartida se hablaba y discutia todo lo desarrollado.  Permitiendo que cada estudiante aportara sus ideas y perspectivas.",
         "A través de este proceso colaborativo, buscamos no solo mejorar nuestras habilidades individuales, sino también enriquecer nuestra comprensión colectiva.",
       ],
     },
@@ -56,21 +56,19 @@ export const contenidoDePagina = {
     bloqueCuatro: {
       title: "Web stack y su explicación",
       content: [
-        "Visual Studio Code: Utilizado como el principal entorno de desarrollo para escribir y organizar el código de la aplicación.",
+        "React: He utilizado componentes, props, renderizado condicional. useEffect para uso secundario como el tema de los colores. useState y useReducer para el manejo de estado. ",
 
-        "Framework Nextjs: Empleado como el marco de trabajo principal para el desarrollo de la aplicación web, proporcionando características como el enrutamiento simplificado y el renderizado del lado del servidor (SSR).",
+        "Custom Hooks: Para extraer lógica compleja y reutilizable en la app. Esto me ha permitido mantener el código limpio y modular.",
 
-        "Figma: diseño de UI y UX.",
+        "React Router: Con la función createBrowserRouter me ha permitido definir rutas y enlaces entre diferentes páginas de manera fácil y eficiente.",
 
-        "React: Componentes reutilizables, props. Uso de renderizado condicional. Control de formularios con estado a través de value y onChange. useEffect para uso secundario como el tema de los colores. useState, useRef.",
+        "Axios: Para realizar solicitudes HTTP a nuestro servidor y generar un CRUD para interactuar con los datos de nuestra aplicación.",
 
-        "CSS Modules: Utilizados para el encapsulamiento de estilos CSS dentro de componentes individuales, facilitando el mantenimiento y la reutilización del código",
+        "Redux y Redux Toolkit: He modificado nuestra app para pasarla totalmente la gestión del estado a Redux y Redux Toolkit. Utilizando métodos como createAsyncThunk y createSlice para definir acciones asíncronas y slices de estado respectivamente, simplificando la gestión del estado global de nuestra aplicación.",
 
-        "Next-mdx-remote: Pendiente de  implementar para el blog como la siguiente versión, la idea es que lea los archivos markdown desde el mismo servidor.",
+        "React Hook Form: He imprementado validaciones y proporcionado feedback sobre posibles errores, como datos incorrectos en los formularios de registro e inicio de sesión.",
 
-        "Vercel: Integrado con GitHub para la implementación continua de la aplicación, permitiendo desplegar cambios de manera rápida y sencilla.",
-
-        "Recursos Adicionales: Incorporación de Framer Motion para animaciones dinámicas y React-Icons para la integración de iconos, mejorando la experiencia visual del usuario. ",
+        "Firebase: Utilizado para el almacenamiento de datos y la autenticación de usuarios.",
 
         "Git & GitHub: Commits, Branches, Merge, Restore, Push.",
       ],
@@ -83,8 +81,8 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Problemas y soluciones",
       content: [
-        "Al intentar configurar la integración continua con Vercel a través de GitHub, me he enfrentado a problemas de compatibilidad entre las versiones de las herramientas utilizadas en mi proyecto y las requeridas por Vercel. Esto ha resultado errores durante el despliegue y en la necesidad de ajustar mi configuración para que fuera compatible.",
-        "Para dar solución a este problema he actualizado las versiones de las herramientas utilizadas en mi proyecto para que fueran compatibles con los requisitos de Vercel. También he ajustado mi configuración de GitHub Actions para garantizar una implementación continua sin problemas.",
+        "Conforme la aplicación fue ganando complejidad, el cambio del contexto de React a Redux planteó desafíos importantes. La transición requería una comprensión profunda de las diferencias en la estructura y la lógica de ambas herramientas, lo que generaba incertidumbre y complejidad en el proceso de traslado.",
+        "Esta estrategia de traslado gradual me permitió gestionar eficazmente la complejidad del cambio, minimizando el impacto en la funcionalidad existente de la aplicación y facilitando la adopción progresiva de Redux en todo el proyecto. Como resultado, he logrado una transición exitosa del contexto de React a Redux, mejorando la organización y la eficiencia en la gestión del estado de nuestra aplicación.",
       ],
     },
     bloqueDos: {
@@ -94,10 +92,10 @@ export const contenidoDePagina = {
     bloqueTres: {
       title: "Lecciones aprendidas",
       content: [
-        "Durante el desarrollo de este proyecto, he aprendido a manejar la complejidad de CSS modules y las rutas en Nextjs.",
-        "Dividir componentes en React me ha facilitado el desarrollo y el mantenimiento del código",
-        " La investigación previa y la práctica fueron clave para integrar nuevas tecnologías como Next-mdx-remote y Vercel. ",
-        "Estas experiencias me han enseñado la importancia de la perseverancia y la preparación para superar los desafíos técnicos.",
+        "Durante el desarrollo de la aplicación, he aprendido valiosas lecciones que han enriquecido mi experiencia en el desarrollo de software. La transición de React a Redux me ha enseñado la importancia de una planificación cuidadosa y una migración gradual.",
+        "Para optimizar el rendimiento y la adaptabilidad a diferentes dispositivos, he utilizado técnicas como CSS media queries y pruebas exhaustivas. ",
+        " Además, he valorado la importancia de la colaboración efectiva y la comunicación dentro del equipo, lo que me ha permitido superar obstáculos y alcanzar mis objetivos de manera eficiente. ",
+        "Estas lecciones han fortalecido mis habilidades técnicas y mi capacidad para trabajar en equipo, preparándome para enfrentar futuros desafíos en el desarrollo de software.",
       ],
     },
   },
