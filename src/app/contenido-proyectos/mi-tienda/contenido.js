@@ -5,7 +5,7 @@ import asideEscritorio from "@/app/contenido-proyectos/mi-tienda/imagenes/proble
 import asideMovil from "@/app/contenido-proyectos/mi-tienda/imagenes/problemas-corto.png";
 
 export const contenidoDePagina = {
-  id: "017",
+  id: "016",
   hero: {
     about: "Proyecto:",
     title: "E-commerce Mi Tienda",
@@ -13,10 +13,10 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "¡Bienvenido a nuestro E-commerce: Mi tienda. Con formularios controlados, un carrito de compra intuitivo y un amplio listado de productos, esta plataforma ofrece una experiencia de compra ficticia pero satisfactoria. Inspirados y orientado por la experiencia del profesor del curso, hemos diseñado esta página para brindar una simulación de compra en línea. ¡Puedes explorar de nuestra selección y disfruta de esta experiencia virtual!",
+      "¡Bienvenido a E-commerce: Mi tienda. Con formularios controlados, un carrito de compra intuitivo y un amplio listado de productos. Esta plataforma ofrece una experiencia de compra ficticia pero satisfactoria. Inspirados y orientado por la experiencia del profesor del curso, hemos diseñado esta página para brindar una simulación de compra en línea. ¡Puedes explorar de nuestra selección y disfruta de esta experiencia virtual!",
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
-      colUno: ["Proyeto E-commerce Mi Tienda"],
+      colUno: ["Web App E-commerce Mi Tienda"],
       colDos: [
         "React",
         "Next.js",
@@ -25,6 +25,7 @@ export const contenidoDePagina = {
         "Javascript ES6",
         "Axios",
         "Git & GitHub",
+        "Firebase",
         "Vercel",
       ],
 
@@ -35,7 +36,7 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor del curso con mi habilidad para implementar sus enseñanzas en un entorno práctico. Desde la concepción hasta la realización, he trabajado en estrecha colaboración con el profesor para incorporar los elementos esenciales de la app, como formularios controlados, un carrito de compra intuitivo y un listado de productos detallado.",
+        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor del curso con mi habilidad para implementar sus enseñanzas en un entorno práctico. Desde la concepción hasta la realización, he trabajado orientada por el profesor para incorporar los elementos esenciales de la app, como formularios controlados, un carrito de compra, enrutados con un listado de productos detallado.",
         " Este proyecto no solo buscaba cumplir con los requisitos del curso, sino también fomentar la participación activa de todos los alumnos. Después de seguir las directrices del profesor, mediantes las tutoria impartida se hablaba y discutia todo lo desarrollado.  Permitiendo que cada estudiante aportara sus ideas y perspectivas únicas.",
         "A través de este proceso colaborativo, buscamos no solo mejorar nuestras habilidades individuales, sino también enriquecer nuestra comprensión colectiva.",
       ],
@@ -43,10 +44,9 @@ export const contenidoDePagina = {
     bloqueDos: {
       title: "Mi papel en el proyecto",
       content: [
-        "Utilizando Figma app he creado el diseño y UI.",
-        "Con lo aprendido en el Bootcamp en Qualentum y con 'Joy of React' de Joshua Comeau, he podido incorporar algunas ideas clave en la estructura y funcionalidad del sitio.",
-        "Estos curso me han proporcionado una buena base para empezar en Next.js y el renderizado del lado del servidor (SSR), lo que ha resultado fundamental para la arquitectura de mi aplicación web. ",
-        "A excepción del CSS reset, todas las líneas de código han sido escritas por mí. Leer la documentación me ha ayudado a resolver los problemas por mi cuenta. A pesar de algunos errores de principiante, logré que el sitio haya funcionado correctamente y, lo más importante, he adquirido nuevos conocimientos. ",
+        "Como alumna participante en este proyecto E-commerce, mi papel ha sido fundamentalmente el de aprender y aplicar los conocimientos impartidos por el profesor del curso. Desde el inicio, me he comprometido a absorber cada enseñanza y a trabajar en colaboración con mis compañeros bajo la dirección del profesor.",
+        "A lo largo del sprint, mi enfoque ha sido seguir las pautas establecidas por el profesor, mientras exploraba activamente cómo implementarlas en la práctica. En cada etapa del desarrollo, he buscado la orientación del profesor para comprender mejor los conceptos y abordar los desafíos que han surgido. ",
+        "Con la ayuda del profesor, he sido capaz de alcanzar las respuestas correctas y superar obstáculos, aprovechando su experiencia para mejorar mis habilidades y comprender mejor los principios fundamentales de la app. Su guía ha sido invaluable para mí, permitiéndome no sólo alcanzar los objetivos del proyecto, sino también consolidar todo lo aprendido hasta el momemnto.",
       ],
     },
     bloqueTres: {
