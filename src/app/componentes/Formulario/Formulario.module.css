@@ -60,6 +60,11 @@
   font-weight: var(--f-wei-900);
   text-align: center;
   box-shadow: var(--box-shadow);
+  transition: scale 0.3s ease-in-out;
+}
+
+.btn:hover {
+  scale: 1.03;
 }
 
 @media (min-width: 50rem) {

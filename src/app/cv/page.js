@@ -55,7 +55,7 @@ export default function CVPage() {
         <div className={`${styles.flexContainer} ${styles.invertedCard}`}>
           <h2 className={styles.h2}>Detalles</h2>
           <div className={`flow ${styles.jobDetails}`}>
-            <div>
+            <div className={styles.cvLinks}>
               <h3 className={styles.h3}>Datos de contactos</h3>
               <p>
                 <Link href="/#contacto-form">Formulario de contacto</Link>
@@ -135,7 +135,7 @@ export default function CVPage() {
         <div className={`${styles.flexContainer} ${styles.invertedCard}`}>
           <h2 className={styles.h2}>Varios Proyectos</h2>
           <div className={`flow ${styles.jobDetails}`}>
-            <div>
+            <div className={styles.cvLinks}>
               <h3 className={styles.h3}>
                 Enlaces directos a páginas de proyectos:
               </h3>

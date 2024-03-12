@@ -13,15 +13,17 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "Mi Proyecto Portafolio es como mi tarjeta de presentación digital, un rincón donde puedo mostrar al mundo mis creaciones y mi viaje en el universo de la programación. Antes de esta página web, he desarrollado una con HTML, CSS y JavaScript. Al terminar las enseñanzas de este último curso, he decidido construir una nueva plataforma utilizando React y Next.js. Aquí muestro con orgullo cada proyecto que he creado a lo largo de tres años de constante aprendizaje. Aunque no se recomienda incluir el propio portafolio como un proyecto, ¿por qué no desafiar un poco las normas y mostrar lo que he logrado?",
+      "¡Bienvenido a nuestro E-commerce: Mi tienda. Con formularios controlados, un carrito de compra intuitivo y un amplio listado de productos, esta plataforma ofrece una experiencia de compra ficticia pero satisfactoria. Inspirados y orientado por la experiencia del profesor del curso, hemos diseñado esta página para brindar una simulación de compra en línea sin complicaciones. ¡Puedes explorar de nuestra selección y disfruta de esta experiencia virtual!",
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
-      colUno: ["Proyeto Portafolio Blog Personal"],
+      colUno: ["Proyeto E-commerce Mi Tienda"],
       colDos: [
         "React",
         "Next.js",
+        "Resux, Redux Toolkit",
         "CSS & HTML",
         "Javascript ES6",
+        "Axios",
         "Git & GitHub",
         "Vercel",
       ],
@@ -33,9 +35,9 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "El propósito de este proyecto ha tenido como objetivo principal crear un espacio en internet que sea completamente propio y controlado por mi.",
-        " Este espacio representa una plataforma donde puedo exhibir mis habilidades y conocimientos en programación, así como expresar mis intereses a través de artículos y escritos.",
-        "Mi intención es presentarme de manera formal ante posibles oportunidades de empleo, brindando una visión completa y auténtica de quién soy y de lo que puedo ofrecer. Además de ser un medio para destacar mis capacidades técnicas, también funcionará como un blog personal, permitiéndome compartir mis reflexiones, experiencias y descubrimientos con el mundo.",
+        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor del curso con mi habilidad para implementar sus enseñanzas en un entorno práctico. Desde la concepción hasta la realización, he trabajado en estrecha colaboración con el profesor para incorporar los elementos esenciales de la app, como formularios controlados, un carrito de compra intuitivo y un listado de productos detallado.",
+        " Este proyecto no solo buscaba cumplir con los requisitos del curso, sino también fomentar la participación activa de todos los alumnos. Después de seguir las directrices del profesor, mediantes las tutoria impartida se hablaba y discutia todo lo desarrollado.  Permitiendo que cada estudiante aportara sus ideas y perspectivas únicas.",
+        "A través de este proceso colaborativo, buscamos no solo mejorar nuestras habilidades individuales, sino también enriquecer nuestra comprensión colectiva.",
       ],
     },
     bloqueDos: {

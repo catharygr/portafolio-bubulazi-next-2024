@@ -34,10 +34,11 @@
   align-self: center;
 }
 
-.h4 {
+.h3 {
   color: var(--clr-fondo);
   font-size: var(--fs-400);
   font-weight: var(--f-wei-900);
+  padding-bottom: 1rem;
   border-bottom: 2px solid hsl(var(--clr-texto));
 }
 
