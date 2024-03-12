@@ -117,16 +117,38 @@ meter {
 /* ************************* */
 /*      Variables            */
 /* ************************* */
+@media (prefers-color-scheme: light) {
+  :root {
+    --clr-primario: 137 82% 83%;
+    --clr-secundario: 37 86% 88%;
+    --clr-acentado: 349 100% 84%;
+    --clr-texto: 0 0% 4%;
+    --clr-fondo: 178 59% 76%;
+    --clr-negro: 0 0% 4%;
+    --clr-blanco: 0 0% 96%;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-primario: 67 63% 32%;
+    --clr-secundario: 36 92% 54%;
+    --clr-acentado: 20 84% 48%;
+    --clr-fondo: 120 60% 16%;
+    --clr-texto: 0 0% 100%;
+    --clr-negro: 0 0% 4%;
+    --clr-blanco: 0 0% 96%;
+  }
+}
 
 :root {
   /* Colores */
-  --clr-primario: 137 82% 83%;
+  /* --clr-primario: 137 82% 83%;
   --clr-secundario: 37 86% 88%;
   --clr-acentado: 349 100% 84%;
   --clr-texto: 0 0% 4%;
   --clr-fondo: 178 59% 76%;
   --clr-negro: 0 0% 4%;
-  --clr-blanco: 0 0% 96%;
+  --clr-blanco: 0 0% 96%; */
 
   /* Formatos de letras */
   --fs-hero: clamp(3.052rem, 6vw, 4.5rem);
@@ -164,19 +186,6 @@ meter {
 
   font-size: 112%;
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-   --clr-primario: 137 82% 83%;
-  --clr-secundario: 37 86% 88%;
-  --clr-acentado: 349 100% 84%;
-  --clr-fondo: 178 59% 76%;
-  --clr-texto: 0 0% 4%;
-  --clr-negro: 0 0% 4%;
-  --clr-blanco: 0 0% 96%;
-
-  }
-} */
 
 /* ************************* */
 /*      Clases utiles        */

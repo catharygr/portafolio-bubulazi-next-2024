@@ -14,9 +14,23 @@ import { motion } from "framer-motion";
 export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
   const [hoverLink, setHoverLink] = useState(null);
-  const [modoClaro, toggleModoClaro] = useToggle(true);
+  const [modoClaro, setModoClaro] = useState(true);
   const pathname = usePathname();
   const id = useId();
+
+  useEffect(() => {
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    ) {
+      setModoClaro(false);
+    } else if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: light)").matches
+    ) {
+      setModoClaro(true);
+    }
+  }, []);
 
   useEffect(() => {
     const root = document.querySelector(":root");
@@ -84,7 +98,7 @@ export default function Header() {
             ))}
           </ul>
           <div className={styles.icons}>
-            <button onClick={toggleModoClaro}>
+            <button onClick={() => setModoClaro((modoClaro) => !modoClaro)}>
               {modoClaro ? (
                 <Moon className={styles.iconSVG} />
               ) : (
