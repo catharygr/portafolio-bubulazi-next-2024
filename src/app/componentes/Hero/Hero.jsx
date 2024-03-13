@@ -4,7 +4,14 @@ import styles from "./Hero.module.css";
 import { motion } from "framer-motion";
 
 // Tipo con imagen y tipo sin imagen
-export default function Hero({ type, image, alt, title, about }) {
+export default function Hero({
+  type,
+  image,
+  alt,
+  title,
+  about,
+  contentSuperior,
+}) {
   if (type === "con-imagen") {
     return (
       <section>
@@ -27,6 +34,7 @@ export default function Hero({ type, image, alt, title, about }) {
             />
           </motion.div>
           <h1 className={styles.h1}>{title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: contentSuperior }} />
         </div>
       </section>
     );
