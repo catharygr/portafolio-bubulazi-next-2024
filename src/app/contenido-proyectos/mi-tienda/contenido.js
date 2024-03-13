@@ -13,7 +13,7 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "¡Bienvenido a E-commerce: Mi tienda. Con enrutados, formularios controlados, carrito de compra intuitivo y un amplio listado de productos. Esta plataforma ofrece una experiencia de compra ficticia pero satisfactoria. Inspirados y orientado por la experiencia del profesor del curso, hemos diseñado esta página para brindar una simulación de compra en línea. ",
+      "¡Bienvenido a E-commerce: Mi tienda. Con formularios controlados, enrutamientos, carrito de compra y un amplio listado de productos. Esta plataforma ofrece una experiencia de compra ficticia pero satisfactoria. Inspirado y orientados por la experiencia del profesor del curso, hemos diseñado esta página para brindar una simulación de compra en línea. ",
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
       colUno: ["Web App E-commerce Mi Tienda"],
@@ -36,17 +36,17 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor del curso con mi habilidad para implementar sus enseñanzas en un entorno práctico. Desde la concepción hasta la realización, he trabajado orientada por el profesor para incorporar los elementos esenciales de la app.",
-        " Este proyecto no solo buscaba cumplir con los requisitos del curso, sino también fomentar la participación activa de todos los alumnos. Después de seguir las directrices del profesor, mediantes las tutoria impartida, se hablaba y discutia todo lo desarrollado.  Permitiendo que cada estudiante aportara sus ideas y perspectivas.",
+        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor del curso con mi habilidad para implementar sus enseñanzas en un entorno práctico. Desde la concepción hasta la realización, he trabajado orientada para incorporar los elementos esenciales de la app.",
+        " Este proyecto no solo buscaba cumplir con los requisitos del curso, sino también fomentar la participación activa de todos los alumnos. Después de seguir las directrices del profesor, mediantes las tutorias impartidas, se hablaba y discutia todo lo desarrollado.  Permitiendo que cada estudiante aportara sus ideas y perspectivas.",
         "A través de este proceso colaborativo, buscamos no solo mejorar nuestras habilidades individuales, sino también enriquecer nuestra comprensión colectiva.",
       ],
     },
     bloqueDos: {
       title: "Mi papel en el proyecto",
       content: [
-        "Como alumna participante en este proyecto E-commerce, mi papel ha sido fundamentalmente el de aprender y aplicar los conocimientos impartidos por el profesor del curso. Desde el inicio, me he comprometido a absorber cada enseñanza y a trabajar en colaboración con mis compañeros bajo la dirección del profesor.",
-        "A lo largo del sprint, mi enfoque ha sido seguir las pautas establecidas por el profesor, mientras exploraba activamente cómo implementarlas en la práctica. En cada etapa del desarrollo, he buscado la orientación del profesor para comprender mejor los conceptos y abordar los desafíos que han surgido. ",
-        "Con la ayuda del profesor, he sido capaz de alcanzar las respuestas correctas y superar obstáculos, aprovechando su experiencia para mejorar mis habilidades y comprender mejor los principios fundamentales de la app. Su guía ha sido invaluable para mí, permitiéndome no solo alcanzar los objetivos del proyecto, sino también consolidar todo lo aprendido hasta ese momento.",
+        "Como alumna en este proyecto E-commerce, mi papel ha sido fundamentalmente el de aprender y aplicar los conocimientos adquirido..",
+        "A lo largo del sprint, mi enfoque ha sido seguir las pautas establecidas, mientras exploraba  cómo implementarlas en la práctica. En cada etapa del desarrollo, he buscado la orientación del profesor para comprender mejor los conceptos y abordar los desafíos que han surgido. ",
+        "Gracias a todo lo que he aprendido, he logrado encontrar las respuestas correctas y superar los desafíos planteados, llegando así a soluciones con las cuales he desarrollado habilidades para comprender los principios fundamentales de la aplicación. Estos conocimientos no solo me han permitido alcanzar los objetivos del proyecto, sino también consolidarlos.",
       ],
     },
     bloqueTres: {
@@ -68,7 +68,7 @@ export const contenidoDePagina = {
 
         "React Hook Form: He imprementado validaciones y proporcionado feedback sobre posibles errores, como datos incorrectos en los formularios de registro e inicio de sesión.",
 
-        "Firebase: Utilizado para el almacenamiento de datos y la autenticación de usuarios.",
+        "He utilizado Axios para crear un CRUD y JSON Server como servidor de desarrollo. Luego he  pasado los datos a Firebase y he compilado la app en Netlify.",
 
         "Git & GitHub: Commits, Branches, Merge, Restore, Push.",
       ],
@@ -82,7 +82,7 @@ export const contenidoDePagina = {
       title: "Problemas y soluciones",
       content: [
         "Conforme la aplicación fue ganando complejidad, el cambio del contexto de React a Redux planteó desafíos importantes.",
-        "La transición requería una comprensión profunda de las diferencias en la estructura y la lógica de ambas herramientas, lo que generaba incertidumbre y complejidad en el proceso de traslado.",
+        "La transición requería una comprensión profunda de las diferencias en la estructura y la lógica de ambas herramientas, lo que generaba complejidad en el proceso de traslado.",
         "Esta estrategia gradual me permitió gestionar eficazmente la complejidad del cambio, minimizando el impacto en la funcionalidad existente de la aplicación y facilitando la adopción progresiva de Redux en todo el proyecto.",
         "Como resultado, he logrado una transición exitosa del contexto de React a Redux, mejorando la organización y la eficiencia en la gestión del estado de nuestra aplicación.",
       ],
