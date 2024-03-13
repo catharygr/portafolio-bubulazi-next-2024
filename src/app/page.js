@@ -19,6 +19,7 @@ export default function Home() {
       <SubHero
         type="doble-una-lista"
         content={SOBRE_MI}
+        contentSuperior={SOBRE_MI.contentSuperior}
       />
       <HomeProyecto
         content={PROYECTOS}

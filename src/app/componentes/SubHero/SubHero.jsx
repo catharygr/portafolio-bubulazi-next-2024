@@ -11,9 +11,12 @@ export default function SubHero({ type, content }) {
         <div className={`wrapper ${styles.wrapperSuperior}`}>
           <h2 className={styles.h2}>{titleSuperior}</h2>
           <div className={styles.contenidoSuperior}>
-            <p>{contentSuperior}</p>
+            <div dangerouslySetInnerHTML={{ __html: contentSuperior }} />
             {type === "single-link" && (
-              <Link href={"/"} className={styles.singleLink}>
+              <Link
+                href={"/"}
+                className={styles.singleLink}
+              >
                 Link de prueba
               </Link>
             )}
@@ -58,7 +61,10 @@ export default function SubHero({ type, content }) {
               <ul className={styles.tresListasUl}>
                 {contentInferior.colTres.map((item, index) => (
                   <li key={index}>
-                    <a target="_blank" href={item}>
+                    <a
+                      target="_blank"
+                      href={item}
+                    >
                       Visitar
                     </a>
                   </li>
