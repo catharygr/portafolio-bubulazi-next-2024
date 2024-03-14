@@ -5,7 +5,7 @@ import asideEscritorio from "@/app/contenido-proyectos/sarajevo-tours/imagenes/p
 import asideMovil from "@/app/contenido-proyectos/sarajevo-tours/imagenes/problemas-corto.png";
 
 export const contenidoDePagina = {
-  id: "012",
+  id: "013",
   hero: {
     about: "Proyecto:",
     title: "Sarajevo Tours App",

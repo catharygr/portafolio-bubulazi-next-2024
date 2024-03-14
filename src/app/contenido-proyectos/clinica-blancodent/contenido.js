@@ -5,7 +5,7 @@ import asideEscritorio from "@/app/contenido-proyectos/clinica-blancodent/imagen
 import asideMovil from "@/app/contenido-proyectos/clinica-blancodent/imagenes/problemas-corto.png";
 
 export const contenidoDePagina = {
-  id: "011",
+  id: "012",
   hero: {
     about: "Proyecto:",
     title: "Clínica Dental Blancodent",

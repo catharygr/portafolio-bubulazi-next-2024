@@ -28,8 +28,6 @@ export default function OtrosProyectos({ proyectos, id }) {
 
     // Se guarda el id del proyecto
     proyectosID.push(proyectos[ranDomNum].id);
-
-    console.log(primerProyectoID, segundoProyectoID);
   }
 
   const primerProyecto = proyectos.find(

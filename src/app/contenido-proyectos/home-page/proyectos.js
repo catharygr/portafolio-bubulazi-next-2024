@@ -46,15 +46,6 @@ export const PROYECTOS = [
   },
   {
     id: "013",
-    title: "ChatGTP - Chat App",
-    description:
-      "Conexión con la API de OpenAI para crear un chatbot. Firebase RealTime Database para Back-end y Auth. Netlify env variable para ocultar API key. Netlify función para conectar con OpeAI y obtener las respuestas.",
-    url: "https://listillo-openai.netlify.app/",
-    linkTexto: "Ver proyecto",
-    imageURL: chatGTP,
-  },
-  {
-    id: "012",
     title: "Sarajevo Tours",
     description:
       "Mi primer proyecto desarrollado con JavaScript, práctica React-18, React-Router 6, Firebase Auth, irestore como Back-end y los Hook más usados.",
@@ -63,13 +54,22 @@ export const PROYECTOS = [
     imageURL: sarajevoTours,
   },
   {
-    id: "011",
+    id: "012",
     title: "Clínica Dental Blancodent",
     description:
       "La página web de una clínica dental (cliente comercial) desarrollada con CSS, HTML y un poco de JS. La web original estaba en Squarespace y la he transferido a Netlify respectando el diseño original.",
     url: "/proyectos/clinica-blancodent",
     linkTexto: "Ver proyecto",
     imageURL: blancondet,
+  },
+  {
+    id: "011",
+    title: "ChatGTP - Chat App",
+    description:
+      "Conexión con la API de OpenAI para crear un chatbot. Firebase RealTime Database para Back-end y Auth. Netlify env variable para ocultar API key. Netlify función para conectar con OpeAI y obtener las respuestas.",
+    url: "https://listillo-openai.netlify.app/",
+    linkTexto: "Ver proyecto",
+    imageURL: chatGTP,
   },
   {
     id: "010",
