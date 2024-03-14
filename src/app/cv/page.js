@@ -198,7 +198,7 @@ export default function CVPage() {
           <div className={`flow ${styles.jobDetails}`}>
             <div>
               <h3 className={styles.h3}>
-                Universidad Internacional de La Rioja - Qualentum Bootcamp React
+                Universidad Internacional de La Rioja - Qualentum Bootcamp
                 Front-End 2023-2024.
               </h3>
               <p>
