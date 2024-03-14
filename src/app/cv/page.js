@@ -32,8 +32,8 @@ export default function CVPage() {
                 A lo largo de mi trayectoria personal y profesional, he
                 demostrado una{" "}
                 <span className="bold-text">firme determinación</span> para{" "}
-                <span className="bold-text">alcanzar mis objetivos. </span>
-                Como el de cambiar la profesión de económica a{" "}
+                <span className="bold-text">alcanzar mis objetivos, </span>
+                como el de cambiar la profesión de económica a{" "}
                 <span className="bold-text">desalladora web.</span>
               </p>
               <p>
@@ -44,7 +44,7 @@ export default function CVPage() {
                 </span>{" "}
                 Front-End en una empresa que comparta mis valores y donde pueda{" "}
                 <span className="bold-text">
-                  seguir aprendiendo y aportando.
+                  continuar aprendiendo y aportando.
                 </span>
               </p>
             </div>
