@@ -36,7 +36,7 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor del curso con mi habilidad para implementar sus enseñanzas en un entorno práctico. Desde la concepción hasta la realización, he trabajado orientada para incorporar los elementos esenciales de la app.",
+        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor con mi habilidad para implementar sus enseñanzas en un entorno práctico.Desde la idea inicial hasta la implementación final, he estado enfocada en integrar los elementos esenciales de la app.",
         " Este proyecto no solo buscaba cumplir con los requisitos del bootcamp, sino también fomentar la participación activa de todos los alumnos. Después de seguir las directrices del profesor, mediantes las tutorias impartidas, se hablaba y discutia todo lo desarrollado.  Permitiendo que cada estudiante aportara sus ideas y perspectivas.",
         "A través de este proceso colaborativo, buscamos no solo mejorar nuestras habilidades individuales, sino también enriquecer nuestra comprensión colectiva.",
       ],
@@ -44,9 +44,9 @@ export const contenidoDePagina = {
     bloqueDos: {
       title: "Mi papel en el proyecto",
       content: [
-        "Como alumna en este proyecto E-commerce, mi papel ha sido fundamentalmente el de aprender y aplicar los conocimientos adquirido..",
-        "A lo largo del sprint, mi enfoque ha sido seguir las pautas establecidas, mientras exploraba  cómo implementarlas en la práctica. En cada etapa del desarrollo, he buscado la orientación del profesor para comprender mejor los conceptos y abordar los desafíos que han surgido. ",
-        "Gracias a todo lo que he aprendido, he logrado encontrar las respuestas correctas y superar los desafíos planteados, llegando así a soluciones con las cuales he desarrollado habilidades para comprender los principios fundamentales de la aplicación. Estos conocimientos no solo me han permitido alcanzar los objetivos del proyecto, sino también consolidarlos.",
+        "Como alumna en este proyecto E-commerce, mi papel ha sido fundamentalmente el de aprender y aplicar los conocimientos adquirido.",
+        "A lo largo del sprint, mi enfoque ha sido seguir las pautas establecidas, mientras exploraba cómo implementarlas en la práctica. En cada etapa del desarrollo, he buscado la orientación del profesor para comprender mejor los conceptos y abordar los desafíos que han surgido. ",
+        "Gracias a todo lo que he aprendido, he podido encontrar las soluciones adecuadas y superar los desafíos planteados, lo que me ha ayudado a desarrollar habilidades para comprender los principios fundamentales de la aplicación. Estos conocimientos no solo me han permitido alcanzar los objetivos del proyecto, sino también consolidarlos.",
       ],
     },
     bloqueTres: {
@@ -81,9 +81,9 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Problemas y soluciones",
       content: [
-        "Conforme la aplicación fue ganando complejidad, el cambio del contexto de React a Redux planteó desafíos importantes.",
-        "La transición requería una comprensión profunda de las diferencias en la estructura y la lógica de ambas herramientas, lo que generaba complejidad en el proceso de traslado.",
-        "Esta estrategia me permitió gestionar la complejidad del cambio, minimizando el impacto en la funcionalidad existente de la aplicación y facilitando la adopción progresiva de Redux en todo el proyecto.",
+        "A medida que la aplicación se iba volviendo más complicada, cambiar de React a Redux supuso enfrentarse a algunos problemas bastante serios.",
+        "Hacer la transición requería entender bien las diferencias entre la estructura y la lógica de ambas herramientas, lo que hacía que el proceso fuera bastante complicado",
+        "Esta estrategia me ha ayudado a lidiar con lo complicado que ha sido el cambio, sin afectar mucho cómo funcionaba la aplicación ya establecida. También hizo que fuera más fácil ir integrando Redux gradualmente en todo el proyecto",
       ],
     },
     bloqueDos: {
@@ -93,9 +93,9 @@ export const contenidoDePagina = {
     bloqueTres: {
       title: "Lecciones aprendidas",
       content: [
-        "Durante el desarrollo de la aplicación, he aprendido valiosas lecciones que han enriquecido mi experiencia en el desarrollo de software. La transición de React a Redux me ha enseñado la importancia de una planificación cuidadosa y una migración gradual.",
+        "Durante el tiempo que estuve trabajando en la aplicación, he aprendido muchas cosas que realmente han enriquecido mi experiencia en el desarrollo de software. El cambio de React a Redux me ha dejado claro lo esencial que es planificar con cuidado y hacer la transición de forma gradual.",
         "Para la adaptabilidad a diferentes dispositivos, he utilizado técnicas como CSS media queries. ",
-        "Estas lecciones han fortalecido mis habilidades técnicas y mi capacidad para trabajar en equipo, preparándome para enfrentar futuros desafíos en el desarrollo de software.",
+        "Todo este aprendizaje ha hecho que mis habilidades técnicas se fortalezcan y que también mejore mi capacidad para trabajar en equipo, lo que me siento más preparado para enfrentar cualquier reto que se presente en el desarrollo de software.",
       ],
     },
   },
