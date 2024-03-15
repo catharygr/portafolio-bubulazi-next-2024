@@ -26,7 +26,7 @@
   font-size: var(--fs-hero);
   font-weight: var(--f-wei-600);
   font-stretch: var(--f-str-75);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .img {
