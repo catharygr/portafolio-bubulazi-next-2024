@@ -13,7 +13,7 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "¡Bienvenido a E-commerce: Mi tienda! Con formularios controlados, enrutamientos, carrito de compra y otras funcionalidades. Esta página web ofrece una experiencia de compra ficticia. Inspirado y orientado por la experiencia del profesor del curso. Hemos diseñado esta página para brindar una simulación de compra en línea. ",
+      "¡Bienvenido a E-commerce: Mi tienda! Con formularios controlados, enrutamientos, carrito de compra y otras funcionalidades. Esta página web ofrece una experiencia de compra ficticia. Inspirado y orientado por la experiencia del profesor del bootcamp. Hemos diseñado esta página para brindar una simulación de compra en línea. ",
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
       colUno: ["Web App E-commerce Mi Tienda"],
@@ -29,7 +29,7 @@ export const contenidoDePagina = {
         "Vercel",
       ],
 
-      colTres: ["https://portafolio-bubulazi-next-2024.vercel.app"],
+      colTres: ["https://qualentum-ecommerce-catary.netlify.app"],
     },
   },
   main: {
