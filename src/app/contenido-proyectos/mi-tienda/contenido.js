@@ -36,8 +36,8 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor con mi habilidad para implementar sus enseñanzas en un entorno práctico.Desde la idea inicial hasta la implementación final, he estado enfocada en integrar los elementos esenciales de la app.",
-        " Este proyecto no solo buscaba cumplir con los requisitos del bootcamp, sino también fomentar la participación activa de todos los alumnos. Después de seguir las directrices del profesor, mediantes las tutorias impartidas, se hablaba y discutia todo lo desarrollado.  Permitiendo que cada estudiante aportara sus ideas y perspectivas.",
+        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor con mi habilidad para implementar sus enseñanzas en un entorno práctico. Desde la idea inicial hasta la implementación final, he estado enfocada en integrar los elementos esenciales de la app.",
+        " Este proyecto no solo buscaba cumplir con los requisitos del bootcamp, sino también fomentar la participación activa de todos los estudiantes. Después de seguir las directrices del profesor, mediantes las tutorias impartidas, se hablaba y discutia todo lo desarrollado.  Permitiendo que cada estudiante aportara sus ideas y perspectivas.",
         "A través de este proceso colaborativo, buscamos no solo mejorar nuestras habilidades individuales, sino también enriquecer nuestra comprensión colectiva.",
       ],
     },
@@ -81,9 +81,9 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Problemas y soluciones",
       content: [
-        "A medida que la aplicación se iba volviendo más complicada, cambiar de React a Redux supuso enfrentarse a algunos problemas bastante serios.",
+        "A medida que la aplicación se iba volviendo más complicada, cambiar de React a Redux supuso enfrentarse a un gran reto.",
         "Hacer la transición requería entender bien las diferencias entre la estructura y la lógica de ambas herramientas, lo que hacía que el proceso fuera bastante complicado",
-        "Esta estrategia me ha ayudado a lidiar con lo complicado que ha sido el cambio, sin afectar mucho cómo funcionaba la aplicación ya establecida. También hizo que fuera más fácil ir integrando Redux gradualmente en todo el proyecto",
+        "Esta estrategia me ha ayudado a lidiar con lo detallado que ha sido el cambio, sin afectar mucho cómo funcionaba la aplicación ya establecida. También hizo que fuera más fácil ir integrando Redux gradualmente en todo el proyecto",
       ],
     },
     bloqueDos: {
@@ -95,7 +95,7 @@ export const contenidoDePagina = {
       content: [
         "Durante el tiempo que estuve trabajando en la aplicación, he aprendido muchas cosas que realmente han enriquecido mi experiencia en el desarrollo de software. El cambio de React a Redux me ha dejado claro lo esencial que es planificar con cuidado y hacer la transición de forma gradual.",
         "Para la adaptabilidad a diferentes dispositivos, he utilizado técnicas como CSS media queries. ",
-        "Todo este aprendizaje ha hecho que mis habilidades técnicas se fortalezcan y que también mejore mi capacidad para trabajar en equipo, lo que me siento más preparado para enfrentar cualquier reto que se presente en el desarrollo de software.",
+        "Todo este aprendizaje ha hecho que mis habilidades técnicas se fortalezcan, que mejore mi capacidad para trabajar en equipo, y me sienta más preparada para enfrentar los retos que se presenten a partir de ahora en adelante.",
       ],
     },
   },

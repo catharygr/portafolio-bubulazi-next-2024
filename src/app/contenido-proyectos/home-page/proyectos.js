@@ -75,7 +75,7 @@ export const PROYECTOS = [
     id: "010",
     title: "Pac-Man",
     description:
-      "Mi primer proyecto desarrollado con JavaScript, CSS y HTML. Inspirada en el juego de Pac-Man.Para jugar tiene que ser desde un ordenador porque está desarrolado para usar el teclado =>",
+      "Mi primer proyecto desarrollado con JavaScript, CSS y HTML. Inspirada en el juego de Pac-Man. Para jugar tiene que ser desde un ordenador porque está desarrolado para usar el teclado =>",
     url: "https://catharygr.github.io/juego-de-pacman/",
     linkTexto: "Ver proyecto",
     imageURL: pacMan,
