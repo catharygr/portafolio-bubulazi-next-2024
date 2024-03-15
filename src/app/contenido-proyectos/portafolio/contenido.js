@@ -42,8 +42,8 @@ export const contenidoDePagina = {
       title: "Mi papel en el proyecto",
       content: [
         "Utilizando Figma app he creado el diseño y UI.",
-        "Con lo aprendido en el Bootcamp en Qualentum y con 'Joy of React' de Joshua Comeau, he podido incorporar algunas ideas clave en la estructura y funcionalidad del sitio.",
-        "Estos cursos me han proporcionado una buena base para empezar en Next.js y el renderizado del lado del servidor (SSR), lo que ha resultado fundamental para la arquitectura de mi aplicación web. ",
+        "Con lo aprendido en el Bootcamp de Qualentum y con 'Joy of React' de Joshua Comeau, he podido incorporar algunas ideas clave en la estructura y funcionalidad del sitio.",
+        "Estos bootcamps me han proporcionado una buena base para empezar en Next.js y el renderizado del lado del servidor (SSR), lo que ha resultado fundamental para la arquitectura de mi aplicación web. ",
         "A excepción del CSS reset, todas las líneas de código han sido escritas por mí. Leer la documentación me ha ayudado a resolver los problemas por mi cuenta. A pesar de algunos errores de principiante, he logrado que el sitio haya funcionado correctamente y, lo más importante, he adquirido nuevos conocimientos. ",
       ],
     },
