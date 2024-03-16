@@ -18,8 +18,19 @@ export default function Formulario() {
             pregunta, no dudes en escribirme.
           </p>
           <div className={styles.misEnlaces}>
-            <Link href="https://www.linkedin.com/">LinkedIn</Link> | {""}
-            <Link href="https://github.com/catharygr">GitHub</Link>
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/"
+            >
+              LinkedIn
+            </Link>{" "}
+            | {""}
+            <Link
+              target="_blank"
+              href="https://github.com/catharygr"
+            >
+              GitHub
+            </Link>
           </div>
         </div>
         <form className={styles.form}>

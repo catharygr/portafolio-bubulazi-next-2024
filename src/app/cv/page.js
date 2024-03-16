@@ -61,20 +61,20 @@ export default function CVPage() {
                 <Link href="/#contacto-form">Formulario de contacto</Link>
               </p>
               <p>
-                <a
+                <Link
                   target="_blank"
                   href={"https://www.linkedin.com"}
                 >
                   LinkedIn
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   target="_blank"
                   href={"https://github.com/catharygr"}
                 >
                   GitHub
-                </a>
+                </Link>
               </p>
             </div>
             <div>
@@ -140,44 +140,44 @@ export default function CVPage() {
                 Enlaces directos a páginas de proyectos:
               </h3>
               <p>
-                <a
+                <Link
                   target="_blank"
                   href="https://qualentum-ecommerce-catary.netlify.app"
                 >
                   E-commerce site
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   target="_blank"
                   href="https://multipage-form-caty.netlify.app"
                 >
                   Multipage form
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   target="_blank"
                   href="https://sarajevo-turismo.netlify.app"
                 >
                   Sarajevo Tours
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   target="_blank"
                   href="https://recordatorios-react-cathy.netlify.app"
                 >
                   Recordatorios
-                </a>
+                </Link>
               </p>
               <p>
-                <a
+                <Link
                   target="_blank"
                   href="https://blancodent.com"
                 >
                   Clínica Dental Blancodent
-                </a>
+                </Link>
               </p>
             </div>
             <div>
