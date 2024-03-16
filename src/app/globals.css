@@ -141,15 +141,6 @@ meter {
 }
 
 :root {
-  /* Colores */
-  /* --clr-primario: 137 82% 83%;
-  --clr-secundario: 37 86% 88%;
-  --clr-acentado: 349 100% 84%;
-  --clr-texto: 0 0% 4%;
-  --clr-fondo: 178 59% 76%;
-  --clr-negro: 0 0% 4%;
-  --clr-blanco: 0 0% 96%; */
-
   /* Formatos de letras */
   --fs-hero: clamp(3.052rem, 6vw, 4.5rem);
   --fs-900: 3.052rem;
@@ -203,6 +194,7 @@ body {
 
 :is(h1, h2, h3) {
   line-height: var(--lh-small);
+  text-wrap: balance;
 }
 
 *:focus-visible {

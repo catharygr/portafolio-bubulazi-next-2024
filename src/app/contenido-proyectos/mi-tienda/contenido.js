@@ -8,7 +8,7 @@ export const contenidoDePagina = {
   id: "016",
   hero: {
     about: "Proyecto:",
-    title: "E-commerce Mi Tienda",
+    title: "E-commerce: Mi Tienda",
   },
   subHero: {
     titleSuperior: "Introducción:",
