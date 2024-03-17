@@ -21,7 +21,7 @@ export const PROYECTOS = [
     id: "016",
     title: "E-commerce: Mi Tienda",
     description:
-      'Desarrollada por mí, inspirada y orientada por el profesor "Alejandro Castro" y todo lo aprendido en el bootcamp de Qualentum. Utilizando tecnologías como React, React Router y Redux. El objetivo principal de este proyecto ha sido repasar y poner en práctica todo lo aprendido.',
+      'Desarrollada por mí, inspirada y orientada por el profesor "Alejandro Castro" y todo lo adquirido en el bootcamp de Qualentum. Utilizando tecnologías como React, React Router y Redux. El objetivo principal de este proyecto ha sido repasar y poner en práctica todo lo aprendido.',
     url: "/proyectos/mi-tienda",
     linkTexto: "Ver proyecto",
     imageURL: miTienda,
