@@ -33,7 +33,7 @@ export default function CVPage() {
                 demostrado una{" "}
                 <span className="bold-text">firme determinación</span> para{" "}
                 <span className="bold-text">alcanzar mis objetivos, </span>
-                como el de cambiar la profesión de económica a{" "}
+                como el de cambiar la profesión de economía a{" "}
                 <span className="bold-text">desalladora web.</span>
               </p>
               <p>
