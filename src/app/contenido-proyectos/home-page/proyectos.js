@@ -30,7 +30,7 @@ export const PROYECTOS = [
     id: "015",
     title: "Formulario Multi-Páginas",
     description:
-      "Página web con diseño resposive desarrodada Con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
+      "Página web con diseño resposive desarrodada con React, Hooks más usados, firebase Auth, Storage y RealTime Database como Back-end.",
     url: "/proyectos/formulario-multi-paginas",
     linkTexto: "Ver proyecto",
     imageURL: formularioMultiPaginas,

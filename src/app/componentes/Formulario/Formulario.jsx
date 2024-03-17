@@ -44,7 +44,7 @@ export default function Formulario() {
             type="text"
             name="Nombre"
             id="name"
-            placeholder="¿Cómo te gustaria que te llamara?"
+            placeholder="¿Cómo te gustaría que te llamara?"
             className={styles.input}
           />
           <label
