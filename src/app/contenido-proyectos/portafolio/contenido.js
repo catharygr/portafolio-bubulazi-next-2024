@@ -26,7 +26,7 @@ export const contenidoDePagina = {
         "Vercel",
       ],
 
-      colTres: ["https://portafolio-bubulazi-next-2024.vercel.app"],
+      colTres: ["https://bubulazi.com"],
     },
   },
   main: {

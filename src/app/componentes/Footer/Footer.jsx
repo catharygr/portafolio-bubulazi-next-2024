@@ -36,7 +36,8 @@ export default function Footer() {
             <p>
               Desarrollado y diseñado por{" "}
               <span className={styles.oscuro}>Cathy</span> utilizando React.js
-              18 y Next.js Vanilla CSS, frame-motion, next-mdx-remote
+              18 y Next.js Vanilla CSS, frame-motion, próximanente
+              next-mdx-remote.
             </p>
           </div>
         </div>
