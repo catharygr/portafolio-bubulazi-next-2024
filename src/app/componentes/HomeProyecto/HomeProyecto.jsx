@@ -51,7 +51,7 @@ export default function HomeProyecto({ content, type }) {
         <div className={`wrapper flow ${styles.proyectoWrapperFull}`}>
           <Hero
             type="sin-imagen"
-            about="Mis proyectos personales"
+            about=""
             title="Todos los proyectos"
           />
           <h2 className={styles.h2}>Últimos proyectos</h2>
