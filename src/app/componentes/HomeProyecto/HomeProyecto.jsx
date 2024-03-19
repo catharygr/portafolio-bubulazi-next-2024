@@ -52,7 +52,7 @@ export default function HomeProyecto({ content, type }) {
           <Hero
             type="sin-imagen"
             about=""
-            title="Todos los proyectos"
+            title="Proyectos"
           />
           <h2 className={styles.h2}>Últimos proyectos</h2>
           <div className={styles.cardsContainer}>
