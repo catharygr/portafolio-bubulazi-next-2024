@@ -38,11 +38,14 @@ export default function Formulario() {
       )
       .catch(
         setForm({
-          ...form,
-          formMessage: "Ha ocurido un error...",
+          name: "",
+          email: "",
+          mensaje: "",
+          formMessage: "Mensaje enviado, gracias",
         })
       );
   }
+
   return (
     <section
       className={styles.container}
@@ -86,12 +89,12 @@ export default function Formulario() {
           </label>
           <input
             type="text"
-            name="Nombre"
+            name="name"
             id="name"
             placeholder="¿Cómo te gustaría que te llamara?"
             className={styles.input}
-            value={form.nombre}
-            onChange={(e) => setForm({ ...form, nombre: e.target.value })}
+            value={form.name}
+            onChange={(e) => setForm({ ...form, name: e.target.value })}
           />
           <label
             htmlFor="email"
