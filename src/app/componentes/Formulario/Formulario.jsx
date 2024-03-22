@@ -19,7 +19,7 @@ export default function Formulario() {
       mensaje: form.mensaje,
     };
 
-    fetch("https://formsubmit.co/ajax/formularioweb@bubulazi.com", {
+    fetch("https://formsubmit.co/ajax/39ffe87ad3d3e541a774b20e20d025a2", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -114,6 +114,11 @@ export default function Formulario() {
           >
             Mensaje:
           </label>
+          <input
+            type="text"
+            name="_honey"
+            style={{ display: "none" }}
+          ></input>
           <textarea
             name="mensaje"
             id="mensaje"
