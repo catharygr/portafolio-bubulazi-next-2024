@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function Formulario() {
   const [form, setForm] = useState({
-    nombre: "",
+    name: "",
     email: "",
     mensaje: "",
     formMessage: "",
