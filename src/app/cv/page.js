@@ -261,7 +261,22 @@ export default function CVPage() {
       </section>
       <section className={`wrapper  ${styles.containerQuery} `}>
         <div className={`${styles.flexContainer} ${styles.invertedCard}`}>
-          <h2 className={styles.h2}>Datos de interés</h2>
+          <h2 className={styles.h2}>Idiomas</h2>
+          <div className={`flow ${styles.jobDetails}`}>
+            <div>
+              <p>
+                <span className="bold-text">Castellano nativo</span>
+              </p>
+              <p>
+                <span className="bold-text">Inglés nivel intermedio</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={`wrapper  ${styles.containerQuery} `}>
+        <div className={`${styles.flexContainer} ${styles.regularCard}`}>
+          <h2 className={styles.h2}>Hobbies</h2>
           <div className={`flow ${styles.jobDetails}`}>
             <div>
               <p>
