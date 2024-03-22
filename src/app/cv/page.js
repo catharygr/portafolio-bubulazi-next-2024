@@ -264,12 +264,12 @@ export default function CVPage() {
           <h2 className={styles.h2}>Idiomas</h2>
           <div className={`flow ${styles.jobDetails}`}>
             <div>
-              <p>
-                <span className="bold-text">Castellano nativo</span>
-              </p>
-              <p>
-                <span className="bold-text">Inglés nivel intermedio</span>
-              </p>
+              <h3 className={styles.h3}>Castellano:</h3>
+              <p>Nativo</p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>Inglés:</h3>
+              <p>Nivel intermedio</p>
             </div>
           </div>
         </div>
@@ -278,7 +278,7 @@ export default function CVPage() {
         <div className={`${styles.flexContainer} ${styles.regularCard}`}>
           <h2 className={styles.h2}>Hobbies</h2>
           <div className={`flow ${styles.jobDetails}`}>
-            <div>
+            <div className="flow">
               <p>
                 En mis tiempos libres, imparto clases particulares de baile.
                 También practico varios deportes: esquí alpino, ciclismo de
