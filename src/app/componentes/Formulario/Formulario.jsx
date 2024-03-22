@@ -8,11 +8,40 @@ export default function Formulario() {
     nombre: "",
     email: "",
     mensaje: "",
-    formMessage: "¿Qué tal te ha ido?",
+    formMessage: "",
   });
 
   function handleSubmit(e) {
-    console.log(form);
+    e.preventDefault();
+    const toSend = {
+      name: form.name,
+      email: form.email,
+      mensaje: form.mensaje,
+    };
+
+    fetch("https://formsubmit.co/ajax/formularioweb@bubulazi.com", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(toSend),
+    })
+      .then((response) => response.json())
+      .then(
+        setForm({
+          name: "",
+          email: "",
+          mensaje: "",
+          formMessage: "Mensaje enviado, gracias",
+        })
+      )
+      .catch(
+        setForm({
+          ...form,
+          formMessage: "Ha ocurido un error...",
+        })
+      );
   }
   return (
     <section
