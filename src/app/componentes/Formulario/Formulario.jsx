@@ -1,7 +1,19 @@
+"use client";
 import Link from "next/link";
 import styles from "./Formulario.module.css";
+import { useState } from "react";
 
 export default function Formulario() {
+  const [form, setForm] = useState({
+    nombre: "",
+    email: "",
+    mensaje: "",
+    formMessage: "¿Qué tal te ha ido?",
+  });
+
+  function handleSubmit(e) {
+    console.log(form);
+  }
   return (
     <section
       className={styles.container}
@@ -33,7 +45,10 @@ export default function Formulario() {
             </Link>
           </div>
         </div>
-        <form className={styles.form}>
+        <form
+          onSubmit={handleSubmit}
+          className={styles.form}
+        >
           <label
             htmlFor="name"
             className={styles.label}
@@ -46,6 +61,8 @@ export default function Formulario() {
             id="name"
             placeholder="¿Cómo te gustaría que te llamara?"
             className={styles.input}
+            value={form.nombre}
+            onChange={(e) => setForm({ ...form, nombre: e.target.value })}
           />
           <label
             htmlFor="email"
@@ -59,6 +76,8 @@ export default function Formulario() {
             name="email"
             placeholder="¿Cuál es tu dirección de correo?"
             className={styles.input}
+            value={form.email}
+            onChange={(e) => setForm({ ...form, email: e.target.value })}
           />
           <label
             htmlFor="mensaje"
@@ -73,7 +92,10 @@ export default function Formulario() {
             rows="6"
             placeholder="Escribe aquí tu mensaje..."
             className={styles.input}
+            value={form.mensaje}
+            onChange={(e) => setForm({ ...form, mensaje: e.target.value })}
           />
+          <p className={styles.message}>{form.formMessage}</p>
           <button className={styles.btn}>Muchas gracias</button>
         </form>
       </div>

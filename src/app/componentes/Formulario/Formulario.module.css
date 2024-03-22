@@ -67,6 +67,12 @@
   scale: 1.03;
 }
 
+.message {
+  color: hsl(var(--clr-texto));
+  text-align: center;
+  font-size: var(--fs-200);
+}
+
 @media (min-width: 50rem) {
   .formulario {
     flex-direction: row;
