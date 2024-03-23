@@ -1,6 +1,9 @@
 .header {
   background-color: hsl(var(--clr-acentado));
   border-bottom: 1px solid hsl(var(--clr-texto));
+  position: sticky;
+  top: 0;
+  z-index: 10000;
 }
 
 .container {
@@ -61,7 +64,7 @@
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  margin-block: clamp(0.6rem, 3vw, 1.2rem);
+  margin-block: clamp(0.3rem, 2vw, 1rem);
   border: 1px solid hsl(var(--clr-texto));
 }
 
