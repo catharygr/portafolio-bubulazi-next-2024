@@ -41,7 +41,7 @@ export default function OtrosProyectos({ proyectos, id }) {
   return (
     <aside className={styles.otrosAsides}>
       <div className={`wrapper flow ${styles.container}`}>
-        <h2 className={styles.h2}>Otros proyectos</h2>
+        <h2 className={styles.h2}>Otros Proyectos</h2>
         <div className={styles.flexContainer}>
           <div className="flow">
             <h3 className={styles.h3}>{primerProyecto.title}</h3>

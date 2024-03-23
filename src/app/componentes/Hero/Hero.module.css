@@ -29,10 +29,6 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.img {
-  /* transform: translateY(25px); */
-}
-
 /* Sin imagen */
 .containerTipoSinImagen {
   max-width: 30rem;
@@ -40,7 +36,7 @@
 
 .about {
   display: block;
-  font-size: var(--fs-800);
+  font-size: clamp(1.5rem, 3vw, var(--fs-800));
 }
 
 @media (min-width: 43rem) {
