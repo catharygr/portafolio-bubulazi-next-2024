@@ -22,8 +22,8 @@
 }
 
 .cardContent {
-  padding: var(--padding);
   color: hsl(var(--clr-texto));
+  padding: clamp(var(--padding), 3vw, 2rem);
 }
 
 .cardContent h3 {
