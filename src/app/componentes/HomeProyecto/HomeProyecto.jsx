@@ -12,7 +12,7 @@ export default function HomeProyecto({ content, type }) {
     return (
       <section>
         <div className={`wrapper flow ${styles.proyectoWrapper}`}>
-          <h2 className={styles.h2}>Últimos proyectos</h2>
+          <h2 className={styles.h2}>Últimos Proyectos</h2>
           <div className={styles.cardsContainer}>
             {ultimosProyectos.map((proyecto) => (
               <Card
@@ -22,7 +22,7 @@ export default function HomeProyecto({ content, type }) {
               />
             ))}
           </div>
-          <h2 className={styles.h2}>Otros proyectos</h2>
+          <h2 className={styles.h2}>Otros Proyectos</h2>
           <div className={styles.cardSinImg}>
             {otrosProyectos.map((proyecto) => (
               <Card
