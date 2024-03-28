@@ -101,7 +101,13 @@ export default function CVPage() {
               <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
               <p>Freelance | 2022 - Actualidad</p>
               <p>
-                Desarrollo y mantenimiento de la página web: blancodent.com.
+                Desarrollo y mantenimiento de la página web:{" "}
+                <Link
+                  target="_blank"
+                  href="https://blancodent.com/"
+                >
+                  blancodent.com.
+                </Link>
               </p>
             </div>
             <div>
