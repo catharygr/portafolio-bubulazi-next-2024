@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./SubHero.module.css";
 
-//Type: single, single-link, doble-una-lista, doble-tres-listas
+//Type: doble-una-lista, doble-tres-listas
 export default function SubHero({ type, content }) {
   const { titleSuperior, titleInferior, contentSuperior, contentInferior } =
     content;
@@ -12,14 +12,6 @@ export default function SubHero({ type, content }) {
           <h2 className={styles.h2}>{titleSuperior}</h2>
           <div className={styles.contenidoSuperior}>
             <div dangerouslySetInnerHTML={{ __html: contentSuperior }} />
-            {type === "single-link" && (
-              <Link
-                href={"/"}
-                className={styles.singleLink}
-              >
-                Link de prueba
-              </Link>
-            )}
           </div>
         </div>
       </section>
