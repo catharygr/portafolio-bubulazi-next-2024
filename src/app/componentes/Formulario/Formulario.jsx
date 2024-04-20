@@ -38,9 +38,7 @@ export default function Formulario() {
       })
       .catch((error) => {
         setForm({
-          name: "",
-          email: "",
-          mensaje: "",
+          ...form,
           formMessage: `${error}: Error al enviar el mensaje, inténtalo de nuevo`,
         });
       });
