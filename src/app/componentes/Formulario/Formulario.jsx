@@ -28,22 +28,22 @@ export default function Formulario() {
       body: JSON.stringify(toSend),
     })
       .then((response) => response.json())
-      .then(
+      .then(() => {
         setForm({
           name: "",
           email: "",
           mensaje: "",
           formMessage: "Mensaje enviado, gracias",
-        })
-      )
-      .catch(
+        });
+      })
+      .catch((error) => {
         setForm({
           name: "",
           email: "",
           mensaje: "",
-          formMessage: "Mensaje enviado, gracias",
-        })
-      );
+          formMessage: `${error}: Error al enviar el mensaje, inténtalo de nuevo`,
+        });
+      });
   }
 
   return (
