@@ -21,12 +21,14 @@ export const ESCRITORIO_LINK = [
   // },
 ];
 
+// Datos de la página
 export const BASE_METADATA = {
   title: "Portafolio de Cathy",
   description:
     " Porrtafolio personal donde muestro mis proyectos y mis habilidades",
 };
 
+// Rutas de la barra de navegación
 export const HAMBURGUER_LINK = [
   {
     slug: "home",
