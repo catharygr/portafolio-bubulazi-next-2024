@@ -292,8 +292,8 @@ export default function CVPage() {
               </p>
               <p>
                 Disfruto de la lectura, sobre temas interesantes relacionados
-                con la documentación de todo aquello que estoy aprendiendo.
-                Además, he desarrollado un gusto por la codificación, que se ha
+                con la documentación de todo lo que estoy aprendiendo. Además,
+                he desarrollado un gusto por la codificación, que se ha
                 convertido en mi hobby favorito.
               </p>
             </div>
