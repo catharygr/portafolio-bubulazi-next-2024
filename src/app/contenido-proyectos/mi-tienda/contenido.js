@@ -82,8 +82,8 @@ export const contenidoDePagina = {
       title: "Problemas y soluciones",
       content: [
         "A medida que la aplicación se iba volviendo más complicada, cambiar de React a Redux supuso enfrentarse a un gran reto.",
-        "Hacer la transición requería entender bien las diferencias entre la estructura y la lógica de ambas herramientas, lo que hacía que el proceso fuera bastante complicado",
-        "Esta estrategia me ha ayudado a lidiar con lo detallado que ha sido el cambio, sin afectar mucho cómo funcionaba la aplicación ya establecida. También hizo que fuera más fácil ir integrando Redux gradualmente en todo el proyecto",
+        "Hacer la transición requería entender bien las diferencias entre la estructura y la lógica de ambas herramientas, lo que hacía que el proceso fuera bastante complicado.",
+        "Esta estrategia me ha ayudado a lidiar con lo detallado que ha sido el cambio, sin afectar mucho cómo funcionaba la aplicación ya establecida. También hizo que fuera más fácil ir integrando Redux gradualmente en todo el proyecto.",
       ],
     },
     bloqueDos: {
