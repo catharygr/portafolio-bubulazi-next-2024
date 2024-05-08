@@ -144,3 +144,15 @@ export default function Header() {
     </header>
   );
 }
+
+// El componente Header en React se encarga de renderizar el encabezado de la página. Incluye un menú de navegación, un botón para cambiar entre el modo claro y oscuro, y un botón para abrir un menú lateral.
+
+// El estado del menú lateral (abierto o cerrado) se maneja con un hook personalizado llamado useToggle. Además, se utiliza el hook useState para manejar el estado del enlace sobre el que se pasa el mouse (hoverLink) y el estado del modo de color (modoClaro).
+
+// El componente Header también utiliza el hook useEffect para cambiar los colores de la página cuando el estado modoClaro cambia. Si el sistema operativo del usuario prefiere el modo oscuro, se cambia el estado modoClaro a false, y viceversa.
+
+// El menú de navegación se compone de varios enlaces definidos en un array. Cada enlace tiene un slug, label y href que se utilizan para renderizar el enlace y manejar la interacción del usuario. Cuando el mouse entra en un enlace, se establece el estado hoverLink en el slug de ese enlace. Si la ruta actual es igual al href del enlace, entonces se le asigna una clase adicional para indicar que es el enlace activo.
+
+// Además, si hoverLink es igual al slug de un enlace, se renderiza un componente adicional con una animación que cambia el borderRadius.
+
+// Finalmente, el componente Header renderiza un botón para cambiar el modo de color y un botón para abrir el menú lateral. Cuando se hace clic en el botón de cambio de color, se cambia el estado modoClaro. Cuando se hace clic en el botón del menú, se cambia el estado estaMenuAbierto.
