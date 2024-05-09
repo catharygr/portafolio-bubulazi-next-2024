@@ -5,11 +5,10 @@ import Link from "next/link";
 import useToggle from "../../utilidades/useToggle";
 import VisuallyHidden from "../../utilidades/VisuallyHidden";
 import NavMenu from "../NavMenu";
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { ESCRITORIO_LINK } from "@/app/utilidades/constante";
 import { useState, useId, useEffect } from "react";
-import { motion } from "framer-motion";
 
 export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
