@@ -77,7 +77,7 @@ export default function Header() {
             {ESCRITORIO_LINK.map(({ slug, label, href }) => (
               <li
                 key={slug}
-                style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}
+                // style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}
               >
                 {hoverLink === slug && (
                   <motion.div
@@ -144,14 +144,8 @@ export default function Header() {
   );
 }
 
-// El componente Header en React se encarga de renderizar el encabezado de la página. Incluye un menú de navegación, un botón para cambiar entre el modo claro y oscuro, y un botón para abrir un menú lateral.
+// El componente Header renderiza el encabezado de la página. Tiene el  menú de navegación, un botón para cambiar entre el modo claro y oscuro, y un botón hamburguesa para abrir un menú lateral. Con el custom hook useToggle controlo el estado de apertura y cierre del menú. El aria expanded indica que el menú está expandido y su valor actual es estamenuabierto.Cuando se hace clic en el botón, se llama a la función toggleMenuAbierto, que cambia el valor de estaMenuAbierto al valor opuesto. En el Menu que es un icono que se represnta como un componente el aria-hidden indicar que el icono del menú no debe ser leído por las tecnologías de asistencia. y con focusable que el elemento no debe ser enfocado. Y el componente Visualhidden se oculta el texto para los usuario que ven pero no para el lector de pantalla.
 
-// El estado del menú lateral (abierto o cerrado) se maneja con un hook personalizado llamado useToggle. Además, se utiliza el hook useState para manejar el estado del enlace sobre el que se pasa el mouse (hoverLink) y el estado del modo de color (modoClaro).
+//  El estado hoverLink se utiliza para rastrear qué enlace está actualmente siendo señalado por el mouse. Cuando el mouse se mueve sobre un enlace, setHoverLink se llama con el slug del enlace, lo que establece hoverLink en ese slug. Cuando el mouse sale del menú, setHoverLink se llama con null, lo que establece hoverLink de nuevo a null.
 
-// El componente Header también utiliza el hook useEffect para cambiar los colores de la página cuando el estado modoClaro cambia. Si el sistema operativo del usuario prefiere el modo oscuro, se cambia el estado modoClaro a false, y viceversa.
-
-// El menú de navegación se compone de varios enlaces definidos en un array. Cada enlace tiene un slug, label y href que se utilizan para renderizar el enlace y manejar la interacción del usuario. Cuando el mouse entra en un enlace, se establece el estado hoverLink en el slug de ese enlace. Si la ruta actual es igual al href del enlace, entonces se le asigna una clase adicional para indicar que es el enlace activo.
-
-// Además, si hoverLink es igual al slug de un enlace, se renderiza un componente adicional con una animación que cambia el borderRadius.
-
-// Finalmente, el componente Header renderiza un botón para cambiar el modo de color y un botón para abrir el menú lateral. Cuando se hace clic en el botón de cambio de color, se cambia el estado modoClaro. Cuando se hace clic en el botón del menú, se cambia el estado estaMenuAbierto.
+// El estado modoClaro se utiliza para rastrear si el modo claro está activado o no. El hook usePathname de next/navigation se utiliza para obtener la ruta actual de la página. El hook useId se utiliza para generar un id único para el componente motion.div.
