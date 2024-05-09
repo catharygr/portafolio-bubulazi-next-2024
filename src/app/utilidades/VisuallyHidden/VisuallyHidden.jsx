@@ -15,3 +15,5 @@ const VisuallyHidden = ({ children }) => {
 };
 
 export default VisuallyHidden;
+
+// Este componente oculta visualmente el contenido que se le pasa como children, pero permite que el contenido sea accesible para los lectores de pantalla. Con estos estilos lo hago invisible visualmente en la página, pero no lo eliminan del árbol de accesibilidad del documento. Aunque los usuarios no puedan ver el contenido, las tecnologías de asistencia pueden acceder a él y leerlo.
