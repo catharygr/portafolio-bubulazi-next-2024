@@ -215,7 +215,7 @@ export default function CVPage() {
             <div>
               <h3 className={styles.h3}>
                 Plataforma web interactiva online ”Josh W Comeau Course Platform
-                - Joy of React” - Cánada. 2022-2023.
+                - Joy of React” - Canadá. 2022-2023.
               </h3>
               <p>
                 Desarrolladora web Front-End | React | Nextjs | JavaScript |
