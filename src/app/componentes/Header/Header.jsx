@@ -70,15 +70,11 @@ export default function Header() {
         </Link>
         <div className={styles.navContainer}>
           <ul
-            aria-hidden="true"
             className={styles.escritorioNav}
             onMouseLeave={() => setHoverLink(null)}
           >
             {ESCRITORIO_LINK.map(({ slug, label, href }) => (
-              <li
-                key={slug}
-                // style={{ zIndex: hoverLink === "slug" ? 1 : 2 }}
-              >
+              <li key={slug}>
                 {hoverLink === slug && (
                   <motion.div
                     layoutId={id}
