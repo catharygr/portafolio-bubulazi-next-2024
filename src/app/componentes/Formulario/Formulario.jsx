@@ -2,6 +2,7 @@
 import Link from "next/link";
 import styles from "./Formulario.module.css";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Formulario() {
   const [form, setForm] = useState({
@@ -50,7 +51,17 @@ export default function Formulario() {
       id="contacto-form"
     >
       <div className={`${styles.formulario} wrapper`}>
-        <div className={`${styles.contenido} flow`}>
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            type: "spring",
+            stiffness: 50,
+            damping: 10,
+            duration: 5,
+          }}
+          className={`${styles.contenido} flow`}
+        >
           <h2 className={styles.h2}>
             Vamos a ver sí juntos podemos hacer que funcione...
           </h2>
@@ -74,8 +85,16 @@ export default function Formulario() {
               GitHub
             </Link>
           </div>
-        </div>
-        <form
+        </motion.div>
+        <motion.form
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: "0%" }}
+          transition={{
+            type: "spring",
+            stiffness: 50,
+            damping: 10,
+            duration: 5,
+          }}
           onSubmit={handleSubmit}
           className={styles.form}
         >
@@ -132,7 +151,7 @@ export default function Formulario() {
           />
           <p className={styles.message}>{form.formMessage}</p>
           <button className={styles.btn}>Muchas gracias</button>
-        </form>
+        </motion.form>
       </div>
     </section>
   );
