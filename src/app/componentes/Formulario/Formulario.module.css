@@ -2,6 +2,7 @@
   background-color: hsl(var(--clr-secundario));
   padding-block: var(--padding-block-grande);
   color: hsl(var(--clr-texto));
+  overflow: hidden;
 }
 
 .formulario {
