@@ -14,24 +14,27 @@ export default function Header() {
   const [estaMenuAbierto, toggleMenuAbierto] = useToggle(false);
   const [hoverLink, setHoverLink] = useState(null);
   const [modoClaro, setModoClaro] = useState(true);
+  const [esPrimerRender, setEsPrimerRender] = useState(true);
   const pathname = usePathname();
   const id = useId();
 
   useEffect(() => {
-    if (
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-    ) {
-      setModoClaro(false);
-    } else if (
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: light)").matches
-    ) {
-      setModoClaro(true);
+    if (esPrimerRender) {
+      if (
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+      ) {
+        setModoClaro(false);
+      } else if (
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: light)").matches
+      ) {
+        setModoClaro(true);
+      }
+      setEsPrimerRender(false);
+      return;
     }
-  }, []);
 
-  useEffect(() => {
     const root = document.querySelector(":root");
     if (modoClaro) {
       root.style.setProperty("--clr-primario", "137 82% 83%");
@@ -46,7 +49,7 @@ export default function Header() {
       root.style.setProperty("--clr-fondo", "120 60% 16%");
       root.style.setProperty("--clr-texto", "0 0% 100%");
     }
-  }, [modoClaro]);
+  }, [modoClaro, esPrimerRender]);
 
   return (
     <header className={styles.header}>
