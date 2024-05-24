@@ -60,10 +60,7 @@ export default function NavMenu({ toggleMenuAbierto }) {
             <div className={styles.menuEnlace}>
               <ul onMouseLeave={() => setHoverHamburguerLink(null)}>
                 {HAMBURGUER_LINK.map(({ slug, label, href }) => (
-                  <li
-                    key={slug}
-                    style={{ zIndex: hoverHamburguerLink === "slug" ? 1 : 2 }}
-                  >
+                  <li key={slug}>
                     {hoverHamburguerLink === slug && (
                       <motion.div
                         layoutId={id}
