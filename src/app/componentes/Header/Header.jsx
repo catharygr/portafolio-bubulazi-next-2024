@@ -53,7 +53,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={` ${styles.container}`}>
+      <div className={styles.container}>
         <Link
           aria-label="El logo es una animación de un emoji de mi y enlace a la página inicio"
           href="/"
