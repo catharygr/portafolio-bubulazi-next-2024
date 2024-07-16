@@ -22,8 +22,13 @@ export const contenidoDePagina = {
         "Next.js",
         "CSS & HTML",
         "Javascript ES6",
+        "Redux",
+        "Open Cells",
+        "Figma",
         "Git & GitHub",
+        "Firebase",
         "Vercel",
+        "Netlify",
       ],
 
       colTres: ["https://bubulazi.com"],

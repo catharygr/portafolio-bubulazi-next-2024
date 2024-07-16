@@ -53,12 +53,12 @@ export default function SubHero({ type, content }) {
               <ul className={styles.tresListasUl}>
                 {contentInferior.colTres.map((item, index) => (
                   <li key={index}>
-                    <a
+                    <Link
                       target="_blank"
                       href={item}
                     >
                       Visitar
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
