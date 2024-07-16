@@ -11,6 +11,7 @@ export const SOBRE_MI = {
     "JavaScript",
     "ES6",
     "CSS & HTML",
+    "Open Cells",
     "Figma",
     "Accesibilidad",
     "Git",
