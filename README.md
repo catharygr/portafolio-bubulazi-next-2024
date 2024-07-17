@@ -4,7 +4,7 @@ Visitar mi portafolio: https://bubulazi.com
 
 Mi Proyecto Portafolio es como mi tarjeta de presentación digital, un rincón donde puedo mostrar al mundo mis creaciones y mi viaje en el universo de la programación. Antes de esta página web, habia desarrollado otra con HTML, CSS y JavaScript. Al terminar las enseñanzas de este último bootcamp, he decidido construir una nueva plataforma utilizando React y Next.js.
 
-### Web stack y su explicación
+## Web stack y su explicación
 
 - Visual Studio Code: Utilizado como el principal entorno de desarrollo para escribir y organizar el código de la aplicación.
 
