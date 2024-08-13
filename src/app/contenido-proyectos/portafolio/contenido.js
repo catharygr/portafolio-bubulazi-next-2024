@@ -24,6 +24,7 @@ export const contenidoDePagina = {
         "Javascript ES6",
         "Redux",
         "Open Cells",
+        "Lit Element",
         "Figma",
         "Git & GitHub",
         "Firebase",
