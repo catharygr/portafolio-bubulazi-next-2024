@@ -22,7 +22,8 @@ export default function CVPage() {
                 <span className="bold-text">Desarrolladora Web Front-End</span>{" "}
                 junior con conocimientos de{" "}
                 <span className="bold-text">
-                  React, Nextjs, React Router ,Open Cells, Lit Element{" "}
+                  React, Nextjs, React Router ,Open Cells, Lit Element, Web
+                  Component{" "}
                 </span>
                 , JavaScript, CSS, HTML, Firebase y{" "}
                 <span className="bold-text">Accesibilidad</span> web.
@@ -87,9 +88,9 @@ export default function CVPage() {
             <div>
               <h3 className={styles.h3}>Conocimientos:</h3>
               <p>
-                React | Nextjs | React Router | Open Cells | Lit Element | Redux
-                | JavaScript | CSS | HTML | Firebase | Accesibilidad web | Git &
-                GitHub | Agile | Figma.
+                React | Nextjs | React Router | Open Cells | Lit Element | Web
+                Component | Redux | JavaScript | CSS | HTML | Firebase |
+                Accesibilidad web | Git & GitHub | Agile | Figma.
               </p>
             </div>
           </div>
