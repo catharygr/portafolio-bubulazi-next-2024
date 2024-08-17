@@ -13,6 +13,7 @@ export const SOBRE_MI = {
     "CSS & HTML",
     "Open Cells",
     "Lit Element",
+    "Web Components",
     "Figma",
     "Accesibilidad",
     "Git",
