@@ -13,7 +13,7 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "¡Bienvenido a E-commerce: Mi tienda desarrollado con el framework Open Cells de BBVA, utilizando la librería LitElement y Material Design. Este proyecto está diseñado para ofrecer una experiencia de usuario fluida y atractiva tanto en dispositivos de escritorio como móviles. Entre sus funcionalidades destacan la navegación mejorada, búsqueda integrada, menú de hamburguesa para móviles, gestión de favoritos, carrito de compra, soporte para temas de color personalizados y traducción del contenido de castellano a inglés.",
+      "¡Bienvenido a E-commerce: Mi tienda, desarrollado con el framework Open Cells de BBVA, utilizando la librería LitElement y Material Design. Este proyecto está diseñado para ofrecer una experiencia de usuario fluida y atractiva tanto en dispositivos de escritorio como móviles. Entre sus funcionalidades destacan la navegación mejorada, búsqueda integrada, menú de hamburguesa para móviles, gestión de favoritos, carrito de compra, soporte para temas de color personalizados y traducción del contenido de castellano a inglés.",
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
       colUno: ["Web App", "Comercio electrónico"],
