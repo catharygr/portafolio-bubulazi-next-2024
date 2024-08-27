@@ -88,7 +88,7 @@ export default function CVPage() {
             <div>
               <h3 className={styles.h3}>Conocimientos:</h3>
               <p>
-                React | Nextjs | React Router | Open Cells | Lit Element | Web
+                React | Nextjs | React Router | Open Cells | LitElement | Web
                 Components | Redux | JavaScript | CSS | HTML | Firebase |
                 Accesibilidad web | Git & GitHub | Agile | Figma.
               </p>
@@ -152,7 +152,7 @@ export default function CVPage() {
               <p>
                 <Link
                   target="_blank"
-                  href="https://qualentum-ecommerce-catary.netlify.app"
+                  href="https://opencells-ecommerce-lit-caty.netlify.app"
                 >
                   E-commerce site
                 </Link>
@@ -292,7 +292,7 @@ export default function CVPage() {
               <p>
                 En mis tiempos libres, imparto clases particulares de baile.
                 También practico varios deportes: esquí alpino, ciclismo de
-                touring, senderismo, running, yoga y meditación.
+                touring, senderismo, running, y práctica de yoga y meditación.
               </p>
               <p>
                 Disfruto de la lectura, sobre temas interesantes relacionados
