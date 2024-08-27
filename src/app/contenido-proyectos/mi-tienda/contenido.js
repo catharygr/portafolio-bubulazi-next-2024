@@ -13,40 +13,40 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "¡Bienvenido a E-commerce: Mi tienda! Con formularios controlados, enrutamientos, carrito de compra y otras funcionalidades. Esta página web ofrece una experiencia de compra ficticia. Inspirado y orientado por la experiencia del profesor del bootcamp. Hemos diseñado esta página para brindar una simulación de compra en línea. ",
+      "¡Bienvenido a E-commerce: Mi tienda desarrollado con el framework Open Cells de BBVA, utilizando la librería LitElement y Material Design. Este proyecto está diseñado para ofrecer una experiencia de usuario fluida y atractiva tanto en dispositivos de escritorio como móviles. Entre sus funcionalidades destacan la navegación mejorada, búsqueda integrada, menú de hamburguesa para móviles, gestión de favoritos, carrito de compra, soporte para temas de color personalizados y traducción del contenido de castellano a inglés.",
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
       colUno: ["Web App", "Comercio electrónico"],
       colDos: [
-        "React",
-        "React Router",
-        "Redux, Redux Toolkit",
+        "Open Cells",
+        "LitElement",
+        "Material Design",
         "CSS & HTML",
         "Javascript ES6",
-        "Axios",
-        "Git & GitHub",
         "Firebase",
+        "Git & GitHub",
         "Netlify",
       ],
 
-      colTres: ["https://qualentum-ecommerce-catary.netlify.app"],
+      colTres: ["https://opencells-ecommerce-lit-caty.netlify.app"],
     },
   },
   main: {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "El propósito de este proyecto E-commerce ha sido combinar la dirección del profesor con mi habilidad para implementar sus enseñanzas en un entorno práctico. Desde la idea inicial hasta la implementación final, he estado enfocada en integrar los elementos esenciales de la app.",
-        " Este proyecto no solo buscaba cumplir con los requisitos del bootcamp, sino también fomentar la participación activa de todos los estudiantes. Después de seguir las directrices del profesor, mediantes las tutorias impartidas, se hablaba y discutia todo lo desarrollado.  Permitiendo que cada estudiante aportara sus ideas y perspectivas.",
-        "A través de este proceso colaborativo, buscamos no solo mejorar nuestras habilidades individuales, sino también enriquecer nuestra comprensión colectiva.",
+        " El propósito de este proyecto de ecommerce es proporcionar una plataforma moderna y eficiente para la compra y venta de productos en línea. Se busca mejorar la experiencia del usuario mediante una interfaz intuitiva y responsiva, que se adapte tanto a dispositivos de escritorio como móviles. Además, se ha implementado una serie de funcionalidades clave para facilitar la navegación, búsqueda y gestión de productos, así como la personalización de la experiencia de compra a través de temas de color y soporte multilingüe.",
+        "Este proyecto también sirve como un ejemplo práctico de cómo utilizar el framework Open Cells de BBVA en combinación con LitElement y Material Design para crear aplicaciones web robustas y atractivas.",
       ],
     },
     bloqueDos: {
       title: "Mi papel en el proyecto",
       content: [
-        "Como alumna en este proyecto E-commerce, mi papel ha sido fundamentalmente el de aprender y aplicar los conocimientos adquirido.",
-        "A lo largo del sprint, mi enfoque ha sido seguir las pautas establecidas, mientras exploraba cómo implementarlas en la práctica. En cada etapa del desarrollo, he buscado la orientación del profesor para comprender mejor los conceptos y abordar los desafíos que han surgido. ",
-        "Gracias a todo lo que he aprendido, he podido encontrar las soluciones adecuadas y superar los desafíos planteados. Estos conocimientos no solo me han permitido alcanzar los objetivos del proyecto, sino también consolidarlos.",
+        "Investigar y aprender sobre la tecnología Open Cells y LitElement",
+        "Diseñar y desarrollar una aplicación utilizando Material Design y Open Cells",
+        "Implementar pruebas para asegurar la funcionalidad correcta de la aplicación",
+        "Documentar el proceso de aprendizaje y desarrollo",
+        "Resolver problemas y depurar errores durante el desarrollo.",
       ],
     },
     bloqueTres: {
@@ -56,17 +56,11 @@ export const contenidoDePagina = {
     bloqueCuatro: {
       title: "Web stack y su explicación",
       content: [
-        "React: He utilizado componentes, props, renderizado condicional. useEffect para uso secundario como el tema de los colores. useState y useReducer para el manejo de estado. ",
+        "Open Cells: Es un framework de desarrollo de aplicaciones web de código abierto desarrollado por BBVA. Proporciona una serie de componentes y herramientas para facilitar la creación de aplicaciones web modernas y atractivas.",
 
-        "Custom Hooks: Para extraer lógica compleja y reutilizable en la app. Esto me ha permitido mantener el código limpio y modular.",
+        "LitElement: Es una librería de desarrollo de aplicaciones web basada en Web Components. Permite crear componentes web reutilizables y personalizables con un enfoque en la simplicidad y el rendimiento.",
 
-        "React Router: Con la función createBrowserRouter me ha permitido definir rutas y enlaces entre diferentes páginas.",
-
-        "Axios: Para realizar solicitudes HTTP a nuestro servidor y generar un CRUD para interactuar con los datos de nuestra aplicación.",
-
-        "Redux y Redux Toolkit: He modificado nuestra app para pasar la gestión del estado a Redux y Redux Toolkit. He utilizado métodos como createAsyncThunk y createSlice para definir acciones asíncronas y slices de estado respectivamente, simplificando la gestión del estado global de nuestra aplicación.",
-
-        "React Hook Form: He imprementado validaciones y proporcionado feedback sobre posibles errores, como datos incorrectos en los formularios de edición de productos e inicio de sesión.",
+        "Material Design: Es un sistema de diseño desarrollado por Google que se centra en la creación de interfaces de usuario. Proporciona una serie de directrices y componentes para facilitar el diseño y desarrollo de aplicaciones web y móviles.",
 
         "JSON Server & Firebase: Se ha utilizado como servidor durante desarrollo. Luego he pasado los datos a Firebase y he compilado la app en Netlify.",
 
@@ -81,9 +75,9 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Problemas y soluciones",
       content: [
-        "A medida que la aplicación se iba volviendo más complicada, cambiar de React a Redux supuso enfrentarse a un gran reto.",
-        "Hacer la transición requería entender bien las diferencias entre la estructura y la lógica de ambas herramientas, lo que hacía que el proceso fuera bastante complicado.",
-        "Esta estrategia me ha ayudado a lidiar con lo detallado que ha sido el cambio, sin afectar mucho cómo funcionaba la aplicación ya establecida. También hizo que fuera más fácil ir integrando Redux gradualmente en todo el proyecto.",
+        "Uno de los principales desafíos que enfrenté durante el desarrollo de la aplicación fue la implementación de la funcionalidad de cambio de idioma. Utilicé el paquete @open-cells/localize para gestionar la localización y traducción de la aplicación del castellano al inglés. Inicialmente, tuve problemas con la carga dinámica de los archivos de traducción y la sincronización de los textos traducidos en los componentes. Para resolver esto, investigué la documentación del paquete y realicé varias pruebas para asegurarme de que los textos se cargaran correctamente en ambos idiomas.",
+
+        "Finalmente, cuando subí el proyecto a Netlify para su compilación, el paquete @open-cells/localize no se pudo leer correctamente, lo que resultó en que no se mostrara ningún contenido. Para solucionar este problema, tuve que condicionar el código para asegurarme de que el contenido se mostrara correctamente en el entorno de producción. Esto incluyó verificar la disponibilidad de los archivos de traducción y asegurarme de que se cargaran correctamente antes de renderizar los componentes.",
       ],
     },
     bloqueDos: {
@@ -93,8 +87,7 @@ export const contenidoDePagina = {
     bloqueTres: {
       title: "Lecciones aprendidas",
       content: [
-        "Durante el tiempo que estuve trabajando en la app, he aprendido muchas cosas que me serviran en el futuro en el desarrollo de software. El cambio de React a Redux me ha dejado claro lo esencial que es planificar con cuidado y hacer la transición de forma gradual.",
-        "Todo este aprendizaje ha hecho que mis habilidades técnicas se fortalezcan, que mejore mi capacidad para trabajar en equipo, y me sienta más preparada para enfrentar los retos que se presenten a partir de ahora en adelante.",
+        "Durante el desarrollo de este proyecto, aprendí mucho sobre el framework Open Cells, así como sobre el desarrollo de aplicaciones web con LitElement y Material Design. También adquirí experiencia en la implementación de funcionalidades clave para aplicaciones de comercio electrónico, como la navegación, búsqueda, gestión de productos y personalización de la experiencia del usuario.",
       ],
     },
   },
