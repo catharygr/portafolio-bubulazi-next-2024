@@ -22,7 +22,7 @@ export default function CVPage() {
                 <span className="bold-text">Desarrolladora Web Front-End</span>{" "}
                 junior con conocimientos de{" "}
                 <span className="bold-text">
-                  React, Nextjs, React Router ,Open Cells, Lit Element, Web
+                  React, Nextjs, React Router ,Open Cells, LitElement, Web
                   Components{" "}
                 </span>
                 , JavaScript, CSS, HTML, Firebase y{" "}
@@ -291,14 +291,15 @@ export default function CVPage() {
             <div className="flow">
               <p>
                 En mis tiempos libres, imparto clases particulares de baile.
-                También practico varios deportes: esquí alpino, ciclismo de
-                touring, senderismo, running, y práctica de yoga y meditación.
+                También practico varios deportes como son: El esquí alpino,
+                ciclismo de touring, senderismo, running y práctica de yoga y
+                meditación.
               </p>
               <p>
-                Disfruto de la lectura, sobre temas interesantes relacionados
-                con la documentación de todo lo que estoy aprendiendo. Además,
-                he desarrollado un gusto por la codificación, que se ha
-                convertido en mi hobby favorito.
+                Disfruto de la lectura sobre temas interesantes relacionados con
+                la documentación de todo lo que estoy aprendiendo. Además, he
+                desarrollado un gusto por la codificación, que se ha convertido
+                en mi hobby favorito.
               </p>
             </div>
           </div>

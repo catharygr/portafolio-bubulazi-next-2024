@@ -13,7 +13,7 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "¡Bienvenido a E-commerce: Mi tienda, desarrollado con el framework Open Cells de BBVA, utilizando la librería LitElement y Material Design. Este proyecto está diseñado para ofrecer una experiencia de usuario fluida y atractiva tanto en dispositivos de escritorio como móviles. Entre sus funcionalidades destacan la navegación mejorada, búsqueda integrada, menú de hamburguesa para móviles, gestión de favoritos, carrito de compra, soporte para temas de color personalizados y traducción del contenido de castellano a inglés.",
+      "¡Bienvenido a E-commerce: Mi tienda! Este proyecto, lo he desarrollado con el framework Open Cells de BBVA, utilizando la librería LitElement y Material Design para crear una experiencia de usuario fluida y atractiva, tanto en ordenadores como en dispositivos móviles. Entre las principales características se incluyen una búsqueda integrada, un menú tipo hamburguesa para móviles, gestión de favoritos, un carrito de compras, soporte para temas de color personalizados y la opción de traducir el contenido del español al inglés. Como backend, he utilizado Firebase para datos y autenticación, y he desplegado la aplicación en Netlify para su acceso en vivo.",
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
       colUno: ["Web App", "Comercio electrónico"],
@@ -35,17 +35,16 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        " El propósito de este proyecto de ecommerce es proporcionar una plataforma moderna y eficiente para la compra y venta de productos en línea. Se busca mejorar la experiencia del usuario mediante una interfaz intuitiva y responsiva, que se adapte tanto a dispositivos de escritorio como móviles. Además, se ha implementado una serie de funcionalidades clave para facilitar la navegación, búsqueda y gestión de productos, así como la personalización de la experiencia de compra a través de temas de color y soporte multilingüe.",
-        "Este proyecto también sirve como un ejemplo práctico de cómo utilizar el framework Open Cells de BBVA en combinación con LitElement y Material Design para crear aplicaciones web robustas y atractivas.",
+        "He desarrollado este proyecto porque he tenido una oferta de trabajo que principalmente solicitaba conocimientos de Open Cells de BBVA y LitElement.",
+        "He intentado desarrollar una buena experiencia de usuario mediante una interfaz intuitiva y responsiva, que se adapte tanto a dispositivos de escritorio como móviles. He incluido la navegación, búsqueda de productos y gestión de los mismos para el usuario admin.",
       ],
     },
     bloqueDos: {
       title: "Mi papel en el proyecto",
       content: [
-        "Investigar y aprender sobre la tecnología Open Cells y LitElement",
-        "Diseñar y desarrollar una aplicación utilizando Material Design y Open Cells",
-        "Implementar pruebas para asegurar la funcionalidad correcta de la aplicación",
-        "Documentar el proceso de aprendizaje y desarrollo",
+        "Investigar y aprender sobre la tecnologías como Open Cells, LitElement y Web Components en general.",
+        "Diseñar y desarrollar una aplicación utilizando Material Design y CSS personalizado.",
+        "Documentar el proceso de aprendizaje y desarrollo.",
         "Resolver problemas y depurar errores durante el desarrollo.",
       ],
     },
@@ -56,13 +55,13 @@ export const contenidoDePagina = {
     bloqueCuatro: {
       title: "Web stack y su explicación",
       content: [
-        "Open Cells: Es un framework de desarrollo de aplicaciones web de código abierto desarrollado por BBVA. Proporciona una serie de componentes y herramientas para facilitar la creación de aplicaciones web modernas y atractivas.",
+        "Open Cells: Es un framework de desarrollo de aplicaciones web de código abierto desarrollado por BBVA. Utiliza canales de comunicación basados en la librería RxJS, y LitElement para las páginas web. Tiene su propio router y i18n para la internacionalización.",
 
         "LitElement: Es una librería de desarrollo de aplicaciones web basada en Web Components. Permite crear componentes web reutilizables y personalizables con un enfoque en la simplicidad y el rendimiento.",
 
         "Material Design: Es un sistema de diseño desarrollado por Google que se centra en la creación de interfaces de usuario. Proporciona una serie de directrices y componentes para facilitar el diseño y desarrollo de aplicaciones web y móviles.",
 
-        "JSON Server & Firebase: Se ha utilizado como servidor durante desarrollo. Luego he pasado los datos a Firebase y he compilado la app en Netlify.",
+        "JSON Server & Firebase: Se ha utilizado como servidor durante desarrollo. Luego he pasado los datos y la autenticación a Firebase y he publicado la app en Netlify.",
 
         "Git & GitHub: Commits, Branches, Merge, Restore, Push. También conexión con Netlify para despliegue continuo.",
       ],
@@ -75,9 +74,7 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Problemas y soluciones",
       content: [
-        "Uno de los principales desafíos que enfrenté durante el desarrollo de la aplicación fue la implementación de la funcionalidad de cambio de idioma. Utilicé el paquete @open-cells/localize para gestionar la localización y traducción de la aplicación del castellano al inglés. Inicialmente, tuve problemas con la carga dinámica de los archivos de traducción y la sincronización de los textos traducidos en los componentes. Para resolver esto, investigué la documentación del paquete y realicé varias pruebas para asegurarme de que los textos se cargaran correctamente en ambos idiomas.",
-
-        "Finalmente, cuando subí el proyecto a Netlify para su compilación, el paquete @open-cells/localize no se pudo leer correctamente, lo que resultó en que no se mostrara ningún contenido. Para solucionar este problema, tuve que condicionar el código para asegurarme de que el contenido se mostrara correctamente en el entorno de producción. Esto incluyó verificar la disponibilidad de los archivos de traducción y asegurarme de que se cargaran correctamente antes de renderizar los componentes.",
+        "Uno de los principales desafíos que he enfrentado durante el desarrollo de la aplicación ha sido la implementación de la funcionalidad de cambio de idioma. He utilizado el paquete @open-cells/localize para gestionar la localización y traducción de la aplicación del castellano al inglés. Inicialmente, he tenido problemas con la carga dinámica de los archivos de traducción y la sincronización de los textos traducidos en los componentes. Para resolver esto, he investigado la documentación del paquete y he realiazado varias pruebas para asegurarme de que los textos se cargaran correctamente en ambos idiomas.",
       ],
     },
     bloqueDos: {
@@ -87,7 +84,8 @@ export const contenidoDePagina = {
     bloqueTres: {
       title: "Lecciones aprendidas",
       content: [
-        "Durante el desarrollo de este proyecto, aprendí mucho sobre el framework Open Cells, así como sobre el desarrollo de aplicaciones web con LitElement y Material Design. También adquirí experiencia en la implementación de funcionalidades clave para aplicaciones de comercio electrónico, como la navegación, búsqueda, gestión de productos y personalización de la experiencia del usuario.",
+        "Durante el desarrollo de este proyecto, he aprendido mucho sobre el framework Open Cells, así como sobre el desarrollo de aplicaciones web con las librerías LitElement y Material Design.",
+        " También he aprendido nuevas cosas en la implementación de funcionalidades clave para aplicaciones de comercio electrónico como la gestión de productos, el carrito de compras y la traducción de contenido.",
       ],
     },
   },

@@ -21,7 +21,7 @@ export const PROYECTOS = [
     id: "016",
     title: "E-commerce: Mi Tienda",
     description:
-      "Desarrollado con el framework Open Cells de BBVA. Entre sus funcionalidades destacan la navegación mejorada, búsqueda integrada, carrito de compra, soporte para temas de color personalizados y traducción del contenido de castellano a inglés.",
+      "Desarrollado con el framework Open Cells de BBVA. Entre sus funcionalidades destacan el diseño resposive, búsqueda integrada, carrito de compra, soporte para temas de color y traducción del contenido de castellano a inglés.",
     url: "/proyectos/mi-tienda",
     linkTexto: "Ver proyecto",
     imageURL: miTienda,
