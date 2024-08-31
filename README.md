@@ -1,4 +1,4 @@
-##Portafolio personal desarrollado con Nextjs, React y próximamente next-mdx-remote
+## Portafolio personal desarrollado con Nextjs, React y próximamente next-mdx-remote
 
 Visitar mi portafolio: https://bubulazi.com
 
