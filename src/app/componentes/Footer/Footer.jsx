@@ -1,3 +1,4 @@
+import React from "react";
 import { HAMBURGUER_LINK } from "@/app/utilidades/constante";
 import styles from "./Footer.module.css";
 import Link from "next/link";
@@ -7,7 +8,7 @@ import { GitHub } from "react-feather";
 import { Linkedin } from "react-feather";
 import { Twitter } from "react-feather";
 
-export default function Footer() {
+function Footer() {
   const year = new Date().getFullYear();
 
   return (
@@ -80,3 +81,7 @@ export default function Footer() {
     </footer>
   );
 }
+
+const PuroFooter = React.memo(Footer);
+
+export default PuroFooter;
