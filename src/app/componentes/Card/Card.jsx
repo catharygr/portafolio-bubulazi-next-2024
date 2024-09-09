@@ -10,7 +10,7 @@ export default function Card({ content, type }) {
         <div className={styles.card}>
           <Image
             src={imageURL}
-            alt="Imagen del proyecto"
+            alt="Imagen de la tarjeta"
             className={styles.cardImg}
           />
           <div className={`${styles.cardContent} flow`}>
