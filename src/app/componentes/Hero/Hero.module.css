@@ -10,6 +10,10 @@
   color: hsl(var(--clr-texto));
 }
 
+.sectionHero {
+  background-color: hsl(var(--clr-fondo));
+}
+
 .marcoCircularImagen {
   flex-basis: clamp(10.6rem, 28vw, 14rem);
   height: auto;

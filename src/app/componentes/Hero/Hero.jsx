@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Hero({ type, image, alt, title, about }) {
   if (type === "con-imagen") {
     return (
-      <section>
+      <section className={styles.sectionHero}>
         <div className={`wrapper  ${styles.containerTipoImagen}`}>
           <motion.div
             className={styles.marcoCircularImagen}
