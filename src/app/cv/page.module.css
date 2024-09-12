@@ -1,13 +1,3 @@
-/* .fondoImagen {
-  background-image: url("../assets/imagen/generales/fotoCVDos.jpeg");
-  background-size: cover;
-  background-position: center;
-  pointer-events: none;
-
-  background-attachment: fixed;
-  filter: blur(5px);
-} */
-
 .fondoImagen {
   position: relative;
   overflow: hidden;
