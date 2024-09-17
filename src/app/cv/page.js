@@ -30,6 +30,14 @@ export default function CVPage() {
               </p>
             </div>
             <div>
+              <h3 className={styles.h3}>Interés especial:</h3>
+              <p>
+                React | Nextjs | React Router | Open Cells | LitElement | Web
+                Components | Redux | JavaScript | CSS | HTML | Firebase |
+                Accesibilidad web | Git & GitHub | Agile | Figma | Jest Testing.
+              </p>
+            </div>
+            <div>
               <h3 className={styles.h3}>Sobre mi</h3>
               <p>
                 A lo largo de mi trayectoria personal y profesional, he
@@ -84,14 +92,6 @@ export default function CVPage() {
               <h3 className={styles.h3}>Ubicación:</h3>
               <p>Las Palmas de Gran Canaria</p>
               <p>Disponibilidad geográfica e inmediata</p>
-            </div>
-            <div>
-              <h3 className={styles.h3}>Conocimientos:</h3>
-              <p>
-                React | Nextjs | React Router | Open Cells | LitElement | Web
-                Components | Redux | JavaScript | CSS | HTML | Firebase |
-                Accesibilidad web | Git & GitHub | Agile | Figma.
-              </p>
             </div>
           </div>
         </div>
@@ -206,6 +206,13 @@ export default function CVPage() {
         <div className={`${styles.flexContainer} ${styles.regularCard}`}>
           <h2 className={styles.h2}>Formación</h2>
           <div className={`flow ${styles.jobDetails}`}>
+            <div>
+              <h3 className={styles.h3}>
+                Plataforma web interactiva online ”Josh W Comeau Course Platform
+                - Joy of React” - Canadá. 2024 - actualidad.
+              </h3>
+              <p>CSS for JS Developers.</p>
+            </div>
             <div>
               <h3 className={styles.h3}>
                 Universidad Internacional de La Rioja - Qualentum Bootcamp
