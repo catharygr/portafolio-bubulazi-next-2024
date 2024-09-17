@@ -13,6 +13,7 @@ function Footer() {
 
   return (
     <footer className={styles.footer}>
+      <h2 className={styles.h2}>Enlaces</h2>
       <div className={`${styles.container} wrapper`}>
         <div className={styles.izquierda}>
           <div className="flow">
