@@ -6,7 +6,7 @@ import Footer from "./componentes/Footer";
 
 const monaSanzFont = localFont({
   src: "./assets/Mona-Sans.woff2",
-  display: "swap",
+  display: "fallback",
 });
 
 export const metadata = BASE_METADATA;
