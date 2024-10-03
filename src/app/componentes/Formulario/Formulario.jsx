@@ -125,6 +125,7 @@ export default function Formulario() {
             className={styles.input}
             value={form.email}
             onChange={(e) => setForm({ ...form, email: e.target.value })}
+            required={true}
           />
           <label
             htmlFor="mensaje"
@@ -146,6 +147,7 @@ export default function Formulario() {
             className={styles.input}
             value={form.mensaje}
             onChange={(e) => setForm({ ...form, mensaje: e.target.value })}
+            required={true}
           />
           <p className={styles.message}>{form.formMessage}</p>
           <button className={styles.btn}>Muchas gracias</button>
