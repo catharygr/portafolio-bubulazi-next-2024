@@ -62,9 +62,7 @@ export default function Formulario() {
           }}
           className={`${styles.contenido} flow`}
         >
-          <h2 className={styles.h2}>
-            Vamos a ver sí juntos podemos hacer que funcione...
-          </h2>
+          <h2>Vamos a ver sí juntos podemos hacer que funcione...</h2>
           <p>
             Si estás buscando a un desarrollador frontend junior con quién te
             gustaría trabajar o simplemente deseas conectarte/hacer una
