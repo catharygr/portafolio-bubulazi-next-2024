@@ -118,7 +118,7 @@ export default function Formulario() {
             Email:
           </label>
           <input
-            type="text"
+            type="email"
             id="email"
             name="email"
             placeholder="¿Cuál es tu dirección de correo?"
