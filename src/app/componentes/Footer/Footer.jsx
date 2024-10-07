@@ -38,7 +38,7 @@ function Footer() {
             <p>
               Desarrollado y diseñado por{" "}
               <span className={styles.oscuro}>Cathy</span> utilizando React.js,
-              Next.js, Vanilla CSS, frame-motion y próximanente next-mdx-remote.
+              Next.js, Vanilla CSS, frame-motion y next-mdx-remote.
             </p>
           </div>
         </div>
