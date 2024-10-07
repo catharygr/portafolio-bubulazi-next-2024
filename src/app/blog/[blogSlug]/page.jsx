@@ -42,7 +42,8 @@ export default async function DraftPage({ params }) {
       <h1>{frontmatter.title}</h1>
       <div className="draft-details">
         <time>
-          Last edit: {formatDate(frontmatter.lastEdited, frontmatter.language)}
+          Última edición:{" "}
+          {formatDate(frontmatter.lastEdited, frontmatter.language)}
         </time>
         <p>
           Primera edición:{" "}
