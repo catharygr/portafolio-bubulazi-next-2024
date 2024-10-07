@@ -110,9 +110,9 @@ export default function Header() {
                 <Sun className={styles.iconSVG} />
               )}
             </button>
-            {/* <Link href={"/rss.xml"}>
+            <Link href={"/rss.xml"}>
               <Rss className={styles.iconSVG} />
-            </Link> */}
+            </Link>
           </div>
           <nav
             role="navigation"
