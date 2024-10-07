@@ -45,12 +45,12 @@ export default async function DraftPage({ params }) {
           Last edit: {formatDate(frontmatter.lastEdited, frontmatter.language)}
         </time>
         <p>
-          First edit:{" "}
+          Primera edición:{" "}
           <strong>
             {formatDate(frontmatter.initialDate, frontmatter.language)}
           </strong>{" "}
-          • Stage: <strong>{frontmatter.stage}</strong> • Certainty:{" "}
-          <strong>{frontmatter.certainty}</strong> • Importance:{" "}
+          • Fase: <strong>{frontmatter.stage}</strong> • Certeza:{" "}
+          <strong>{frontmatter.certainty}</strong> • Importancia:{" "}
           <strong>{frontmatter.importance}</strong>
         </p>
       </div>
