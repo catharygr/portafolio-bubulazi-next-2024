@@ -14,11 +14,11 @@ export const ESCRITORIO_LINK = [
     label: "Proyectos",
     href: "/proyectos",
   },
-  // {
-  //   slug: "blog",
-  //   label: "Blog",
-  //   href: "/blog",
-  // },
+  {
+    slug: "blog",
+    label: "Blog",
+    href: "/blog",
+  },
 ];
 
 // Datos de la página
@@ -45,9 +45,9 @@ export const HAMBURGUER_LINK = [
     label: "Proyectos",
     href: "/proyectos",
   },
-  // {
-  //   slug: "blog",
-  //   label: "Blog",
-  //   href: "/blog",
-  // },
+  {
+    slug: "blog",
+    label: "Blog",
+    href: "/blog",
+  },
 ];
