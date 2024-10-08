@@ -10,5 +10,6 @@
   font-size: var(--fs-hero);
   font-weight: var(--f-wei-900);
   font-stretch: var(--f-str-125);
-  color: hsl(var(--clr-acentado-color));
+  padding-bottom: 10vw;
+  border-bottom: 6px solid hsl(var(--clr-acentado-color));
 }
