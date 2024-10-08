@@ -1,5 +1,5 @@
 .title {
-  --fs-hero: clamp(2.452rem, 6vw, 4rem);
+  --fs-hero: clamp(2rem, 6vw, 3rem);
   font-size: var(--fs-hero);
   font-weight: var(--f-wei-900);
   font-stretch: var(--f-str-125);
@@ -7,7 +7,7 @@
 
 .date {
   font-size: var(--fs-600);
-  /* color: hsl(var(--clr-acentado-color)); */
+  color: hsl(var(--clr-acentado-color));
   text-align: right;
 }
 
