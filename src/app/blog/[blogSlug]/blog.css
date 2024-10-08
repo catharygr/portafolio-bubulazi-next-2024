@@ -40,7 +40,6 @@
 
   & time {
     font-size: var(--fs-600);
-    color: hsl(var(--clr-acentado-color));
     text-align: right;
   }
 
