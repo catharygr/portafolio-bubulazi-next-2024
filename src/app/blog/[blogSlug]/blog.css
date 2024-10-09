@@ -77,4 +77,9 @@
   & article {
     --container-max: 75ch;
   }
+
+  & .yt-embeded {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
 }
