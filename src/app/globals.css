@@ -229,6 +229,7 @@ img {
 
 a {
   text-decoration: underline;
+  text-decoration-color: hsl(var(--clr-acentado-color));
   text-underline-offset: 4px;
   text-decoration-thickness: 2px;
 }
