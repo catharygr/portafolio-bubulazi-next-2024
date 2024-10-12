@@ -5,6 +5,10 @@
   font-stretch: var(--f-str-125);
 }
 
+.title {
+  text-decoration-color: hsl(var(--clr-acentado-color));
+}
+
 .date {
   font-size: var(--fs-600);
   text-align: right;

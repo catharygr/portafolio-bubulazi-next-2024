@@ -14,6 +14,7 @@ export default function BlogCard({
       <Link
         aria-label={slug}
         href={`/blog/${slug}`}
+        className={styles.link}
       >
         <h2
           lang={language}
