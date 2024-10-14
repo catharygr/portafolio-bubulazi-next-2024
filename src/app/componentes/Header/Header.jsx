@@ -60,18 +60,18 @@ export default function Header() {
           aria-label="El logo es una animación de un emoji de mi y enlace a la página inicio"
           href="/"
         >
-          <vídeo
-            className={styles.vídeo}
+          <video
+            className={styles.video}
             playsInline
             autoPlay
             loop
             muted
           >
             <source
-              src="/popo-vídeo.mp4"
-              type="vídeo/mp4"
+              src="/popo-video.mp4"
+              type="video/mp4"
             />
-          </vídeo>
+          </video>
         </Link>
         <div className={styles.navContainer}>
           <ul

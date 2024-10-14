@@ -60,12 +60,13 @@
   display: flex;
 }
 
-.vídeo {
+.video {
   border-radius: 50%;
   width: 60px;
   height: 60px;
   margin-block: clamp(0.3rem, 2vw, 1rem);
   border: 1px solid hsl(var(--clr-texto));
+  overflow: hidden;
 }
 
 @media (min-width: 43rem) {
