@@ -62,6 +62,7 @@ export default async function DraftPage({ params }) {
           components={{
             pre: Code,
             a: Link,
+            PhotoGallery,
           }}
         />
       </article>

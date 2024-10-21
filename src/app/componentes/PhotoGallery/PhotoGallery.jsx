@@ -5,7 +5,7 @@ import styles from "./PhotoGallery.module.css";
 
 export default function PhotoGallery({ images }) {
   return (
-    <div className={styles.photoDallery}>
+    <div className={styles.photoGallery}>
       {images.map((url, index) => (
         <Image
           key={index}
