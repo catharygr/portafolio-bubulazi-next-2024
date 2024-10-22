@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./PhotoGallery.module.css";
+import PropTypes from "prop-types";
 
 export default function PhotoGallery({ children }) {
   return (
@@ -17,5 +18,5 @@ export default function PhotoGallery({ children }) {
 }
 
 PhotoGallery.propTypes = {
-  images: PropTypes.arrayOf(PropTypes.string).isRequired,
+  children: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
