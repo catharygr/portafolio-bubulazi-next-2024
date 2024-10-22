@@ -1,17 +1,16 @@
 import React from "react";
-import Image from "next/image";
 import styles from "./PhotoGallery.module.css";
 
 export default function PhotoGallery({ children }) {
   return (
     <div className={styles.photoGallery}>
-      {images.map((url, index) => (
-        <Image
+      {React.Children.map(children, (child, index) => (
+        <div
           key={index}
-          src={url}
-          alt={`Gallery image ${index + 1}`}
-          className={styles.galleryImage}
-        />
+          className={styles.galleryItem}
+        >
+          {child}
+        </div>
       ))}
     </div>
   );
