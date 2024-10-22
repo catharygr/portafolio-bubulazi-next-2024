@@ -1,9 +1,8 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Image from "next/image";
 import styles from "./PhotoGallery.module.css";
 
-export default function PhotoGallery({ images }) {
+export default function PhotoGallery({ children }) {
   return (
     <div className={styles.photoGallery}>
       {images.map((url, index) => (

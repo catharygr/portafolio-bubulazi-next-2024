@@ -1,11 +1,11 @@
 .photoGallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
 }
 
-.galleryImage {
-  width: 100px;
-  height: 100px;
+.galleryItem {
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
