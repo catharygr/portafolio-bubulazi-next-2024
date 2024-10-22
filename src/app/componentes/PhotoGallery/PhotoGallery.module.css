@@ -1,10 +1,10 @@
-.photoGallery {
+.gridContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
-.galleryItem {
+.photoContainer {
   width: 100%;
   height: auto;
   object-fit: cover;

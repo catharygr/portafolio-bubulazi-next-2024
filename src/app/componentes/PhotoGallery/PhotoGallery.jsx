@@ -4,11 +4,11 @@ import PropTypes from "prop-types";
 
 export default function PhotoGallery({ children }) {
   return (
-    <div className={styles.photoGallery}>
+    <div className={styles.gridContainer}>
       {React.Children.map(children, (child, index) => (
         <div
           key={index}
-          className={styles.galleryItem}
+          className={styles.photoContainer}
         >
           {child}
         </div>
