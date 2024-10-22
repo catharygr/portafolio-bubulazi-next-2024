@@ -15,10 +15,26 @@
   height: 100%;
   transition: transform 0.3s ease-in-out, white-space 0.3s ease-in-out,
     height 0.3s ease-in-out;
+  cursor: zoom-in;
 
   & img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
+}
+
+.gridContainer.expander .photoContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.photoContainer.active {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transition: transform 0.3s ease-in-out;
+  cursor: zoom-out;
 }
