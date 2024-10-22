@@ -1,6 +1,7 @@
 import "./blog.css";
 import { loadBlogPost } from "@/app/utilidades/node-helpers/node-fs-helpers.js";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import PhotoGallery from "@/app/componentes/PhotoGallery/PhotoGallery";
 import { formatDate } from "@/app/utilidades/varias-utilidades";
 import { BASE_METADATA } from "@/app/utilidades/constante";
 import { Code } from "bright";
@@ -61,6 +62,7 @@ export default async function DraftPage({ params }) {
           components={{
             pre: Code,
             a: Link,
+            PhotoGallery,
           }}
         />
       </article>
