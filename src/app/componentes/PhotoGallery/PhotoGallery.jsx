@@ -5,12 +5,12 @@ import PropTypes from "prop-types";
 export default function PhotoGallery({ children }) {
   return (
     <div className={styles.gridContainer}>
-      {React.Children.map(children, (child, index) => (
+      {children.map((image, index) => (
         <div
           key={index}
-          className={styles.photoContainer}
+          className={`excluir-margin ${styles.photoContainer}`}
         >
-          {child}
+          {image}
         </div>
       ))}
     </div>
