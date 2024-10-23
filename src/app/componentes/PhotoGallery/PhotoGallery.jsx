@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { Children } from "react";
 import styles from "./PhotoGallery.module.css";
 import PropTypes from "prop-types";
 
@@ -16,7 +16,7 @@ export default function PhotoGallery({ children }) {
         activeImgIndex !== null ? styles.expanded : ""
       }`}
     >
-      {children.map((image, index) => (
+      {Children.map(children, (image, index) => (
         <div
           key={index}
           className={`excluir-margin ${styles.photoContainer} ${
