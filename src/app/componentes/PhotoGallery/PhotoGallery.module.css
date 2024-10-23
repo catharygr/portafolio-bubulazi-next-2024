@@ -10,6 +10,7 @@
   position: relative;
   overflow: hidden;
   cursor: zoom-in;
+  transition: all 0.3s ease-in-out;
 
   & img {
     width: 100%;
@@ -17,6 +18,10 @@
     object-fit: cover;
     aspect-ratio: 3/2;
   }
+}
+
+.photoContainer:hover {
+  transform: scale(1.02);
 }
 
 .gridContainer.expander .photoContainer {
