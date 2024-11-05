@@ -15,11 +15,11 @@
 }
 
 .pagination button:hover {
-  background-color: #ddd;
+  background-color: hsl(var(--clr-acentado-color));
 }
 
 .pagination button.active {
-  background-color: #0070f3;
+  background-color: hsl(var(--clr-acentado-color));
   color: white;
-  border-color: #0070f3;
+  border-color: hsl(var(--clr-acentado-color));
 }
