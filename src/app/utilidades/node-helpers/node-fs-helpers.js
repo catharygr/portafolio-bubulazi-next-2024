@@ -12,7 +12,7 @@ function readDirectory(localPath) {
   return fs.readdir(path.join(process.cwd(), localPath));
 }
 
-export async function getBlogPostList(page = 1, limit = 5) {
+export async function getBlogPostList() {
   const fileNames = await readDirectory("/blog-mdx-files");
   const blogPosts = [];
 
@@ -32,14 +32,6 @@ export async function getBlogPostList(page = 1, limit = 5) {
     const date2 = parseDate(p2.lastEdited);
     return date1 < date2 ? 1 : -1;
   });
-
-  const startIndex = (page - 1) * limit;
-  const endIndex = page * limit;
-
-  return {
-    posts: sortedPosts.slice(startIndex, endIndex),
-    totalPosts: blogPosts.length,
-  };
 }
 
 export const loadBlogPost = React.cache(async function loadBlogPost(slug) {
