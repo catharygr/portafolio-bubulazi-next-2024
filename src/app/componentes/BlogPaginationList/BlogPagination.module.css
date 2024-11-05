@@ -11,9 +11,9 @@
   padding: 0.6rem 0.9rem;
   margin: 0 0.3rem;
   transition: background-color 0.3s;
-  width: 35px;
+  width: 3rem;
   box-sizing: border-box;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .pagination button:hover {
