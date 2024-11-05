@@ -23,13 +23,14 @@ export default function BlogPaginationList({ blogs }) {
           {...blog}
         />
       ))}
-      <div className={styles.paginacion}>
+      <div className={styles.pagination}>
         {Array.from(
           { length: Math.ceil(blogs.length / blogsPerPage) },
           (_, i) => (
             <button
               key={i + 1}
               onClick={() => paginate(i + 1)}
+              className={currentPage === i + 1 ? styles.active : ""}
             >
               {i + 1}
             </button>

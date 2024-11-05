@@ -18,8 +18,8 @@
   background-color: #ddd;
 }
 
-/* .pagination button.active {
+.pagination button.active {
   background-color: #0070f3;
   color: white;
   border-color: #0070f3;
-} */
+}
