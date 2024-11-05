@@ -18,6 +18,8 @@ export default async function ListadoDeBlog() {
     fetchBlogPosts();
   }, [page]);
 
+  const totalPages = Math.ceil(totalPosts / limit);
+
   return (
     <main className={`wrapper ${styles.draftsFlow} ${styles.container}`}>
       <h1 className={styles.h1}>Cosas que a veces hago...</h1>
@@ -27,6 +29,17 @@ export default async function ListadoDeBlog() {
           {...blog}
         />
       ))}
+      <div className={styles.pagination}>
+        {Array.from({ length: totalPages }, (_, index) => (
+          <button
+            key={index}
+            onClick={() => setPage(index + 1)}
+            disabled={page === index + 1}
+          >
+            {index + 1}
+          </button>
+        ))}
+      </div>
     </main>
   );
 }
