@@ -9,7 +9,14 @@ export default async function ListadoDeBlog() {
   const [totalPosts, setTotalPosts] = useState(0);
   const limit = 5;
 
-  useEffect(() => {}, [page]);
+  useEffect(() => {
+    async function fetchBlogPosts() {
+      const { posts, totalPosts } = await getBlogPostList(page, limit);
+      setBlogPostList(posts);
+      setTotalPosts(totalPosts);
+    }
+    fetchBlogPosts();
+  }, [page]);
 
   return (
     <main className={`wrapper ${styles.draftsFlow} ${styles.container}`}>
