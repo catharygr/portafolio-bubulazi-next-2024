@@ -1,16 +1,19 @@
 .pagination {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1.2rem;
 }
 
 .pagination button {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   color: #333;
-  padding: 10px 15px;
-  margin: 0 5px;
+  padding: 0.6rem 0.9rem;
+  margin: 0 0.3rem;
   transition: background-color 0.3s;
+  width: 3rem;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .pagination button:hover {
