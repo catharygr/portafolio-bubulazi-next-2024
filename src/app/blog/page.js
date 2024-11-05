@@ -1,9 +1,15 @@
 import styles from "./page.module.css";
 import { getBlogPostList } from "../utilidades/node-helpers/node-fs-helpers";
 import BlogCard from "../componentes/BlogCard/BlogCard";
+import { useState } from "react";
 
 export default async function ListadoDeBlog() {
-  const blogPostList = await getBlogPostList();
+  const [page, setPage] = useState(1);
+  const [blogPostList, setBlogPostList] = useState([]);
+  const [totalPosts, setTotalPosts] = useState(0);
+  const limit = 5;
+
+  useEffect(() => {}, [page]);
 
   return (
     <main className={`wrapper ${styles.draftsFlow} ${styles.container}`}>
