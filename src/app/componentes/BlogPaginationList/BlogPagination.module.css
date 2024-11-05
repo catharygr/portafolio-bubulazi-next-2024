@@ -1,0 +1,24 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 10px 15px;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: hsl(var(--clr-acentado-color));
+}
+
+.pagination button.active {
+  background-color: hsl(var(--clr-acentado-color));
+  color: white;
+  border-color: hsl(var(--clr-acentado-color));
+}
