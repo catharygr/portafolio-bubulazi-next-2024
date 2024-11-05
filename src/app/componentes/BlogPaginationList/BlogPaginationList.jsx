@@ -1,3 +1,4 @@
+"use client";
 import BlogCard from "../BlogCard";
 
 export default function BlogPaginationList({ blogs }) {
