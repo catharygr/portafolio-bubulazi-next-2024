@@ -91,6 +91,10 @@
   color: hsl(var(--clr-texto));
 }
 
+.iconSVG a {
+  color: hsl(var(--clr-texto));
+}
+
 .botonMenu {
   display: grid;
   place-items: center;
