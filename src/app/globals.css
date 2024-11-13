@@ -137,8 +137,8 @@ meter {
     --clr-acentado-color: 20 84% 48%;
     --clr-fondo: 120 60% 16%;
     --clr-texto: 0 0% 100%;
-    --clr-negro: 0 0% 4%;
-    --clr-blanco: 0 0% 96%;
+    --clr-negro: 0 0% 0%;
+    --clr-blanco: 0 0% 100%;
   }
 }
 
