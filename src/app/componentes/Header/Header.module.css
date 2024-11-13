@@ -92,6 +92,7 @@
 }
 
 .iconSVG a {
+  stroke-width: 3px;
   color: hsl(var(--clr-texto));
 }
 

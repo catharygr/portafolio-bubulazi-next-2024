@@ -112,7 +112,10 @@ export default function Header() {
                 <Sun className={styles.iconSVG} />
               )}
             </button>
-            <Link href={"/rss.xml"}>
+            <Link
+              href={"/rss.xml"}
+              aria-label="Icono de Rss"
+            >
               <Rss className={styles.iconSVG} />
             </Link>
           </div>
