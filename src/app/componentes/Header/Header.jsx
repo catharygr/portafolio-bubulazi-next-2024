@@ -40,15 +40,15 @@ export default function Header() {
       root.style.setProperty("--clr-primario", "137 82% 83%");
       root.style.setProperty("--clr-secundario", "37 86% 88%");
       root.style.setProperty("--clr-acentado", "349 100% 84%");
-      root.style.setProperty("--clr-acentado-color", "349 100% 70%");
+      root.style.setProperty("--clr-acentado-color", "349 100% 75%");
       root.style.setProperty("--clr-fondo", "178 59% 76%");
       root.style.setProperty("--clr-texto", "0 0% 0%");
     } else {
-      root.style.setProperty("--clr-primario", "67 63% 32%");
-      root.style.setProperty("--clr-secundario", "36 92% 54%");
-      root.style.setProperty("--clr-acentado", "20 84% 48%");
-      root.style.setProperty("--clr-acentado-color", "20 84% 48%");
-      root.style.setProperty("--clr-fondo", "120 60% 16%");
+      root.style.setProperty("--clr-primario", "273.962 45% 22%");
+      root.style.setProperty("--clr-secundario", "6.667 10% 37");
+      root.style.setProperty("--clr-acentado", "336.25 21% 54%");
+      root.style.setProperty("--clr-acentado-color", "336.667, 17% 79%");
+      root.style.setProperty("--clr-fondo", "235.909, 61%, 14%");
       root.style.setProperty("--clr-texto", "0 0% 100%");
     }
   }, [modoClaro, esPrimerRender]);

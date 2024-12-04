@@ -122,7 +122,7 @@ meter {
     --clr-primario: 137 82% 83%;
     --clr-secundario: 37 86% 88%;
     --clr-acentado: 349 100% 84%;
-    --clr-acentado-color: 349, 93%, 58%;
+    --clr-acentado-color: 350, 33%, 82%;
     --clr-texto: 0 0% 4%;
     --clr-fondo: 178 59% 76%;
     --clr-negro: 0 0% 4%;
@@ -131,11 +131,11 @@ meter {
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --clr-primario: 67 63% 32%;
-    --clr-secundario: 36 92% 54%;
-    --clr-acentado: 20 84% 48%;
-    --clr-acentado-color: 20 84% 48%;
-    --clr-fondo: 120 60% 16%;
+    --clr-primario: 273.962 45% 22%;
+    --clr-secundario: 6.667 10% 37%;
+    --clr-acentado: 336.25 21% 54%;
+    --clr-acentado-color: 336.667, 17% 79%;
+    --clr-fondo: 235.909, 61%, 14%;
     --clr-texto: 0 0% 100%;
     --clr-negro: 0 0% 0%;
     --clr-blanco: 0 0% 100%;
