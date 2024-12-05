@@ -16,6 +16,7 @@
 }
 .container {
   padding-block: var(--padding-block-grande);
+  border-bottom: 6px solid hsl(var(--clr-acentado-color));
 }
 
 .flexContainer {

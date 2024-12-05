@@ -47,10 +47,10 @@ export default function Formulario() {
 
   return (
     <section
-      className={styles.container}
+      className={`${styles.container} wrapper`}
       id="contacto-form"
     >
-      <div className={`${styles.formulario} wrapper`}>
+      <div className={styles.formulario}>
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
