@@ -47,11 +47,13 @@ export default function Header() {
       root.style.setProperty("--clr-primario", "273.962 45% 22%");
       root.style.setProperty("--clr-secundario", "6.667 10% 37");
       root.style.setProperty("--clr-acentado", "336.25 21% 54%");
-      root.style.setProperty("--clr-acentado-color", "336.667, 17% 79%");
+      root.style.setProperty("--clr-acentado-color", "336 21% 60%");
       root.style.setProperty("--clr-fondo", "235.909, 61%, 14%");
       root.style.setProperty("--clr-texto", "0 0% 100%");
     }
   }, [modoClaro, esPrimerRender]);
+
+  // "336.667, 17% 79%"
 
   return (
     <header className={styles.header}>

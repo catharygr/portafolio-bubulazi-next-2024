@@ -1,10 +1,10 @@
 .sectionSuperior {
-  background-color: hsl(var(--clr-primario));
+  background-color: hsl(var(--clr-fondo));
   color: hsl(var(--clr-texto));
 }
 
 .sectionInferior {
-  background-color: hsl(var(--clr-secundario));
+  background-color: hsl(var(--clr-fondo));
   color: hsl(var(--clr-texto));
 }
 
