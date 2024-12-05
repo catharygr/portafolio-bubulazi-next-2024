@@ -40,6 +40,7 @@
 }
 
 .wrapperInferiorTresListas {
+  border-bottom: 6px solid hsl(var(--clr-acentado-color));
   padding-block: var(--padding-block-grande);
   display: flex;
   flex-direction: column;

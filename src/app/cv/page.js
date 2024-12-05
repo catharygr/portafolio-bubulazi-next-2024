@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function CVPage() {
   return (
-    <main className={styles.fondoImagen}>
+    <main>
       <Hero
         type="con-imagen"
         title="Curriculum Vitae: Catary García Rivas."
