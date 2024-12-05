@@ -11,7 +11,7 @@
 }
 
 .otrosAsides {
-  background-color: hsl(var(--clr-primario));
+  background-color: hsl(var(--clr-fondo));
   color: hsl(var(--clr-texto));
 }
 .container {

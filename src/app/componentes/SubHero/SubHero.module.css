@@ -6,6 +6,7 @@
 .sectionInferior {
   background-color: hsl(var(--clr-fondo));
   color: hsl(var(--clr-texto));
+  border-bottom: 6px solid hsl(var(--clr-acentado-color));
 }
 
 .wrapperSuperior,
@@ -36,7 +37,7 @@
 }
 
 .sectionInferiorTresListas {
-  background-color: hsl(var(--clr-secundario));
+  background-color: hsl(var(--clr-fondo));
 }
 
 .wrapperInferiorTresListas {
