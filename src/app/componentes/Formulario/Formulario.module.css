@@ -61,7 +61,7 @@
   font-size: var(--fs-500);
   font-weight: var(--f-wei-900);
   text-align: center;
-  box-shadow: var(--box-shadow);
+  /* box-shadow: var(--box-shadow); */
   transition: scale 0.3s ease-in-out;
 }
 

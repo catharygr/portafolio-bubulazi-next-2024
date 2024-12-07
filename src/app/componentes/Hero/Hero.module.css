@@ -23,7 +23,7 @@
   overflow: hidden;
   border: 10px solid hsla(var(--clr-primario) / 0.8);
   border-radius: 50%;
-  box-shadow: var(--box-shadow);
+  box-shadow: 2px 4px 0rem hsl(var(--clr-texto) / 0.2);
   background-color: hsla(var(--clr-acentado));
 }
 

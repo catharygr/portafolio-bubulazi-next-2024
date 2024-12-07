@@ -167,12 +167,13 @@ meter {
   --lh-big: 1.8;
 
   /* Varios */
+  --padding: 1rem;
   --padding-block: clamp(1rem, 4vw, 1.5rem);
   --padding-block-grande: clamp(2rem, 10vw, 6rem);
-  --padding: 1rem;
   --margin-texto: 1em;
-  --border-radius: 7px;
-  --box-shadow: 0 5px 10px 0 rgba(20, 0, 5, 0.4);
+  --border-radius: 0.4em;
+  --box-shadow: 5px 4px 2px 1px hsl(var(--clr-texto) / 0.4);
+  --text-shadow: 5px 4px 0rem hsl(var(--clr-texto) / 0.2);
   --container-max: 65rem;
   --gap-base: 1rem;
   --gap-grande: 4rem;
