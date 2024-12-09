@@ -70,6 +70,7 @@ export default function NavMenu({ toggleMenuAbierto }) {
                       />
                     )}
                     <Link
+                      onClick={toggleMenuAbierto}
                       onMouseEnter={() => setHoverHamburguerLink(slug)}
                       className={
                         pathname === href ? styles.hamburguerLinkActivos : ""
