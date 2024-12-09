@@ -172,7 +172,7 @@ meter {
   --padding-block-grande: clamp(2rem, 10vw, 6rem);
   --margin-texto: 1em;
   --border-radius: 0.4em;
-  --box-shadow: 5px 4px 2px 1px hsl(var(--clr-texto) / 0.4);
+  --box-shadow: 5px 4px 2px 1px hsl(var(--clr-texto) / 0.2);
   --text-shadow: 5px 4px 0rem hsl(var(--clr-texto) / 0.2);
   --container-max: 65rem;
   --gap-base: 1rem;
