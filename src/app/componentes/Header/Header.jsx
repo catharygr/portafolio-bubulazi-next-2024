@@ -53,8 +53,6 @@ export default function Header() {
     }
   }, [modoClaro, esPrimerRender]);
 
-  // "336.667, 17% 79%"
-
   return (
     <header className={styles.header}>
       <div className={styles.container}>
