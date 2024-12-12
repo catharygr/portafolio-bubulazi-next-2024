@@ -34,7 +34,8 @@ export default function CVPage() {
               <p>
                 React | Nextjs | React Router | Open Cells | LitElement | Web
                 Components | Redux | JavaScript | CSS | HTML | Firebase |
-                Accesibilidad web | Git & GitHub | Agile | Figma | Jest Testing.
+                Accesibilidad web | Git & GitHub | Agile | Figma | Jest, React
+                Testing Library.
               </p>
             </div>
             <div>

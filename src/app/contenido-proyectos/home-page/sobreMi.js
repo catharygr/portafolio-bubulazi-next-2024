@@ -14,6 +14,7 @@ export const SOBRE_MI = {
     "Open Cells",
     "LitElement",
     "Web Components",
+    "Testing: Jest, React Testing Library",
     "Figma",
     "Accesibilidad",
     "Git",
