@@ -52,7 +52,7 @@ export default function Formulario() {
     >
       <div className={styles.formulario}>
         <motion.div
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: "-100%" }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{
             type: "spring",
@@ -85,7 +85,7 @@ export default function Formulario() {
           </div>
         </motion.div>
         <motion.form
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: "100%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           transition={{
             type: "spring",

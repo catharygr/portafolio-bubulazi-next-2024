@@ -81,5 +81,10 @@
   & .yt-embeded {
     width: 100%;
     aspect-ratio: 16 / 9;
+    box-shadow: var(--box-shadow);
+  }
+
+  img {
+    box-shadow: var(--box-shadow);
   }
 }
