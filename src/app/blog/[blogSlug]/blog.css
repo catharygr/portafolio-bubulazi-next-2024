@@ -87,4 +87,9 @@
   img {
     box-shadow: var(--box-shadow);
   }
+
+  .backButton {
+    display: flex;
+    justify-content: center;
+  }
 }

@@ -9,6 +9,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 Code.theme = "dracula-soft";
 Code.lineNumbers = true;
+import BackButton from "@/app/componentes/BackButton";
 
 //  Check lo de React.cache en node-helpers para no ejecutar dos veces la functión
 export async function generateMetadata({ params }) {
@@ -66,6 +67,9 @@ export default async function DraftPage({ params }) {
           }}
         />
       </article>
+      <div className="backButton">
+        <BackButton />
+      </div>
     </main>
   );
 }
