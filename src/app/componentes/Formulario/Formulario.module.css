@@ -2,7 +2,7 @@
   background-color: hsl(var(--clr-fondo));
   color: hsl(var(--clr-texto));
   padding-block: var(--padding-block-grande);
-  overflow: hidden;
+  overflow: visible;
   border-top: 6px solid hsl(var(--clr-acentado-color));
 }
 
@@ -32,6 +32,7 @@
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   padding: var(--padding-block);
+  margin-left: -1px;
 }
 
 .input {
