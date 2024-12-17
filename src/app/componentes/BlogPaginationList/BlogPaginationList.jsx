@@ -1,11 +1,23 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import BlogCard from "../BlogCard";
 import styles from "./BlogPagination.module.css";
+import Link from "next/link";
 
-export default function BlogPaginationList({ blogs }) {
+const BlogPaginationList = ({ blogs }) => {
+  const router = useRouter();
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 5;
+
+  useEffect(() => {
+    if (router.isReady) {
+      const { page } = router.query;
+      if (page) {
+        setCurrentPage(parseInt(page, 10));
+      }
+    }
+  }, [router.isReady, router.query]);
 
   // Calcular los blogs a mostrar en la página actual
   const indexOfLastBlog = currentPage * blogsPerPage;
@@ -27,16 +39,19 @@ export default function BlogPaginationList({ blogs }) {
         {Array.from(
           { length: Math.ceil(blogs.length / blogsPerPage) },
           (_, i) => (
-            <button
+            <Link
+              href={`/blog?page=${i + 1}`}
               key={i + 1}
               onClick={() => paginate(i + 1)}
               className={currentPage === i + 1 ? styles.active : ""}
             >
               {i + 1}
-            </button>
+            </Link>
           )
         )}
       </div>
     </>
   );
-}
+};
+
+export default BlogPaginationList;
