@@ -1,0 +1,18 @@
+.btnBack {
+  display: inline-block;
+  align-self: center;
+  background-color: hsl(var(--clr-primario));
+  color: hsl(var(--clr-texto));
+  padding: 0.8rem 2rem;
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  margin-top: var(--margin-texto);
+  transition: scale 0.2s ease-in-out;
+  box-shadow: var(--box-shadow);
+}
+
+.btnBack:where(:hover) {
+  background-color: hsl(var(--clr-texto));
+  color: hsl(var(--clr-fondo));
+  scale: 1.05;
+}
