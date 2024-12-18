@@ -5,45 +5,45 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function Formulario() {
+  const [status, setStatus] = useState("");
   const [form, setForm] = useState({
     name: "",
     email: "",
     mensaje: "",
-    formMessage: "",
   });
 
-  function handleSubmit(e) {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const toSend = {
-      name: form.name,
-      email: form.email,
-      mensaje: form.mensaje,
-    };
+    setStatus("Enviando mensaje...");
 
-    fetch("https://formsubmit.co/ajax/39ffe87ad3d3e541a774b20e20d025a2", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(toSend),
-    })
-      .then((response) => response.json())
-      .then(() => {
+    try {
+      const res = await fetch("/api/sendgrid", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...form,
+          sender: "cathy@bubulazi.com",
+          recipient: "cathy@bubulazi.com",
+        }),
+      });
+
+      if (res.status === 200) {
+        setStatus("El mensaje se ha enviado correctamente.");
         setForm({
           name: "",
           email: "",
           mensaje: "",
-          formMessage: "Mensaje enviado, gracias",
         });
-      })
-      .catch((error) => {
-        setForm({
-          ...form,
-          formMessage: `${error}: Error al enviar el mensaje, inténtalo de nuevo`,
-        });
-      });
-  }
+      } else {
+        setStatus("Ha ocurrido un error al enviar el mensaje.");
+      }
+    } catch (error) {
+      console.error(error);
+      setStatus("Ha ocurrido un error.");
+    }
+  };
 
   return (
     <section
@@ -149,7 +149,7 @@ export default function Formulario() {
             onChange={(e) => setForm({ ...form, mensaje: e.target.value })}
             required={true}
           />
-          <p className={styles.message}>{form.formMessage}</p>
+          <p className={styles.message}>{status}</p>
           <button className={styles.btn}>Muchas gracias</button>
         </motion.form>
       </div>
