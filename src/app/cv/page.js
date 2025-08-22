@@ -91,7 +91,7 @@ export default function CVPage() {
             </div>
             <div>
               <h3 className={styles.h3}>Ubicación:</h3>
-              <p>Las Palmas de Gran Canaria</p>
+              <p>Vizcaya</p>
               <p>Disponibilidad geográfica e inmediata</p>
             </div>
           </div>
