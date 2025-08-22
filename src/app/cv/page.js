@@ -8,7 +8,7 @@ export default function CVPage() {
     <main>
       <Hero
         type="con-imagen"
-        title="Curriculum Vitae: Catary García Rivas."
+        title="Curriculum Vitae: Caty G. R."
         image={imagenCV}
         alt="Foto Cv"
       />
