@@ -250,7 +250,7 @@ export default function CVPage() {
             </div>
             <div>
               <h3 className={styles.h3}>
-                Universidad Las Villas, Santa Clara.
+                Universidad Las Palmas de Gran Canarias.
               </h3>
               <p>Graduada en Economía - 1988-1993</p>
             </div>
