@@ -104,7 +104,7 @@ export default function CVPage() {
           <div className={`flow ${styles.jobDetails}`}>
             <div>
               <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
+              <p>Freelance | 2024 - Actualidad</p>
               <p>
                 Desarrollo y mantenimiento de la página web:{" "}
                 <Link
@@ -116,7 +116,7 @@ export default function CVPage() {
               </p>
             </div>
             <div>
-              <h3 className={styles.h3}>Otras empresas 1993 - 2021.</h3>
+              <h3 className={styles.h3}>Otras empresas 1993 - 2024.</h3>
               <p>Contabilidad, Finanzas y Salarios.</p>
             </div>
           </div>
