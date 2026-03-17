@@ -5,54 +5,54 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function Formulario() {
+  const [status, setStatus] = useState("");
   const [form, setForm] = useState({
     name: "",
     email: "",
     mensaje: "",
-    formMessage: "",
   });
 
-  function handleSubmit(e) {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const toSend = {
-      name: form.name,
-      email: form.email,
-      mensaje: form.mensaje,
-    };
+    setStatus("Enviando mensaje...");
 
-    fetch("https://formsubmit.co/ajax/39ffe87ad3d3e541a774b20e20d025a2", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(toSend),
-    })
-      .then((response) => response.json())
-      .then(() => {
+    try {
+      const res = await fetch("/api/sendgrid", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          ...form,
+          sender: "cathy@bubulazi.com",
+          recipient: "cathy@bubulazi.com",
+        }),
+      });
+
+      if (res.status === 200) {
+        setStatus("El mensaje se ha enviado correctamente.");
         setForm({
           name: "",
           email: "",
           mensaje: "",
-          formMessage: "Mensaje enviado, gracias",
         });
-      })
-      .catch((error) => {
-        setForm({
-          ...form,
-          formMessage: `${error}: Error al enviar el mensaje, inténtalo de nuevo`,
-        });
-      });
-  }
+      } else {
+        setStatus("Ha ocurrido un error al enviar el mensaje.");
+      }
+    } catch (error) {
+      console.error(error);
+      setStatus("Ha ocurrido un error.");
+    }
+  };
 
   return (
     <section
-      className={styles.container}
+      className={`${styles.container} wrapper`}
       id="contacto-form"
     >
-      <div className={`${styles.formulario} wrapper`}>
+      <div className={styles.formulario}>
         <motion.div
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: "-100%" }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{
             type: "spring",
@@ -85,7 +85,7 @@ export default function Formulario() {
           </div>
         </motion.div>
         <motion.form
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: "100%" }}
           whileInView={{ opacity: 1, x: "0%" }}
           transition={{
             type: "spring",
@@ -149,7 +149,7 @@ export default function Formulario() {
             onChange={(e) => setForm({ ...form, mensaje: e.target.value })}
             required={true}
           />
-          <p className={styles.message}>{form.formMessage}</p>
+          <p className={styles.message}>{status}</p>
           <button className={styles.btn}>Muchas gracias</button>
         </motion.form>
       </div>

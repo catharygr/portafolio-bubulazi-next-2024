@@ -4,32 +4,31 @@ import { BASE_METADATA } from "@/app/utilidades/constante";
 import { getBlogPostList } from "@/app/utilidades/node-helpers/node-fs-helpers";
 
 export async function GET() {
-  // Create the feed using the RSS helper, and the metadata
-  // about our blog.
+  // Crear el feed usando el ayudante RSS y los metadatos
+  // sobre nuestro blog.
   const feed = new RSS({
     title: BASE_METADATA.title,
     description: BASE_METADATA.description,
   });
 
-  // Use the same helper we use on the homepage, to gather
-  // information about each blog post, as a sorted array:
+  // Utiliza el mismo ayudante que usamos en la página principal, para reunir
+  // información sobre cada publicación del blog, como un array ordenado:
   const blogPosts = await getBlogPostList();
-  console.log(blogPosts);
 
-  // For each blog post, create a new item in our RSS feed:
+  // Para cada publicación del blog, crea un nuevo elemento en nuestro feed RSS:
   blogPosts.forEach((post) => {
     feed.item({
       title: post.title,
       description: post.abstract,
       date: post.publishedOn,
-      url: `https://bubulazy.com/drafts/${post.slug}`,
+      url: `https://bubulazy.com/blog/${post.slug}`,
     });
   });
 
-  // Generate the raw XML string using `feed.xml`, and then
-  // send it to the client. We need to set the Content-Type
-  // header so that browsers / RSS clients will interpret
-  // it as XML, and not as plaintext.
+  // Genera la cadena XML en bruto usando `feed.xml`, y luego
+  // envíala al cliente. Necesitamos establecer el encabezado Content-Type
+  // para que los navegadores / clientes RSS lo interpreten
+  // como XML, y no como texto sin formato.
   return new Response(feed.xml({ indent: true }), {
     headers: {
       "Content-Type": "application/xml",

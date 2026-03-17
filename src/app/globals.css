@@ -9,7 +9,7 @@
     - The "html" element is excluded, otherwise a bug in Chrome breaks the CSS hyphens property (https://github.com/elad2412/the-new-css-reset/issues/36)
  */
 *:where(
-    :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
+    :not(html, iframe, canvas, img, svg, vídeo, audio):not(svg *, symbol *)
   ) {
   all: unset;
   display: revert;
@@ -122,7 +122,7 @@ meter {
     --clr-primario: 137 82% 83%;
     --clr-secundario: 37 86% 88%;
     --clr-acentado: 349 100% 84%;
-    --clr-acentado-color: 349, 93%, 58%;
+    --clr-acentado-color: 350, 33%, 82%;
     --clr-texto: 0 0% 4%;
     --clr-fondo: 178 59% 76%;
     --clr-negro: 0 0% 4%;
@@ -131,14 +131,14 @@ meter {
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --clr-primario: 67 63% 32%;
-    --clr-secundario: 36 92% 54%;
-    --clr-acentado: 20 84% 48%;
-    --clr-acentado-color: 20 84% 48%;
-    --clr-fondo: 120 60% 16%;
+    --clr-primario: 273.962 45% 22%;
+    --clr-secundario: 6.667 10% 37%;
+    --clr-acentado: 336.25 21% 54%;
+    --clr-acentado-color: 336, 17%, 79%;
+    --clr-fondo: 235.909, 61%, 14%;
     --clr-texto: 0 0% 100%;
-    --clr-negro: 0 0% 4%;
-    --clr-blanco: 0 0% 96%;
+    --clr-negro: 0 0% 0%;
+    --clr-blanco: 0 0% 100%;
   }
 }
 
@@ -167,12 +167,13 @@ meter {
   --lh-big: 1.8;
 
   /* Varios */
+  --padding: 1rem;
   --padding-block: clamp(1rem, 4vw, 1.5rem);
   --padding-block-grande: clamp(2rem, 10vw, 6rem);
-  --padding: 1rem;
   --margin-texto: 1em;
-  --border-radius: 7px;
-  --box-shadow: 0 5px 10px 0 rgba(20, 0, 5, 0.4);
+  --border-radius: 0.4em;
+  --box-shadow: 5px 4px 2px 1px hsl(var(--clr-texto) / 0.4);
+  --text-shadow: 5px 4px 0 hsl(var(--clr-texto) / 0.2);
   --container-max: 65rem;
   --gap-base: 1rem;
   --gap-grande: 4rem;
@@ -229,7 +230,6 @@ img {
 
 a {
   text-decoration: underline;
-  text-decoration-color: hsl(var(--clr-acentado-color));
   text-underline-offset: 4px;
   text-decoration-thickness: 2px;
 }

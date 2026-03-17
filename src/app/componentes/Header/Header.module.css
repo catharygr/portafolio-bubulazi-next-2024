@@ -66,6 +66,7 @@
   height: 60px;
   margin-block: clamp(0.3rem, 2vw, 1rem);
   border: 1px solid hsl(var(--clr-texto));
+  overflow: hidden;
 }
 
 @media (min-width: 43rem) {
@@ -86,6 +87,11 @@
 }
 
 .iconSVG {
+  stroke-width: 3px;
+  color: hsl(var(--clr-texto));
+}
+
+.iconSVG a {
   stroke-width: 3px;
   color: hsl(var(--clr-texto));
 }

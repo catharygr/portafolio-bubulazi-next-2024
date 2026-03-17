@@ -13,10 +13,10 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "Proyecto Sarajevo Tours, página web muy devertida de una imaginaria aplicación sobre una tienda online de venta de guias a turistas. He aprendido mucho como primer proyecto utilizando react, react router, firebase auth, firestore database como backend, componentes controlados y carro de compra.",
-    titleInferior: ["Tipo", "Herramientas", "En vivo"],
+      "Proyecto Sarajevo Tours, página web muy divertida de una imaginaria aplicación sobre una tienda online de venta de guías a turistas. He aprendido mucho como primer proyecto utilizando react, react router, firebase auth, firestore database como backend, componentes controlados y carro de compra.",
+    titleInferior: ["Tipo:", "Herramientas", "En vivo:"],
     contentInferior: {
-      colUno: ["Proyeto Página Web ficticia"],
+      colUno: ["Proyecto página web ficticia"],
       colDos: [
         "CSS & HTML",
         "Javascript ES6",
@@ -34,7 +34,7 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "Primer proyecto propio hecho con React: Cuando hemos terminado el curso de react y react router para repasar lo aprendido nos inspiramos en un viaje que hicimos a Sarajevo, con este proyecto nuestro próposito ha sido usar las rutas nidadas que permitiera una navegación dinámica y aprender en mi caso, algo de backend que con firebase he adquirido conocimientos.",
+        "Primer proyecto propio hecho con React: Cuando terminamos el curso de react y react router para repasar lo aprendido, nos inspiramos en un viaje que hicimos a Sarajevo. Con este proyecto nuestro próposito ha sido usar las rutas nidadas que permitieran una navegación dinámica y aprender en mi caso, algo de backend que con firebase he adquirido conocimientos.",
         "Preparado en Figma para que todo fuera más fluido por mi compañero que tiene experiencia en esta app y beneficiándonos del trabajo en equipo.",
         "Como es una página ficticia hemos decidido hacer el carrito sin la pasarela de pago que redirecciona a la página proyecto.",
       ],
@@ -80,7 +80,7 @@ export const contenidoDePagina = {
       title: "Problemas y soluciones",
       content: [
         "Poblemas surgieron muchos y soluciones más, a veces sin tener idea de como resolverlo leyendo la documentacion y mirando en google llegaba a la respuesta, fue un reto muy fuerte que cada dia me sorprendia el avance y los conociemtos que iba alcanzando y los deseo de terminar para ver como quedaba.",
-        "Hemos tenido que volver a regresar mas de una vez al commit anterior y empezar de nuevo porque la solución que habiamos tomado no era la correcta pero siempre llegabámos a una solución con éxito.",
+        "Hemos tenido que volver a regresar mas de una vez al commit anterior y empezar de nuevo porque la solución que habíamos tomado no era la correcta pero siempre llegabámos a una solución con éxito.",
         "Como el trabajo lo hicimos en pareja fue muy dinámico siempre uno de los dos dábamos una solución y lograbámos el objetivo.",
       ],
     },

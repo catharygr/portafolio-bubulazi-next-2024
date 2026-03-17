@@ -12,7 +12,7 @@ export const PROYECTOS = [
     id: "017",
     title: "Portafolio Blog Personal",
     description:
-      "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, y próximamente next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
+      "Desarrollado y diseñado por mi, utilizando React.js, Next.js, Vanilla CSS, frame-motion, y next-mdx-remote. El objetivo principal de este proyecto es mostrar mis habilidades de desarrollo web y diseño de interfaces de usuario.",
     url: "/proyectos/portafolio",
     linkTexto: "Ver proyecto",
     imageURL: bubulaziPortafolio,
@@ -75,7 +75,7 @@ export const PROYECTOS = [
     id: "010",
     title: "Pac-Man",
     description:
-      "Mi primer proyecto desarrollado con JavaScript, CSS y HTML. Inspirada en el juego de Pac-Man. Para jugar tiene que ser desde un ordenador porque está desarrolado para usar el teclado =>",
+      "Mi primer proyecto desarrollado con JavaScript, CSS y HTML. Inspirada en el juego de Pac-Man. Para jugar tiene que ser desde un ordenador porque está desarrolado para usar el teclado.",
     url: "https://catharygr.github.io/juego-de-pacman/",
     linkTexto: "Ver proyecto",
     imageURL: pacMan,

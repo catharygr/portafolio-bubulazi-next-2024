@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export default function CVPage() {
   return (
-    <main className={styles.fondoImagen}>
+    <main>
       <Hero
         type="con-imagen"
-        title="Curriculum Vitae: Catary García Rivas."
+        title="Curriculum Vitae: Cathy García Rivas."
         image={imagenCV}
         alt="Foto Cv"
       />
@@ -34,7 +34,8 @@ export default function CVPage() {
               <p>
                 React | Nextjs | React Router | Open Cells | LitElement | Web
                 Components | Redux | JavaScript | CSS | HTML | Firebase |
-                Accesibilidad web | Git & GitHub | Agile | Figma | Jest Testing.
+                Accesibilidad web | Git & GitHub | Agile | Figma | Jest, React
+                Testing Library.
               </p>
             </div>
             <div>
@@ -90,7 +91,7 @@ export default function CVPage() {
             </div>
             <div>
               <h3 className={styles.h3}>Ubicación:</h3>
-              <p>Las Palmas de Gran Canaria</p>
+              <p>Vizcaya</p>
               <p>Disponibilidad geográfica e inmediata</p>
             </div>
           </div>
@@ -103,7 +104,7 @@ export default function CVPage() {
           <div className={`flow ${styles.jobDetails}`}>
             <div>
               <h3 className={styles.h3}>Clinica Dental Blancodent</h3>
-              <p>Freelance | 2022 - Actualidad</p>
+              <p>Freelance | 2024 - Actualidad</p>
               <p>
                 Desarrollo y mantenimiento de la página web:{" "}
                 <Link
@@ -115,7 +116,7 @@ export default function CVPage() {
               </p>
             </div>
             <div>
-              <h3 className={styles.h3}>Otras empresas 1993 - 2021.</h3>
+              <h3 className={styles.h3}>Otras empresas 1993 - 2024.</h3>
               <p>Contabilidad, Finanzas y Salarios.</p>
             </div>
           </div>
@@ -188,8 +189,17 @@ export default function CVPage() {
           <div className={`flow ${styles.jobDetails}`}>
             <div>
               <h3 className={styles.h3}>
+                Curso Online FullStack Developers from Euskadi impartido por
+                Lanbide - Universidad Bottega - EEUU. Enero 2026- actualidad.
+              </h3>
+              <p>
+                Nextjs | React | FlaskAPI | MongoDB | JS | Python | HTML | CSS
+              </p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>
                 Plataforma web interactiva online ”Josh W Comeau Course Platform
-                - Joy of React” - Canadá. 2024 - actualidad.
+                - Joy of React” - Canadá. 2024 - 2025.
               </h3>
               <p>CSS for JS Developers.</p>
             </div>
@@ -242,14 +252,7 @@ export default function CVPage() {
             </div>
             <div>
               <h3 className={styles.h3}>
-                Academia CIP, Las Palmas de G.C. con prácticas en la Asesoría
-                Plaza La Feria.
-              </h3>
-              <p>Experto en Gestión de Salario y Seguridad Social - 2010</p>
-            </div>
-            <div>
-              <h3 className={styles.h3}>
-                Universidad Las Villas, Santa Clara.
+                Universidad Las Palmas de Gran Canarias.
               </h3>
               <p>Graduada en Economía - 1988-1993</p>
             </div>

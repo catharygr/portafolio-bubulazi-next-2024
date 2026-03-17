@@ -13,10 +13,10 @@ export const contenidoDePagina = {
   subHero: {
     titleSuperior: "Introducción:",
     contentSuperior:
-      "Mi Proyecto Portafolio es como mi tarjeta de presentación digital, un rincón donde puedo mostrar al mundo mis creaciones y mi viaje en el universo de la programación. Antes de esta página web, habia desarrollado otra con HTML, CSS y JavaScript. Al terminar las enseñanzas de este último bootcamp, he decidido construir una nueva plataforma utilizando React y Next.js. Aquí muestro con orgullo cada proyecto que he creado a lo largo de tres años de constante aprendizaje. Aunque no se recomienda incluir el propio portafolio como un proyecto, ¿Por qué no desafiar un poco las normas y mostrar lo que he logrado?",
+      "Mi Proyecto Portafolio es como mi tarjeta de presentación digital, un rincón donde puedo mostrar al mundo mis creaciones y mi viaje en el universo de la programación. Antes de esta página web, había desarrollado otra con HTML, CSS y JavaScript. Al terminar las enseñanzas de este último bootcamp, he decidido construir una nueva plataforma utilizando React y Next.js. Aquí muestro con orgullo cada proyecto que he creado a lo largo de tres años de constante aprendizaje. Aunque no se recomienda incluir el propio portafolio como un proyecto. ¿Por qué no desafiar un poco las normas y mostrar lo que he logrado?",
     titleInferior: ["Tipo", "Herramientas", "En vivo"],
     contentInferior: {
-      colUno: ["Proyeto Portafolio Blog Personal"],
+      colUno: ["Proyecto Portafolio Blog Personal"],
       colDos: [
         "React",
         "Next.js",
@@ -34,7 +34,7 @@ export const contenidoDePagina = {
     bloqueUno: {
       title: "Propósito del proyecto",
       content: [
-        "El propósito de este proyecto ha tenido como objetivo principal crear un espacio en internet que sea completamente propio y controlado por mi.",
+        "El propósito de este proyecto ha tenido como objetivo principal crear un espacio en internet que sea completamente propio y controlado por mí.",
         " Este espacio representa una plataforma donde puedo exhibir mis habilidades y conocimientos en programación, así como expresar mis intereses a través de artículos y escritos.",
         "Mi intención es presentarme de manera formal ante posibles oportunidades de empleo, brindando una visión completa y auténtica de quién soy y de lo que puedo ofrecer. Además de ser un medio para destacar mis capacidades técnicas, también funcionará como un blog personal, permitiéndome compartir mis reflexiones, experiencias y descubrimientos con el mundo.",
       ],
@@ -63,7 +63,7 @@ export const contenidoDePagina = {
 
         "React: Componentes reutilizables, props. Uso de renderizado condicional. Control de formularios con estado a través de value y onChange. useEffect para uso secundario como el tema de los colores. El hook useState para el manejo de estado.",
 
-        "CSS Modules: Utilizados para el encapsulamiento de estilos CSS dentro de componentes individuales, facilitando el mantenimiento y la reutilización del código",
+        "CSS Modules: Utilizados para el encapsulamiento de estilos CSS dentro de componentes individuales, facilitando el mantenimiento y la reutilización del código.",
 
         "Next-mdx-remote: Pendiente de  implementar para el blog como la siguiente versión, la idea es que lea los archivos markdown desde el mismo servidor.",
 

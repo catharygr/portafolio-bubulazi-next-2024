@@ -6,6 +6,7 @@
 }
 
 .proyectoWrapper {
+  border-top: 6px solid hsl(var(--clr-acentado-color));
   padding-block: var(--padding-block-grande);
 }
 

@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function ProyectosAside({ content }) {
   const { bloqueUno, bloqueDos, bloqueTres } = content;
   return (
-    <aside className={styles.asideContainer}>
-      <div className={`wrapper ${styles.flexContainer}`}>
+    <aside className={`wrapper ${styles.asideContainer}`}>
+      <div className={styles.flexContainer}>
         <div className={`flow ${styles.bloqueUno}`}>
           <h3 className={styles.h3}>{bloqueUno.title}</h3>
           {bloqueUno.content.map((item, index) => (
@@ -18,7 +18,10 @@ export default function ProyectosAside({ content }) {
               media="(max-width: 54.999rem)"
               srcSet={bloqueDos.imgDos.src}
             />
-            <source media="(min-width: 55rem)" srcSet={bloqueDos.imgUno.src} />
+            <source
+              media="(min-width: 55rem)"
+              srcSet={bloqueDos.imgUno.src}
+            />
             <Image
               src={bloqueDos.imgDos}
               alt="Imágenes del formulario de múltiples pasos"
