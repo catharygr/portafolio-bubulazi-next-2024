@@ -189,8 +189,17 @@ export default function CVPage() {
           <div className={`flow ${styles.jobDetails}`}>
             <div>
               <h3 className={styles.h3}>
+                Curso Online FullStack Developers from Euskadi impartido por
+                Lanbide - Universidad Bottega - EEUU. Enero 2026- actualidad.
+              </h3>
+              <p>
+                Nextjs | React | FlaskAPI | MongoDB | JS | Python | HTML | CSS
+              </p>
+            </div>
+            <div>
+              <h3 className={styles.h3}>
                 Plataforma web interactiva online ”Josh W Comeau Course Platform
-                - Joy of React” - Canadá. 2024 - actualidad.
+                - Joy of React” - Canadá. 2024 - 2025.
               </h3>
               <p>CSS for JS Developers.</p>
             </div>
@@ -240,13 +249,6 @@ export default function CVPage() {
               <p>
                 Desarrolladora web Front-End | React | JavaScript | HTML | CSS
               </p>
-            </div>
-            <div>
-              <h3 className={styles.h3}>
-                Academia CIP, Las Palmas de G.C. con prácticas en la Asesoría
-                Plaza La Feria.
-              </h3>
-              <p>Experto en Gestión de Salario y Seguridad Social - 2010</p>
             </div>
             <div>
               <h3 className={styles.h3}>
