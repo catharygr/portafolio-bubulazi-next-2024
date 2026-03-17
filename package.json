@@ -9,22 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sendgrid/mail": "^8.1.6",
-    "bright": "^0.8.6",
-    "framer-motion": "^11.18.2",
+    "@sendgrid/mail": "8.1.6",
+    "bright": "0.8.6",
+    "framer-motion": "11.18.2",
     "gray-matter": "^4.0.3",
     "next": "^16.1.7",
     "next-mdx-remote": "^6.0.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-feather": "^2.0.10",
     "react-focus-lock": "^2.13.7",
     "react-remove-scroll": "^2.7.2",
     "rss": "^1.2.2"
   },
   "devDependencies": {
-    "eslint": "^8.57.1",
+    "eslint": "^9.39.4",
     "eslint-config-next": "^16.1.7",
-    "eslint-config-prettier": "^9.1.2"
+    "eslint-config-prettier": "9.1.2"
   }
 }
