@@ -3,7 +3,7 @@ import styles from "./NavMenu.module.css";
 import { X as Cerrar } from "react-feather";
 import FocusLock from "react-focus-lock";
 import { RemoveScroll } from "react-remove-scroll";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import Link from "next/link";
 import { HAMBURGUER_LINK } from "@/app/utilidades/constante";
 import { usePathname } from "next/navigation";

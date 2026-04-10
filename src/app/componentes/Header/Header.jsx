@@ -5,7 +5,7 @@ import Link from "next/link";
 import useToggle from "../../utilidades/useToggle";
 import VisuallyHidden from "../../utilidades/VisuallyHidden";
 import NavMenu from "../NavMenu";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { usePathname } from "next/navigation";
 import { ESCRITORIO_LINK } from "@/app/utilidades/constante";
 import { useState, useId, useEffect } from "react";

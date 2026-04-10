@@ -2,7 +2,7 @@
 import Link from "next/link";
 import styles from "./Formulario.module.css";
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 export default function Formulario() {
   const [status, setStatus] = useState("");
